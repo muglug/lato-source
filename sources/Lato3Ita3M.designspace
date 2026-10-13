@@ -15,12 +15,12 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-HairlineItalic.ufo" name="HairlineItalic" stylename="Hairline Italic">
+        <source familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-HairlineItalic.ufo" name="HairlineItalic" stylename="Hairline Italic">
             <location>
                 <dimension name="weight" xvalue="0" />
             </location>
         </source>
-        <source familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-Italic.ufo" name="Italic" stylename="Italic">
+        <source familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ufo" name="Italic" stylename="Italic">
             <lib copy="1" />
             <groups copy="1" />
             <info copy="1" />
@@ -29,54 +29,54 @@
                 <dimension name="weight" xvalue="540" />
             </location>
         </source>
-        <source familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-BlackItalic.ufo" name="BlackItalic" stylename="Black Italic">
+        <source familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.ufo" name="BlackItalic" stylename="Black Italic">
             <location>
                 <dimension name="weight" xvalue="1000" />
             </location>
         </source>
     </sources>
     <instances>
-        <instance familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-HairlineItalic.ufo" name="Hairline Italic" stylename="Hairline Italic">
+        <instance familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-HairlineItalic.ufo" name="Hairline Italic" stylename="Hairline Italic">
             <location>
                 <dimension name="weight" xvalue="0" />
             </location>
         </instance>
-        <instance familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-ThinItalic.ufo" name="Thin Italic" stylename="Thin Italic">
+        <instance familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-ThinItalic.ufo" name="Thin Italic" stylename="Thin Italic">
             <location>
                 <dimension name="weight" xvalue="100" />
             </location>
         </instance>
-        <instance familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-LightItalic.ufo" name="Light Italic" stylename="Light Italic">
+        <instance familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-LightItalic.ufo" name="Light Italic" stylename="Light Italic">
             <location>
                 <dimension name="weight" xvalue="250" />
             </location>
         </instance>
-        <instance familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-Italic.ufo" name="Italic" stylename="Italic">
+        <instance familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ufo" name="Italic" stylename="Italic">
             <location>
                 <dimension name="weight" xvalue="540" />
             </location>
         </instance>
-        <instance familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-MediumItalic.ufo" name="Medium Italic" stylename="Medium Italic">
+        <instance familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-MediumItalic.ufo" name="Medium Italic" stylename="Medium Italic">
             <location>
                 <dimension name="weight" xvalue="600" />
             </location>
         </instance>
-        <instance familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-SemiboldItalic.ufo" name="Semibold Italic" stylename="Semibold Italic">
+        <instance familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-SemiboldItalic.ufo" name="Semibold Italic" stylename="Semibold Italic">
             <location>
                 <dimension name="weight" xvalue="666" />
             </location>
         </instance>
-        <instance familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-BoldItalic.ufo" name="Bold Italic" stylename="Bold Italic">
+        <instance familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ufo" name="Bold Italic" stylename="Bold Italic">
             <location>
                 <dimension name="weight" xvalue="780" />
             </location>
         </instance>
-        <instance familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-HeavyItalic.ufo" name="Heavy Italic" stylename="Heavy Italic">
+        <instance familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-HeavyItalic.ufo" name="Heavy Italic" stylename="Heavy Italic">
             <location>
                 <dimension name="weight" xvalue="880" />
             </location>
         </instance>
-        <instance familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-BlackItalic.ufo" name="Black Italic" stylename="Black Italic">
+        <instance familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.ufo" name="Black Italic" stylename="Black Italic">
             <location>
                 <dimension name="weight" xvalue="1000" />
             </location>

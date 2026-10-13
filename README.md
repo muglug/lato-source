@@ -1,4 +1,9 @@
-# Sources for the Lato font family
+# Sources for Lato26 (modified Lato)
+
+The modified family is named **Lato26** in font menus, PostScript names, source
+metadata, and exported filenames. The metric-compatible Light derivative is
+separate as **Carlito26**. Original designer, copyright, and license notices are
+retained below and inside the fonts.
 
 - Version 3.100.dev2; Latin+Cyrillic+Greek+IPA opensource
 - Created by: tyPoland Lukasz Dziedzic
@@ -35,6 +40,120 @@ python3 03_build_lato_fontmake.py
 ```
 
 ## Technical details
+
+### October 2026 lowercase revision
+
+The active upright and italic VFJ sources and all shipped Lato26/Carlito26 exports
+include a right-facing `j` tail on `l`, its `ss05` alternate, accents, modifiers,
+and `fl`/`ffl` ligatures. The italic bowl uses the narrowing and shear measured
+from upright/italic `t`. Lato26 spacing accommodates the tail; Carlito26 retains
+every existing advance width and its layout tables.
+
+The enlarged double-storey `a` bowl and lowered `e` bar in
+`build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.glyphs` are propagated through
+applicable accents, Cyrillic counterparts, `ae`/`oe`, turned/reversed forms,
+and smaller letterforms. Full-size italic `a` retains its distinct single-storey
+design. Descending phonetic hooks and the connected `ls`/`lz` terminals retain
+their characteristic forms. The dated `sources/240102` snapshots are archival.
+
+Rebuild the existing exports from the revised sources with:
+
+```sh
+python tools/07_build_revised_lato.py
+python tools/08_refresh_carlito_outlines.py
+python tools/09_check_lowercase_revision.py
+```
+
+These tools require `fonttools`, `glyphsLib`, `numpy`, `openstep-plist`,
+`skia-pathops`, `matplotlib`, and `Pillow` with RAQM shaping support. The Carlito refresh uses the existing Carlito
+fonts and per-glyph reports as its metric reference, so it does not require the
+original Calibri installation. The original interpolation weight is recovered
+from the unchanged master advances and recorded in
+`sources/data/lowercase-revision.json`.
+
+`06_update_lato_outlines.py` records the one-time source transformation; it
+requires the pre-revision VFJs and Regular TTF and refuses to apply twice.
+The rebuild preserves the saved Regular `a`/`e` quadratics exactly. Cubic source
+edits use compatible subdivisions; stale hints referencing changed point
+indexes are removed. Existing unrelated outlines and layout tables are kept.
+Vector PDF proofs are in `output/pdf/`; validation reports are in `build/proofs/`. The checker accepts
+`--baseline-dir PATH` to additionally verify unrelated outlines, layout,
+metrics, and the authored Glyphs paths against a saved pre-revision build.
+
+The follow-up revision aligns both edges of the `a` bowl in `ae` with the
+lowered `e` crossbar, including accented and turned forms. Pair kerning offsets
+the added `l` advance before round and diagonal left sides, restoring original
+Lato spacing for pairs such as `lv`. For `le` and accented forms,
+Hairline through Regular restore a quarter of the removed space; Bold through
+Black restore half, with a gradual transition through Medium and Semibold.
+The `lo` and `lc` gaps now match `le`, including `fl`/`ffl` ligatures and accented
+forms, with a small correction for the different left edges of `e`, `o`, and `c`.
+The later optical-spacing review adds 20 units before `a`, 8 before `w`, and
+14 before `y` after the revised `l` forms. These are constant across weights
+and styles (1.0%, 0.4%, and 0.7% of the 2,000-unit em), with related accented
+forms receiving the same additions.
+This weight-dependent kerning curve is recorded in the spacing JSON and applied
+by the rebuild tools. Tighter bowls, hooks, and
+accents receive individual clearance exceptions. Doubled `ll` pairs tighten by
+about 30 upright / 33 italic font units, with clearance exceptions for marks
+and hooks. Other vertical-left pairs retain the spacing needed by the new tail.
+The same treatment covers accented `l`,
+`ss05`, and `fl`/`ffl` forms; Carlito26 already retains its original advances.
+
+`10_refine_ae_and_l_spacing.py` records this one-time follow-up. The resulting
+`sources/data/lowercase-spacing.json` is used automatically by the normal
+rebuild. Native VFJ and Glyphs kerning is updated as well. Exported fonts add
+one kerning lookup while retaining all original positioning lookups.
+`13_match_lo_spacing.py` records the one-time `lo` alignment; the spacing
+configuration and normal rebuild preserve it thereafter.
+`14_refine_optical_spacing.py` records the later `lc` match and restrained
+`la`/`lw`/`ly` additions. Rebuild and export Glyphs normally afterward.
+
+`15_audit_optical_spacing.py --before-build PATH` measures every `la`-`lz`
+pair at all 18 weights/styles against the saved build before that adjustment.
+The audit uses Gaussian blur at 6%, 12%, and 24% of x-height, measures the
+overlap of the two ink fields between baseline and x-height, and normalizes
+each scale to current `le` in the same font. The reported index is the
+geometric mean of those three ratios. This approach is related to
+[HalfKern's blurred-envelope audit](https://github.com/behdad/halfkern).
+The implementation additionally requires `scipy`.
+
+The index measures ink interaction, not an objectively optimal spacing or
+reading performance. In particular, regular `lw`/`ly` already have lower
+indices than `le`; their small increases are explicit design choices, not
+automatic model recommendations. The report preserves all three scale
+ratios and checks the selected Regular pairs at double raster resolution.
+Results are in `build/proofs/optical-spacing.json` and `.csv`; generated blur
+images in `build/proofs/optical-blur/` are inputs to the PDF renderer.
+
+### Editable Glyphs sources and proofs
+
+`sources/Lato26-Upright.glyphs` and `sources/Lato26-Italic.glyphs` contain the
+active collection in Glyphs 3 format: 3,055 upright / 3,053 italic glyphs and
+nine instances per file.
+Hairline and Black masters retain the source outlines; interpolated Regular
+and Bold masters encode the kerning curve. Components, anchors, kerning groups,
+and OpenType feature definitions remain editable. A few legacy glyphs with
+incompatible source topology use their compatible exported TTF contours;
+their names are recorded in each file's user data. The separate static Regular
+Glyphs file retains the authored `a` and `e` quadratics exactly.
+
+Regenerate the editable sources after rebuilding with
+`python tools/11_export_editable_glyphs.py`. Generate the vector
+proof packet with `python tools/12_render_proofs.py --baseline-dir PATH
+--previous-build PATH`; the two paths refer to saved original and previous
+build directories. The output is `output/pdf/Lato26-Proofs.pdf`. Glyphs are
+shaped with HarfBuzz and drawn as vector outlines, preserving kerning,
+ligatures, and mark placement at any zoom level. PDF generation additionally
+requires `reportlab` and a HarfBuzz shared library (including the one bundled
+with Pillow). Use `--format png` for optional PNG proofs at twice their
+original width and height.
+The PDF includes the three overview/detail pages followed by one comparison
+page for each of the 18 weight/style combinations. These pages show `la`
+through `lz` in original Lato and current Lato26, with PDF bookmarks by style.
+When an optical audit is present, each pair also shows its current blur
+index, followed by a method/results page and two before/after blur pages.
+For those pages, pass the same `--previous-build` path used for the audit.
 
 ### Selective building
 

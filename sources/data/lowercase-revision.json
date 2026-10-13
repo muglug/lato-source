@@ -1,0 +1,582 @@
+{
+  "reference": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.glyphs",
+  "styles": {
+    "Upr": {
+      "glyphs": [
+        "a",
+        "a-cy",
+        "a.sups",
+        "aTurnedmod",
+        "aacute",
+        "abreve",
+        "abreve-cy",
+        "abreveacute",
+        "abrevedotbelow",
+        "abrevegrave",
+        "abrevehookabove",
+        "abrevetilde",
+        "acaron",
+        "acircumflex",
+        "acircumflexacute",
+        "acircumflexdotbelow",
+        "acircumflexgrave",
+        "acircumflexhookabove",
+        "acircumflextilde",
+        "acomb",
+        "acomb.case",
+        "adblgrave",
+        "adieresis",
+        "adieresis-cy",
+        "adieresismacron",
+        "adotaccent",
+        "adotbelow",
+        "adotmacron",
+        "ae",
+        "aeTurned",
+        "aeTurnedmod",
+        "aeacute",
+        "aemacron",
+        "agrave",
+        "ahookabove",
+        "ainferior",
+        "ainvertedbreve",
+        "amacron",
+        "amod",
+        "aogonek",
+        "aretroflexhook",
+        "aring",
+        "aringacute",
+        "aringbelow",
+        "astroke",
+        "atilde",
+        "e",
+        "e.sups",
+        "eSign-myanmar",
+        "eSign-myanmar.case",
+        "eacute",
+        "ebreve",
+        "ecaron",
+        "ecedilla",
+        "ecedillabreve",
+        "ecircumflex",
+        "ecircumflexacute",
+        "ecircumflexbelow",
+        "ecircumflexdotbelow",
+        "ecircumflexgrave",
+        "ecircumflexhookabove",
+        "ecircumflextilde",
+        "ecomb",
+        "ecomb.case",
+        "edblgrave",
+        "edieresis",
+        "edotaccent",
+        "edotbelow",
+        "egrave",
+        "ehookabove",
+        "einferior",
+        "einvertedbreve",
+        "emacron",
+        "emacronacute",
+        "emacrongrave",
+        "emod",
+        "eogonek",
+        "eretroflexhook",
+        "ereversed",
+        "estroke",
+        "etilde",
+        "etildebelow",
+        "eturned",
+        "f_f_l",
+        "f_l",
+        "f_lacute",
+        "f_lcaron",
+        "f_lcommaaccent",
+        "ie-cy",
+        "iebreve-cy",
+        "iegrave-cy",
+        "io-cy",
+        "l",
+        "l.ss05",
+        "l.sups",
+        "lacute",
+        "lacute.ss05",
+        "lbar",
+        "lbar.ss05",
+        "lbelt",
+        "lcaron",
+        "lcaron.ss05",
+        "lcircumflexbelow",
+        "lcircumflexbelow.ss05",
+        "lcommaaccent",
+        "lcommaaccent.ss05",
+        "ldot",
+        "ldotbelow",
+        "ldotbelow.ss05",
+        "ldotbelowmacron",
+        "ldotbelowmacron.ss05",
+        "ldoublebar",
+        "ldoublebar.ss05",
+        "lj",
+        "lj.ss05",
+        "llinebelow",
+        "llinebelow.ss05",
+        "lmiddletilde",
+        "lmiddletilde.ss05",
+        "lmod",
+        "lslash",
+        "lslash.ss05",
+        "oe",
+        "oeTurned",
+        "schwa",
+        "schwa-cy",
+        "schwadieresis-cy",
+        "schwainferior",
+        "schwamod",
+        "schwaretroflexhook"
+      ],
+      "direct_or_metrics": [
+        "a",
+        "a-cy",
+        "a.sups",
+        "aTurnedmod",
+        "acomb",
+        "acomb.case",
+        "ae",
+        "aeTurned",
+        "aeTurnedmod",
+        "ainferior",
+        "amod",
+        "e",
+        "e.sups",
+        "eSign-myanmar",
+        "eSign-myanmar.case",
+        "ecomb",
+        "ecomb.case",
+        "einferior",
+        "emod",
+        "ereversed",
+        "eturned",
+        "f_f_l",
+        "f_l",
+        "f_lacute",
+        "f_lcaron",
+        "f_lcommaaccent",
+        "ie-cy",
+        "l",
+        "l.ss05",
+        "l.sups",
+        "lacute",
+        "lbar",
+        "lbelt",
+        "lcaron",
+        "lcircumflexbelow",
+        "lcommaaccent",
+        "ldot",
+        "ldotbelow",
+        "ldotbelowmacron",
+        "ldoublebar",
+        "lj",
+        "llinebelow",
+        "lmiddletilde",
+        "lmod",
+        "lslash",
+        "lslash.ss05",
+        "oe",
+        "oeTurned",
+        "schwa",
+        "schwa-cy",
+        "schwamod"
+      ],
+      "width_changes": {
+        "l": {
+          "Hairline": 124,
+          "Black": 115
+        },
+        "l.ss05": {
+          "Hairline": 0,
+          "Black": 0
+        },
+        "l.sups": {
+          "Hairline": 119,
+          "Black": 79
+        },
+        "lmod": {
+          "Hairline": 119,
+          "Black": 79
+        },
+        "lbelt": {
+          "Hairline": 124,
+          "Black": 115
+        },
+        "f_l": {
+          "Hairline": 124,
+          "Black": 114
+        },
+        "f_f_l": {
+          "Hairline": 124,
+          "Black": 114
+        },
+        "lslash": {
+          "Hairline": 124,
+          "Black": 115
+        },
+        "lcaron": {
+          "Hairline": 124,
+          "Black": 115
+        },
+        "ldot": {
+          "Hairline": 124,
+          "Black": 115
+        },
+        "f_lcaron": {
+          "Hairline": 124,
+          "Black": 114
+        },
+        "f_lcommaaccent": {
+          "Hairline": 124,
+          "Black": 114
+        },
+        "f_lacute": {
+          "Hairline": 124,
+          "Black": 114
+        },
+        "lacute": {
+          "Hairline": 124,
+          "Black": 115
+        },
+        "lcommaaccent": {
+          "Hairline": 124,
+          "Black": 115
+        },
+        "lbar": {
+          "Hairline": 124,
+          "Black": 115
+        },
+        "ldotbelow": {
+          "Hairline": 124,
+          "Black": 115
+        },
+        "ldotbelowmacron": {
+          "Hairline": 124,
+          "Black": 115
+        },
+        "llinebelow": {
+          "Hairline": 124,
+          "Black": 115
+        },
+        "lcircumflexbelow": {
+          "Hairline": 124,
+          "Black": 115
+        },
+        "ldoublebar": {
+          "Hairline": 124,
+          "Black": 115
+        },
+        "lmiddletilde": {
+          "Hairline": 124,
+          "Black": 115
+        },
+        "lj": {
+          "Hairline": 124,
+          "Black": 115
+        }
+      },
+      "carlito_design_weight": 360.74887435222155,
+      "carlito_weight_interval": [
+        360.73825503355704,
+        360.75949367088606
+      ]
+    },
+    "Ita": {
+      "glyphs": [
+        "a.sups",
+        "aTurnedmod",
+        "acomb",
+        "acomb.case",
+        "ae",
+        "aeTurned",
+        "aeTurnedmod",
+        "aeacute",
+        "aemacron",
+        "ainferior",
+        "amod",
+        "e",
+        "e.sups",
+        "eSign-myanmar",
+        "eSign-myanmar.case",
+        "eacute",
+        "ebreve",
+        "ecaron",
+        "ecedilla",
+        "ecedillabreve",
+        "ecircumflex",
+        "ecircumflexacute",
+        "ecircumflexbelow",
+        "ecircumflexdotbelow",
+        "ecircumflexgrave",
+        "ecircumflexhookabove",
+        "ecircumflextilde",
+        "ecomb",
+        "ecomb.case",
+        "edblgrave",
+        "edieresis",
+        "edotaccent",
+        "edotbelow",
+        "egrave",
+        "ehookabove",
+        "einferior",
+        "einvertedbreve",
+        "emacron",
+        "emacronacute",
+        "emacrongrave",
+        "emod",
+        "eogonek",
+        "eretroflexhook",
+        "ereversed",
+        "estroke",
+        "etilde",
+        "etildebelow",
+        "eturned",
+        "f_f_l",
+        "f_l",
+        "f_lacute",
+        "f_lcaron",
+        "f_lcommaaccent",
+        "ie-cy",
+        "iebreve-cy",
+        "iegrave-cy",
+        "io-cy",
+        "l",
+        "l.ss05",
+        "l.sups",
+        "lacute",
+        "lacute.ss05",
+        "lbar",
+        "lbar.ss05",
+        "lbelt",
+        "lcaron",
+        "lcaron.ss05",
+        "lcircumflexbelow",
+        "lcircumflexbelow.ss05",
+        "lcommaaccent",
+        "lcommaaccent.ss05",
+        "ldot",
+        "ldotbelow",
+        "ldotbelow.ss05",
+        "ldotbelowmacron",
+        "ldotbelowmacron.ss05",
+        "ldoublebar",
+        "ldoublebar.ss05",
+        "lj",
+        "lj.ss05",
+        "llinebelow",
+        "llinebelow.ss05",
+        "lmiddletilde",
+        "lmiddletilde.ss05",
+        "lmod",
+        "lslash",
+        "lslash.ss05",
+        "oe",
+        "oeTurned",
+        "schwa",
+        "schwa-cy",
+        "schwadieresis-cy",
+        "schwainferior",
+        "schwamod",
+        "schwaretroflexhook"
+      ],
+      "direct_or_metrics": [
+        "a.sups",
+        "aTurnedmod",
+        "acomb",
+        "acomb.case",
+        "ae",
+        "aeTurned",
+        "aeTurnedmod",
+        "aeacute",
+        "aemacron",
+        "ainferior",
+        "amod",
+        "e",
+        "e.sups",
+        "eSign-myanmar",
+        "eSign-myanmar.case",
+        "eacute",
+        "ebreve",
+        "ecaron",
+        "ecedilla",
+        "ecedillabreve",
+        "ecircumflex",
+        "ecircumflexacute",
+        "ecircumflexbelow",
+        "ecircumflexdotbelow",
+        "ecircumflexgrave",
+        "ecircumflexhookabove",
+        "ecircumflextilde",
+        "ecomb",
+        "ecomb.case",
+        "edblgrave",
+        "edieresis",
+        "edotaccent",
+        "edotbelow",
+        "egrave",
+        "ehookabove",
+        "einferior",
+        "einvertedbreve",
+        "emacron",
+        "emacronacute",
+        "emacrongrave",
+        "emod",
+        "eogonek",
+        "eretroflexhook",
+        "ereversed",
+        "estroke",
+        "etilde",
+        "etildebelow",
+        "eturned",
+        "f_f_l",
+        "f_l",
+        "f_lacute",
+        "f_lcaron",
+        "f_lcommaaccent",
+        "ie-cy",
+        "iebreve-cy",
+        "iegrave-cy",
+        "io-cy",
+        "l",
+        "l.ss05",
+        "l.sups",
+        "lacute",
+        "lbar",
+        "lbelt",
+        "lcaron",
+        "lcaron.ss05",
+        "lcircumflexbelow",
+        "lcommaaccent",
+        "lcommaaccent.ss05",
+        "ldot",
+        "ldotbelow",
+        "ldotbelowmacron",
+        "ldoublebar",
+        "lj",
+        "llinebelow",
+        "lmiddletilde",
+        "lmiddletilde.ss05",
+        "lmod",
+        "lslash",
+        "lslash.ss05",
+        "oe",
+        "oeTurned",
+        "schwa",
+        "schwa-cy",
+        "schwadieresis-cy",
+        "schwamod",
+        "schwaretroflexhook"
+      ],
+      "width_changes": {
+        "l": {
+          "HairlineItalic": 128,
+          "BlackItalic": 132
+        },
+        "l.ss05": {
+          "HairlineItalic": 0,
+          "BlackItalic": 0
+        },
+        "l.sups": {
+          "HairlineItalic": 141,
+          "BlackItalic": 89
+        },
+        "lmod": {
+          "HairlineItalic": 141,
+          "BlackItalic": 89
+        },
+        "lbelt": {
+          "HairlineItalic": 154,
+          "BlackItalic": 129
+        },
+        "f_l": {
+          "HairlineItalic": 154,
+          "BlackItalic": 129
+        },
+        "f_f_l": {
+          "HairlineItalic": 154,
+          "BlackItalic": 129
+        },
+        "lslash": {
+          "HairlineItalic": 128,
+          "BlackItalic": 132
+        },
+        "lcaron": {
+          "HairlineItalic": 128,
+          "BlackItalic": 132
+        },
+        "ldot": {
+          "HairlineItalic": 128,
+          "BlackItalic": 132
+        },
+        "f_lcaron": {
+          "HairlineItalic": 154,
+          "BlackItalic": 129
+        },
+        "f_lcommaaccent": {
+          "HairlineItalic": 154,
+          "BlackItalic": 129
+        },
+        "f_lacute": {
+          "HairlineItalic": 154,
+          "BlackItalic": 129
+        },
+        "lacute": {
+          "HairlineItalic": 128,
+          "BlackItalic": 132
+        },
+        "lcommaaccent": {
+          "HairlineItalic": 128,
+          "BlackItalic": 132
+        },
+        "lbar": {
+          "HairlineItalic": 128,
+          "BlackItalic": 132
+        },
+        "ldotbelow": {
+          "HairlineItalic": 128,
+          "BlackItalic": 132
+        },
+        "ldotbelowmacron": {
+          "HairlineItalic": 128,
+          "BlackItalic": 132
+        },
+        "llinebelow": {
+          "HairlineItalic": 128,
+          "BlackItalic": 132
+        },
+        "lcircumflexbelow": {
+          "HairlineItalic": 128,
+          "BlackItalic": 132
+        },
+        "ldoublebar": {
+          "HairlineItalic": 128,
+          "BlackItalic": 132
+        },
+        "lmiddletilde": {
+          "HairlineItalic": 128,
+          "BlackItalic": 132
+        },
+        "lj": {
+          "HairlineItalic": 128,
+          "BlackItalic": 132
+        }
+      },
+      "carlito_design_weight": 363.95808323329334,
+      "carlito_weight_interval": [
+        363.94557823129253,
+        363.97058823529414
+      ]
+    }
+  },
+  "families": {
+    "Lato": "Lato26",
+    "Carlito": "Carlito26"
+  },
+  "ae_join_refined": true
+}

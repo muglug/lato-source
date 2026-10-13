@@ -15,12 +15,12 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Lato" filename="../build/Lato3Upr2M/ds-ufo/masters/Lato-Black.ufo" name="Black" stylename="Black">
+        <source familyname="Lato26" filename="../build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.ufo" name="Black" stylename="Black">
             <location>
                 <dimension name="weight" xvalue="1000" />
             </location>
         </source>
-        <source familyname="Lato" filename="../build/Lato3Upr2M/ds-ufo/masters/Lato-Hairline.ufo" name="Hairline" stylename="Hairline">
+        <source familyname="Lato26" filename="../build/Lato3Upr2M/ds-ufo/masters/Lato26-Hairline.ufo" name="Hairline" stylename="Hairline">
             <lib copy="1" />
             <groups copy="1" />
             <info copy="1" />
@@ -31,7 +31,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Lato" filename="../build/Lato3Upr2M/ds-ufo/masters/Lato-Regular.ufo" name="Regular" stylename="Regular">
+        <instance familyname="Lato26" filename="../build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ufo" name="Regular" stylename="Regular">
             <location>
                 <dimension name="weight" xvalue="540" />
             </location>

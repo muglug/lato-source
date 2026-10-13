@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis default="100" name="weight" maximum="900" minimum="100" tag="wght">
+   <labelname xml:lang="en">Weight</labelname>
+   <map input="100" output="0"/>
+   <map input="200" output="100"/>
+   <map input="300" output="250"/>
+   <map input="400" output="540"/>
+   <map input="500" output="600"/>
+   <map input="600" output="666"/>
+   <map input="700" output="780"/>
+   <map input="800" output="880"/>
+   <map input="900" output="1000"/>
+  </axis>
+ </axes>
+ <sources>
+  <source stylename="BlackItalic" filename="masters/Lato26-BlackItalic.ufo" name="BlackItalic" familyname="Lato26">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+   </location>
+  </source>
+  <source stylename="HairlineItalic" filename="masters/Lato26-HairlineItalic.ufo" name="HairlineItalic" familyname="Lato26">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="0"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance stylename="Hairline Italic" filename="instances/Lato26-HairlineItalic.ufo" name="Hairline Italic" familyname="Lato26">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+   </location>
+  </instance>
+  <instance stylename="Thin Italic" filename="instances/Lato26-ThinItalic.ufo" name="Thin Italic" familyname="Lato26">
+   <location>
+    <dimension name="weight" xvalue="100"/>
+   </location>
+  </instance>
+  <instance stylename="Light Italic" filename="instances/Lato26-LightItalic.ufo" name="Light Italic" familyname="Lato26">
+   <location>
+    <dimension name="weight" xvalue="250"/>
+   </location>
+  </instance>
+  <instance stylename="Italic" filename="instances/Lato26-Italic.ufo" name="Italic" familyname="Lato26">
+   <location>
+    <dimension name="weight" xvalue="540"/>
+   </location>
+  </instance>
+  <instance stylename="Medium Italic" filename="instances/Lato26-MediumItalic.ufo" name="Medium Italic" familyname="Lato26">
+   <location>
+    <dimension name="weight" xvalue="600"/>
+   </location>
+  </instance>
+  <instance stylename="Semibold Italic" filename="instances/Lato26-SemiboldItalic.ufo" name="Semibold Italic" familyname="Lato26">
+   <location>
+    <dimension name="weight" xvalue="666"/>
+   </location>
+  </instance>
+  <instance stylename="Bold Italic" filename="instances/Lato26-BoldItalic.ufo" name="Bold Italic" familyname="Lato26">
+   <location>
+    <dimension name="weight" xvalue="780"/>
+   </location>
+  </instance>
+  <instance stylename="Heavy Italic" filename="instances/Lato26-HeavyItalic.ufo" name="Heavy Italic" familyname="Lato26">
+   <location>
+    <dimension name="weight" xvalue="880"/>
+   </location>
+  </instance>
+  <instance stylename="Black Italic" filename="instances/Lato26-BlackItalic.ufo" name="Black Italic" familyname="Lato26">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

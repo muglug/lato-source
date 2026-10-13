@@ -15,12 +15,12 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-BlackItalic.ufo" name="BlackItalic" stylename="Black Italic">
+        <source familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.ufo" name="BlackItalic" stylename="Black Italic">
             <location>
                 <dimension name="weight" xvalue="1000" />
             </location>
         </source>
-        <source familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-HairlineItalic.ufo" name="HairlineItalic" stylename="Hairline Italic">
+        <source familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-HairlineItalic.ufo" name="HairlineItalic" stylename="Hairline Italic">
             <lib copy="1" />
             <groups copy="1" />
             <info copy="1" />
@@ -31,7 +31,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Lato" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato-BoldItalic.ufo" name="Bold Italic" stylename="Bold Italic">
+        <instance familyname="Lato26" filename="../build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ufo" name="Bold Italic" stylename="Bold Italic">
             <location>
                 <dimension name="weight" xvalue="780" />
             </location>

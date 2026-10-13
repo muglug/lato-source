@@ -70,7 +70,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, "..")
 BUILD = os.path.join(ROOT, "build")
 DATA = os.path.join(ROOT, "sources", "data")
-OUT_DIR = os.path.join(BUILD, "Carlito")
+OUT_DIR = os.path.join(BUILD, "Carlito26")
 WORD_FONTS = "/Applications/Microsoft Word.app/Contents/Resources/DFonts"
 
 UPM = 2048
@@ -121,26 +121,26 @@ MASTERS_UPR = os.path.join(BUILD, "Lato3Upr2M", "ds-ufo", "masters")
 MASTERS_ITA = os.path.join(BUILD, "Lato3Ita2M", "ds-ufo", "masters")
 STYLES = {
     "upright": dict(
-        masters=(os.path.join(MASTERS_UPR, "Lato.~VF", "master_ttf_interpolatable", "Lato-Hairline.ttf"),
-                 os.path.join(MASTERS_UPR, "Lato.~VF", "master_ttf_interpolatable", "Lato-Black.ttf")),
-        gdef_ref=os.path.join(MASTERS_UPR, "Lato-Light.ttf"),
+        masters=(os.path.join(MASTERS_UPR, "Lato26.~VF", "master_ttf_interpolatable", "Lato26-Hairline.ttf"),
+                 os.path.join(MASTERS_UPR, "Lato26.~VF", "master_ttf_interpolatable", "Lato26-Black.ttf")),
+        gdef_ref=os.path.join(MASTERS_UPR, "Lato26-Light.ttf"),
         fea=os.path.join(DATA, "Lato3Upr2M.fea"),
         calibri=os.path.join(WORD_FONTS, "calibril.ttf"),
-        out=os.path.join(OUT_DIR, "Carlito-Light.ttf"),
+        out=os.path.join(OUT_DIR, "Carlito26-Light.ttf"),
         italic=False,
         style_name="Light",
-        ps_name="Carlito-Light",
+        ps_name="Carlito26-Light",
     ),
     "italic": dict(
-        masters=(os.path.join(MASTERS_ITA, "Lato.~VF", "master_ttf_interpolatable", "Lato-HairlineItalic.ttf"),
-                 os.path.join(MASTERS_ITA, "Lato.~VF", "master_ttf_interpolatable", "Lato-BlackItalic.ttf")),
-        gdef_ref=os.path.join(MASTERS_ITA, "Lato-LightItalic.ttf"),
+        masters=(os.path.join(MASTERS_ITA, "Lato26.~VF", "master_ttf_interpolatable", "Lato26-HairlineItalic.ttf"),
+                 os.path.join(MASTERS_ITA, "Lato26.~VF", "master_ttf_interpolatable", "Lato26-BlackItalic.ttf")),
+        gdef_ref=os.path.join(MASTERS_ITA, "Lato26-LightItalic.ttf"),
         fea=os.path.join(DATA, "Lato3Ita2M.fea"),
         calibri=os.path.join(WORD_FONTS, "calibrili.ttf"),
-        out=os.path.join(OUT_DIR, "Carlito-LightItalic.ttf"),
+        out=os.path.join(OUT_DIR, "Carlito26-LightItalic.ttf"),
         italic=True,
         style_name="Light Italic",
-        ps_name="Carlito-LightItalic",
+        ps_name="Carlito26-LightItalic",
     ),
 }
 # Lato design-axis coordinates (see sources/Lato3*2M.designspace)
@@ -601,7 +601,7 @@ def ybounds(points):
 
 
 def fit_sidebearings(lsb1, rsb1, adv1, target):
-    """Carlito-style split of a width change between sidebearings and body:
+    """Carlito26-style split of a width change between sidebearings and body:
     sidebearings take BETA x their proportional share, floored at SB_FLOOR.
     Only positive sidebearings are tightened; when widening, overhanging
     (negative) italic sidebearings are pulled in as well."""
@@ -1082,10 +1082,10 @@ def build_style(style_key, design=None, target="ink"):
         "copyright": ('Copyright (c) 2011-2020 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Lato". '
                       f'Carlito {style["style_name"]} is derived from Lato and metric-compatible with Calibri Light. '
                       'Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).'),
-        "familyName": "Carlito Light",
+        "familyName": "Carlito26 Light",
         "styleName": "Italic" if style["italic"] else "Regular",
         "uniqueFontIdentifier": f"{version};UKWN;{style['ps_name']}",
-        "fullName": f"Carlito {style['style_name']}",
+        "fullName": f"Carlito26 {style['style_name']}",
         "version": f"Version {version}",
         "psName": style["ps_name"],
         "manufacturer": "tyPoland Lukasz Dziedzic (Lato); Carlito Light derivative built from lato-source",
@@ -1097,7 +1097,7 @@ def build_style(style_key, design=None, target="ink"):
         "licenseDescription": ('This Font Software is licensed under the SIL Open Font License, Version 1.1. '
                                'This license is available with a FAQ at: http://scripts.sil.org/OFL'),
         "licenseInfoURL": "http://scripts.sil.org/OFL",
-        "typographicFamily": "Carlito",
+        "typographicFamily": "Carlito26",
         "typographicSubfamily": style["style_name"],
     }, mac=False)  # Windows-platform names only, like Carlito (avoids an 'ltag' table)
     # OS/2: start from Lato's (Unicode/codepage ranges), overlay Calibri Light's metrics

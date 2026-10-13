@@ -24,11 +24,11 @@ from fontTools.ttLib import TTFont
 from PIL import ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(HERE, "..", "build", "Carlito")
+OUT = os.path.join(HERE, "..", "build", "Carlito26")
 WORD = "/Applications/Microsoft Word.app/Contents/Resources/DFonts"
 PAIRS = [
-    ("Carlito-Light.ttf", os.path.join(WORD, "calibril.ttf")),
-    ("Carlito-LightItalic.ttf", os.path.join(WORD, "calibrili.ttf")),
+    ("Carlito26-Light.ttf", os.path.join(WORD, "calibril.ttf")),
+    ("Carlito26-LightItalic.ttf", os.path.join(WORD, "calibrili.ttf")),
 ]
 STEM_TOLERANCE = 0.05  # relative, on the vertical stem probes
 
