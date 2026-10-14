@@ -34,6 +34,8 @@ from glyphsLib.glyphdata import get_glyph
 from modified_font_names import rename_font
 from lowercase_kerning import apply_spacing, CONFIG as SPACING_CONFIG, pair_advance
 from truetype_hinting import hint_font, configure_glyphs_instances
+from opentype_substitutions import restore_substitutions
+import connected_ligatures
 
 revision = importlib.import_module('06_update_lato_outlines')
 ROOT, MANIFEST = revision.ROOT, revision.MANIFEST
@@ -99,6 +101,8 @@ class Source:
                             continue
                         element['elementData'] = copy.deepcopy(child_layer['elements'][0]['elementData'])
         self.affected = json.loads(MANIFEST.read_text())['styles'][style]['glyphs']
+        if connected_ligatures.data():
+            self.affected = sorted(set(self.affected) | set(connected_ligatures.TEXTS))
         self.overrides = regular_overrides() if style == 'Upr' else {}
         if self.overrides:
             self.overrides['a-cy'] = self.overrides['a']
@@ -117,6 +121,10 @@ class Source:
         return otRound(h['advanceWidth'] + (b['advanceWidth']-h['advanceWidth'])*design/1000)
 
     def draw(self, name, design, pen, exact=True):
+        if connected_ligatures.data() and name in connected_ligatures.TEXTS:
+            # Cubic compatible sources retain all nine 2.015 weight designs.
+            connected_ligatures.recording(self.style, name, design, reverse=True).replay(pen)
+            return
         if exact and design == 540 and name in self.overrides:
             # Saved Glyphs paths were reversed to the VFJ/CFF direction.
             self.overrides[name].replay(pen)
@@ -215,6 +223,7 @@ def build_masters(source, directory):
             update_metrics(font, out, source.width(name, design), rec)
     for f, p, design in zip(fonts, paths, (0, 1000)):
         apply_spacing(f, p, source, design, output_name)
+        restore_substitutions(f, source, output_name)
         rename_font(f)
         f.save(p); print(p.relative_to(ROOT), flush=True)
 
@@ -228,9 +237,14 @@ def build_static(source, directory, weight, design, extension):
         out = output_name(source, name, font)
         rec = source.recording(name, design)
         width = source.width(name, design)
+        connected = connected_ligatures.data() and name in connected_ligatures.TEXTS
+        if connected:
+            width = font['hmtx'][out][0]
+            rec = connected_ligatures.recording(source.style, name, design, exact=True,
+                                               reverse=extension != 'ttf')
         if extension == 'ttf':
             pen = TTGlyphPen(None)
-            rec.replay(Cu2QuPen(pen, max_err=.75, reverse_direction=True))
+            rec.replay(pen if connected else Cu2QuPen(pen, max_err=.75, reverse_direction=True))
             font['glyf'][out] = pen.glyph()
         else:
             top = font['CFF '].cff.topDictIndex[0]
@@ -240,7 +254,11 @@ def build_static(source, directory, weight, design, extension):
                                            globalSubrs=font['CFF '].cff.GlobalSubrs)
             top.CharStrings[out] = charstring
         update_metrics(font, out, width, rec)
+        if connected and extension == 'ttf':
+            font['glyf'][out].recalcBounds(font['glyf'])
+            font['hmtx'][out] = width, font['glyf'][out].xMin
     apply_spacing(font, path, source, design, output_name)
+    restore_substitutions(font, source, output_name)
     rename_font(font)
     if extension == 'ttf':
         hint_font(font, [output_name(source, n, font) for n in source.affected])

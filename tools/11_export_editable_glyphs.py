@@ -21,6 +21,7 @@ from fontTools.ttLib import TTFont
 from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
 
 from lowercase_kerning import CONFIG, correction
+import connected_ligatures
 build = importlib.import_module('07_build_revised_lato')
 refine = importlib.import_module('10_refine_ae_and_l_spacing')
 ROOT = build.ROOT
@@ -170,7 +171,10 @@ def export(style, output_path=None):
         if incompatible: fallback.append(name)
         for master,(design,_) in zip(font.masters,DESIGNS):
             layer=gs.GSLayer();layer.layerId=master.id;layer.associatedMasterId=master.id;glyph.layers.append(layer)
-            if incompatible:
+            if connected_ligatures.data() and name in connected_ligatures.TEXTS:
+                layer.width = source.width(name, design)
+                connected_ligatures.recording(style,name,design,reverse=True).replay(layer.getPen())
+            elif incompatible:
                 fallback_layer(layer,name,design,source,master_fonts)
                 t=design/1000
                 anchors0={a['name']:a for a in layers[0].get('anchors',[])};anchors1={a['name']:a for a in layers[1].get('anchors',[])}
@@ -178,6 +182,14 @@ def export(style, output_path=None):
                     p=pts(a.get('point','0 0'))*(1-t)+pts(anchors1.get(an,a).get('point','0 0'))*t
                     layer.anchors.append(gs.GSAnchor(an,Point(*map(float,p[0]))))
             else:fill_layer(layer,blended_layer(original,design,source.intermediate_layers.get(name)))
+        if connected_ligatures.data() and name in connected_ligatures.TEXTS:
+            for design in (100,250,600,666,880):
+                layer=gs.GSLayer();layer.layerId=f'LATO2015-{name}-{design}'
+                layer.associatedMasterId=min(font.masters,key=lambda m:abs(m.axes[0]-design)).id
+                layer.attributes['coordinates']=[design];layer.name='{'+str(design)+'}'
+                layer.width=source.width(name,design)
+                connected_ligatures.recording(style,name,design,reverse=True).replay(layer.getPen())
+                glyph.layers.append(layer)
     # Preserve named OpenType classes only when the prefix doesn't define them.
     prefix=data['openTypeFeatures'][0]['feature']
     for cls in data['classes']:

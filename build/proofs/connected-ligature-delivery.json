@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "proofs": [
+    {
+      "path": "output/pdf/Lato26-ClearType-Mockup.pdf",
+      "pages": 10,
+      "sha256": "5ab10e03b7e5be89fbdf48cc9eedef064142623926b69f01cd9785159278d2b6",
+      "visual_review": "passed"
+    },
+    {
+      "path": "output/pdf/Lato26-FiraSans-Capital-I-Spacing.pdf",
+      "pages": 20,
+      "sha256": "85121671e3faef00ab8bda224f094bab3223928a2c2a975d2724b4d2a4a67026",
+      "visual_review": "passed"
+    },
+    {
+      "path": "output/pdf/Lato26-FiraSans-Rhythm.pdf",
+      "pages": 3,
+      "sha256": "8329f96bc7e403fabd89f6a96a6de028c37f5b35eccf4fa01acb3e7dd91e51db",
+      "visual_review": "passed"
+    },
+    {
+      "path": "output/pdf/Lato26-FiraSans-Spacing.pdf",
+      "pages": 20,
+      "sha256": "20119864079eefec70d74d9ef2d70881a4398c02f5d71cc8a78b6a389dd1ae8d",
+      "visual_review": "passed"
+    },
+    {
+      "path": "output/pdf/Lato26-Proofs.pdf",
+      "pages": 26,
+      "sha256": "154ea929b2f667295e7adf036e1da1f462add0385ce50b82d804bd010c3e34e7",
+      "visual_review": "passed"
+    },
+    {
+      "path": "output/pdf/Lato26-Variable-Ligatures.pdf",
+      "pages": 8,
+      "sha256": "a76bda693503888fc190c228030530a3ddfecf299ab6a3babb239d559f272bd5",
+      "visual_review": "passed"
+    }
+  ],
+  "total_pages": 87,
+  "review": "All pages rendered with Poppler and visually inspected; large ligature and native-size samples inspected separately.",
+  "packages": [
+    {
+      "path": "build/Lato26-Desktop.zip",
+      "sha256": "79ea1074dcab8298ff5872085cb93211ff32d165213fff4033ea38106ea0904b"
+    },
+    {
+      "path": "build/Lato26-Variable.zip",
+      "sha256": "f1e91831aa68897a6de5c6402b486c802dec52464a0127811ca625a5543e251a"
+    }
+  ]
+}

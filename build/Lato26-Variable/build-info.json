@@ -1,0 +1,46 @@
+[
+  {
+    "path": "build/Lato26-Variable/Lato26-Variable.ttf",
+    "source": "sources/Lato26-Upright.glyphs",
+    "compatible_fallbacks": [
+      "_zigzag",
+      "_zigzag.case",
+      "zigzagabovecomb",
+      "zigzagabovecomb.case"
+    ],
+    "hinting": "unhinted",
+    "axis": {
+      "wght": [
+        100,
+        400,
+        900
+      ]
+    },
+    "spacing": {
+      "adjusted_master_pairs": 2535,
+      "maximum_adjustment": 2
+    }
+  },
+  {
+    "path": "build/Lato26-Variable/Lato26-VariableItalic.ttf",
+    "source": "sources/Lato26-Italic.glyphs",
+    "compatible_fallbacks": [
+      "_zigzag",
+      "_zigzag.case",
+      "zigzagabovecomb",
+      "zigzagabovecomb.case"
+    ],
+    "hinting": "unhinted",
+    "axis": {
+      "wght": [
+        100,
+        400,
+        900
+      ]
+    },
+    "spacing": {
+      "adjusted_master_pairs": 11833,
+      "maximum_adjustment": 52
+    }
+  }
+]

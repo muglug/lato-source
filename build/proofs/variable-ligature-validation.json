@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "static_fonts": 36,
+  "shaping_checks": 770,
+  "native_loads": 311508,
+  "native_renders": 311508,
+  "pair_gap_checks": 53322,
+  "variable_fonts": [
+    {
+      "path": "build/Lato26-Variable/Lato26-Variable.ttf",
+      "sha256": "d61da7c6925ffa06cc46384c3517519f644c7ef316038127ce03ff8da4d18fcf",
+      "glyphs": 3055,
+      "rendered_weights": [
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400,
+        450,
+        500,
+        550,
+        600,
+        650,
+        700,
+        750,
+        800,
+        850,
+        900
+      ],
+      "maximum_common_pair_gap_error": 1.546019459337458,
+      "hinting": "unhinted"
+    },
+    {
+      "path": "build/Lato26-Variable/Lato26-VariableItalic.ttf",
+      "sha256": "43c56ff52c618ec80dc556e2817547bddf95b9a2c84b9c77352c1c3c64613734",
+      "glyphs": 3053,
+      "rendered_weights": [
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400,
+        450,
+        500,
+        550,
+        600,
+        650,
+        700,
+        750,
+        800,
+        850,
+        900
+      ],
+      "maximum_common_pair_gap_error": 2.580346184974701,
+      "hinting": "unhinted"
+    }
+  ]
+}

@@ -3,6 +3,11 @@ Lato26 desktop fonts
 Nine weights, each upright and italic, in TTF and OTF format.
 Install either the TTF or OTF set.
 
+Lato26 fi and ffi use the connected, dotless Lato 2.015 outlines in every
+weight/style, including their ogonek, dot-below, tilde-below and stroked-i
+forms. Advances and kerning are preserved. Only these glyphs receive new
+TTF instructions; the existing hinting elsewhere, including Bold a, is retained.
+
 Carlito26 Light and Light Italic retain the existing Carlito advance widths.
 
 Modified lowercase l tails, enlarged double-storey a bowls, and lowered e bars,
@@ -55,6 +60,17 @@ Light receives the matching upright outlines while retaining all advances.
 
 Original authorship and licensing are retained inside the fonts and in
 LICENSE.txt.
+
+Ligatures and variable fonts
+
+The missing substitution tables are restored in the upright TTFs and all OTFs.
+Automatic fi/ffi ligatures and the other source substitution features now work.
+Outlines, metrics, kerning and native hint programs are unchanged by this repair.
+
+A separate Lato26-Variable.zip contains upright and italic variable TTFs under
+the family name Lato26 Variable, with a 100-900 weight axis and nine named weights.
+These variable files are unhinted. Use this static TTF package for the existing
+Lato 2.015-based native hinting and corrected Bold a joins.
 
 TrueType hinting update
 

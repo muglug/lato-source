@@ -2,7 +2,7 @@
   "fonts": [
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
-      "sha256": "35e14fe75fee4c66c8e3a52a7f76743eefb57d62cfbadcd5c6a8de949d3e548b",
+      "sha256": "a21ca88bb2d4025392b22637c749d26844195827f1dae314d63d86e7c43ba09f",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 1010,
@@ -28,7 +28,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
-      "sha256": "66582b5dbe5f0ff48aa12c001b51c7a7d43f159f6ec581d354a1ec2b4152678a",
+      "sha256": "fe515f82ed8617d4d2db00b5ee23865409bf6c1f6fe65cf0aa175316c7113a83",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 1024,
@@ -54,7 +54,7 @@
     },
     {
       "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ttf",
-      "sha256": "1ad94f6661760a34711aa15c02d1a858bda89f75067c6a065466285057c7d4fd",
+      "sha256": "0e6d8c54252c8d5570963d390fb13370823eeb010887643c7295b52d82020901",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 1012,
@@ -80,7 +80,7 @@
     },
     {
       "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ttf",
-      "sha256": "d609c20c6b36209a6d876cc3a6600e26760a562bd93c9c83ce36f7121bfeb55b",
+      "sha256": "173fbd1fbe96937e7c9bc29caa02561a8a58bfade7f49d7a7224dc4173bbb9ca",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 1026,

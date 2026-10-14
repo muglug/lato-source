@@ -41,6 +41,57 @@ python3 03_build_lato_fontmake.py
 
 ## Technical details
 
+### Ligature repair and variable fonts
+
+The upright TTF exports contained empty GSUB tables, and all CFF OTF exports
+lacked GSUB. The `fi` outlines existed, but ordinary `fi` text never selected
+them. `31_restore_substitutions.py --snapshot PATH` restores the source's
+substitution features (including `fi`, `ffi`, localized forms and stylistic
+sets). Existing working italic TTF features are retained. The repair copies
+every other binary table unchanged, preserving outlines, metrics, kerning and
+the corrected native hints. The static Regular Glyphs source also has the
+restored features. Normal outline rebuilds now retain this repair.
+
+The later connected-ligature restoration replaces the dotted 3.100 `fi` and
+`ffi` with the actual Lato 2.015 designs in all 18 Lato26 styles, TTF and OTF.
+It also restores their ogonek, dot-below, tilde-below and stroked-i forms.
+Advances and kerning remain unchanged. Static TTFs retain the exact reference
+quadratic outlines; only these ten glyph programs per style are regenerated
+against the existing hint tables. All unrelated outlines and hints are retained.
+
+`sources/data/connected-ligatures.json` stores the reference outlines and hashes,
+plus compatible cubic paths at all nine weights. The active VFJ endpoints and
+Glyphs sources carry these designs; sparse intermediate Glyphs layers retain
+the other five named weights. `35_restore_connected_ligatures.py --sources
+--fonts` repeats the restoration without requiring the installed reference
+fonts. Import a fresh reference only with `--reference-dir PATH`.
+`36_check_connected_ligatures.py --snapshot PATH` verifies the exact static
+outlines, unchanged spacing and unrelated glyphs, and native rendering at
+8-50, 64 and 72 px. The snapshot must contain the prior repo-relative paths.
+
+`32_build_variable_fonts.py` exports `build/Lato26-Variable/Lato26-Variable.ttf`
+and `Lato26-VariableItalic.ttf`, also packaged as `build/Lato26-Variable.zip`.
+They use the **Lato26 Variable** family name to coexist with the static fonts.
+Each has a continuous `wght` axis from 100 to 900, default 400, and nine named
+weights. The current four-master Glyphs sources and sparse ligature layers supply the outlines, including
+the revised `a`, narrower `l`, and upright-only `e` refinements. Four legacy
+zigzag accents use the existing compatible master outlines during export.
+
+The exporter compensates for conversion/sidebearing differences in the revised
+`l` pairs. At the four masters, their outline-edge gaps match the static TTFs
+within half a font unit; common pairs at intervening named weights stay within
+3 units of the 2,000-unit em. The variable files are **unhinted**. The static
+TTFs retain the Lato 2.015-based native hinting and Bold `a` join correction;
+those point-specific programs cannot simply be copied to the variable outlines.
+
+Variable export additionally requires `fontmake`, `ufo2ft`, `ufoLib2`, and
+`typing_extensions`. Run `33_check_variable_and_ligatures.py` to check shaping,
+spacing and native rendering throughout the weight range. Run
+`34_render_variable_ligature_proof.py --snapshot PATH` with the repair snapshot
+to regenerate `output/pdf/Lato26-Variable-Ligatures.pdf`.
+Its eight pages compare old/new ligatures, intermediate variable weights,
+all related forms against 2.015, and native hinted screen sizes.
+
 ### October 2026 lowercase revision
 
 The active upright and italic VFJ sources and all shipped Lato26/Carlito26 exports
