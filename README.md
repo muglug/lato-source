@@ -73,7 +73,8 @@ from the unchanged master advances and recorded in
 
 `06_update_lato_outlines.py` records the one-time source transformation; it
 requires the pre-revision VFJs and Regular TTF and refuses to apply twice.
-The rebuild preserves the saved Regular `a`/`e` quadratics exactly. Cubic source
+The rebuild preserves the saved Regular `a` quadratics. The later four-master
+`e` revision supersedes the earlier quadratic `e` override. Cubic source
 edits use compatible subdivisions; stale hints referencing changed point
 indexes are removed before the final desktop TrueType hinting pass.
 Existing unrelated outlines and layout tables are kept.
@@ -193,6 +194,25 @@ layer, unchanged unrelated outlines/hints/layout, special-pair gaps within
 half a unit, native hint execution, and packaged fonts. Only revised `l`
 instructions are regenerated; the corrected Bold `a` instructions are intact.
 
+The later `Lato26-Upright-modified-e.glyphs` edit refines the inner curve in
+all four upright `e` masters and raises the crossbar in Bold and Black.
+`29_import_e_shape.py` imports those exact masters and propagates them to 54
+upright forms, including accents, small/turned forms, Cyrillic `е`, `ae`, and
+`oe`. The `ae` bowl joins follow the bar. Italic fonts and sources are unchanged;
+advances and kerning retain their preceding values.
+
+`sources/data/e-shape-revision.json` retains the authored layers and the
+Regular/Bold intermediate layers. Hairline and Black are also updated in VFJ.
+The source reader and Glyphs exporter interpolate this four-master progression
+for the affected forms. Regular `a` still uses its exact quadratic override;
+Regular `e` now uses the authored cubic master and the normal TTF conversion.
+Use `29_import_e_shape.py --build`, `08_refresh_carlito_outlines.py --only-e-shape`,
+and `29_import_e_shape.py --glyphs --snapshot PATH` for repeatable exports.
+`30_check_e_shape.py --snapshot PATH` checks the authored masters, related
+joins, unchanged italic bytes, unrelated hints, advances, kerning, native
+hint execution, and packaged fonts. The main PDF includes two focused upright
+`e` pages after the spacing review.
+
 `15_audit_optical_spacing.py --before-build PATH --reference-dir /Library/Fonts` measures every `la`-`lz`
 pair at all 18 weights/styles against the saved build before that adjustment.
 It uses unhinted masks at approximately 256 pixels per x-height. The audit uses
@@ -247,12 +267,12 @@ font hashes and checks pair gaps against the shaped whole string.
 `sources/Lato26-Upright.glyphs` and `sources/Lato26-Italic.glyphs` contain the
 active collection in Glyphs 3 format: 3,055 upright / 3,053 italic glyphs and
 nine instances per file.
-Hairline and Black masters retain the source outlines; interpolated Regular
-and Bold masters encode the kerning curve. Components, anchors, kerning groups,
+Hairline and Black masters retain the source outlines; Regular and Bold
+masters encode the kerning curve and the separate `e` edits. Components, anchors, kerning groups,
 and OpenType feature definitions remain editable. A few legacy glyphs with
 incompatible source topology use their compatible exported TTF contours;
 their names are recorded in each file's user data. The separate static Regular
-Glyphs file retains the authored `a` and `e` quadratics exactly.
+Glyphs file retains the authored `a` quadratics and current `e` cubics.
 
 Merge this authored revision into the editable sources with the `--glyphs`
 mode described above. Use `python tools/11_export_editable_glyphs.py` only

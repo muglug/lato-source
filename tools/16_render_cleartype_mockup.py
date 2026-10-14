@@ -157,7 +157,7 @@ def scales():
 def hint_comparison(before_build):
     im=Image.new('RGB',(1040,1040),'white')
     label(im,(40,50),'Lato 2.015 hinting / before and after',26,INK)
-    label(im,(40,80),'Historical / current builds. Hinting, l shape and spacing differ. 16 px text, enlarged 3x.',13)
+    label(im,(40,80),'Historical / current builds. Hinting, outlines and spacing differ. 16 px text, enlarged 3x.',13)
     label(im,(40,126),'PREVIOUS LATO26 HINTS',12,BLUE)
     label(im,(552,126),'LATO26 / 2.015 RECIPE',12,BLUE)
     for row,(weight,it) in enumerate((w,it) for w in ('Light','Regular','Bold') for it in (False,True)):

@@ -9,6 +9,7 @@
   "doubled_l_shaping_checks": 0,
   "matched_e_o_gaps": 1116,
   "matched_e_c_gaps": 1116,
-  "regular_a_e_match_reference_exactly": true,
+  "regular_a_matches_reference_exactly": true,
+  "regular_e_matches_authored_conversion": true,
   "status": "passed"
 }

@@ -4,8 +4,9 @@
 Only glyphs listed in lowercase-revision.json are rebuilt. Existing character
 coverage, layout tables, and unrelated outlines remain in their original
 font containers; family names become Lato26. Interpolatable TTFs are converted together, so Carlito26 and
-future variable-font builds retain compatible masters. Static Regular uses the
-author's saved a/e quadratics exactly, including through component references.
+future variable-font builds retain compatible masters. Static Regular keeps
+the saved a quadratics and uses the later four-master cubic e revision,
+including through component references.
 
 Requires fonttools, glyphsLib, numpy, openstep-plist, ttfautohint 1.3 (and skia-pathops for the
 separate Carlito26 build). Run 08_refresh_carlito_outlines.py afterwards for Carlito26.
@@ -39,6 +40,18 @@ ROOT, MANIFEST = revision.ROOT, revision.MANIFEST
 REGULAR = ROOT / 'build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.glyphs'
 WEIGHTS = dict(Hairline=0, Thin=100, Light=250, Regular=540, Medium=600,
                Semibold=666, Bold=780, Heavy=880, Black=1000)
+E_SHAPE = ROOT/'sources/data/e-shape-revision.json'
+
+
+def layer_pair(glyph, design, intermediates=None):
+    """Bracket a design with the source endpoints and optional authored masters."""
+    layers={0:revision.master(glyph,False),1000:revision.master(glyph,True)}
+    layers.update({int(d):layer for d,layer in (intermediates or {}).items()})
+    stops=sorted(layers)
+    for lo,hi in zip(stops,stops[1:]):
+        if lo<=design<=hi:
+            return layers[lo],layers[hi],(design-lo)/(hi-lo)
+    raise ValueError(design)
 
 
 def transform(element):
@@ -90,6 +103,12 @@ class Source:
         if self.overrides:
             self.overrides['a-cy'] = self.overrides['a']
             self.overrides['ie-cy'] = self.overrides['e']
+        self.intermediate_layers = (json.loads(E_SHAPE.read_text())['intermediate_layers']
+                                    if style=='Upr' and E_SHAPE.exists() else {})
+        if self.intermediate_layers:
+            # The new four-master cubic e supersedes the older Regular
+            # quadratic override; keep the authored a override intact.
+            self.overrides.pop('e',None);self.overrides.pop('ie-cy',None)
         self.cache = {}
 
     def width(self, name, design):
@@ -103,8 +122,7 @@ class Source:
             self.overrides[name].replay(pen)
             return
         g = self.glyphs[name]
-        a, b = revision.master(g, False), revision.master(g, True)
-        t = design/1000
+        a, b, t = layer_pair(g,design,self.intermediate_layers.get(name))
         assert len(a.get('elements', [])) == len(b.get('elements', [])), name
         for ea, eb in zip(a.get('elements', []), b.get('elements', [])):
             tr = tuple(x+(y-x)*t for x, y in zip(transform(ea), transform(eb)))

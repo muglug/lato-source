@@ -2696,7 +2696,7 @@ arrowdoublerightbelowcomb	lc	uniform	cmap	1.000	2.4	0	0	0
 _a.case	caps	uniform	none	1.000	4.5		533	489
 acomb	lc	uniform	existing	1.000	2.4	0	0	0
 acomb.case	caps	uniform	existing	1.000	4.5	0	0	0
-eSign-myanmar.case	caps	fit	existing	0.980	6.9	501	546	501
+eSign-myanmar.case	caps	fit	existing	0.980	7.0	501	546	501
 ecomb	lc	uniform	existing	1.000	2.4	0	0	0
 ecomb.case	caps	uniform	existing	1.000	4.5	0	0	0
 iMark-myanmar.case	caps	uniform	none	1.000	4.5		0	0

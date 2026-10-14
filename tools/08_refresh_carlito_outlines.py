@@ -41,9 +41,11 @@ def recover_weight(style, rows, affected):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--only-smaller-l',action='store_true')
+    parser.add_argument('--only-e-shape',action='store_true')
     args=parser.parse_args()
     manifest = json.loads(MANIFEST.read_text())
     for key, short in (('upright', 'Upr'), ('italic', 'Ita')):
+        if args.only_e_shape and short!='Upr':continue
         style = build.STYLES[key]
         path = Path(style['out'])
         report_path = path.with_name('report-'+path.stem+'.tsv')
@@ -54,8 +56,23 @@ def main():
         all_affected = set(manifest['styles'][short]['glyphs'])
         affected = (set(json.loads((ROOT/'sources/data/smaller-l.json').read_text())['styles'][short]['glyphs'])
                     if args.only_smaller_l else all_affected)
+        if args.only_e_shape:affected=set(json.loads((ROOT/'sources/data/e-shape-revision.json').read_text())['glyphs'])
         design, interval = recover_weight(style, rows, all_affected)
         lato = build.interpolate_lato(style, design)
+        e_record=ROOT/'sources/data/e-shape-revision.json'
+        e_forms=(set(json.loads(e_record.read_text())['glyphs']) & affected
+                 if short=='Upr' and e_record.exists() else set())
+        if e_forms:
+            # Honor the authored intermediate e masters at Carlito's weight.
+            revision_build=importlib.import_module('07_build_revised_lato')
+            from fontTools.pens.ttGlyphPen import TTGlyphPen
+            from fontTools.pens.cu2quPen import Cu2QuPen
+            source=revision_build.Source(short)
+            for name in e_forms:
+                rec=source.recording(name,design);pen=TTGlyphPen(None)
+                rec.replay(Cu2QuPen(pen,max_err=.75,reverse_direction=True))
+                lato['glyf'][name]=pen.glyph()
+                revision_build.update_metrics(lato,name,source.width(name,design),rec)
         original = TTFont(path, recalcTimestamp=False)
         out = copy.deepcopy(original)
         advances = {n: m[0] for n, m in original['hmtx'].metrics.items()}

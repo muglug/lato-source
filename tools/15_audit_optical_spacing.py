@@ -113,6 +113,8 @@ def measure_font(job):
     rel=Path(f'Lato3{style}2M/ds-ufo/masters/Lato26-{name}.ttf')
     audit=unhinted(before_build/rel); current=TTFont(ROOT/'build'/rel)
     geometry_changed=audit.font.getTableData('glyf')!=current.getTableData('glyf')
+    left_changed=audit.font['glyf']['l'].compile(audit.font['glyf'])!=current['glyf']['l'].compile(current['glyf'])
+    e_changed=audit.font['glyf']['e'].compile(audit.font['glyf'])!=current['glyf']['e'].compile(current['glyf'])
     after_audit=unhinted(ROOT/'build'/rel) if geometry_changed else audit
     assert audit.xheight==after_audit.xheight
     reference=after_audit.overlap('e',pair_advance(current,'l','e'))
@@ -130,6 +132,7 @@ def measure_font(job):
              'after':after_audit.metrics(char,new_kern,reference),
              'added_units':new_kern-old_kern,
              'outline_changed':geometry_changed,
+             'left_outline_changed':left_changed,'e_outline_changed':e_changed,
              'advance_change_units':current['hmtx']['l'][0]-audit.font['hmtx']['l'][0],
              'lower_right_ink_percent':audit.lower_right_density(char)}
         if not geometry_changed and row['added_units']>0:

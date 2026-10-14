@@ -2,7 +2,7 @@
   "fonts": [
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
-      "sha256": "b6ed0690d8bd6dd89ce58cb59cdc5096cd5d3ef0029fe087bc074aa4132ed84c",
+      "sha256": "35e14fe75fee4c66c8e3a52a7f76743eefb57d62cfbadcd5c6a8de949d3e548b",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 1010,
@@ -28,7 +28,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
-      "sha256": "e554c83c69809023d95b152a62b8e48b685d9fe32bb25cd1277aa94b7a09f6ea",
+      "sha256": "66582b5dbe5f0ff48aa12c001b51c7a7d43f159f6ec581d354a1ec2b4152678a",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 1024,
@@ -117,61 +117,61 @@
         "Io": {
           "kern": -31,
           "horizontal_outline_gap": 235,
-          "blur_index": 0.95537,
+          "blur_index": 0.95565,
           "per_scale_ratios": [
-            0.97149,
-            0.98353,
-            0.91261
+            0.97059,
+            0.98368,
+            0.91412
           ],
-          "blur_index_relative_to_le": 0.712802109611811,
+          "blur_index_relative_to_le": 0.7102627269660116,
           "kern_per_1000_em": -15.5,
           "gap_percent_xheight": 23.2673,
           "gap_per_1000_em": 117.5,
-          "interaction_relative_to_le": 0.712802109611811
+          "interaction_relative_to_le": 0.7102627269660116
         },
         "lo": {
           "kern": -41,
           "horizontal_outline_gap": 53,
-          "blur_index": 1.00808,
+          "blur_index": 1.00449,
           "per_scale_ratios": [
-            1.10741,
-            1.0081,
-            0.91765
+            1.09533,
+            1.00694,
+            0.91895
           ],
           "kern_per_1000_em": -20.5,
           "gap_percent_xheight": 5.2475,
           "gap_per_1000_em": 26.5,
-          "interaction_relative_to_le": 1.00808
+          "interaction_relative_to_le": 1.00449
         },
         "oI": {
           "kern": -31,
           "horizontal_outline_gap": 236,
-          "blur_index": 0.41733,
+          "blur_index": 0.41752,
           "per_scale_ratios": [
-            0.12203,
-            0.6477,
-            0.91956
+            0.12195,
+            0.64801,
+            0.92098
           ],
-          "blur_index_relative_to_le": 0.7021831925690413,
+          "blur_index_relative_to_le": 0.6996816401895836,
           "kern_per_1000_em": -15.5,
           "gap_percent_xheight": 23.3663,
           "gap_per_1000_em": 118.0,
-          "interaction_relative_to_le": 0.7021831925690413
+          "interaction_relative_to_le": 0.6996816401895836
         },
         "ol": {
           "kern": 0,
           "horizontal_outline_gap": 231,
-          "blur_index": 0.44479,
+          "blur_index": 0.44499,
           "per_scale_ratios": [
-            0.14846,
-            0.66347,
-            0.89336
+            0.14836,
+            0.66378,
+            0.89474
           ],
-          "blur_index_relative_to_le": 0.748388790804418,
+          "blur_index_relative_to_le": 0.7457226293522381,
           "kern_per_1000_em": 0.0,
           "gap_percent_xheight": 22.8713,
           "gap_per_1000_em": 115.5,
-          "interaction_relative_to_le": 0.748388790804418
+          "interaction_relative_to_le": 0.7457226293522381
         }
       },
       "sequence_gaps": [
@@ -195,13 +195,13 @@
         "lh": 34.9505,
         "Ih": 30.495
       },
-      "ly_Iy_interaction_ratio": 1.11320573531467,
-      "lo_Io_interaction_ratio": 1.4142494619565535,
-      "ol_oI_interaction_ratio": 1.0658027687423373,
+      "ly_Iy_interaction_ratio": 1.1132037155961074,
+      "lo_Io_interaction_ratio": 1.4142513211847991,
+      "ol_oI_interaction_ratio": 1.0658027687423375,
       "vertical_stem_interaction_ratios": {
-        "h": 3.0644849032836516,
-        "i": 3.3767631876248356,
-        "j": 3.7419346737686485
+        "h": 3.064500065894471,
+        "i": 3.376792271044834,
+        "j": 3.7419112604320643
       }
     },
     {
@@ -307,61 +307,61 @@
         "Io": {
           "kern": -31,
           "horizontal_outline_gap": 198,
-          "blur_index": 0.96314,
+          "blur_index": 0.96369,
           "per_scale_ratios": [
             0.9741,
-            0.98761,
-            0.92871
+            0.98795,
+            0.92997
           ],
-          "blur_index_relative_to_le": 0.9503251803779387,
+          "blur_index_relative_to_le": 0.9510336302950407,
           "kern_per_1000_em": -15.5,
           "gap_percent_xheight": 19.3359,
           "gap_per_1000_em": 99.0,
-          "interaction_relative_to_le": 0.9503251803779387
+          "interaction_relative_to_le": 0.9510336302950407
         },
         "lo": {
           "kern": -20,
           "horizontal_outline_gap": 49,
-          "blur_index": 1.00295,
+          "blur_index": 1.00369,
           "per_scale_ratios": [
-            1.07193,
-            1.00778,
-            0.9339
+            1.07178,
+            1.00834,
+            0.93561
           ],
           "kern_per_1000_em": -10.0,
           "gap_percent_xheight": 4.7852,
           "gap_per_1000_em": 24.5,
-          "interaction_relative_to_le": 1.00295
+          "interaction_relative_to_le": 1.00369
         },
         "oI": {
           "kern": -31,
           "horizontal_outline_gap": 197,
-          "blur_index": 0.51779,
+          "blur_index": 0.51815,
           "per_scale_ratios": [
             0.19927,
-            0.72323,
-            0.96326
+            0.72357,
+            0.96483
           ],
-          "blur_index_relative_to_le": 0.9707442038378296,
+          "blur_index_relative_to_le": 0.9714678757608052,
           "kern_per_1000_em": -15.5,
           "gap_percent_xheight": 19.2383,
           "gap_per_1000_em": 98.5,
-          "interaction_relative_to_le": 0.9707442038378296
+          "interaction_relative_to_le": 0.9714678757608052
         },
         "ol": {
           "kern": 0,
           "horizontal_outline_gap": 192,
-          "blur_index": 0.5458,
+          "blur_index": 0.54619,
           "per_scale_ratios": [
             0.23467,
-            0.73929,
-            0.9372
+            0.73964,
+            0.93874
           ],
-          "blur_index_relative_to_le": 1.0232604297180823,
+          "blur_index_relative_to_le": 1.0240232515201093,
           "kern_per_1000_em": 0.0,
           "gap_percent_xheight": 18.75,
           "gap_per_1000_em": 96.0,
-          "interaction_relative_to_le": 1.0232604297180823
+          "interaction_relative_to_le": 1.0240232515201093
         }
       },
       "sequence_gaps": [
@@ -385,13 +385,13 @@
         "lh": 30.2734,
         "Ih": 26.2695
       },
-      "ly_Iy_interaction_ratio": 0.8654281336434226,
-      "lo_Io_interaction_ratio": 1.0553755921748098,
+      "ly_Iy_interaction_ratio": 0.8654279344967433,
+      "lo_Io_interaction_ratio": 1.0553675159611586,
       "ol_oI_interaction_ratio": 1.0540989332438249,
       "vertical_stem_interaction_ratios": {
-        "h": 2.4546668686377875,
-        "i": 2.6812252775608787,
-        "j": 2.9197846805862953
+        "h": 2.4546720164711635,
+        "i": 2.6812287674711963,
+        "j": 2.9197806879106114
       }
     },
     {
@@ -871,11 +871,11 @@
     }
   ],
   "previous": {
-    "snapshot": "/private/tmp/lato-narrow-l",
+    "snapshot": "/private/tmp/lato-e-shape",
     "fonts": [
       {
         "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
-        "sha256": "65ab13563391784fd566496e0ced930c37f4cc7193df71c01045a41752a1c4f7",
+        "sha256": "b6ed0690d8bd6dd89ce58cb59cdc5096cd5d3ef0029fe087bc074aa4132ed84c",
         "version": "Version 3.100; https://www.latofonts.com/",
         "units_per_em": 2000,
         "xheight": 1010,
@@ -901,7 +901,7 @@
       },
       {
         "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
-        "sha256": "eee88d338fc7bc04047fa5c6c44f19c6b19a9fdad804feec0448a7746d07d68d",
+        "sha256": "e554c83c69809023d95b152a62b8e48b685d9fe32bb25cd1277aa94b7a09f6ea",
         "version": "Version 3.100; https://www.latofonts.com/",
         "units_per_em": 2000,
         "xheight": 1024,
@@ -927,7 +927,7 @@
       },
       {
         "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ttf",
-        "sha256": "a2a9ce566a241dd5761293ce1400d360c9568bbe38276c53c1faac45ee0381fe",
+        "sha256": "1ad94f6661760a34711aa15c02d1a858bda89f75067c6a065466285057c7d4fd",
         "version": "Version 3.100; https://www.latofonts.com/",
         "units_per_em": 2000,
         "xheight": 1012,
@@ -953,7 +953,7 @@
       },
       {
         "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ttf",
-        "sha256": "d8b10114e631544668a0065eda9fc0ad5c59b368f2830006c2301ce8949e0299",
+        "sha256": "d609c20c6b36209a6d876cc3a6600e26760a562bd93c9c83ce36f7121bfeb55b",
         "version": "Version 3.100; https://www.latofonts.com/",
         "units_per_em": 2000,
         "xheight": 1026,
@@ -993,25 +993,25 @@
               0.98353,
               0.91261
             ],
-            "blur_index_relative_to_le": 0.8000108117227366,
+            "blur_index_relative_to_le": 0.712802109611811,
             "kern_per_1000_em": -15.5,
             "gap_percent_xheight": 23.2673,
             "gap_per_1000_em": 117.5,
-            "interaction_relative_to_le": 0.8000108117227366
+            "interaction_relative_to_le": 0.712802109611811
           },
           "lo": {
-            "kern": -75,
+            "kern": -41,
             "horizontal_outline_gap": 53,
-            "blur_index": 1.01311,
+            "blur_index": 1.00808,
             "per_scale_ratios": [
-              1.1182,
-              1.01136,
-              0.91949
+              1.10741,
+              1.0081,
+              0.91765
             ],
-            "kern_per_1000_em": -37.5,
+            "kern_per_1000_em": -20.5,
             "gap_percent_xheight": 5.2475,
             "gap_per_1000_em": 26.5,
-            "interaction_relative_to_le": 1.01311
+            "interaction_relative_to_le": 1.00808
           },
           "oI": {
             "kern": -31,
@@ -1022,26 +1022,26 @@
               0.6477,
               0.91956
             ],
-            "blur_index_relative_to_le": 0.7880927094494015,
+            "blur_index_relative_to_le": 0.7021831925690413,
             "kern_per_1000_em": -15.5,
             "gap_percent_xheight": 23.3663,
             "gap_per_1000_em": 118.0,
-            "interaction_relative_to_le": 0.7880927094494015
+            "interaction_relative_to_le": 0.7021831925690413
           },
           "ol": {
             "kern": 0,
             "horizontal_outline_gap": 231,
-            "blur_index": 0.43946,
+            "blur_index": 0.44479,
             "per_scale_ratios": [
-              0.14743,
-              0.6528,
-              0.88182
+              0.14846,
+              0.66347,
+              0.89336
             ],
-            "blur_index_relative_to_le": 0.8298797462255595,
+            "blur_index_relative_to_le": 0.748388790804418,
             "kern_per_1000_em": 0.0,
             "gap_percent_xheight": 22.8713,
             "gap_per_1000_em": 115.5,
-            "interaction_relative_to_le": 0.8298797462255595
+            "interaction_relative_to_le": 0.748388790804418
           }
         },
         "sequence_gaps": [
@@ -1056,22 +1056,22 @@
         "mid_xheight_gaps": {
           "Io": 23.268,
           "ol": 22.8719,
-          "lo": 27.2284,
+          "lo": 25.2482,
           "oI": 23.367,
-          "lj": 41.2871,
+          "lj": 35.9406,
           "Ij": 31.4851,
-          "li": 41.2871,
+          "li": 35.9406,
           "Ii": 31.4851,
-          "lh": 40.297,
+          "lh": 34.9505,
           "Ih": 30.495
         },
-        "ly_Iy_interaction_ratio": 0.7867242176333319,
-        "lo_Io_interaction_ratio": 1.2663703854431385,
-        "ol_oI_interaction_ratio": 1.0530229962479318,
+        "ly_Iy_interaction_ratio": 1.11320573531467,
+        "lo_Io_interaction_ratio": 1.4142494619565535,
+        "ol_oI_interaction_ratio": 1.0658027687423373,
         "vertical_stem_interaction_ratios": {
-          "h": 1.6378689256644283,
-          "i": 1.7864476642441296,
-          "j": 2.0096584815511247
+          "h": 3.0644849032836516,
+          "i": 3.3767631876248356,
+          "j": 3.7419346737686485
         }
       },
       {
@@ -1183,25 +1183,25 @@
               0.98761,
               0.92871
             ],
-            "blur_index_relative_to_le": 1.0581450156356689,
+            "blur_index_relative_to_le": 0.9503251803779387,
             "kern_per_1000_em": -15.5,
             "gap_percent_xheight": 19.3359,
             "gap_per_1000_em": 99.0,
-            "interaction_relative_to_le": 1.0581450156356689
+            "interaction_relative_to_le": 0.9503251803779387
           },
           "lo": {
-            "kern": -54,
+            "kern": -20,
             "horizontal_outline_gap": 49,
-            "blur_index": 1.00673,
+            "blur_index": 1.00295,
             "per_scale_ratios": [
-              1.08026,
-              1.00984,
-              0.93531
+              1.07193,
+              1.00778,
+              0.9339
             ],
-            "kern_per_1000_em": -27.0,
+            "kern_per_1000_em": -10.0,
             "gap_percent_xheight": 4.7852,
             "gap_per_1000_em": 24.5,
-            "interaction_relative_to_le": 1.00673
+            "interaction_relative_to_le": 1.00295
           },
           "oI": {
             "kern": -31,
@@ -1212,26 +1212,26 @@
               0.72323,
               0.96326
             ],
-            "blur_index_relative_to_le": 1.080880694268996,
+            "blur_index_relative_to_le": 0.9707442038378296,
             "kern_per_1000_em": -15.5,
             "gap_percent_xheight": 19.2383,
             "gap_per_1000_em": 98.5,
-            "interaction_relative_to_le": 1.080880694268996
+            "interaction_relative_to_le": 0.9707442038378296
           },
           "ol": {
             "kern": 0,
             "horizontal_outline_gap": 192,
-            "blur_index": 0.53783,
+            "blur_index": 0.5458,
             "per_scale_ratios": [
-              0.23214,
-              0.72541,
-              0.92387
+              0.23467,
+              0.73929,
+              0.9372
             ],
-            "blur_index_relative_to_le": 1.1227167787822774,
+            "blur_index_relative_to_le": 1.0232604297180823,
             "kern_per_1000_em": 0.0,
             "gap_percent_xheight": 18.75,
             "gap_per_1000_em": 96.0,
-            "interaction_relative_to_le": 1.1227167787822774
+            "interaction_relative_to_le": 1.0232604297180823
           }
         },
         "sequence_gaps": [
@@ -1246,22 +1246,22 @@
         "mid_xheight_gaps": {
           "Io": 19.3366,
           "ol": 18.7507,
-          "lo": 24.903,
+          "lo": 22.9499,
           "oI": 19.239,
-          "lj": 36.3281,
+          "lj": 31.0547,
           "Ij": 27.1484,
-          "li": 36.3281,
+          "li": 31.0547,
           "Ii": 27.1484,
-          "lh": 35.5469,
+          "lh": 30.2734,
           "Ih": 26.2695
         },
-        "ly_Iy_interaction_ratio": 0.6253705229069901,
-        "lo_Io_interaction_ratio": 0.9514102368995406,
-        "ol_oI_interaction_ratio": 1.0387055525508997,
+        "ly_Iy_interaction_ratio": 0.8654281336434226,
+        "lo_Io_interaction_ratio": 1.0553755921748098,
+        "ol_oI_interaction_ratio": 1.0540989332438249,
         "vertical_stem_interaction_ratios": {
-          "h": 1.3899599613653413,
-          "i": 1.5083008731543055,
-          "j": 1.6720474692334275
+          "h": 2.4546668686377875,
+          "i": 2.6812252775608787,
+          "j": 2.9197846805862953
         }
       },
       {
@@ -1373,25 +1373,25 @@
               0.98938,
               0.90794
             ],
-            "blur_index_relative_to_le": 0.7030659454165236,
+            "blur_index_relative_to_le": 0.6204960828000275,
             "kern_per_1000_em": 0.0,
             "gap_percent_xheight": 12.9447,
             "gap_per_1000_em": 65.5,
-            "interaction_relative_to_le": 0.7030659454165236
+            "interaction_relative_to_le": 0.6204960828000275
           },
           "lo": {
-            "kern": -70,
+            "kern": -36,
             "horizontal_outline_gap": 118,
-            "blur_index": 0.95303,
+            "blur_index": 0.96045,
             "per_scale_ratios": [
-              0.9408,
-              1.00387,
-              0.91653
+              0.96384,
+              1.00478,
+              0.91483
             ],
-            "kern_per_1000_em": -35.0,
+            "kern_per_1000_em": -18.0,
             "gap_percent_xheight": 11.6601,
             "gap_per_1000_em": 59.0,
-            "interaction_relative_to_le": 0.95303
+            "interaction_relative_to_le": 0.96045
           },
           "oI": {
             "kern": 0,
@@ -1402,56 +1402,56 @@
               0.47421,
               0.79252
             ],
-            "blur_index_relative_to_le": 0.6878807170704417,
+            "blur_index_relative_to_le": 0.6070942465048768,
             "kern_per_1000_em": 0.0,
             "gap_percent_xheight": 17.9842,
             "gap_per_1000_em": 91.0,
-            "interaction_relative_to_le": 0.6878807170704417
+            "interaction_relative_to_le": 0.6070942465048768
           },
           "ol": {
             "kern": 0,
-            "horizontal_outline_gap": 183.541,
-            "blur_index": 0.43768,
+            "horizontal_outline_gap": 180.828,
+            "blur_index": 0.43033,
             "per_scale_ratios": [
-              0.15438,
-              0.64211,
-              0.84578
+              0.14606,
+              0.6406,
+              0.85166
             ],
-            "blur_index_relative_to_le": 1.135103685100245,
+            "blur_index_relative_to_le": 0.9849634935587237,
             "kern_per_1000_em": 0.0,
-            "gap_percent_xheight": 18.1365,
-            "gap_per_1000_em": 91.7705,
-            "interaction_relative_to_le": 1.135103685100245
+            "gap_percent_xheight": 17.8684,
+            "gap_per_1000_em": 90.414,
+            "interaction_relative_to_le": 0.9849634935587237
           }
         },
         "sequence_gaps": [
           12.9447,
-          18.1364,
+          17.8683,
           11.6601,
           17.9842,
           12.9447,
-          18.1364,
+          17.8683,
           11.6601
         ],
         "mid_xheight_gaps": {
           "Io": 24.7466,
-          "ol": 21.9205,
-          "lo": 26.7785,
+          "ol": 22.0894,
+          "lo": 25.0265,
           "oI": 24.762,
-          "lj": 40.0599,
+          "lj": 34.9483,
           "Ij": 31.111,
-          "li": 40.0915,
+          "li": 34.9799,
           "Ii": 31.1426,
-          "lh": 39.1219,
+          "lh": 34.0103,
           "Ih": 30.173
         },
-        "ly_Iy_interaction_ratio": 1.0892978795917865,
-        "lo_Io_interaction_ratio": 1.3555342940631097,
-        "ol_oI_interaction_ratio": 1.6501461037233958,
+        "ly_Iy_interaction_ratio": 1.4810858505843716,
+        "lo_Io_interaction_ratio": 1.547874396992015,
+        "ol_oI_interaction_ratio": 1.6224227115135599,
         "vertical_stem_interaction_ratios": {
-          "h": 1.2664545300258574,
-          "i": 1.3538592871730641,
-          "j": 1.5995450382164735
+          "h": 2.423345653073277,
+          "i": 2.61628302958634,
+          "j": 3.0085670788493526
         }
       },
       {
@@ -1563,25 +1563,25 @@
               0.98882,
               0.9243
             ],
-            "blur_index_relative_to_le": 0.9141759036748033,
+            "blur_index_relative_to_le": 0.8461859745528082,
             "kern_per_1000_em": 0.0,
             "gap_percent_xheight": 9.1618,
             "gap_per_1000_em": 47.0,
-            "interaction_relative_to_le": 0.9141759036748033
+            "interaction_relative_to_le": 0.8461859745528082
           },
           "lo": {
-            "kern": -56,
+            "kern": -20,
             "horizontal_outline_gap": 109,
-            "blur_index": 0.97432,
+            "blur_index": 0.97508,
             "per_scale_ratios": [
-              0.995,
-              0.99933,
-              0.93019
+              0.99852,
+              0.9993,
+              0.92911
             ],
-            "kern_per_1000_em": -28.0,
+            "kern_per_1000_em": -10.0,
             "gap_percent_xheight": 10.6238,
             "gap_per_1000_em": 54.5,
-            "interaction_relative_to_le": 0.97432
+            "interaction_relative_to_le": 0.97508
           },
           "oI": {
             "kern": 0,
@@ -1592,56 +1592,56 @@
               0.53392,
               0.82955
             ],
-            "blur_index_relative_to_le": 0.8939005660735438,
+            "blur_index_relative_to_le": 0.8274185729635272,
             "kern_per_1000_em": 0.0,
             "gap_percent_xheight": 14.1326,
             "gap_per_1000_em": 72.5,
-            "interaction_relative_to_le": 0.8939005660735438
+            "interaction_relative_to_le": 0.8274185729635272
           },
           "ol": {
             "kern": 0,
-            "horizontal_outline_gap": 150.049,
-            "blur_index": 0.52751,
+            "horizontal_outline_gap": 147.569,
+            "blur_index": 0.5201,
             "per_scale_ratios": [
-              0.23457,
-              0.70709,
-              0.88501
+              0.22333,
+              0.70656,
+              0.89158
             ],
-            "blur_index_relative_to_le": 1.3933179978967627,
+            "blur_index_relative_to_le": 1.2715889937145244,
             "kern_per_1000_em": 0.0,
-            "gap_percent_xheight": 14.6247,
-            "gap_per_1000_em": 75.0245,
-            "interaction_relative_to_le": 1.3933179978967627
+            "gap_percent_xheight": 14.3829,
+            "gap_per_1000_em": 73.7845,
+            "interaction_relative_to_le": 1.2715889937145244
           }
         },
         "sequence_gaps": [
           9.1618,
-          14.6246,
+          14.383,
           10.6238,
           14.1326,
           9.1618,
-          14.6246,
+          14.383,
           10.6238
         ],
         "mid_xheight_gaps": {
           "Io": 20.8144,
-          "ol": 17.9982,
-          "lo": 24.2193,
+          "ol": 18.1731,
+          "lo": 22.7752,
           "oI": 20.835,
-          "lj": 35.6357,
+          "lj": 30.6829,
           "Ij": 26.7727,
-          "li": 35.6704,
+          "li": 30.7175,
           "Ii": 26.8074,
-          "lh": 34.7598,
+          "lh": 29.807,
           "Ih": 25.8968
         },
-        "ly_Iy_interaction_ratio": 1.014565634643528,
-        "lo_Io_interaction_ratio": 1.0657905071479454,
-        "ol_oI_interaction_ratio": 1.5586946141190052,
+        "ly_Iy_interaction_ratio": 1.278383548882425,
+        "lo_Io_interaction_ratio": 1.1523235190884717,
+        "ol_oI_interaction_ratio": 1.5368146610005773,
         "vertical_stem_interaction_ratios": {
-          "h": 1.0559553864997178,
-          "i": 1.1036212555882432,
-          "j": 1.2752345277997725
+          "h": 1.88707089368821,
+          "i": 1.9901814581992705,
+          "j": 2.2325603382643666
         }
       },
       {

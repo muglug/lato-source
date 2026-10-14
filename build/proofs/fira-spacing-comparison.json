@@ -11,7 +11,7 @@
   "fonts": [
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Hairline.ttf",
-      "sha256": "58d1ba5d0b28ea0288d63f4606bca6170706023babf8d1f5318d2a94896a2c66",
+      "sha256": "9208b6619de1f547be5f7e6e6d35878e15d15f3f253bf8a7f291ad88a68c1b11",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 980,
@@ -37,7 +37,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Thin.ttf",
-      "sha256": "136297c127d90e71f65e5b1194bff0f693677b48f29ccb0cb88e6d38dcf8b33f",
+      "sha256": "62bb60b64a87b14639cddabaee193a37fab0613ba175ee92649153370078faff",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 985,
@@ -63,7 +63,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Light.ttf",
-      "sha256": "09d72e4293d4870d604988ab4277c6a72f2b22d0c96e9c73b28df3439fb5d403",
+      "sha256": "20e1011de5f06b7844506c6cbdbb3d0f588527edf945789e10e88beb7aa23c15",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 994,
@@ -89,7 +89,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
-      "sha256": "b6ed0690d8bd6dd89ce58cb59cdc5096cd5d3ef0029fe087bc074aa4132ed84c",
+      "sha256": "35e14fe75fee4c66c8e3a52a7f76743eefb57d62cfbadcd5c6a8de949d3e548b",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 1010,
@@ -115,7 +115,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Medium.ttf",
-      "sha256": "74b3a4600aae1bdbff0e04578c19683e16e597bb72110c56805b753fc1c2f97f",
+      "sha256": "54d464b63894deb771f0396546484ad58bf4d33678599815da60174afb11ae31",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 1014,
@@ -141,7 +141,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Semibold.ttf",
-      "sha256": "32a9d799e0ee2b8460a1d2be734d3f953f01a04f888846919e431074746c79dc",
+      "sha256": "bdbbbd66f7a34da625f5f021ff914863ae80e72c9299b26a315410d5a8fbefe1",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 1017,
@@ -167,7 +167,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
-      "sha256": "e554c83c69809023d95b152a62b8e48b685d9fe32bb25cd1277aa94b7a09f6ea",
+      "sha256": "66582b5dbe5f0ff48aa12c001b51c7a7d43f159f6ec581d354a1ec2b4152678a",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 1024,
@@ -193,7 +193,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Heavy.ttf",
-      "sha256": "40d861c87843bb2ad328086d0717128c4d86b0231448cfd2c78f62b0221742f9",
+      "sha256": "f64be7b842b72d70a109365f52e180a2fe4245fde7c50a30c9c56e4151d5a2a4",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 1030,
@@ -219,7 +219,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.ttf",
-      "sha256": "2e5577158961ee78290afdfe759936fe5d2f8a713c950c58e1f8cecbd5892ea2",
+      "sha256": "f52132f07c9b8eaff46ff8f231dd156b7a777abcaef6e9bc55d295b97e74cfef",
       "version": "Version 3.100; https://www.latofonts.com/",
       "units_per_em": 2000,
       "xheight": 1037,
@@ -487,11 +487,11 @@
       "Lato26": {
         "kern": -10,
         "horizontal_outline_gap": 122,
-        "blur_index": 3.01514,
+        "blur_index": 3.08874,
         "per_scale_ratios": [
-          30.33387,
-          1.15757,
-          0.78063
+          30.36891,
+          1.19761,
+          0.81022
         ],
         "kern_per_1000_em": -5.0,
         "gap_percent_xheight": 12.449,
@@ -519,11 +519,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 214,
-        "blur_index": 1.50154,
+        "blur_index": 1.5382,
         "per_scale_ratios": [
-          5.06572,
-          0.73212,
-          0.91283
+          5.07157,
+          0.75744,
+          0.94742
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 21.8367,
@@ -551,11 +551,11 @@
       "Lato26": {
         "kern": -14,
         "horizontal_outline_gap": 138,
-        "blur_index": 0.97982,
+        "blur_index": 1.00373,
         "per_scale_ratios": [
-          1.25906,
-          0.93194,
-          0.80167
+          1.26052,
+          0.96417,
+          0.83206
         ],
         "kern_per_1000_em": -7.0,
         "gap_percent_xheight": 14.0816,
@@ -583,11 +583,11 @@
       "Lato26": {
         "kern": -5,
         "horizontal_outline_gap": 148,
-        "blur_index": 0.9956,
+        "blur_index": 1.0199,
         "per_scale_ratios": [
-          1.47431,
-          0.85719,
-          0.78089
+          1.47602,
+          0.88683,
+          0.81048
         ],
         "kern_per_1000_em": -2.5,
         "gap_percent_xheight": 15.102,
@@ -647,11 +647,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 91,
-        "blur_index": 0.55342,
+        "blur_index": 0.56693,
         "per_scale_ratios": [
-          0.64463,
-          0.38119,
-          0.6898
+          0.64537,
+          0.39437,
+          0.71594
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 9.2857,
@@ -679,11 +679,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 120,
-        "blur_index": 3.0752,
+        "blur_index": 3.15027,
         "per_scale_ratios": [
-          33.19987,
-          0.91236,
-          0.9601
+          33.23822,
+          0.94391,
+          0.99649
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 12.2449,
@@ -711,11 +711,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 214,
-        "blur_index": 1.40799,
+        "blur_index": 1.44236,
         "per_scale_ratios": [
-          5.16978,
-          0.65726,
-          0.82147
+          5.17575,
+          0.67999,
+          0.8526
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 21.8367,
@@ -743,11 +743,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 182,
-        "blur_index": 1.03601,
+        "blur_index": 1.06131,
         "per_scale_ratios": [
-          3.31194,
-          0.52343,
-          0.64144
+          3.31577,
+          0.54153,
+          0.66575
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 18.5714,
@@ -775,11 +775,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": -30,
-        "blur_index": 1.25659,
+        "blur_index": 1.28727,
         "per_scale_ratios": [
-          4.39603,
-          0.61854,
-          0.72972
+          4.4011,
+          0.63993,
+          0.75738
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": -3.0612,
@@ -807,11 +807,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 214,
-        "blur_index": 1.48516,
+        "blur_index": 1.52142,
         "per_scale_ratios": [
-          5.17181,
-          0.65808,
-          0.9625
+          5.17778,
+          0.68084,
+          0.99898
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 21.8367,
@@ -839,11 +839,11 @@
       "Lato26": {
         "kern": 3,
         "horizontal_outline_gap": 229,
-        "blur_index": 0.83659,
+        "blur_index": 0.85701,
         "per_scale_ratios": [
-          1.63733,
-          0.50458,
-          0.70871
+          1.63922,
+          0.52203,
+          0.73557
         ],
         "kern_per_1000_em": 1.5,
         "gap_percent_xheight": 23.3673,
@@ -871,11 +871,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 214,
-        "blur_index": 1.3459,
+        "blur_index": 1.37876,
         "per_scale_ratios": [
-          5.17296,
-          0.63316,
-          0.74436
+          5.17894,
+          0.65506,
+          0.77258
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 21.8367,
@@ -903,11 +903,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 214,
-        "blur_index": 1.34423,
+        "blur_index": 1.37704,
         "per_scale_ratios": [
-          5.17019,
-          0.63379,
-          0.74126
+          5.17616,
+          0.65571,
+          0.76935
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 21.8367,
@@ -935,11 +935,11 @@
       "Lato26": {
         "kern": -14,
         "horizontal_outline_gap": 138,
-        "blur_index": 0.95334,
+        "blur_index": 0.97661,
         "per_scale_ratios": [
-          1.16326,
-          0.92611,
-          0.80427
+          1.16461,
+          0.95814,
+          0.83475
         ],
         "kern_per_1000_em": -7.0,
         "gap_percent_xheight": 14.0816,
@@ -967,11 +967,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 214,
-        "blur_index": 1.7595,
+        "blur_index": 1.80245,
         "per_scale_ratios": [
-          7.13683,
-          0.83182,
-          0.91756
+          7.14507,
+          0.86058,
+          0.95233
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 21.8367,
@@ -999,11 +999,11 @@
       "Lato26": {
         "kern": -5,
         "horizontal_outline_gap": 148,
-        "blur_index": 0.99634,
+        "blur_index": 1.02066,
         "per_scale_ratios": [
-          1.47683,
-          0.85719,
-          0.78129
+          1.47854,
+          0.88683,
+          0.8109
         ],
         "kern_per_1000_em": -2.5,
         "gap_percent_xheight": 15.102,
@@ -1031,11 +1031,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 214,
-        "blur_index": 1.36372,
+        "blur_index": 1.39701,
         "per_scale_ratios": [
-          5.1736,
-          0.64114,
-          0.76459
+          5.17958,
+          0.66332,
+          0.79357
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 21.8367,
@@ -1063,11 +1063,11 @@
       "Lato26": {
         "kern": -10,
         "horizontal_outline_gap": 128,
-        "blur_index": 2.02572,
+        "blur_index": 2.07517,
         "per_scale_ratios": [
-          21.39086,
-          0.62775,
-          0.61905
+          21.41557,
+          0.64946,
+          0.64251
         ],
         "kern_per_1000_em": -5.0,
         "gap_percent_xheight": 13.0612,
@@ -1095,11 +1095,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 93,
-        "blur_index": 0.41881,
+        "blur_index": 0.42903,
         "per_scale_ratios": [
-          0.28602,
-          0.36215,
-          0.70917
+          0.28636,
+          0.37467,
+          0.73605
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 9.4898,
@@ -1127,11 +1127,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 203,
-        "blur_index": 0.64376,
+        "blur_index": 0.65947,
         "per_scale_ratios": [
-          0.65841,
-          0.57707,
-          0.70218
+          0.65917,
+          0.59702,
+          0.72879
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 20.7143,
@@ -1159,11 +1159,11 @@
       "Lato26": {
         "kern": -40,
         "horizontal_outline_gap": 44,
-        "blur_index": 0.76872,
+        "blur_index": 0.78748,
         "per_scale_ratios": [
-          0.98625,
-          0.67998,
-          0.67736
+          0.98739,
+          0.7035,
+          0.70303
         ],
         "kern_per_1000_em": -20.0,
         "gap_percent_xheight": 4.4898,
@@ -1191,11 +1191,11 @@
       "Lato26": {
         "kern": -17,
         "horizontal_outline_gap": 78,
-        "blur_index": 0.44217,
+        "blur_index": 0.45297,
         "per_scale_ratios": [
-          0.22731,
-          0.5665,
-          0.67137
+          0.22757,
+          0.5861,
+          0.69682
         ],
         "kern_per_1000_em": -8.5,
         "gap_percent_xheight": 7.9592,
@@ -1223,11 +1223,11 @@
       "Lato26": {
         "kern": 34,
         "horizontal_outline_gap": 125,
-        "blur_index": 1.98277,
+        "blur_index": 2.03117,
         "per_scale_ratios": [
-          28.90128,
-          0.49599,
-          0.54378
+          28.93466,
+          0.51315,
+          0.56439
         ],
         "kern_per_1000_em": 17.0,
         "gap_percent_xheight": 12.7551,
@@ -1255,11 +1255,11 @@
       "Lato26": {
         "kern": -36,
         "horizontal_outline_gap": 49,
-        "blur_index": 0.71739,
+        "blur_index": 0.7349,
         "per_scale_ratios": [
-          0.77833,
-          0.65971,
-          0.71902
+          0.77923,
+          0.68253,
+          0.74627
         ],
         "kern_per_1000_em": -18.0,
         "gap_percent_xheight": 5.0,
@@ -1287,11 +1287,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 102,
-        "blur_index": 3.33183,
+        "blur_index": 3.41317,
         "per_scale_ratios": [
-          82.47557,
-          0.81878,
-          0.54772
+          82.57084,
+          0.8471,
+          0.56848
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 10.4082,
@@ -1319,11 +1319,11 @@
       "Lato26": {
         "kern": -10,
         "horizontal_outline_gap": 111,
-        "blur_index": 2.61615,
+        "blur_index": 2.63894,
         "per_scale_ratios": [
-          22.74355,
-          1.07447,
-          0.73272
+          22.73681,
+          1.08673,
+          0.74377
         ],
         "kern_per_1000_em": -5.0,
         "gap_percent_xheight": 11.269,
@@ -1351,11 +1351,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 202,
-        "blur_index": 1.428,
+        "blur_index": 1.44044,
         "per_scale_ratios": [
-          4.47249,
-          0.70779,
-          0.91988
+          4.47116,
+          0.71587,
+          0.93376
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 20.5076,
@@ -1383,11 +1383,11 @@
       "Lato26": {
         "kern": -19,
         "horizontal_outline_gap": 122,
-        "blur_index": 1.02912,
+        "blur_index": 1.03809,
         "per_scale_ratios": [
-          1.28201,
-          0.98598,
-          0.86227
+          1.28163,
+          0.99723,
+          0.87528
         ],
         "kern_per_1000_em": -9.5,
         "gap_percent_xheight": 12.3858,
@@ -1415,11 +1415,11 @@
       "Lato26": {
         "kern": -10,
         "horizontal_outline_gap": 132,
-        "blur_index": 1.06976,
+        "blur_index": 1.07908,
         "per_scale_ratios": [
-          1.52677,
-          0.9289,
-          0.86322
+          1.52631,
+          0.9395,
+          0.87623
         ],
         "kern_per_1000_em": -5.0,
         "gap_percent_xheight": 13.401,
@@ -1479,11 +1479,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 85,
-        "blur_index": 0.52905,
+        "blur_index": 0.53366,
         "per_scale_ratios": [
-          0.53744,
-          0.38378,
-          0.71791
+          0.53728,
+          0.38816,
+          0.72874
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 8.6294,
@@ -1511,11 +1511,11 @@
       "Lato26": {
         "kern": 4,
         "horizontal_outline_gap": 115,
-        "blur_index": 2.41058,
+        "blur_index": 2.43158,
         "per_scale_ratios": [
-          19.97111,
-          0.7834,
-          0.89532
+          19.96519,
+          0.79234,
+          0.90882
         ],
         "kern_per_1000_em": 2.0,
         "gap_percent_xheight": 11.6751,
@@ -1543,11 +1543,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 202,
-        "blur_index": 1.3704,
+        "blur_index": 1.38234,
         "per_scale_ratios": [
-          4.5434,
-          0.66605,
-          0.85047
+          4.54206,
+          0.67365,
+          0.86329
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 20.5076,
@@ -1575,11 +1575,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 171,
-        "blur_index": 1.02215,
+        "blur_index": 1.03106,
         "per_scale_ratios": [
-          2.9244,
-          0.53689,
-          0.68019
+          2.92353,
+          0.54301,
+          0.69045
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 17.3604,
@@ -1607,11 +1607,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": -36,
-        "blur_index": 1.23172,
+        "blur_index": 1.24245,
         "per_scale_ratios": [
-          3.80733,
-          0.63429,
-          0.77381
+          3.8062,
+          0.64153,
+          0.78548
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": -3.6548,
@@ -1639,11 +1639,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 202,
-        "blur_index": 1.43503,
+        "blur_index": 1.44753,
         "per_scale_ratios": [
-          4.54131,
-          0.66839,
-          0.97358
+          4.53996,
+          0.67601,
+          0.98826
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 20.5076,
@@ -1671,11 +1671,11 @@
       "Lato26": {
         "kern": 3,
         "horizontal_outline_gap": 216,
-        "blur_index": 0.81412,
+        "blur_index": 0.82121,
         "per_scale_ratios": [
-          1.40597,
-          0.51328,
-          0.74772
+          1.40555,
+          0.51914,
+          0.759
         ],
         "kern_per_1000_em": 1.5,
         "gap_percent_xheight": 21.9289,
@@ -1703,11 +1703,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 202,
-        "blur_index": 1.31046,
+        "blur_index": 1.32187,
         "per_scale_ratios": [
-          4.54137,
-          0.64304,
-          0.77063
+          4.54003,
+          0.65038,
+          0.78225
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 20.5076,
@@ -1735,11 +1735,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 202,
-        "blur_index": 1.3076,
+        "blur_index": 1.31899,
         "per_scale_ratios": [
-          4.54437,
-          0.64326,
-          0.76483
+          4.54303,
+          0.6506,
+          0.77637
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 20.5076,
@@ -1767,11 +1767,11 @@
       "Lato26": {
         "kern": -19,
         "horizontal_outline_gap": 122,
-        "blur_index": 0.99606,
+        "blur_index": 1.00473,
         "per_scale_ratios": [
-          1.16751,
-          0.97899,
-          0.86459
+          1.16716,
+          0.99017,
+          0.87763
         ],
         "kern_per_1000_em": -9.5,
         "gap_percent_xheight": 12.3858,
@@ -1799,11 +1799,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 202,
-        "blur_index": 1.64858,
+        "blur_index": 1.66295,
         "per_scale_ratios": [
-          6.00267,
-          0.80757,
-          0.92429
+          6.00089,
+          0.81679,
+          0.93823
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 20.5076,
@@ -1831,11 +1831,11 @@
       "Lato26": {
         "kern": -10,
         "horizontal_outline_gap": 132,
-        "blur_index": 1.06954,
+        "blur_index": 1.07886,
         "per_scale_ratios": [
-          1.52504,
-          0.92891,
-          0.86366
+          1.52459,
+          0.93951,
+          0.87669
         ],
         "kern_per_1000_em": -5.0,
         "gap_percent_xheight": 13.401,
@@ -1863,11 +1863,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 202,
-        "blur_index": 1.32138,
+        "blur_index": 1.33289,
         "per_scale_ratios": [
-          4.54258,
-          0.6477,
-          0.78418
+          4.54123,
+          0.65509,
+          0.796
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 20.5076,
@@ -1895,11 +1895,11 @@
       "Lato26": {
         "kern": -11,
         "horizontal_outline_gap": 116,
-        "blur_index": 1.92265,
+        "blur_index": 1.9394,
         "per_scale_ratios": [
-          17.84272,
-          0.6226,
-          0.63978
+          17.83743,
+          0.6297,
+          0.64943
         ],
         "kern_per_1000_em": -5.5,
         "gap_percent_xheight": 11.7766,
@@ -1927,11 +1927,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 85,
-        "blur_index": 0.40627,
+        "blur_index": 0.40981,
         "per_scale_ratios": [
-          0.24824,
-          0.36621,
-          0.73762
+          0.24817,
+          0.37038,
+          0.74875
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 8.6294,
@@ -1959,11 +1959,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 191,
-        "blur_index": 0.63806,
+        "blur_index": 0.64361,
         "per_scale_ratios": [
-          0.59836,
-          0.583,
-          0.74464
+          0.59818,
+          0.58965,
+          0.75587
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 19.3909,
@@ -1991,11 +1991,11 @@
       "Lato26": {
         "kern": -43,
         "horizontal_outline_gap": 31,
-        "blur_index": 0.74092,
+        "blur_index": 0.74737,
         "per_scale_ratios": [
-          0.85435,
-          0.67857,
-          0.7016
+          0.85409,
+          0.68631,
+          0.71218
         ],
         "kern_per_1000_em": -21.5,
         "gap_percent_xheight": 3.1472,
@@ -2023,11 +2023,11 @@
       "Lato26": {
         "kern": -19,
         "horizontal_outline_gap": 66,
-        "blur_index": 0.42742,
+        "blur_index": 0.43115,
         "per_scale_ratios": [
-          0.19699,
-          0.55906,
-          0.70906
+          0.19693,
+          0.56544,
+          0.71975
         ],
         "kern_per_1000_em": -9.5,
         "gap_percent_xheight": 6.7005,
@@ -2055,11 +2055,11 @@
       "Lato26": {
         "kern": 30,
         "horizontal_outline_gap": 110,
-        "blur_index": 1.84992,
+        "blur_index": 1.86603,
         "per_scale_ratios": [
-          23.52446,
-          0.48856,
-          0.55084
+          23.51748,
+          0.49413,
+          0.55914
         ],
         "kern_per_1000_em": 15.0,
         "gap_percent_xheight": 11.1675,
@@ -2087,11 +2087,11 @@
       "Lato26": {
         "kern": -40,
         "horizontal_outline_gap": 35,
-        "blur_index": 0.69105,
+        "blur_index": 0.69707,
         "per_scale_ratios": [
-          0.69581,
-          0.64792,
-          0.732
+          0.6956,
+          0.65532,
+          0.74304
         ],
         "kern_per_1000_em": -20.0,
         "gap_percent_xheight": 3.5533,
@@ -2119,11 +2119,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 95,
-        "blur_index": 2.97161,
+        "blur_index": 2.9975,
         "per_scale_ratios": [
-          60.48222,
-          0.7865,
-          0.55163
+          60.4643,
+          0.79548,
+          0.55995
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 9.6447,
@@ -2151,11 +2151,11 @@
       "Lato26": {
         "kern": -10,
         "horizontal_outline_gap": 95,
-        "blur_index": 2.21126,
+        "blur_index": 2.21907,
         "per_scale_ratios": [
-          14.87565,
-          1.01462,
-          0.71637
+          14.86695,
+          1.0187,
+          0.72152
         ],
         "kern_per_1000_em": -5.0,
         "gap_percent_xheight": 9.5573,
@@ -2183,11 +2183,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 184,
-        "blur_index": 1.28311,
+        "blur_index": 1.28764,
         "per_scale_ratios": [
-          3.41275,
-          0.68287,
-          0.90645
+          3.41075,
+          0.68562,
+          0.91295
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 18.5111,
@@ -2215,11 +2215,11 @@
       "Lato26": {
         "kern": -25,
         "horizontal_outline_gap": 99,
-        "blur_index": 1.03956,
+        "blur_index": 1.04324,
         "per_scale_ratios": [
-          1.24095,
-          1.01097,
-          0.89549
+          1.24023,
+          1.01504,
+          0.90191
         ],
         "kern_per_1000_em": -12.5,
         "gap_percent_xheight": 9.9598,
@@ -2247,11 +2247,11 @@
       "Lato26": {
         "kern": -18,
         "horizontal_outline_gap": 108,
-        "blur_index": 1.11481,
+        "blur_index": 1.11875,
         "per_scale_ratios": [
-          1.59721,
-          0.97041,
-          0.8939
+          1.59627,
+          0.97432,
+          0.90031
         ],
         "kern_per_1000_em": -9.0,
         "gap_percent_xheight": 10.8652,
@@ -2311,11 +2311,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 75,
-        "blur_index": 0.4852,
+        "blur_index": 0.48691,
         "per_scale_ratios": [
-          0.41989,
-          0.38107,
-          0.71387
+          0.41965,
+          0.3826,
+          0.71899
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 7.5453,
@@ -2343,11 +2343,11 @@
       "Lato26": {
         "kern": 12,
         "horizontal_outline_gap": 109,
-        "blur_index": 1.72131,
+        "blur_index": 1.7274,
         "per_scale_ratios": [
-          9.13249,
-          0.66732,
-          0.83687
+          9.12715,
+          0.67,
+          0.84288
         ],
         "kern_per_1000_em": 6.0,
         "gap_percent_xheight": 10.9658,
@@ -2375,11 +2375,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 184,
-        "blur_index": 1.24276,
+        "blur_index": 1.24715,
         "per_scale_ratios": [
-          3.43075,
-          0.65823,
-          0.84994
+          3.42875,
+          0.66088,
+          0.85604
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 18.5111,
@@ -2407,11 +2407,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 154,
-        "blur_index": 0.96113,
+        "blur_index": 0.96452,
         "per_scale_ratios": [
-          2.34064,
-          0.54588,
-          0.69488
+          2.33927,
+          0.54807,
+          0.69987
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 15.493,
@@ -2439,11 +2439,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": -45,
-        "blur_index": 1.1485,
+        "blur_index": 1.15255,
         "per_scale_ratios": [
-          2.9573,
-          0.64597,
-          0.79301
+          2.95557,
+          0.64857,
+          0.7987
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": -4.5272,
@@ -2471,11 +2471,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 184,
-        "blur_index": 1.29058,
+        "blur_index": 1.29514,
         "per_scale_ratios": [
-          3.42999,
-          0.65991,
-          0.94969
+          3.42798,
+          0.66256,
+          0.95651
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 18.5111,
@@ -2503,11 +2503,11 @@
       "Lato26": {
         "kern": 4,
         "horizontal_outline_gap": 197,
-        "blur_index": 0.74768,
+        "blur_index": 0.75032,
         "per_scale_ratios": [
-          1.06324,
-          0.51353,
-          0.76551
+          1.06262,
+          0.5156,
+          0.771
         ],
         "kern_per_1000_em": 2.0,
         "gap_percent_xheight": 19.8189,
@@ -2535,11 +2535,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 184,
-        "blur_index": 1.1913,
+        "blur_index": 1.19551,
         "per_scale_ratios": [
-          3.43052,
-          0.63841,
-          0.77198
+          3.42852,
+          0.64098,
+          0.77752
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 18.5111,
@@ -2567,11 +2567,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 184,
-        "blur_index": 1.18834,
+        "blur_index": 1.19254,
         "per_scale_ratios": [
-          3.43149,
-          0.63853,
-          0.76589
+          3.42949,
+          0.64109,
+          0.77138
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 18.5111,
@@ -2599,11 +2599,11 @@
       "Lato26": {
         "kern": -25,
         "horizontal_outline_gap": 99,
-        "blur_index": 1.01231,
+        "blur_index": 1.01588,
         "per_scale_ratios": [
-          1.16693,
-          0.9988,
-          0.89005
+          1.16624,
+          1.00282,
+          0.89644
         ],
         "kern_per_1000_em": -12.5,
         "gap_percent_xheight": 9.9598,
@@ -2631,11 +2631,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 184,
-        "blur_index": 1.4567,
+        "blur_index": 1.46185,
         "per_scale_ratios": [
-          4.35132,
-          0.77911,
-          0.91178
+          4.34878,
+          0.78224,
+          0.91833
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 18.5111,
@@ -2663,11 +2663,11 @@
       "Lato26": {
         "kern": -18,
         "horizontal_outline_gap": 108,
-        "blur_index": 1.11519,
+        "blur_index": 1.11913,
         "per_scale_ratios": [
-          1.59781,
-          0.97041,
-          0.89447
+          1.59688,
+          0.97431,
+          0.9009
         ],
         "kern_per_1000_em": -9.0,
         "gap_percent_xheight": 10.8652,
@@ -2695,11 +2695,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 184,
-        "blur_index": 1.19255,
+        "blur_index": 1.19676,
         "per_scale_ratios": [
-          3.41324,
-          0.63947,
-          0.77703
+          3.41125,
+          0.64204,
+          0.78261
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 18.5111,
@@ -2727,11 +2727,11 @@
       "Lato26": {
         "kern": -12,
         "horizontal_outline_gap": 97,
-        "blur_index": 1.75889,
+        "blur_index": 1.76511,
         "per_scale_ratios": [
-          13.23713,
-          0.62796,
-          0.65462
+          13.22939,
+          0.63049,
+          0.65932
         ],
         "kern_per_1000_em": -6.0,
         "gap_percent_xheight": 9.7586,
@@ -2759,11 +2759,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 74,
-        "blur_index": 0.37383,
+        "blur_index": 0.37515,
         "per_scale_ratios": [
-          0.19826,
-          0.36052,
-          0.73092
+          0.19814,
+          0.36197,
+          0.73616
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 7.4447,
@@ -2791,11 +2791,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 174,
-        "blur_index": 0.59317,
+        "blur_index": 0.59526,
         "per_scale_ratios": [
-          0.49401,
-          0.56248,
-          0.75108
+          0.49372,
+          0.56474,
+          0.75648
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 17.505,
@@ -2823,11 +2823,11 @@
       "Lato26": {
         "kern": -46,
         "horizontal_outline_gap": 14,
-        "blur_index": 0.65719,
+        "blur_index": 0.65951,
         "per_scale_ratios": [
-          0.64239,
-          0.62651,
-          0.70525
+          0.64202,
+          0.62903,
+          0.71032
         ],
         "kern_per_1000_em": -23.0,
         "gap_percent_xheight": 1.4085,
@@ -2855,11 +2855,11 @@
       "Lato26": {
         "kern": -21,
         "horizontal_outline_gap": 49,
-        "blur_index": 0.4007,
+        "blur_index": 0.40212,
         "per_scale_ratios": [
-          0.17067,
-          0.5241,
-          0.71929
+          0.17057,
+          0.52621,
+          0.72445
         ],
         "kern_per_1000_em": -10.5,
         "gap_percent_xheight": 4.9296,
@@ -2887,11 +2887,11 @@
       "Lato26": {
         "kern": 25,
         "horizontal_outline_gap": 89,
-        "blur_index": 1.62556,
+        "blur_index": 1.63131,
         "per_scale_ratios": [
-          15.98755,
-          0.48798,
-          0.55059
+          15.9782,
+          0.48994,
+          0.55454
         ],
         "kern_per_1000_em": 12.5,
         "gap_percent_xheight": 8.9537,
@@ -2919,11 +2919,11 @@
       "Lato26": {
         "kern": -45,
         "horizontal_outline_gap": 14,
-        "blur_index": 0.6499,
+        "blur_index": 0.65219,
         "per_scale_ratios": [
-          0.61155,
-          0.6101,
-          0.73571
+          0.61119,
+          0.61256,
+          0.74099
         ],
         "kern_per_1000_em": -22.5,
         "gap_percent_xheight": 1.4085,
@@ -2951,11 +2951,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 86,
-        "blur_index": 2.46519,
+        "blur_index": 2.4739,
         "per_scale_ratios": [
-          35.26657,
-          0.75983,
-          0.55908
+          35.24595,
+          0.76288,
+          0.56309
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 8.6519,
@@ -2983,11 +2983,11 @@
       "Lato26": {
         "kern": -12,
         "horizontal_outline_gap": 63,
-        "blur_index": 1.59378,
+        "blur_index": 1.5881,
         "per_scale_ratios": [
-          6.21429,
-          0.90807,
-          0.71743
+          6.14649,
+          0.90703,
+          0.71844
         ],
         "kern_per_1000_em": -6.0,
         "gap_percent_xheight": 6.2376,
@@ -3015,11 +3015,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 151,
-        "blur_index": 0.97969,
+        "blur_index": 0.9762,
         "per_scale_ratios": [
-          1.68245,
-          0.63329,
-          0.88252
+          1.66409,
+          0.63257,
+          0.88376
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 14.9505,
@@ -3047,11 +3047,11 @@
       "Lato26": {
         "kern": -41,
         "horizontal_outline_gap": 53,
-        "blur_index": 1.04084,
+        "blur_index": 1.03713,
         "per_scale_ratios": [
-          1.19405,
-          1.02526,
-          0.92106
+          1.18102,
+          1.02409,
+          0.92236
         ],
         "kern_per_1000_em": -20.5,
         "gap_percent_xheight": 5.2475,
@@ -3079,11 +3079,11 @@
       "Lato26": {
         "kern": -35,
         "horizontal_outline_gap": 61,
-        "blur_index": 1.14267,
+        "blur_index": 1.1386,
         "per_scale_ratios": [
-          1.56309,
-          1.02071,
-          0.93514
+          1.54604,
+          1.01954,
+          0.93646
         ],
         "kern_per_1000_em": -17.5,
         "gap_percent_xheight": 6.0396,
@@ -3143,11 +3143,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 57,
-        "blur_index": 0.38419,
+        "blur_index": 0.38282,
         "per_scale_ratios": [
-          0.2275,
-          0.35991,
-          0.69257
+          0.22502,
+          0.3595,
+          0.69355
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 5.6436,
@@ -3175,11 +3175,11 @@
       "Lato26": {
         "kern": 23,
         "horizontal_outline_gap": 95,
-        "blur_index": 0.92994,
+        "blur_index": 0.92663,
         "per_scale_ratios": [
-          1.99566,
-          0.52338,
-          0.76995
+          1.97389,
+          0.52278,
+          0.77104
         ],
         "kern_per_1000_em": 11.5,
         "gap_percent_xheight": 9.4059,
@@ -3207,11 +3207,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 151,
-        "blur_index": 0.95851,
+        "blur_index": 0.9551,
         "per_scale_ratios": [
-          1.68299,
-          0.62315,
-          0.8397
+          1.66463,
+          0.62244,
+          0.84088
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 14.9505,
@@ -3239,11 +3239,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 123,
-        "blur_index": 0.7766,
+        "blur_index": 0.77384,
         "per_scale_ratios": [
-          1.24299,
-          0.53331,
-          0.70656
+          1.22943,
+          0.5327,
+          0.70755
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 12.1782,
@@ -3271,11 +3271,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": -60,
-        "blur_index": 0.91348,
+        "blur_index": 0.91022,
         "per_scale_ratios": [
-          1.48584,
-          0.63316,
-          0.81023
+          1.46963,
+          0.63243,
+          0.81137
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": -5.9406,
@@ -3303,11 +3303,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 151,
-        "blur_index": 0.98294,
+        "blur_index": 0.97944,
         "per_scale_ratios": [
-          1.68319,
-          0.62398,
-          0.90422
+          1.66482,
+          0.62327,
+          0.9055
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 14.9505,
@@ -3335,11 +3335,11 @@
       "Lato26": {
         "kern": 4,
         "horizontal_outline_gap": 161,
-        "blur_index": 0.60277,
+        "blur_index": 0.60062,
         "per_scale_ratios": [
-          0.57531,
-          0.49569,
-          0.76795
+          0.56904,
+          0.49512,
+          0.76903
         ],
         "kern_per_1000_em": 2.0,
         "gap_percent_xheight": 15.9406,
@@ -3367,11 +3367,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 151,
-        "blur_index": 0.92012,
+        "blur_index": 0.91684,
         "per_scale_ratios": [
-          1.68307,
-          0.60601,
-          0.76374
+          1.66471,
+          0.60532,
+          0.76482
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 14.9505,
@@ -3399,11 +3399,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 151,
-        "blur_index": 0.91785,
+        "blur_index": 0.91458,
         "per_scale_ratios": [
-          1.68319,
-          0.60604,
-          0.75802
+          1.66483,
+          0.60535,
+          0.75908
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 14.9505,
@@ -3431,11 +3431,11 @@
       "Lato26": {
         "kern": -41,
         "horizontal_outline_gap": 53,
-        "blur_index": 1.00808,
+        "blur_index": 1.00449,
         "per_scale_ratios": [
-          1.10741,
-          1.0081,
-          0.91765
+          1.09533,
+          1.00694,
+          0.91895
         ],
         "kern_per_1000_em": -20.5,
         "gap_percent_xheight": 5.2475,
@@ -3463,11 +3463,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 151,
-        "blur_index": 1.08248,
+        "blur_index": 1.07863,
         "per_scale_ratios": [
-          2.00847,
-          0.71227,
-          0.88665
+          1.98655,
+          0.71146,
+          0.8879
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 14.9505,
@@ -3495,11 +3495,11 @@
       "Lato26": {
         "kern": -35,
         "horizontal_outline_gap": 61,
-        "blur_index": 1.14307,
+        "blur_index": 1.139,
         "per_scale_ratios": [
-          1.5633,
-          1.02071,
-          0.936
+          1.54625,
+          1.01954,
+          0.93732
         ],
         "kern_per_1000_em": -17.5,
         "gap_percent_xheight": 6.0396,
@@ -3527,11 +3527,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 151,
-        "blur_index": 0.91944,
+        "blur_index": 0.91616,
         "per_scale_ratios": [
-          1.68306,
-          0.60649,
-          0.76145
+          1.6647,
+          0.6058,
+          0.76253
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 14.9505,
@@ -3559,11 +3559,11 @@
       "Lato26": {
         "kern": -16,
         "horizontal_outline_gap": 61,
-        "blur_index": 1.38767,
+        "blur_index": 1.38273,
         "per_scale_ratios": [
-          6.08978,
-          0.63668,
-          0.68919
+          6.02334,
+          0.63595,
+          0.69016
         ],
         "kern_per_1000_em": -8.0,
         "gap_percent_xheight": 6.0396,
@@ -3591,11 +3591,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 53,
-        "blur_index": 0.31966,
+        "blur_index": 0.31852,
         "per_scale_ratios": [
-          0.13348,
-          0.34608,
-          0.70706
+          0.13202,
+          0.34568,
+          0.70806
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 5.2475,
@@ -3623,11 +3623,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 141,
-        "blur_index": 0.51101,
+        "blur_index": 0.50919,
         "per_scale_ratios": [
-          0.33944,
-          0.52585,
-          0.74758
+          0.33574,
+          0.52524,
+          0.74864
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 13.9604,
@@ -3655,11 +3655,11 @@
       "Lato26": {
         "kern": -55,
         "horizontal_outline_gap": -22,
-        "blur_index": 0.59075,
+        "blur_index": 0.58864,
         "per_scale_ratios": [
-          0.50489,
-          0.56945,
-          0.71705
+          0.49938,
+          0.5688,
+          0.71806
         ],
         "kern_per_1000_em": -27.5,
         "gap_percent_xheight": -2.1782,
@@ -3687,11 +3687,11 @@
       "Lato26": {
         "kern": -27,
         "horizontal_outline_gap": 16,
-        "blur_index": 0.37947,
+        "blur_index": 0.37812,
         "per_scale_ratios": [
-          0.15942,
-          0.47589,
-          0.72027
+          0.15768,
+          0.47534,
+          0.72128
         ],
         "kern_per_1000_em": -13.5,
         "gap_percent_xheight": 1.5842,
@@ -3719,11 +3719,11 @@
       "Lato26": {
         "kern": 14,
         "horizontal_outline_gap": 47,
-        "blur_index": 1.22854,
+        "blur_index": 1.22417,
         "per_scale_ratios": [
-          6.58767,
-          0.49635,
-          0.56709
+          6.5158,
+          0.49578,
+          0.56788
         ],
         "kern_per_1000_em": 7.0,
         "gap_percent_xheight": 4.6535,
@@ -3751,11 +3751,11 @@
       "Lato26": {
         "kern": -56,
         "horizontal_outline_gap": -25,
-        "blur_index": 0.59478,
+        "blur_index": 0.59266,
         "per_scale_ratios": [
-          0.51479,
-          0.55005,
-          0.74308
+          0.50918,
+          0.54942,
+          0.74413
         ],
         "kern_per_1000_em": -28.0,
         "gap_percent_xheight": -2.4752,
@@ -3783,11 +3783,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 68,
-        "blur_index": 1.5994,
+        "blur_index": 1.5937,
         "per_scale_ratios": [
-          10.3687,
-          0.68141,
-          0.57907
+          10.25558,
+          0.68063,
+          0.57989
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 6.7327,
@@ -3815,11 +3815,11 @@
       "Lato26": {
         "kern": -6,
         "horizontal_outline_gap": 63,
-        "blur_index": 1.53913,
+        "blur_index": 1.54078,
         "per_scale_ratios": [
-          5.61266,
-          0.9032,
-          0.71923
+          5.61196,
+          0.90393,
+          0.72106
         ],
         "kern_per_1000_em": -3.0,
         "gap_percent_xheight": 6.213,
@@ -3847,11 +3847,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 145,
-        "blur_index": 1.03262,
+        "blur_index": 1.03372,
         "per_scale_ratios": [
-          1.78813,
-          0.68021,
-          0.90527
+          1.78791,
+          0.68076,
+          0.90756
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 14.2998,
@@ -3879,11 +3879,11 @@
       "Lato26": {
         "kern": -36,
         "horizontal_outline_gap": 51,
-        "blur_index": 1.05559,
+        "blur_index": 1.05672,
         "per_scale_ratios": [
-          1.22328,
-          1.03729,
-          0.92695
+          1.22313,
+          1.03812,
+          0.9293
         ],
         "kern_per_1000_em": -18.0,
         "gap_percent_xheight": 5.0296,
@@ -3911,11 +3911,11 @@
       "Lato26": {
         "kern": -32,
         "horizontal_outline_gap": 58,
-        "blur_index": 1.15562,
+        "blur_index": 1.15686,
         "per_scale_ratios": [
-          1.567,
-          1.04102,
-          0.94606
+          1.5668,
+          1.04186,
+          0.94845
         ],
         "kern_per_1000_em": -16.0,
         "gap_percent_xheight": 5.7199,
@@ -3975,11 +3975,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 54,
-        "blur_index": 0.4112,
+        "blur_index": 0.41164,
         "per_scale_ratios": [
-          0.25176,
-          0.38872,
-          0.71044
+          0.25173,
+          0.38903,
+          0.71224
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 5.3254,
@@ -4007,11 +4007,11 @@
       "Lato26": {
         "kern": 18,
         "horizontal_outline_gap": 85,
-        "blur_index": 1.03232,
+        "blur_index": 1.03343,
         "per_scale_ratios": [
-          2.27683,
-          0.59783,
-          0.80823
+          2.27654,
+          0.59832,
+          0.81028
         ],
         "kern_per_1000_em": 9.0,
         "gap_percent_xheight": 8.3826,
@@ -4039,11 +4039,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 145,
-        "blur_index": 1.01238,
+        "blur_index": 1.01346,
         "per_scale_ratios": [
-          1.7884,
-          0.67147,
-          0.86404
+          1.78818,
+          0.67201,
+          0.86623
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 14.2998,
@@ -4071,11 +4071,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 117,
-        "blur_index": 0.83756,
+        "blur_index": 0.83846,
         "per_scale_ratios": [
-          1.37118,
-          0.58365,
-          0.73418
+          1.37101,
+          0.58412,
+          0.73604
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 11.5385,
@@ -4103,11 +4103,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": -64,
-        "blur_index": 0.98252,
+        "blur_index": 0.98357,
         "per_scale_ratios": [
-          1.62436,
-          0.69317,
-          0.84236
+          1.62416,
+          0.69373,
+          0.8445
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": -6.3116,
@@ -4135,11 +4135,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 145,
-        "blur_index": 1.03566,
+        "blur_index": 1.03677,
         "per_scale_ratios": [
-          1.78847,
-          0.67227,
-          0.9239
+          1.78825,
+          0.67281,
+          0.92624
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 14.2998,
@@ -4167,11 +4167,11 @@
       "Lato26": {
         "kern": 4,
         "horizontal_outline_gap": 153,
-        "blur_index": 0.64755,
+        "blur_index": 0.64824,
         "per_scale_ratios": [
-          0.63479,
-          0.53988,
-          0.7923
+          0.63472,
+          0.54032,
+          0.7943
         ],
         "kern_per_1000_em": 2.0,
         "gap_percent_xheight": 15.0888,
@@ -4199,11 +4199,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 145,
-        "blur_index": 0.97183,
+        "blur_index": 0.97287,
         "per_scale_ratios": [
-          1.78827,
-          0.65307,
-          0.78592
+          1.78805,
+          0.65359,
+          0.78791
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 14.2998,
@@ -4231,11 +4231,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 145,
-        "blur_index": 0.96941,
+        "blur_index": 0.97045,
         "per_scale_ratios": [
-          1.78824,
-          0.65309,
-          0.78006
+          1.78801,
+          0.65362,
+          0.78204
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 14.2998,
@@ -4263,11 +4263,11 @@
       "Lato26": {
         "kern": -36,
         "horizontal_outline_gap": 51,
-        "blur_index": 1.01259,
+        "blur_index": 1.01368,
         "per_scale_ratios": [
-          1.10756,
-          1.01521,
-          0.92338
+          1.10743,
+          1.01603,
+          0.92573
         ],
         "kern_per_1000_em": -18.0,
         "gap_percent_xheight": 5.0296,
@@ -4295,11 +4295,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 145,
-        "blur_index": 1.13512,
+        "blur_index": 1.13634,
         "per_scale_ratios": [
-          2.11183,
-          0.76183,
-          0.90909
+          2.11157,
+          0.76245,
+          0.9114
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 14.2998,
@@ -4327,11 +4327,11 @@
       "Lato26": {
         "kern": -32,
         "horizontal_outline_gap": 58,
-        "blur_index": 1.15608,
+        "blur_index": 1.15732,
         "per_scale_ratios": [
-          1.56732,
-          1.04101,
-          0.94701
+          1.56712,
+          1.04185,
+          0.94941
         ],
         "kern_per_1000_em": -16.0,
         "gap_percent_xheight": 5.7199,
@@ -4359,11 +4359,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 145,
-        "blur_index": 0.97051,
+        "blur_index": 0.97155,
         "per_scale_ratios": [
-          1.7883,
-          0.65346,
-          0.78225
+          1.78808,
+          0.65399,
+          0.78423
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 14.2998,
@@ -4391,11 +4391,11 @@
       "Lato26": {
         "kern": -7,
         "horizontal_outline_gap": 63,
-        "blur_index": 1.30441,
+        "blur_index": 1.30581,
         "per_scale_ratios": [
-          5.16332,
-          0.62454,
-          0.68826
+          5.16269,
+          0.62504,
+          0.69
         ],
         "kern_per_1000_em": -3.5,
         "gap_percent_xheight": 6.213,
@@ -4423,11 +4423,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 49,
-        "blur_index": 0.35007,
+        "blur_index": 0.35044,
         "per_scale_ratios": [
-          0.15644,
-          0.37758,
-          0.72629
+          0.15642,
+          0.37789,
+          0.72813
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 4.8323,
@@ -4455,11 +4455,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 134,
-        "blur_index": 0.56436,
+        "blur_index": 0.56497,
         "per_scale_ratios": [
-          0.40453,
-          0.57479,
-          0.77307
+          0.40448,
+          0.57526,
+          0.77503
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 13.215,
@@ -4487,11 +4487,11 @@
       "Lato26": {
         "kern": -51,
         "horizontal_outline_gap": -24,
-        "blur_index": 0.59601,
+        "blur_index": 0.59665,
         "per_scale_ratios": [
-          0.50674,
-          0.57623,
-          0.72509
+          0.50668,
+          0.57669,
+          0.72692
         ],
         "kern_per_1000_em": -25.5,
         "gap_percent_xheight": -2.3669,
@@ -4519,11 +4519,11 @@
       "Lato26": {
         "kern": -23,
         "horizontal_outline_gap": 14,
-        "blur_index": 0.3867,
+        "blur_index": 0.38711,
         "per_scale_ratios": [
-          0.16525,
-          0.48234,
-          0.72547
+          0.16523,
+          0.48272,
+          0.72731
         ],
         "kern_per_1000_em": -11.5,
         "gap_percent_xheight": 1.3807,
@@ -4551,11 +4551,11 @@
       "Lato26": {
         "kern": 19,
         "horizontal_outline_gap": 46,
-        "blur_index": 1.18021,
+        "blur_index": 1.18148,
         "per_scale_ratios": [
-          5.77851,
-          0.50054,
-          0.56837
+          5.7778,
+          0.50094,
+          0.56981
         ],
         "kern_per_1000_em": 9.5,
         "gap_percent_xheight": 4.5365,
@@ -4583,11 +4583,11 @@
       "Lato26": {
         "kern": -51,
         "horizontal_outline_gap": -26,
-        "blur_index": 0.58557,
+        "blur_index": 0.5862,
         "per_scale_ratios": [
-          0.49464,
-          0.54467,
-          0.74527
+          0.49458,
+          0.54511,
+          0.74716
         ],
         "kern_per_1000_em": -25.5,
         "gap_percent_xheight": -2.5641,
@@ -4615,11 +4615,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 64,
-        "blur_index": 1.64088,
+        "blur_index": 1.64264,
         "per_scale_ratios": [
-          10.13721,
-          0.72635,
-          0.60002
+          10.13595,
+          0.72693,
+          0.60155
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 6.3116,
@@ -4647,11 +4647,11 @@
       "Lato26": {
         "kern": 1,
         "horizontal_outline_gap": 64,
-        "blur_index": 1.49959,
+        "blur_index": 1.50126,
         "per_scale_ratios": [
-          5.15983,
-          0.90264,
-          0.72405
+          5.16003,
+          0.90325,
+          0.72595
         ],
         "kern_per_1000_em": 0.5,
         "gap_percent_xheight": 6.293,
@@ -4679,11 +4679,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 137,
-        "blur_index": 1.12243,
+        "blur_index": 1.12368,
         "per_scale_ratios": [
-          2.02197,
-          0.74942,
-          0.93321
+          2.02205,
+          0.74993,
+          0.93566
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 13.471,
@@ -4711,11 +4711,11 @@
       "Lato26": {
         "kern": -30,
         "horizontal_outline_gap": 51,
-        "blur_index": 1.03569,
+        "blur_index": 1.03684,
         "per_scale_ratios": [
-          1.16895,
-          1.0248,
-          0.92737
+          1.16899,
+          1.02549,
+          0.92981
         ],
         "kern_per_1000_em": -15.0,
         "gap_percent_xheight": 5.0147,
@@ -4743,11 +4743,11 @@
       "Lato26": {
         "kern": -29,
         "horizontal_outline_gap": 54,
-        "blur_index": 1.21799,
+        "blur_index": 1.21934,
         "per_scale_ratios": [
-          1.72377,
-          1.08774,
-          0.96365
+          1.72384,
+          1.08848,
+          0.96618
         ],
         "kern_per_1000_em": -14.5,
         "gap_percent_xheight": 5.3097,
@@ -4807,11 +4807,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 50,
-        "blur_index": 0.44985,
+        "blur_index": 0.45035,
         "per_scale_ratios": [
-          0.29209,
-          0.42621,
-          0.73126
+          0.2921,
+          0.4265,
+          0.73318
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 4.9164,
@@ -4839,11 +4839,11 @@
       "Lato26": {
         "kern": 12,
         "horizontal_outline_gap": 73,
-        "blur_index": 1.16919,
+        "blur_index": 1.17049,
         "per_scale_ratios": [
-          2.67345,
-          0.69704,
-          0.85768
+          2.67356,
+          0.69751,
+          0.85994
         ],
         "kern_per_1000_em": 6.0,
         "gap_percent_xheight": 7.178,
@@ -4871,11 +4871,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 137,
-        "blur_index": 1.10183,
+        "blur_index": 1.10305,
         "per_scale_ratios": [
-          2.02216,
-          0.74128,
-          0.89237
+          2.02223,
+          0.74178,
+          0.89471
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 13.471,
@@ -4903,11 +4903,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 110,
-        "blur_index": 0.91822,
+        "blur_index": 0.91924,
         "per_scale_ratios": [
-          1.56786,
-          0.64734,
-          0.76277
+          1.56792,
+          0.64777,
+          0.76478
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 10.8161,
@@ -4935,11 +4935,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": -67,
-        "blur_index": 1.07444,
+        "blur_index": 1.07563,
         "per_scale_ratios": [
-          1.8405,
-          0.76904,
-          0.87631
+          1.84057,
+          0.76955,
+          0.87861
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": -6.588,
@@ -4967,11 +4967,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 137,
-        "blur_index": 1.12504,
+        "blur_index": 1.12629,
         "per_scale_ratios": [
-          2.02213,
-          0.74207,
-          0.94896
+          2.02221,
+          0.74257,
+          0.95145
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 13.471,
@@ -4999,11 +4999,11 @@
       "Lato26": {
         "kern": 4,
         "horizontal_outline_gap": 145,
-        "blur_index": 0.70906,
+        "blur_index": 0.70985,
         "per_scale_ratios": [
-          0.72978,
-          0.5954,
-          0.82044
+          0.72981,
+          0.5958,
+          0.8226
         ],
         "kern_per_1000_em": 2.0,
         "gap_percent_xheight": 14.2576,
@@ -5031,11 +5031,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 137,
-        "blur_index": 1.0587,
+        "blur_index": 1.05988,
         "per_scale_ratios": [
-          2.02207,
-          0.72169,
-          0.81316
+          2.02215,
+          0.72217,
+          0.8153
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 13.471,
@@ -5063,11 +5063,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 137,
-        "blur_index": 1.05609,
+        "blur_index": 1.05727,
         "per_scale_ratios": [
-          2.02175,
-          0.7217,
-          0.80728
+          2.02182,
+          0.72218,
+          0.8094
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 13.471,
@@ -5095,11 +5095,11 @@
       "Lato26": {
         "kern": -30,
         "horizontal_outline_gap": 51,
-        "blur_index": 1.00433,
+        "blur_index": 1.00545,
         "per_scale_ratios": [
-          1.08805,
-          1.00725,
-          0.92437
+          1.0881,
+          1.00793,
+          0.9268
         ],
         "kern_per_1000_em": -15.0,
         "gap_percent_xheight": 5.0147,
@@ -5127,11 +5127,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 137,
-        "blur_index": 1.22755,
+        "blur_index": 1.22892,
         "per_scale_ratios": [
-          2.36088,
-          0.83538,
-          0.93791
+          2.36097,
+          0.83594,
+          0.94038
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 13.471,
@@ -5159,11 +5159,11 @@
       "Lato26": {
         "kern": -29,
         "horizontal_outline_gap": 54,
-        "blur_index": 1.21839,
+        "blur_index": 1.21975,
         "per_scale_ratios": [
-          1.72367,
-          1.08775,
-          0.96467
+          1.72373,
+          1.08848,
+          0.9672
         ],
         "kern_per_1000_em": -14.5,
         "gap_percent_xheight": 5.3097,
@@ -5191,11 +5191,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 137,
-        "blur_index": 1.05662,
+        "blur_index": 1.05779,
         "per_scale_ratios": [
-          2.02198,
-          0.72202,
-          0.80804
+          2.02206,
+          0.7225,
+          0.81016
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 13.471,
@@ -5223,11 +5223,11 @@
       "Lato26": {
         "kern": 2,
         "horizontal_outline_gap": 65,
-        "blur_index": 1.23657,
+        "blur_index": 1.23794,
         "per_scale_ratios": [
-          4.43592,
-          0.61778,
-          0.68997
+          4.43609,
+          0.6182,
+          0.69179
         ],
         "kern_per_1000_em": 1.0,
         "gap_percent_xheight": 6.3913,
@@ -5255,11 +5255,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 44,
-        "blur_index": 0.39215,
+        "blur_index": 0.39259,
         "per_scale_ratios": [
           0.19325,
-          0.41769,
-          0.74712
+          0.41797,
+          0.74908
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 4.3265,
@@ -5287,11 +5287,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 127,
-        "blur_index": 0.62574,
+        "blur_index": 0.62644,
         "per_scale_ratios": [
-          0.48826,
-          0.62912,
-          0.79763
+          0.48828,
+          0.62954,
+          0.79972
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 12.4877,
@@ -5319,11 +5319,11 @@
       "Lato26": {
         "kern": -46,
         "horizontal_outline_gap": -25,
-        "blur_index": 0.59479,
+        "blur_index": 0.59546,
         "per_scale_ratios": [
-          0.499,
-          0.57675,
-          0.73116
+          0.49902,
+          0.57714,
+          0.73308
         ],
         "kern_per_1000_em": -23.0,
         "gap_percent_xheight": -2.4582,
@@ -5351,11 +5351,11 @@
       "Lato26": {
         "kern": -18,
         "horizontal_outline_gap": 13,
-        "blur_index": 0.39072,
+        "blur_index": 0.39116,
         "per_scale_ratios": [
           0.16853,
-          0.48484,
-          0.73002
+          0.48517,
+          0.73194
         ],
         "kern_per_1000_em": -9.0,
         "gap_percent_xheight": 1.2783,
@@ -5383,11 +5383,11 @@
       "Lato26": {
         "kern": 24,
         "horizontal_outline_gap": 44,
-        "blur_index": 1.15022,
+        "blur_index": 1.1515,
         "per_scale_ratios": [
-          5.21777,
-          0.50994,
-          0.57192
+          5.21797,
+          0.51029,
+          0.57342
         ],
         "kern_per_1000_em": 12.0,
         "gap_percent_xheight": 4.3265,
@@ -5415,11 +5415,11 @@
       "Lato26": {
         "kern": -44,
         "horizontal_outline_gap": -25,
-        "blur_index": 0.55879,
+        "blur_index": 0.55941,
         "per_scale_ratios": [
-          0.44842,
-          0.52531,
-          0.74072
+          0.44844,
+          0.52566,
+          0.74266
         ],
         "kern_per_1000_em": -22.0,
         "gap_percent_xheight": -2.4582,
@@ -5447,11 +5447,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 61,
-        "blur_index": 1.69215,
+        "blur_index": 1.69403,
         "per_scale_ratios": [
-          9.89493,
-          0.78002,
-          0.62776
+          9.89531,
+          0.78055,
+          0.62941
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 5.998,
@@ -5479,11 +5479,11 @@
       "Lato26": {
         "kern": 12,
         "horizontal_outline_gap": 63,
-        "blur_index": 1.455,
+        "blur_index": 1.45609,
         "per_scale_ratios": [
-          4.5548,
-          0.91398,
-          0.73992
+          4.55414,
+          0.91449,
+          0.74128
         ],
         "kern_per_1000_em": 6.0,
         "gap_percent_xheight": 6.1523,
@@ -5511,11 +5511,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 124,
-        "blur_index": 1.27721,
+        "blur_index": 1.27817,
         "per_scale_ratios": [
-          2.40082,
-          0.8757,
-          0.99101
+          2.40047,
+          0.87618,
+          0.99282
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 12.1094,
@@ -5543,11 +5543,11 @@
       "Lato26": {
         "kern": -20,
         "horizontal_outline_gap": 49,
-        "blur_index": 1.03865,
+        "blur_index": 1.03943,
         "per_scale_ratios": [
-          1.1626,
-          1.02875,
-          0.93686
+          1.16243,
+          1.02932,
+          0.93857
         ],
         "kern_per_1000_em": -10.0,
         "gap_percent_xheight": 4.7852,
@@ -5575,11 +5575,11 @@
       "Lato26": {
         "kern": -23,
         "horizontal_outline_gap": 48,
-        "blur_index": 1.29107,
+        "blur_index": 1.29203,
         "per_scale_ratios": [
-          1.88544,
-          1.14928,
-          0.99314
+          1.88517,
+          1.14992,
+          0.99495
         ],
         "kern_per_1000_em": -11.5,
         "gap_percent_xheight": 4.6875,
@@ -5639,11 +5639,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 43,
-        "blur_index": 0.52098,
+        "blur_index": 0.52137,
         "per_scale_ratios": [
-          0.36774,
-          0.49801,
-          0.77213
+          0.36768,
+          0.49828,
+          0.77354
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 4.1992,
@@ -5671,11 +5671,11 @@
       "Lato26": {
         "kern": 2,
         "horizontal_outline_gap": 53,
-        "blur_index": 1.42973,
+        "blur_index": 1.4308,
         "per_scale_ratios": [
-          3.46236,
-          0.89201,
-          0.94628
+          3.46186,
+          0.8925,
+          0.94801
         ],
         "kern_per_1000_em": 1.0,
         "gap_percent_xheight": 5.1758,
@@ -5703,11 +5703,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 124,
-        "blur_index": 1.25739,
+        "blur_index": 1.25833,
         "per_scale_ratios": [
-          2.40095,
-          0.86924,
-          0.95256
+          2.4006,
+          0.86972,
+          0.9543
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 12.1094,
@@ -5735,11 +5735,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 97,
-        "blur_index": 1.07126,
+        "blur_index": 1.07206,
         "per_scale_ratios": [
-          1.93469,
-          0.77096,
-          0.82422
+          1.93441,
+          0.77139,
+          0.82572
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 9.4727,
@@ -5767,11 +5767,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": -74,
-        "blur_index": 1.24981,
+        "blur_index": 1.25074,
         "per_scale_ratios": [
-          2.24773,
-          0.91694,
-          0.94722
+          2.2474,
+          0.91745,
+          0.94895
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": -7.2266,
@@ -5799,11 +5799,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 124,
-        "blur_index": 1.27891,
+        "blur_index": 1.27986,
         "per_scale_ratios": [
-          2.40098,
-          0.86997,
-          1.00144
+          2.40063,
+          0.87045,
+          1.00327
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 12.1094,
@@ -5831,11 +5831,11 @@
       "Lato26": {
         "kern": 5,
         "horizontal_outline_gap": 132,
-        "blur_index": 0.82481,
+        "blur_index": 0.82542,
         "per_scale_ratios": [
-          0.91266,
-          0.70203,
-          0.87578
+          0.91253,
+          0.70242,
+          0.87738
         ],
         "kern_per_1000_em": 2.5,
         "gap_percent_xheight": 12.8906,
@@ -5863,11 +5863,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 124,
-        "blur_index": 1.20721,
+        "blur_index": 1.20811,
         "per_scale_ratios": [
-          2.40049,
-          0.84544,
-          0.8669
+          2.40015,
+          0.84591,
+          0.86848
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 12.1094,
@@ -5895,11 +5895,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 124,
-        "blur_index": 1.2046,
+        "blur_index": 1.2055,
         "per_scale_ratios": [
-          2.40054,
-          0.84544,
-          0.86127
+          2.40019,
+          0.84591,
+          0.86284
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 12.1094,
@@ -5927,11 +5927,11 @@
       "Lato26": {
         "kern": -20,
         "horizontal_outline_gap": 49,
-        "blur_index": 1.00295,
+        "blur_index": 1.00369,
         "per_scale_ratios": [
-          1.07193,
-          1.00778,
-          0.9339
+          1.07178,
+          1.00834,
+          0.93561
         ],
         "kern_per_1000_em": -10.0,
         "gap_percent_xheight": 4.7852,
@@ -5959,11 +5959,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 124,
-        "blur_index": 1.38328,
+        "blur_index": 1.38431,
         "per_scale_ratios": [
-          2.75478,
-          0.96676,
-          0.99386
+          2.75438,
+          0.96729,
+          0.99568
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 12.1094,
@@ -5991,11 +5991,11 @@
       "Lato26": {
         "kern": -23,
         "horizontal_outline_gap": 48,
-        "blur_index": 1.29158,
+        "blur_index": 1.29255,
         "per_scale_ratios": [
-          1.88551,
-          1.14928,
-          0.99429
+          1.88524,
+          1.14992,
+          0.99611
         ],
         "kern_per_1000_em": -11.5,
         "gap_percent_xheight": 4.6875,
@@ -6023,11 +6023,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 124,
-        "blur_index": 1.20366,
+        "blur_index": 1.20456,
         "per_scale_ratios": [
-          2.40039,
-          0.84567,
-          0.85907
+          2.40004,
+          0.84614,
+          0.86064
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 12.1094,
@@ -6055,11 +6055,11 @@
       "Lato26": {
         "kern": 18,
         "horizontal_outline_gap": 68,
-        "blur_index": 1.12547,
+        "blur_index": 1.12631,
         "per_scale_ratios": [
-          3.39925,
-          0.60433,
-          0.69398
+          3.39876,
+          0.60467,
+          0.69524
         ],
         "kern_per_1000_em": 9.0,
         "gap_percent_xheight": 6.6406,
@@ -6087,11 +6087,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 36,
-        "blur_index": 0.46697,
+        "blur_index": 0.46731,
         "per_scale_ratios": [
-          0.26293,
-          0.4911,
-          0.78858
+          0.26289,
+          0.49137,
+          0.79002
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 3.5156,
@@ -6119,11 +6119,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 114,
-        "blur_index": 0.74601,
+        "blur_index": 0.74656,
         "per_scale_ratios": [
-          0.66127,
-          0.73824,
-          0.85046
+          0.66117,
+          0.73865,
+          0.85201
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 11.1328,
@@ -6151,11 +6151,11 @@
       "Lato26": {
         "kern": -38,
         "horizontal_outline_gap": -27,
-        "blur_index": 0.60299,
+        "blur_index": 0.60344,
         "per_scale_ratios": [
-          0.50093,
-          0.58714,
-          0.74543
+          0.50085,
+          0.58747,
+          0.74679
         ],
         "kern_per_1000_em": -19.0,
         "gap_percent_xheight": -2.6367,
@@ -6183,11 +6183,11 @@
       "Lato26": {
         "kern": -10,
         "horizontal_outline_gap": 10,
-        "blur_index": 0.4117,
+        "blur_index": 0.41201,
         "per_scale_ratios": [
-          0.18539,
-          0.50428,
-          0.7464
+          0.18537,
+          0.50456,
+          0.74777
         ],
         "kern_per_1000_em": -5.0,
         "gap_percent_xheight": 0.9766,
@@ -6215,11 +6215,11 @@
       "Lato26": {
         "kern": 34,
         "horizontal_outline_gap": 42,
-        "blur_index": 1.08305,
+        "blur_index": 1.08386,
         "per_scale_ratios": [
-          4.21807,
-          0.52011,
-          0.57908
+          4.21746,
+          0.5204,
+          0.58014
         ],
         "kern_per_1000_em": 17.0,
         "gap_percent_xheight": 4.1016,
@@ -6247,11 +6247,11 @@
       "Lato26": {
         "kern": -34,
         "horizontal_outline_gap": -26,
-        "blur_index": 0.55015,
+        "blur_index": 0.55056,
         "per_scale_ratios": [
-          0.42989,
-          0.51902,
-          0.7463
+          0.42982,
+          0.5193,
+          0.74766
         ],
         "kern_per_1000_em": -17.0,
         "gap_percent_xheight": -2.5391,
@@ -6279,11 +6279,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 54,
-        "blur_index": 1.78937,
+        "blur_index": 1.79071,
         "per_scale_ratios": [
-          9.59093,
-          0.88114,
-          0.67795
+          9.58953,
+          0.88163,
+          0.67919
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 5.2734,
@@ -6311,11 +6311,11 @@
       "Lato26": {
         "kern": 19,
         "horizontal_outline_gap": 59,
-        "blur_index": 1.32822,
+        "blur_index": 1.32935,
         "per_scale_ratios": [
-          3.59643,
-          0.87867,
-          0.74151
+          3.59666,
+          0.879,
+          0.74306
         ],
         "kern_per_1000_em": 9.5,
         "gap_percent_xheight": 5.7282,
@@ -6343,11 +6343,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 112,
-        "blur_index": 1.2951,
+        "blur_index": 1.29619,
         "per_scale_ratios": [
-          2.31003,
-          0.92721,
-          1.01417
+          2.31017,
+          0.92756,
+          1.0163
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 10.8738,
@@ -6375,11 +6375,11 @@
       "Lato26": {
         "kern": -17,
         "horizontal_outline_gap": 41,
-        "blur_index": 1.0374,
+        "blur_index": 1.03827,
         "per_scale_ratios": [
-          1.15011,
-          1.02933,
-          0.94306
+          1.15018,
+          1.02972,
+          0.94504
         ],
         "kern_per_1000_em": -8.5,
         "gap_percent_xheight": 3.9806,
@@ -6407,11 +6407,11 @@
       "Lato26": {
         "kern": -19,
         "horizontal_outline_gap": 41,
-        "blur_index": 1.26109,
+        "blur_index": 1.26216,
         "per_scale_ratios": [
-          1.76815,
-          1.13818,
-          0.99657
+          1.76826,
+          1.13861,
+          0.99867
         ],
         "kern_per_1000_em": -9.5,
         "gap_percent_xheight": 3.9806,
@@ -6471,11 +6471,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 37,
-        "blur_index": 0.53276,
+        "blur_index": 0.53321,
         "per_scale_ratios": [
-          0.3692,
-          0.52167,
-          0.78512
+          0.36923,
+          0.52187,
+          0.78677
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 3.5922,
@@ -6503,11 +6503,11 @@
       "Lato26": {
         "kern": 6,
         "horizontal_outline_gap": 48,
-        "blur_index": 1.30465,
+        "blur_index": 1.30576,
         "per_scale_ratios": [
-          2.64751,
-          0.88253,
-          0.95042
+          2.64768,
+          0.88287,
+          0.95242
         ],
         "kern_per_1000_em": 3.0,
         "gap_percent_xheight": 4.6602,
@@ -6535,11 +6535,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 112,
-        "blur_index": 1.27761,
+        "blur_index": 1.27869,
         "per_scale_ratios": [
-          2.31013,
-          0.92231,
-          0.97877
+          2.31027,
+          0.92266,
+          0.98083
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 10.8738,
@@ -6567,11 +6567,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 87,
-        "blur_index": 1.0974,
+        "blur_index": 1.09833,
         "per_scale_ratios": [
-          1.88241,
-          0.82221,
-          0.85387
+          1.88253,
+          0.82252,
+          0.85566
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 8.4466,
@@ -6599,11 +6599,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": -80,
-        "blur_index": 1.28259,
+        "blur_index": 1.28367,
         "per_scale_ratios": [
-          2.18557,
-          0.98143,
-          0.98363
+          2.18571,
+          0.98181,
+          0.9857
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": -7.767,
@@ -6631,11 +6631,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 112,
-        "blur_index": 1.29581,
+        "blur_index": 1.29691,
         "per_scale_ratios": [
-          2.31005,
-          0.92296,
-          1.02052
+          2.31019,
+          0.92331,
+          1.02267
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 10.8738,
@@ -6663,11 +6663,11 @@
       "Lato26": {
         "kern": 6,
         "horizontal_outline_gap": 120,
-        "blur_index": 0.84597,
+        "blur_index": 0.84669,
         "per_scale_ratios": [
-          0.90709,
-          0.74388,
-          0.89726
+          0.90714,
+          0.74416,
+          0.89914
         ],
         "kern_per_1000_em": 3.0,
         "gap_percent_xheight": 11.6505,
@@ -6695,11 +6695,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 112,
-        "blur_index": 1.22744,
+        "blur_index": 1.22847,
         "per_scale_ratios": [
-          2.30936,
-          0.89757,
-          0.89214
+          2.3095,
+          0.89791,
+          0.89402
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 10.8738,
@@ -6727,11 +6727,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 112,
-        "blur_index": 1.22497,
+        "blur_index": 1.22601,
         "per_scale_ratios": [
-          2.30925,
-          0.89757,
-          0.88683
+          2.30939,
+          0.89792,
+          0.88869
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 10.8738,
@@ -6759,11 +6759,11 @@
       "Lato26": {
         "kern": -17,
         "horizontal_outline_gap": 41,
-        "blur_index": 1.0047,
+        "blur_index": 1.00556,
         "per_scale_ratios": [
-          1.06977,
-          1.00881,
-          0.93976
+          1.06984,
+          1.00919,
+          0.94173
         ],
         "kern_per_1000_em": -8.5,
         "gap_percent_xheight": 3.9806,
@@ -6791,11 +6791,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 112,
-        "blur_index": 1.39351,
+        "blur_index": 1.3947,
         "per_scale_ratios": [
-          2.61488,
-          1.0166,
-          1.01796
+          2.61505,
+          1.01699,
+          1.0201
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 10.8738,
@@ -6823,11 +6823,11 @@
       "Lato26": {
         "kern": -19,
         "horizontal_outline_gap": 41,
-        "blur_index": 1.26161,
+        "blur_index": 1.26268,
         "per_scale_ratios": [
-          1.76808,
-          1.13818,
-          0.99784
+          1.76819,
+          1.13861,
+          0.99994
         ],
         "kern_per_1000_em": -9.5,
         "gap_percent_xheight": 3.9806,
@@ -6855,11 +6855,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 112,
-        "blur_index": 1.22242,
+        "blur_index": 1.22345,
         "per_scale_ratios": [
-          2.30926,
-          0.89747,
-          0.88138
+          2.30941,
+          0.89782,
+          0.88323
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 10.8738,
@@ -6887,11 +6887,11 @@
       "Lato26": {
         "kern": 24,
         "horizontal_outline_gap": 63,
-        "blur_index": 1.03855,
+        "blur_index": 1.03943,
         "per_scale_ratios": [
-          2.64096,
-          0.60207,
-          0.7045
+          2.64113,
+          0.6023,
+          0.70598
         ],
         "kern_per_1000_em": 12.0,
         "gap_percent_xheight": 6.1165,
@@ -6919,11 +6919,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 28,
-        "blur_index": 0.49816,
+        "blur_index": 0.49858,
         "per_scale_ratios": [
-          0.29234,
-          0.52541,
-          0.80488
+          0.29235,
+          0.52561,
+          0.80657
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 2.7184,
@@ -6951,11 +6951,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 102,
-        "blur_index": 0.79174,
+        "blur_index": 0.79241,
         "per_scale_ratios": [
-          0.72034,
-          0.78717,
-          0.87527
+          0.72039,
+          0.78747,
+          0.87711
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 9.9029,
@@ -6983,11 +6983,11 @@
       "Lato26": {
         "kern": -31,
         "horizontal_outline_gap": -30,
-        "blur_index": 0.55841,
+        "blur_index": 0.55888,
         "per_scale_ratios": [
-          0.42311,
-          0.55661,
-          0.73936
+          0.42313,
+          0.55682,
+          0.74092
         ],
         "kern_per_1000_em": -15.5,
         "gap_percent_xheight": -2.9126,
@@ -7015,11 +7015,11 @@
       "Lato26": {
         "kern": -10,
         "horizontal_outline_gap": 0,
-        "blur_index": 0.43927,
+        "blur_index": 0.43964,
         "per_scale_ratios": [
-          0.21145,
-          0.52688,
-          0.76081
+          0.21146,
+          0.52708,
+          0.76241
         ],
         "kern_per_1000_em": -5.0,
         "gap_percent_xheight": 0.0,
@@ -7047,11 +7047,11 @@
       "Lato26": {
         "kern": 35,
         "horizontal_outline_gap": 32,
-        "blur_index": 1.02956,
+        "blur_index": 1.03044,
         "per_scale_ratios": [
-          3.46171,
-          0.53242,
-          0.59212
+          3.46193,
+          0.53262,
+          0.59337
         ],
         "kern_per_1000_em": 17.5,
         "gap_percent_xheight": 3.1068,
@@ -7079,11 +7079,11 @@
       "Lato26": {
         "kern": -27,
         "horizontal_outline_gap": -29,
-        "blur_index": 0.50489,
+        "blur_index": 0.50532,
         "per_scale_ratios": [
-          0.35944,
-          0.48645,
-          0.73609
+          0.35946,
+          0.48663,
+          0.73763
         ],
         "kern_per_1000_em": -13.5,
         "gap_percent_xheight": -2.8155,
@@ -7111,11 +7111,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 47,
-        "blur_index": 1.70632,
+        "blur_index": 1.70777,
         "per_scale_ratios": [
-          7.76139,
-          0.90584,
-          0.70664
+          7.76188,
+          0.90618,
+          0.70812
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 4.5631,
@@ -7143,11 +7143,11 @@
       "Lato26": {
         "kern": 25,
         "horizontal_outline_gap": 53,
-        "blur_index": 1.21933,
+        "blur_index": 1.22031,
         "per_scale_ratios": [
-          2.83442,
-          0.85232,
-          0.75041
+          2.83432,
+          0.85256,
+          0.75202
         ],
         "kern_per_1000_em": 12.5,
         "gap_percent_xheight": 5.1109,
@@ -7175,11 +7175,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 99,
-        "blur_index": 1.28819,
+        "blur_index": 1.28921,
         "per_scale_ratios": [
-          2.11052,
-          0.97373,
-          1.04018
+          2.11044,
+          0.97401,
+          1.04241
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 9.5468,
@@ -7207,11 +7207,11 @@
       "Lato26": {
         "kern": -14,
         "horizontal_outline_gap": 31,
-        "blur_index": 1.03627,
+        "blur_index": 1.0371,
         "per_scale_ratios": [
-          1.13449,
-          1.03188,
-          0.95059
+          1.13445,
+          1.03217,
+          0.95263
         ],
         "kern_per_1000_em": -7.0,
         "gap_percent_xheight": 2.9894,
@@ -7239,11 +7239,11 @@
       "Lato26": {
         "kern": -16,
         "horizontal_outline_gap": 32,
-        "blur_index": 1.22763,
+        "blur_index": 1.22861,
         "per_scale_ratios": [
-          1.63561,
-          1.12765,
-          1.00311
+          1.63555,
+          1.12797,
+          1.00526
         ],
         "kern_per_1000_em": -8.0,
         "gap_percent_xheight": 3.0858,
@@ -7303,11 +7303,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 30,
-        "blur_index": 0.5491,
+        "blur_index": 0.54953,
         "per_scale_ratios": [
-          0.37149,
-          0.55338,
-          0.80534
+          0.37147,
+          0.55354,
+          0.80707
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 2.893,
@@ -7335,11 +7335,11 @@
       "Lato26": {
         "kern": 10,
         "horizontal_outline_gap": 42,
-        "blur_index": 1.18363,
+        "blur_index": 1.18457,
         "per_scale_ratios": [
-          1.99223,
-          0.87038,
-          0.95631
+          1.99216,
+          0.87062,
+          0.95837
         ],
         "kern_per_1000_em": 5.0,
         "gap_percent_xheight": 4.0501,
@@ -7367,11 +7367,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 99,
-        "blur_index": 1.27361,
+        "blur_index": 1.27463,
         "per_scale_ratios": [
-          2.11067,
-          0.97034,
-          1.00871
+          2.1106,
+          0.97062,
+          1.01087
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 9.5468,
@@ -7399,11 +7399,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 74,
-        "blur_index": 1.11805,
+        "blur_index": 1.11895,
         "per_scale_ratios": [
-          1.78389,
-          0.87898,
-          0.89133
+          1.78382,
+          0.87923,
+          0.89325
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 7.136,
@@ -7431,11 +7431,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": -86,
-        "blur_index": 1.31186,
+        "blur_index": 1.3129,
         "per_scale_ratios": [
-          2.09144,
-          1.05143,
-          1.02668
+          2.09136,
+          1.05172,
+          1.02889
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": -8.2932,
@@ -7463,11 +7463,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 99,
-        "blur_index": 1.2875,
+        "blur_index": 1.28852,
         "per_scale_ratios": [
-          2.11066,
-          0.97087,
-          1.0415
+          2.11059,
+          0.97115,
+          1.04373
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 9.5468,
@@ -7495,11 +7495,11 @@
       "Lato26": {
         "kern": 5,
         "horizontal_outline_gap": 104,
-        "blur_index": 0.88661,
+        "blur_index": 0.88732,
         "per_scale_ratios": [
-          0.92239,
-          0.809,
-          0.93399
+          0.92236,
+          0.80923,
+          0.936
         ],
         "kern_per_1000_em": 2.5,
         "gap_percent_xheight": 10.0289,
@@ -7527,11 +7527,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 99,
-        "blur_index": 1.22213,
+        "blur_index": 1.22311,
         "per_scale_ratios": [
-          2.10931,
-          0.94295,
-          0.91775
+          2.10924,
+          0.94322,
+          0.91972
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 9.5468,
@@ -7559,11 +7559,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 99,
-        "blur_index": 1.22013,
+        "blur_index": 1.22111,
         "per_scale_ratios": [
-          2.10925,
-          0.94294,
-          0.91329
+          2.10918,
+          0.94321,
+          0.91525
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 9.5468,
@@ -7591,11 +7591,11 @@
       "Lato26": {
         "kern": -14,
         "horizontal_outline_gap": 31,
-        "blur_index": 1.00711,
+        "blur_index": 1.00792,
         "per_scale_ratios": [
-          1.06444,
-          1.0116,
-          0.94864
+          1.0644,
+          1.01189,
+          0.95068
         ],
         "kern_per_1000_em": -7.0,
         "gap_percent_xheight": 2.9894,
@@ -7623,11 +7623,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 99,
-        "blur_index": 1.3738,
+        "blur_index": 1.3749,
         "per_scale_ratios": [
-          2.35621,
-          1.05679,
-          1.04128
+          2.35613,
+          1.05709,
+          1.04351
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 9.5468,
@@ -7655,11 +7655,11 @@
       "Lato26": {
         "kern": -16,
         "horizontal_outline_gap": 32,
-        "blur_index": 1.2282,
+        "blur_index": 1.22918,
         "per_scale_ratios": [
-          1.63569,
-          1.12765,
-          1.00447
+          1.63563,
+          1.12797,
+          1.00662
         ],
         "kern_per_1000_em": -8.0,
         "gap_percent_xheight": 3.0858,
@@ -7687,11 +7687,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 99,
-        "blur_index": 1.21631,
+        "blur_index": 1.21728,
         "per_scale_ratios": [
-          2.10923,
-          0.94304,
-          0.90465
+          2.10915,
+          0.94331,
+          0.9066
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 9.5468,
@@ -7719,11 +7719,11 @@
       "Lato26": {
         "kern": 30,
         "horizontal_outline_gap": 56,
-        "blur_index": 0.95338,
+        "blur_index": 0.95414,
         "per_scale_ratios": [
-          2.00351,
-          0.60136,
-          0.71925
+          2.00344,
+          0.60153,
+          0.72079
         ],
         "kern_per_1000_em": 15.0,
         "gap_percent_xheight": 5.4002,
@@ -7751,11 +7751,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 20,
-        "blur_index": 0.52559,
+        "blur_index": 0.52601,
         "per_scale_ratios": [
-          0.31424,
-          0.56108,
-          0.82348
+          0.31422,
+          0.56124,
+          0.82525
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 1.9286,
@@ -7783,11 +7783,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 89,
-        "blur_index": 0.83192,
+        "blur_index": 0.83258,
         "per_scale_ratios": [
-          0.76591,
-          0.83431,
-          0.90104
+          0.76588,
+          0.83454,
+          0.90297
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 8.5824,
@@ -7815,11 +7815,11 @@
       "Lato26": {
         "kern": -26,
         "horizontal_outline_gap": -36,
-        "blur_index": 0.54303,
+        "blur_index": 0.54346,
         "per_scale_ratios": [
-          0.39284,
-          0.54874,
-          0.74282
+          0.39282,
+          0.5489,
+          0.74441
         ],
         "kern_per_1000_em": -13.0,
         "gap_percent_xheight": -3.4716,
@@ -7847,11 +7847,11 @@
       "Lato26": {
         "kern": -13,
         "horizontal_outline_gap": -14,
-        "blur_index": 0.4975,
+        "blur_index": 0.4979,
         "per_scale_ratios": [
-          0.27032,
-          0.57681,
-          0.78975
+          0.27031,
+          0.57697,
+          0.79144
         ],
         "kern_per_1000_em": -6.5,
         "gap_percent_xheight": -1.35,
@@ -7879,11 +7879,11 @@
       "Lato26": {
         "kern": 34,
         "horizontal_outline_gap": 19,
-        "blur_index": 0.98069,
+        "blur_index": 0.98148,
         "per_scale_ratios": [
-          2.79868,
-          0.55102,
-          0.61162
+          2.79858,
+          0.55117,
+          0.61293
         ],
         "kern_per_1000_em": 17.0,
         "gap_percent_xheight": 1.8322,
@@ -7911,11 +7911,11 @@
       "Lato26": {
         "kern": -22,
         "horizontal_outline_gap": -36,
-        "blur_index": 0.49119,
+        "blur_index": 0.49158,
         "per_scale_ratios": [
-          0.33793,
-          0.47631,
-          0.73626
+          0.33792,
+          0.47645,
+          0.73784
         ],
         "kern_per_1000_em": -11.0,
         "gap_percent_xheight": -3.4716,
@@ -7943,11 +7943,11 @@
       "Lato26": {
         "kern": 0,
         "horizontal_outline_gap": 40,
-        "blur_index": 1.59396,
+        "blur_index": 1.59523,
         "per_scale_ratios": [
-          5.92325,
-          0.92415,
-          0.73982
+          5.92304,
+          0.92442,
+          0.7414
         ],
         "kern_per_1000_em": 0.0,
         "gap_percent_xheight": 3.8573,
@@ -15461,17 +15461,17 @@
       "family": "Lato26",
       "weight": "Regular",
       "pair": "la",
-      "base": 1.59378,
-      "fine": 1.59068,
-      "relative_difference": 0.001945061426294692
+      "base": 1.5881,
+      "fine": 1.58407,
+      "relative_difference": 0.0025376235753415965
     },
     {
       "family": "Lato26",
       "weight": "Regular",
       "pair": "lc",
-      "base": 1.04084,
-      "fine": 1.03948,
-      "relative_difference": 0.001306636947081219
+      "base": 1.03713,
+      "fine": 1.03516,
+      "relative_difference": 0.0018994725829935
     },
     {
       "family": "Lato26",
@@ -15485,41 +15485,41 @@
       "family": "Lato26",
       "weight": "Regular",
       "pair": "lh",
-      "base": 0.95851,
-      "fine": 0.95591,
-      "relative_difference": 0.002712543426776959
+      "base": 0.9551,
+      "fine": 0.95193,
+      "relative_difference": 0.003319024185948982
     },
     {
       "family": "Lato26",
       "weight": "Regular",
       "pair": "ll",
-      "base": 0.60277,
-      "fine": 0.60183,
-      "relative_difference": 0.001559467126764802
+      "base": 0.60062,
+      "fine": 0.59933,
+      "relative_difference": 0.002147780626685747
     },
     {
       "family": "Lato26",
       "weight": "Regular",
       "pair": "lo",
-      "base": 1.00808,
-      "fine": 1.00703,
-      "relative_difference": 0.0010415840012697464
+      "base": 1.00449,
+      "fine": 1.00284,
+      "relative_difference": 0.0016426246154767066
     },
     {
       "family": "Lato26",
       "weight": "Regular",
       "pair": "lw",
-      "base": 0.37947,
-      "fine": 0.37884,
-      "relative_difference": 0.0016602102933037655
+      "base": 0.37812,
+      "fine": 0.37726,
+      "relative_difference": 0.002274410240135527
     },
     {
       "family": "Lato26",
       "weight": "Regular",
       "pair": "ly",
-      "base": 0.59478,
-      "fine": 0.59443,
-      "relative_difference": 0.0005884528733312022
+      "base": 0.59266,
+      "fine": 0.59196,
+      "relative_difference": 0.001181115648094866
     },
     {
       "family": "Fira Sans",
@@ -15589,17 +15589,17 @@
       "family": "Lato26",
       "weight": "Bold",
       "pair": "la",
-      "base": 1.455,
-      "fine": 1.4522,
-      "relative_difference": 0.0019243986254297019
+      "base": 1.45609,
+      "fine": 1.4534,
+      "relative_difference": 0.0018474132780254005
     },
     {
       "family": "Lato26",
       "weight": "Bold",
       "pair": "lc",
-      "base": 1.03865,
-      "fine": 1.03817,
-      "relative_difference": 0.0004621383526693945
+      "base": 1.03943,
+      "fine": 1.03903,
+      "relative_difference": 0.00038482629902947263
     },
     {
       "family": "Lato26",
@@ -15613,41 +15613,41 @@
       "family": "Lato26",
       "weight": "Bold",
       "pair": "lh",
-      "base": 1.25739,
-      "fine": 1.25371,
-      "relative_difference": 0.0029266973651770334
+      "base": 1.25833,
+      "fine": 1.25474,
+      "relative_difference": 0.002852987690033615
     },
     {
       "family": "Lato26",
       "weight": "Bold",
       "pair": "ll",
-      "base": 0.82481,
-      "fine": 0.82298,
-      "relative_difference": 0.0022186927898546482
+      "base": 0.82542,
+      "fine": 0.82366,
+      "relative_difference": 0.002132247825349598
     },
     {
       "family": "Lato26",
       "weight": "Bold",
       "pair": "lo",
-      "base": 1.00295,
-      "fine": 1.0025,
-      "relative_difference": 0.00044867640460644065
+      "base": 1.00369,
+      "fine": 1.00333,
+      "relative_difference": 0.0003586764837747447
     },
     {
       "family": "Lato26",
       "weight": "Bold",
       "pair": "lw",
-      "base": 0.4117,
-      "fine": 0.41102,
-      "relative_difference": 0.001651688122419226
+      "base": 0.41201,
+      "fine": 0.41136,
+      "relative_difference": 0.0015776316108832011
     },
     {
       "family": "Lato26",
       "weight": "Bold",
       "pair": "ly",
-      "base": 0.55015,
-      "fine": 0.54922,
-      "relative_difference": 0.0016904480596200422
+      "base": 0.55056,
+      "fine": 0.54968,
+      "relative_difference": 0.0015983725661147252
     },
     {
       "family": "Fira Sans",

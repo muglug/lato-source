@@ -8,7 +8,8 @@ WEIGHTS = ['Hairline','Thin','Light','Regular','Medium','Semibold','Bold','Heavy
 
 def append_optical_proofs(document, font, before_build, report):
     rows={(r['style'],r['weight'],r['pair']):r for r in report['rows']}
-    reshaped=any(r.get('outline_changed') for r in report['rows'])
+    reshaped=any(r.get('left_outline_changed',r.get('outline_changed')) for r in report['rows'])
+    e_reshaped=any(r.get('e_outline_changed') for r in report['rows'])
     arial='/System/Library/Fonts/Supplemental/Arial.ttf'
     title=font(arial,32);label=font(arial,21);text=font(arial,18);small=font(arial,16)
     page=document.page(1200,1553)
@@ -21,9 +22,11 @@ def append_optical_proofs(document, font, before_build, report):
         'At each scale, divide by current le overlap. Average the three ratios',
         'geometrically: le = 1.00; a higher index means stronger interaction between the ink fields.',
         'Use the index as an ink-interaction diagnostic; different shapes need not have equal values.',
-        ('Smaller l: preserve special-pair edge gaps; ordinary pairs follow the narrower advance.' if reshaped else
+        ('The e shape changes; l outlines, advances and kerning retain their preceding values.' if e_reshaped and not reshaped else
+         'Smaller l: preserve special-pair edge gaps; ordinary pairs follow the narrower advance.' if reshaped else
          'Refine bowl spacing using l/I interaction and mid-height gaps, retaining Lato advances.'),
-        ('The Regular edit is propagated through upright and italic weights and related forms.' if reshaped else
+        ('Index differences also reflect the revised le reference. Italic forms are unchanged.' if e_reshaped and not reshaped else
+         'The Regular edit is propagated through upright and italic weights and related forms.' if reshaped else
          'Upright and italic use separate weight curves; keep lh, lk, ll and fl ligatures unchanged.'),
     ]
     for i,line in enumerate(lines):page.text((54,100+i*32),line,font=text,fill='#394354')

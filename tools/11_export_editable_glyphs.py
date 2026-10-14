@@ -59,10 +59,10 @@ def topology(layer):
             for e in layer.get('elements', [])]
 
 
-def blended_layer(glyph, design):
-    a, b = [normalize_layer(build.revision.master(glyph, black)) for black in (False, True)]
+def blended_layer(glyph, design, intermediates=None):
+    a,b,t=build.layer_pair(glyph,design,intermediates)
+    a,b=normalize_layer(a),normalize_layer(b)
     assert topology(a) == topology(b)
-    t = design/1000
     result = copy.deepcopy(a)
     result['advanceWidth'] = a['advanceWidth']*(1-t)+b['advanceWidth']*t
     for e, ea, eb in zip(result.get('elements', []), a.get('elements', []), b.get('elements', [])):
@@ -177,7 +177,7 @@ def export(style, output_path=None):
                 for an,a in anchors0.items():
                     p=pts(a.get('point','0 0'))*(1-t)+pts(anchors1.get(an,a).get('point','0 0'))*t
                     layer.anchors.append(gs.GSAnchor(an,Point(*map(float,p[0]))))
-            else:fill_layer(layer,blended_layer(original,design))
+            else:fill_layer(layer,blended_layer(original,design,source.intermediate_layers.get(name)))
     # Preserve named OpenType classes only when the prefix doesn't define them.
     prefix=data['openTypeFeatures'][0]['feature']
     for cls in data['classes']:
@@ -214,6 +214,8 @@ def export(style, output_path=None):
         font.kerning[master.id]=pairs
     font.userData['Lato26.compatibleOutlineFallbacks'] = fallback
     font.note = 'Converted from active FontLab sources. Regular and Bold masters preserve the weight-dependent kerning curve. The separate Lato26-Regular.glyphs export retains the hand-edited Regular a/e quadratics exactly.'
+    if source.intermediate_layers:
+        font.note = 'Converted from active FontLab sources with the authored Regular and Bold e layers. The four e masters preserve the separate inner-curve and crossbar refinements. The separate Regular export retains the authored a quadratics and e cubics.'
     path=Path(output_path) if output_path else ROOT/f'sources/Lato26-{ "Italic" if style=="Ita" else "Upright"}.glyphs';font.save(path)
     read=gs.GSFont(path)
     assert len(read.glyphs)==len(font.glyphs)==len(data['glyphs']) and len(read.masters)==4 and len(read.instances)==9

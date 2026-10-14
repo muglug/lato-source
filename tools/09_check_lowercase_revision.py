@@ -68,10 +68,22 @@ def check_regular(baseline):
     if baseline:
         previous = baseline/'Lato3Upr2M/ds-ufo/masters/Lato-Regular.glyphs'
         old = {g['glyphname']: g for g in openstep_plist.load(previous.open())['glyphs']}
-        for name in ('a', 'e'):
+        for name in (('a',) if build.E_SHAPE.exists() else ('a','e')):
             assert glyphs[name]['layers'][0]['shapes'] == old[name]['layers'][0]['shapes']
     for name in ('a', 'e'):
         glyph = font['glyf'][name]
+        if name=='e' and build.E_SHAPE.exists():
+            # The new authored source uses cubic masters. Compare the exact
+            # production conversion rather than requiring quadratic source nodes.
+            from fontTools.pens.ttGlyphPen import TTGlyphPen
+            from fontTools.pens.cu2quPen import Cu2QuPen
+            pen=TTGlyphPen(None)
+            build.Source('Upr').recording('e',540).replay(Cu2QuPen(pen,max_err=.75,reverse_direction=True))
+            expected=pen.glyph()
+            assert glyph.coordinates==expected.coordinates
+            assert glyph.endPtsOfContours==expected.endPtsOfContours
+            assert glyph.flags==expected.flags
+            continue
         start = 0
         shapes = glyphs[name]['layers'][0]['shapes']
         assert len(glyph.endPtsOfContours) == len(shapes)
@@ -194,7 +206,8 @@ def main():
         results['interpolatable_masters'] += 2
         print(style, 'static exports and every master glyph passed', flush=True)
     check_regular(args.baseline_dir)
-    results['regular_a_e_match_reference_exactly'] = True
+    results['regular_a_matches_reference_exactly'] = True
+    results['regular_e_matches_authored_conversion' if build.E_SHAPE.exists() else 'regular_e_matches_reference_exactly'] = True
     for label, style in (('Light', 'Upr'), ('LightItalic', 'Ita')):
         relative = Path('Carlito26')/f'Carlito26-{label}.ttf'
         font = TTFont(ROOT/'build'/relative, checkChecksums=2)

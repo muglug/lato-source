@@ -227,6 +227,7 @@ def merge_glyphs_text(text,updated,changed):
             replacements.append((start,end,openstep_plist.dumps(by_name[glyph['glyphname']],indent=0,sort_keys=False)))
         start=end
     for key in ('kerningLTR','userData'):
+        if key not in original:continue
         start=re.search(r'^'+key+r' = \{',text,re.M).end()-1
         replacements.append((start,balanced_end(text,start),openstep_plist.dumps(updated[key],indent=0,sort_keys=False)))
     for start,end,replacement in sorted(replacements,reverse=True):

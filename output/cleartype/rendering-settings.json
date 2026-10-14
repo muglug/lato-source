@@ -18,7 +18,7 @@
   "fonts": [
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Hairline.ttf",
-      "sha256": "58d1ba5d0b28ea0288d63f4606bca6170706023babf8d1f5318d2a94896a2c66",
+      "sha256": "9208b6619de1f547be5f7e6e6d35878e15d15f3f253bf8a7f291ad88a68c1b11",
       "glyph_hint_bytes": {
         "l": 66,
         "a": 72,
@@ -29,7 +29,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Thin.ttf",
-      "sha256": "136297c127d90e71f65e5b1194bff0f693677b48f29ccb0cb88e6d38dcf8b33f",
+      "sha256": "62bb60b64a87b14639cddabaee193a37fab0613ba175ee92649153370078faff",
       "glyph_hint_bytes": {
         "l": 37,
         "a": 128,
@@ -40,7 +40,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Light.ttf",
-      "sha256": "09d72e4293d4870d604988ab4277c6a72f2b22d0c96e9c73b28df3439fb5d403",
+      "sha256": "20e1011de5f06b7844506c6cbdbb3d0f588527edf945789e10e88beb7aa23c15",
       "glyph_hint_bytes": {
         "l": 37,
         "a": 146,
@@ -51,18 +51,18 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
-      "sha256": "b6ed0690d8bd6dd89ce58cb59cdc5096cd5d3ef0029fe087bc074aa4132ed84c",
+      "sha256": "35e14fe75fee4c66c8e3a52a7f76743eefb57d62cfbadcd5c6a8de949d3e548b",
       "glyph_hint_bytes": {
         "l": 66,
         "a": 156,
-        "e": 105,
+        "e": 118,
         "w": 32,
         "y": 27
       }
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Medium.ttf",
-      "sha256": "74b3a4600aae1bdbff0e04578c19683e16e597bb72110c56805b753fc1c2f97f",
+      "sha256": "54d464b63894deb771f0396546484ad58bf4d33678599815da60174afb11ae31",
       "glyph_hint_bytes": {
         "l": 66,
         "a": 139,
@@ -73,7 +73,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Semibold.ttf",
-      "sha256": "32a9d799e0ee2b8460a1d2be734d3f953f01a04f888846919e431074746c79dc",
+      "sha256": "bdbbbd66f7a34da625f5f021ff914863ae80e72c9299b26a315410d5a8fbefe1",
       "glyph_hint_bytes": {
         "l": 119,
         "a": 139,
@@ -84,7 +84,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
-      "sha256": "e554c83c69809023d95b152a62b8e48b685d9fe32bb25cd1277aa94b7a09f6ea",
+      "sha256": "66582b5dbe5f0ff48aa12c001b51c7a7d43f159f6ec581d354a1ec2b4152678a",
       "glyph_hint_bytes": {
         "l": 67,
         "a": 167,
@@ -95,7 +95,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Heavy.ttf",
-      "sha256": "40d861c87843bb2ad328086d0717128c4d86b0231448cfd2c78f62b0221742f9",
+      "sha256": "f64be7b842b72d70a109365f52e180a2fe4245fde7c50a30c9c56e4151d5a2a4",
       "glyph_hint_bytes": {
         "l": 38,
         "a": 270,
@@ -106,7 +106,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.ttf",
-      "sha256": "2e5577158961ee78290afdfe759936fe5d2f8a713c950c58e1f8cecbd5892ea2",
+      "sha256": "f52132f07c9b8eaff46ff8f231dd156b7a777abcaef6e9bc55d295b97e74cfef",
       "glyph_hint_bytes": {
         "l": 38,
         "a": 270,

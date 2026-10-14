@@ -43,6 +43,16 @@ rounding, keeping prior special-pair edge gaps within half a font unit.
 Only revised l instructions are regenerated. All unrelated glyphs and
 hint programs, including the corrected Bold a, remain intact.
 
+Upright e shape refinement
+
+The inner curve is refined in all four authored upright e masters. Bold and
+Black also have a higher crossbar. Intermediate weights follow those separate
+master edits. The changes cover 54 forms, including accents, Cyrillic e,
+small and turned forms, ae and oe. The ae bowl joins follow the revised bar.
+The italic fonts, l outlines, advances, kerning and corrected Bold a hints
+are preserved. Instructions are refreshed for the revised e forms. Carlito26
+Light receives the matching upright outlines while retaining all advances.
+
 Original authorship and licensing are retained inside the fonts and in
 LICENSE.txt.
 

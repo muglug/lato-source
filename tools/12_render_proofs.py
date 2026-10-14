@@ -18,7 +18,7 @@ SCALE=2
 if args.format=='pdf':
     from vector_font_proofs import Document, Font
     document=Document(args.output or ROOT/'output/pdf/Lato26-Proofs.pdf')
-    document.canvas.setTitle('Lato26 - l bowl spacing revision')
+    document.canvas.setTitle('Lato26 - lowercase outline and spacing revisions')
 
 @lru_cache(maxsize=None)
 def font(path,size):
@@ -115,7 +115,8 @@ if args.format=='pdf':
         for info in audit['fonts']:
             assert hashlib.sha256((ROOT/'build'/info['path']).read_bytes()).hexdigest()==info['sha256']
     indices={(r['style'],r['weight'],r['pair']):r['after']['blur_index'] for r in audit['rows']} if audit else {}
-    total_pages=document.pages+2*len(weights)+(3 if audit else 0)
+    e_revision=(ROOT/'sources/data/e-shape-revision.json').exists()
+    total_pages=document.pages+2*len(weights)+(3 if audit else 0)+(2 if e_revision else 0)
     pair_count=0
     for style,suffix in [('Upr',''),('Ita','Italic')]:
         for weight in weights:
@@ -159,6 +160,9 @@ if args.format=='pdf':
     if audit:
         from optical_proof_pages import append_optical_proofs
         append_optical_proofs(document,font,args.previous_build,audit)
+    if e_revision:
+        from e_shape_proof_pages import append_e_shape_proofs
+        append_e_shape_proofs(document,font,args.previous_build)
     document.save()
 else:
     for name,size in [('lowercase-overview.png',(3400,4800)),('lowercase-details.png',(3200,3400)),('ae-and-l-spacing.png',(3600,4460))]:

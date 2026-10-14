@@ -45,6 +45,8 @@ def main():
     parser.add_argument('--before-snapshot', type=Path, help='Snapshot with before-build and the previous rhythm report')
     args = parser.parse_args()
     narrowed = (ROOT/'sources/data/smaller-l.json').exists()
+    e_revision = ((ROOT/'sources/data/e-shape-revision.json').exists() and args.before_snapshot
+                  and not (args.before_snapshot/'before-source/sources/data/e-shape-revision.json').exists())
     prior = json.loads((ROOT/'build/proofs/fira-capital-i-comparison.json').read_text())
     fonts = [f for f in prior['fonts'] if f['lato_weight'] in ('Regular','Bold')]
     for info in fonts:
@@ -110,8 +112,9 @@ def main():
     label(c,34,43,'Data: build/proofs/fira-rhythm-comparison.json. References: Fira Sans 4.301.',8)
     c.showPage()
     if previous:
-        label(c,34,756,('Effect of the smaller l' if narrowed else 'Effect of the rhythm refinement'),21,'#182435',True)
-        label(c,34,734,('Previous and current Lato26 at equal x-height; revised l bowl and advance width.' if narrowed else
+        label(c,34,756,('Preserved rhythm after the e edit' if e_revision else 'Effect of the smaller l' if narrowed else 'Effect of the rhythm refinement'),21,'#182435',True)
+        label(c,34,734,('Previous and current Lato26 at equal x-height; l outlines, advances and kerning unchanged.' if e_revision else
+                       'Previous and current Lato26 at equal x-height; revised l bowl and advance width.' if narrowed else
                        'Previous and current Lato26 at equal x-height; original outlines and hints preserved.'),9)
         for index,(style,weight) in enumerate((('Upr','Regular'),('Upr','Bold'),('Ita','Regular'),('Ita','Bold'))):
             top = 706-index*150
