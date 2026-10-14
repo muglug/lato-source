@@ -75,7 +75,8 @@ from the unchanged master advances and recorded in
 requires the pre-revision VFJs and Regular TTF and refuses to apply twice.
 The rebuild preserves the saved Regular `a`/`e` quadratics exactly. Cubic source
 edits use compatible subdivisions; stale hints referencing changed point
-indexes are removed. Existing unrelated outlines and layout tables are kept.
+indexes are removed before the final desktop TrueType hinting pass.
+Existing unrelated outlines and layout tables are kept.
 Vector PDF proofs are in `output/pdf/`; validation reports are in `build/proofs/`. The checker accepts
 `--baseline-dir PATH` to additionally verify unrelated outlines, layout,
 metrics, and the authored Glyphs paths against a saved pre-revision build.
@@ -154,6 +155,98 @@ through `lz` in original Lato and current Lato26, with PDF bookmarks by style.
 When an optical audit is present, each pair also shows its current blur
 index, followed by a method/results page and two before/after blur pages.
 For those pages, pass the same `--previous-build` path used for the audit.
+
+### ClearType-style screen mockup
+
+`tools/16_render_cleartype_mockup.py` creates a labelled RGB subpixel
+approximation from the current TTF files: native-pixel PNGs and a local viewer
+in `output/cleartype/`, plus `output/pdf/Lato26-ClearType-Mockup.pdf`.
+It covers all nine upright/italic weights and display scales of 100%, 125%,
+150%, and 200%, with enlarged RGB/grayscale comparisons.
+
+This uses HarfBuzz positioning, FreeType rasterization with embedded native
+hint instructions, a five-tap RGB filter, and blending gamma 1.8. It is not
+a Windows 11 or Microsoft DirectWrite capture. The rasterizer does not apply
+its own auto-hinter; it executes the desktop fonts' embedded hint bytecode.
+Inspect native-pixel PNGs for screen judgments; PDF scaling resamples pixels.
+Renderer settings, font hashes and validation are saved beside the images.
+Pass `--before-hint-build PATH` with the previous Lato26 build to append a
+before/after hinting comparison. `--bowl-before-build PATH` optionally supplies
+the earlier build exhibiting the thick Bold `a`. Add `--reference-dir PATH
+--original-hint-build PATH` for a three-way comparison with released Lato
+2.015 and the repository's original 3.100 hint set.
+`--join-before-build PATH` adds a focused 12-24 px join comparison and all
+34 affected Bold forms at 14 and 16 px.
+
+### Desktop TrueType hinting
+
+Lato26 and Carlito26 use **ttfautohint 1.3**, the engine used by released Lato
+2.015. The repository's 3.100 hinting is replaced throughout the desktop TTFs.
+The chosen recipe reproduces every original glyph program and the `fpgm`,
+`prep`, and `cvt ` tables byte-for-byte in all 18 user-supplied 2.015 fonts.
+Current Lato26 instructions are regenerated for its own point topology,
+including our revised glyphs; outline differences can still affect pixels.
+
+Install the pinned macOS executable (Intel, runs under Rosetta on Apple
+Silicon) into the ignored local cache with:
+
+```sh
+python tools/install_ttfautohint_13.py
+python tools/17_hint_desktop_fonts.py
+```
+
+The installer verifies SHA-256 hashes of the official FreeType/SourceForge
+[1.3 release archive](https://sourceforge.net/projects/freetype/files/ttfautohint/1.3/)
+and executable. Use `--archive PATH` for an existing download. On other
+platforms, build the same release and set `TTFAUTOHINT_13` to the executable;
+the build refuses other engine versions. The executable is not bundled in
+the desktop font ZIP. See the upstream release for the engine's licensing.
+
+The recipe uses strong stem widths in grayscale, GDI ClearType and DirectWrite
+modes (`-w gGD`), x-height increase limit 14 (`-x 14`), Windows clipping zones
+(`-W`), and Latin fallback (`-f latn`). Hints are optimized for 8-50 ppem and
+enabled through 200 ppem. The engine preserves naming (`-n`) and records its
+settings in a `TTFA` table (`-t`). Outline coordinates, components, advance
+widths, kerning, shaping and names are preserved by the hinting pass.
+
+Bold upright `a` excludes overlapping contour cut edges and the short bowl
+closure from stem detection. This prevents its bowl top from becoming about
+2.23 pixels thick at 16 ppem in the earlier autohint build. With the 2.015
+recipe and this control, the separation is 1.30 pixels, close to the outline's
+1.21 pixels. Matching accented and Cyrillic forms share the correction.
+No outline points are moved by these controls. The italic single-storey `a`
+outline remains unchanged; its hints now use the released 2.015 recipe too.
+
+After autohinting, a short TrueType instruction sequence links the upper end
+of the Bold `a` stem to the upper arch, retaining at least their original
+16-unit overlap. It moves only the two stem-end points in the rasterized
+outline when needed; the source outline, bowl thickness, curve and accent
+positions stay unchanged. This closes the seam exposed by the bowl control
+at small sizes: the 14 px gap of 0.95 px becomes a 0.11 px overlap, while the
+bowl-top thickness remains 1.30 px. All 34 matching forms receive the link.
+
+`tools/20_check_bold_a_joins.py --before-build PATH` compares against the
+preceding disconnected-join build. It checks all 34 forms at every integer
+size from 6-201 ppem, quarter-pixel sizes from 8-50 ppem, and 256 ppem in
+grayscale, monochrome and LCD modes. All 32,946 cases require connected
+joins and exactly unchanged hinted bowl/curve/accent coordinates. The report
+is `build/proofs/bold-a-join-validation.json`; it also checks idempotence.
+
+`tools/19_check_lato_2015_hinting.py --reference-dir /Library/Fonts` verifies
+the reference recipe exactly, records 16 px vertical bounds, and checks the
+Bold bowl-top separation. Its report is
+`build/proofs/lato-2015-hint-validation.json`.
+`tools/18_check_truetype_hints.py --before-build PATH` verifies unchanged
+geometry and layout, native grayscale/LCD bytecode execution, and idempotence.
+Coverage and engine settings are recorded in `build/proofs/truetype-hinting.json`.
+
+Hinting is applied after interpolation, not to the compatible source masters.
+OTF/CFF exports are unaffected by this TrueType-only pass. Glyphs instances
+use `--stem-width-mode=sss` (`-a sss`), the current spelling of strong widths
+in all three render modes, to avoid the newer engine's `-w gGD` warning.
+Their exports use Glyphs' own engine
+and do not apply our Bold bowl control or final join instructions. Use the repository build for the
+pinned 2.015 recipe and shipped results. Editable source outlines are unchanged.
 
 ### Selective building
 

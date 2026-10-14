@@ -1,0 +1,13 @@
+{
+  "fonts": 20,
+  "glyph_outlines_preserved": 61080,
+  "revised_glyphs_hinted": 2250,
+  "native_glyph_loads": 908460,
+  "native_rasterizations": 899460,
+  "render_targets": [
+    "grayscale",
+    "LCD"
+  ],
+  "hint_pass_idempotent": true,
+  "status": "passed"
+}

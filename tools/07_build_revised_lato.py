@@ -7,7 +7,7 @@ font containers; family names become Lato26. Interpolatable TTFs are converted t
 future variable-font builds retain compatible masters. Static Regular uses the
 author's saved a/e quadratics exactly, including through component references.
 
-Requires fonttools, glyphsLib, numpy, openstep-plist (and skia-pathops for the
+Requires fonttools, glyphsLib, numpy, openstep-plist, ttfautohint 1.3 (and skia-pathops for the
 separate Carlito26 build). Run 08_refresh_carlito_outlines.py afterwards for Carlito26.
 """
 import argparse
@@ -32,6 +32,7 @@ from fontTools.ttLib import TTFont
 from glyphsLib.glyphdata import get_glyph
 from modified_font_names import rename_font
 from lowercase_kerning import apply_spacing, CONFIG as SPACING_CONFIG, pair_advance
+from truetype_hinting import hint_font, configure_glyphs_instances
 
 revision = importlib.import_module('06_update_lato_outlines')
 ROOT, MANIFEST = revision.ROOT, revision.MANIFEST
@@ -223,6 +224,8 @@ def build_static(source, directory, weight, design, extension):
         update_metrics(font, out, width, rec)
     apply_spacing(font, path, source, design, output_name)
     rename_font(font)
+    if extension == 'ttf':
+        hint_font(font, [output_name(source, n, font) for n in source.affected])
     font.save(path)
     print(path.relative_to(ROOT), flush=True)
 
@@ -310,6 +313,7 @@ def update_glyphs(source, directory):
                 depth -= 1
                 if not depth: break
         text = text[:start]+openstep_plist.dumps(kerning, indent=0, sort_keys=False)+text[end+1:]
+    text = configure_glyphs_instances(text)
     openstep_plist.loads(text)  # Parse the complete result before replacing it.
     REGULAR.write_text(text)
     print(REGULAR.relative_to(ROOT), flush=True)

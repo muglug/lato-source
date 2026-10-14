@@ -1,0 +1,219 @@
+{
+  "engine": "ttfautohint 1.3",
+  "options": [
+    "--no-info",
+    "--ttfa-table",
+    "--windows-compatibility",
+    "--increase-x-height=14",
+    "--strong-stem-width=gGD",
+    "--fallback-script=latn",
+    "--hinting-range-min=8",
+    "--hinting-range-max=50",
+    "--hinting-limit=200"
+  ],
+  "fonts": [
+    {
+      "glyphs": 3055,
+      "glyphs_with_instructions": 2114,
+      "revised_glyphs_with_instructions": 130,
+      "instruction_bytes": 176975,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.ttf"
+    },
+    {
+      "glyphs": 3055,
+      "glyphs_with_instructions": 2117,
+      "revised_glyphs_with_instructions": 130,
+      "instruction_bytes": 193439,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 34,
+      "bold_a_linked_join_forms": 34,
+      "file": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf"
+    },
+    {
+      "glyphs": 3055,
+      "glyphs_with_instructions": 2109,
+      "revised_glyphs_with_instructions": 130,
+      "instruction_bytes": 118225,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Hairline.ttf"
+    },
+    {
+      "glyphs": 3055,
+      "glyphs_with_instructions": 2117,
+      "revised_glyphs_with_instructions": 130,
+      "instruction_bytes": 182343,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Heavy.ttf"
+    },
+    {
+      "glyphs": 3055,
+      "glyphs_with_instructions": 2138,
+      "revised_glyphs_with_instructions": 130,
+      "instruction_bytes": 158628,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Light.ttf"
+    },
+    {
+      "glyphs": 3055,
+      "glyphs_with_instructions": 2133,
+      "revised_glyphs_with_instructions": 130,
+      "instruction_bytes": 185091,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Medium.ttf"
+    },
+    {
+      "glyphs": 3055,
+      "glyphs_with_instructions": 2133,
+      "revised_glyphs_with_instructions": 130,
+      "instruction_bytes": 177975,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf"
+    },
+    {
+      "glyphs": 3055,
+      "glyphs_with_instructions": 2133,
+      "revised_glyphs_with_instructions": 130,
+      "instruction_bytes": 181705,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Semibold.ttf"
+    },
+    {
+      "glyphs": 3055,
+      "glyphs_with_instructions": 2119,
+      "revised_glyphs_with_instructions": 130,
+      "instruction_bytes": 139011,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Thin.ttf"
+    },
+    {
+      "glyphs": 3055,
+      "glyphs_with_instructions": 3035,
+      "revised_glyphs_with_instructions": 130,
+      "instruction_bytes": 313510,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Carlito26/Carlito26-Light.ttf"
+    },
+    {
+      "glyphs": 3053,
+      "glyphs_with_instructions": 2138,
+      "revised_glyphs_with_instructions": 95,
+      "instruction_bytes": 182541,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.ttf"
+    },
+    {
+      "glyphs": 3053,
+      "glyphs_with_instructions": 2142,
+      "revised_glyphs_with_instructions": 95,
+      "instruction_bytes": 208618,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ttf"
+    },
+    {
+      "glyphs": 3053,
+      "glyphs_with_instructions": 2128,
+      "revised_glyphs_with_instructions": 95,
+      "instruction_bytes": 120304,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HairlineItalic.ttf"
+    },
+    {
+      "glyphs": 3053,
+      "glyphs_with_instructions": 2142,
+      "revised_glyphs_with_instructions": 95,
+      "instruction_bytes": 184412,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HeavyItalic.ttf"
+    },
+    {
+      "glyphs": 3053,
+      "glyphs_with_instructions": 2158,
+      "revised_glyphs_with_instructions": 95,
+      "instruction_bytes": 193010,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ttf"
+    },
+    {
+      "glyphs": 3053,
+      "glyphs_with_instructions": 2163,
+      "revised_glyphs_with_instructions": 95,
+      "instruction_bytes": 150573,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Ita2M/ds-ufo/masters/Lato26-LightItalic.ttf"
+    },
+    {
+      "glyphs": 3053,
+      "glyphs_with_instructions": 2158,
+      "revised_glyphs_with_instructions": 95,
+      "instruction_bytes": 232892,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Ita2M/ds-ufo/masters/Lato26-MediumItalic.ttf"
+    },
+    {
+      "glyphs": 3053,
+      "glyphs_with_instructions": 2158,
+      "revised_glyphs_with_instructions": 95,
+      "instruction_bytes": 189757,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Ita2M/ds-ufo/masters/Lato26-SemiboldItalic.ttf"
+    },
+    {
+      "glyphs": 3053,
+      "glyphs_with_instructions": 2144,
+      "revised_glyphs_with_instructions": 95,
+      "instruction_bytes": 157012,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Lato3Ita2M/ds-ufo/masters/Lato26-ThinItalic.ttf"
+    },
+    {
+      "glyphs": 3053,
+      "glyphs_with_instructions": 3033,
+      "revised_glyphs_with_instructions": 95,
+      "instruction_bytes": 296062,
+      "hinting_reference": "Lato 2.015",
+      "bold_a_controlled_forms": 0,
+      "bold_a_linked_join_forms": 0,
+      "file": "build/Carlito26/Carlito26-LightItalic.ttf"
+    }
+  ],
+  "status": "passed",
+  "desktop_fonts": 20,
+  "revised_glyph_instances": 2250
+}

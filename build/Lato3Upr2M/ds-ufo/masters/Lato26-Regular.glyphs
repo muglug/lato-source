@@ -274779,7 +274779,7 @@ instances = (
 {
 id = "E567748F-D236-465F-B9B3-077BA1CD1D1B";
 instanceInterpolations = {
-"D768B10A-890A-49BD-8E58-3E1301386A28" = 1;
+"D768B10A-890A-49BD-8E58-3E1301386A28" = "1";
 };
 properties = (
 {
@@ -274792,7 +274792,7 @@ values = (
 {
 language = ENG;
 value = "Lato26 Regular";
-},
+}
 );
 },
 {
@@ -274805,11 +274805,21 @@ value = Regular;
 {
 language = ENG;
 value = Regular;
-},
+}
 );
-},
+}
 );
+customParameters = (
+{
+name = Autohint;
+value = 1;
 },
+{
+name = "TTFAutohint options";
+value = "--no-info --windows-compatibility --increase-x-height=14 --stem-width-mode=sss --fallback-script=latn --hinting-range-min=8 --hinting-range-max=50 --hinting-limit=200";
+}
+);
+}
 );
 kerningLTR = {
 "D768B10A-890A-49BD-8E58-3E1301386A28" = {

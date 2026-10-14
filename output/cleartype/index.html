@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lato26 - ClearType-style mockup</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#edf1f6;color:#202d3d;font:15px system-ui,sans-serif}
+header{padding:25px 32px 20px;background:white;border-bottom:1px solid #d3dbe6}h1{font-size:25px;margin:0 0 8px}
+p{margin:8px 0;max-width:1050px;line-height:1.5;color:#596575}nav{display:flex;gap:14px;flex-wrap:wrap;margin-top:20px;align-items:end}
+label{font-size:12px;color:#596575;display:grid;gap:5px}select,a{font:14px system-ui;padding:8px 10px;border:1px solid #c2ccda;border-radius:5px;background:white;color:#174775}
+#stage{padding:28px;overflow:auto;min-height:500px}img{display:block;background:white;box-shadow:0 5px 22px #35456020}
+#status{font:12px ui-monospace,monospace;margin-top:12px;color:#596575}.sources{font-size:12px}a{display:inline-block;text-decoration:none}.sources a{border:0;padding:0}
+</style>
+<header><h1>Lato26 / ClearType-style mockup</h1>
+<p>Rendered from the current Lato26 TTFs using filtered RGB subpixel coverage. This is a simulation, not a capture from Windows 11 or Microsoft DirectWrite.</p>
+<nav><label>Proof<select id="proof"><option value="mockup">Windows-style reading window</option><option value="weights">All weights</option><option value="pixels">Pixel detail and grayscale</option><option value="scales">Display-scale comparison</option></select></label>
+<label>Display scale<select id="scale"><option>100</option><option>125</option><option>150</option><option>200</option></select></label>
+<label>View<select id="view"><option value="fit">Fit (resampled)</option><option value="logical">Logical window size</option><option value="1">Native pixels (1:1)</option><option value="2">2x pixels</option><option value="4">4x pixels</option><option value="8">8x pixels</option></select></label>
+<a href="../pdf/Lato26-ClearType-Mockup.pdf">PDF proof</a><a id="download" download>PNG image</a></nav>
+<div id="status" aria-live="polite"></div>
+<p>Use Native pixels for the closest screen comparison. Fit and logical-size views can resample color fringes. Display geometry, gamma and application rendering still affect a real Windows result.</p>
+<p class="sources">Method: HarfBuzz shaping, FreeType native TrueType instructions without auto-hinting, 3x horizontal coverage, five-tap RGB filtering, blending gamma 1.8. <a href="https://freetype.org/freetype2/docs/reference/ft2-lcd_rendering.html">FreeType reference</a> · <a href="https://learn.microsoft.com/en-us/windows/win32/directwrite/introducing-directwrite">Microsoft DirectWrite reference</a>.</p>
+</header><main id="stage"><img id="image" alt="Lato26 rendered with simulated RGB subpixel antialiasing"></main>
+<script>
+const proof=document.querySelector('#proof'),scale=document.querySelector('#scale'),view=document.querySelector('#view'),img=document.querySelector('#image');
+const names={weights:'Lato26-ClearType-Weights.png',pixels:'Lato26-ClearType-Pixels.png',scales:'Lato26-ClearType-Scales.png'};
+function layout(){let dpr=window.devicePixelRatio||1,w=img.naturalWidth;let kind=view.value;
+if(kind==='fit')w=Math.min(w,document.querySelector('#stage').clientWidth-56);
+else if(kind==='logical')w=img.naturalWidth/(proof.value==='mockup'?Number(scale.value)/100:1);
+else w=img.naturalWidth*Number(kind)/dpr;
+img.style.width=w+'px';img.style.height='auto';img.style.imageRendering=['fit','logical'].includes(kind)?'auto':'pixelated';
+document.querySelector('#status').textContent=img.naturalWidth+' × '+img.naturalHeight+' source pixels · browser pixel ratio '+dpr+' · '+view.selectedOptions[0].text;}
+function update(){scale.disabled=proof.value!=='mockup';let name=names[proof.value]||('Lato26-ClearType-Mockup-'+scale.value+'.png');img.src=name;document.querySelector('#download').href=name;}
+img.onload=layout;proof.onchange=scale.onchange=update;view.onchange=layout;window.onresize=layout;update();
+</script></html>

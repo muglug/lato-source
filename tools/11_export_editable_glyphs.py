@@ -148,6 +148,9 @@ def export(style):
     for instance_data in data['instances']:
         instance = gs.GSInstance(); instance.name = instance_data['name']; instance.axes = [instance_data['location']['wt']]
         instance.isItalic = style=='Ita'; instance.isBold = instance_data['weight']==700
+        from truetype_hinting import GLYPHS_OPTIONS
+        instance.customParameters['Autohint'] = True
+        instance.customParameters['TTFAutohint options'] = GLYPHS_OPTIONS
         instance.customParameters['weightClass'] = instance_data['weight']
         instance.customParameters['styleMapFamilyName'] = instance_data['sgn']
         font.instances.append(instance)

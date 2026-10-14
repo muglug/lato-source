@@ -531494,6 +531494,14 @@ value = 100;
 {
 name = styleMapFamilyName;
 value = "Lato26 Hairline";
+},
+{
+name = Autohint;
+value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--no-info --windows-compatibility --increase-x-height=14 --stem-width-mode=sss --fallback-script=latn --hinting-range-min=8 --hinting-range-max=50 --hinting-limit=200";
 }
 );
 name = Hairline;
@@ -531510,6 +531518,14 @@ value = 200;
 {
 name = styleMapFamilyName;
 value = "Lato26 Thin";
+},
+{
+name = Autohint;
+value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--no-info --windows-compatibility --increase-x-height=14 --stem-width-mode=sss --fallback-script=latn --hinting-range-min=8 --hinting-range-max=50 --hinting-limit=200";
 }
 );
 name = Thin;
@@ -531526,6 +531542,14 @@ value = 300;
 {
 name = styleMapFamilyName;
 value = "Lato26 Light";
+},
+{
+name = Autohint;
+value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--no-info --windows-compatibility --increase-x-height=14 --stem-width-mode=sss --fallback-script=latn --hinting-range-min=8 --hinting-range-max=50 --hinting-limit=200";
 }
 );
 name = Light;
@@ -531542,6 +531566,14 @@ value = 400;
 {
 name = styleMapFamilyName;
 value = Lato26;
+},
+{
+name = Autohint;
+value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--no-info --windows-compatibility --increase-x-height=14 --stem-width-mode=sss --fallback-script=latn --hinting-range-min=8 --hinting-range-max=50 --hinting-limit=200";
 }
 );
 name = Regular;
@@ -531558,6 +531590,14 @@ value = 500;
 {
 name = styleMapFamilyName;
 value = "Lato26 Medium";
+},
+{
+name = Autohint;
+value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--no-info --windows-compatibility --increase-x-height=14 --stem-width-mode=sss --fallback-script=latn --hinting-range-min=8 --hinting-range-max=50 --hinting-limit=200";
 }
 );
 name = Medium;
@@ -531574,6 +531614,14 @@ value = 600;
 {
 name = styleMapFamilyName;
 value = "Lato26 Semibold";
+},
+{
+name = Autohint;
+value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--no-info --windows-compatibility --increase-x-height=14 --stem-width-mode=sss --fallback-script=latn --hinting-range-min=8 --hinting-range-max=50 --hinting-limit=200";
 }
 );
 name = Semibold;
@@ -531590,6 +531638,14 @@ value = 700;
 {
 name = styleMapFamilyName;
 value = Lato26;
+},
+{
+name = Autohint;
+value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--no-info --windows-compatibility --increase-x-height=14 --stem-width-mode=sss --fallback-script=latn --hinting-range-min=8 --hinting-range-max=50 --hinting-limit=200";
 }
 );
 isBold = 1;
@@ -531607,6 +531663,14 @@ value = 800;
 {
 name = styleMapFamilyName;
 value = "Lato26 Heavy";
+},
+{
+name = Autohint;
+value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--no-info --windows-compatibility --increase-x-height=14 --stem-width-mode=sss --fallback-script=latn --hinting-range-min=8 --hinting-range-max=50 --hinting-limit=200";
 }
 );
 name = Heavy;
@@ -531623,6 +531687,14 @@ value = 900;
 {
 name = styleMapFamilyName;
 value = "Lato26 Black";
+},
+{
+name = Autohint;
+value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--no-info --windows-compatibility --increase-x-height=14 --stem-width-mode=sss --fallback-script=latn --hinting-range-min=8 --hinting-range-max=50 --hinting-limit=200";
 }
 );
 name = Black;

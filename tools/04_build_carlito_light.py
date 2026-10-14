@@ -1147,6 +1147,8 @@ def build_style(style_key, design=None, target="ink"):
     os2.usMaxContext = maxCtxFont(out)
 
     os.makedirs(OUT_DIR, exist_ok=True)
+    from truetype_hinting import hint_font
+    hint_font(out)
     out.save(style["out"])
     log(f"  wrote {os.path.relpath(style['out'], ROOT)}  ({os.path.getsize(style['out'])//1024} KB) in {time.time()-t0:.1f}s")
     log(f"  x-height {x_height}, cap height {cap_height} (Calibri Light: {cal_os2.sxHeight}/{cal_os2.sCapHeight}; Carlito Regular: 978/1314)")

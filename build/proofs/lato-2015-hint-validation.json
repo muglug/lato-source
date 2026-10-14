@@ -1,0 +1,1387 @@
+{
+  "engine": "ttfautohint 1.3",
+  "options": [
+    "--no-info",
+    "--ttfa-table",
+    "--windows-compatibility",
+    "--increase-x-height=14",
+    "--strong-stem-width=gGD",
+    "--fallback-script=latn",
+    "--hinting-range-min=8",
+    "--hinting-range-max=50",
+    "--hinting-limit=200"
+  ],
+  "fonts": [
+    {
+      "reference": "/Library/Fonts/Lato-Hairline.ttf",
+      "reference_sha256": "80dc280e8a05b80d7a566a15b379bba422a776e5bc58b92a9b8f3a9bbea7eb03",
+      "current": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Hairline.ttf",
+      "current_sha256": "f425816adaff4109c6aa447371fa3c273ec491609c4a8c4eb20c2f02368e37a6",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2179,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-Thin.ttf",
+      "reference_sha256": "11b51a8bb6361be3e4642de40b49c210ecb4a19b8bf630f3335ff07813726f3b",
+      "current": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Thin.ttf",
+      "current_sha256": "7fa2286d02f74fce23a776e7f773b9367b4d6cfeb3baa6adf6e95f5c7298c197",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2184,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-Light.ttf",
+      "reference_sha256": "e9d59afb6d9cb9cf6e8d8159d4639d5b577e29efc64a15182f228659cfc1e818",
+      "current": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Light.ttf",
+      "current_sha256": "b1e1246eda4f04ea55279f50dfdb76cb701c7a7b7e8c4ba74f758f69ce175a78",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2237,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-Regular.ttf",
+      "reference_sha256": "6f6940be0835c3ddec9199e5fc42be4cbc61ebcfd58c623fdf719366253f1780",
+      "current": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
+      "current_sha256": "6a9a55bb08219ae44bacac4285482e34a03ed5c994f53b9b8db579ffc5ef18da",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2169,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-Medium.ttf",
+      "reference_sha256": "be8bbf7105500e8fc1f9429307fb396905a0e6cff63fe1eb751bb319d0f1b0db",
+      "current": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Medium.ttf",
+      "current_sha256": "facba8c1794d29bca887fa22fa144da0767fa2a26a4f60397156df82b3174693",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2122,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-Semibold.ttf",
+      "reference_sha256": "2dc5d31e2cf1e29f3430eb2dfa1ba9911e08ee401b61dd12f40e0acb047a17a3",
+      "current": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Semibold.ttf",
+      "current_sha256": "723b479cb77c48e31122a30e09a617abc2b8334ba4fe5794697aef240e98c3b8",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2201,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-Bold.ttf",
+      "reference_sha256": "bf1b8130069b44b9148eeece35e5423bedac49777ba746615b826b8276574a7b",
+      "current": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
+      "current_sha256": "7353dbf812d0bdb247a1a3ae93fac6259515f83b3dbf660e48d4aacbea9c8c41",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2105,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        }
+      },
+      "bowl_top_edge_separation_16px": 1.296875
+    },
+    {
+      "reference": "/Library/Fonts/Lato-Heavy.ttf",
+      "reference_sha256": "4ce7ec20cd9c391b271b4149ad8cf5a71301d98965403f14fc5530d017146dbb",
+      "current": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Heavy.ttf",
+      "current_sha256": "f9e609325664e9f4e9818a8a675dcd469fc400bdafff2cdd2767b58ba8a48f23",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2109,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            9.0
+          ],
+          "current": [
+            0.0,
+            9.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            13.0
+          ],
+          "current": [
+            0.0,
+            13.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            13.0
+          ],
+          "current": [
+            0.0,
+            13.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            9.0
+          ],
+          "current": [
+            0.0,
+            9.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            9.0
+          ],
+          "current": [
+            0.0,
+            9.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            12.0
+          ],
+          "current": [
+            0.0,
+            12.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-Black.ttf",
+      "reference_sha256": "4ed66fa3928ae769205635c916b4f9e6a63f6a77f5d9693ac31a83d0d96ae1ef",
+      "current": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.ttf",
+      "current_sha256": "385be1c976cba95cb6c649ff95a4c9dc70a3eb1fa3b2ba2dd3861050d7cfd832",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2105,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            9.0
+          ],
+          "current": [
+            0.0,
+            9.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            13.0
+          ],
+          "current": [
+            0.0,
+            13.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            13.0
+          ],
+          "current": [
+            0.0,
+            13.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            9.0
+          ],
+          "current": [
+            0.0,
+            9.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            9.0
+          ],
+          "current": [
+            0.0,
+            9.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            12.0
+          ],
+          "current": [
+            0.0,
+            12.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-HairlineItalic.ttf",
+      "reference_sha256": "9e469d156b0471556f202358939cc7fd2cab421659e3a3638136431d3c46ec8b",
+      "current": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HairlineItalic.ttf",
+      "current_sha256": "4c42e4e5026035cdd6e5290e2ad9dbc1c5614984d3355693384a951fbd7db9bc",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2280,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-ThinItalic.ttf",
+      "reference_sha256": "c8ad5351e800f8286890a4c8a57d849207cb930287caeb40c4ffbe538f2f3e0e",
+      "current": "build/Lato3Ita2M/ds-ufo/masters/Lato26-ThinItalic.ttf",
+      "current_sha256": "b473aa25cb559259413aa710cec569e855df985eb703294791320c0c7cfa4170",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2249,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-LightItalic.ttf",
+      "reference_sha256": "8926c41622b7400d7f6f7dbf31cea50495f31230cf40904b8b83e634bf3cf6c6",
+      "current": "build/Lato3Ita2M/ds-ufo/masters/Lato26-LightItalic.ttf",
+      "current_sha256": "dd6a9e5d64e94fa397052b569cb93a7e38533314dd09ab0458175bc2486c8ce8",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2264,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-Italic.ttf",
+      "reference_sha256": "8c863f833b12bc8486671d26e3a58b13b0f9eaff1d6b10398e7c107a9b7ee05a",
+      "current": "build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ttf",
+      "current_sha256": "9b812532b4933784f0ecccca9a078d9ff2d1dab82ea280a593aa34c03efd608c",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2308,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-MediumItalic.ttf",
+      "reference_sha256": "0739be048a122e3abb0cb731b49f6c07ac212a54eb182ebaa25a65829d5ac0cf",
+      "current": "build/Lato3Ita2M/ds-ufo/masters/Lato26-MediumItalic.ttf",
+      "current_sha256": "bcec13143cd10490d30d8031e045238a8735713fd12ec3f1abeb42337d5c3bdd",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2239,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-SemiboldItalic.ttf",
+      "reference_sha256": "0aa594079c213d1dba417a2fc34b8170445d0f03af02a3b35f16b9b775eef398",
+      "current": "build/Lato3Ita2M/ds-ufo/masters/Lato26-SemiboldItalic.ttf",
+      "current_sha256": "3eb8a2fbd5732c7a9671e901755abcb51b14edbc5e1c4d51fcb63512c7226ba2",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2267,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-BoldItalic.ttf",
+      "reference_sha256": "e2f9244fdcd20840f2480f91370cea885bf99230c49d153199fa64853ad74b69",
+      "current": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ttf",
+      "current_sha256": "2745f33d52439dbc8e10837b8e4cbe6fc45c756a4d324b0c638f38309609a024",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2209,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            8.0
+          ],
+          "current": [
+            0.0,
+            8.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            11.0
+          ],
+          "current": [
+            0.0,
+            11.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-HeavyItalic.ttf",
+      "reference_sha256": "4c9af8df580f1b7a2e3336d69b225a38364a636dc014d8fd9c2b72adea68dd2d",
+      "current": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HeavyItalic.ttf",
+      "current_sha256": "d3099dc4645f094e9e1a758d69de382009f8f71d639076106efaf6a36829e8e4",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2189,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            9.0
+          ],
+          "current": [
+            0.0,
+            9.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            13.0
+          ],
+          "current": [
+            0.0,
+            13.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            13.0
+          ],
+          "current": [
+            0.0,
+            13.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            9.0
+          ],
+          "current": [
+            0.0,
+            9.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            9.0
+          ],
+          "current": [
+            0.0,
+            9.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            12.0
+          ],
+          "current": [
+            0.0,
+            12.0
+          ]
+        }
+      }
+    },
+    {
+      "reference": "/Library/Fonts/Lato-BlackItalic.ttf",
+      "reference_sha256": "0ae5310fe1ed156ab6af26a8c0be61aee44c166896765d5a9473670ad9c28dbc",
+      "current": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.ttf",
+      "current_sha256": "5be66efb9447c02c794ae7ca7971aef23f2877bb1d71bfb98a68665aed7d5e60",
+      "version": "Version 2.015; 2015-08-06; http://www.latofonts.com/",
+      "global_tables_reproduced": [
+        "fpgm",
+        "prep",
+        "cvt "
+      ],
+      "glyph_programs_reproduced": 3023,
+      "nonempty_programs_reproduced": 2258,
+      "bounds_16px": {
+        "a": {
+          "reference": [
+            0.0,
+            9.0
+          ],
+          "current": [
+            0.0,
+            9.0
+          ]
+        },
+        "h": {
+          "reference": [
+            0.0,
+            13.0
+          ],
+          "current": [
+            0.0,
+            13.0
+          ]
+        },
+        "k": {
+          "reference": [
+            0.0,
+            13.0
+          ],
+          "current": [
+            0.0,
+            13.0
+          ]
+        },
+        "n": {
+          "reference": [
+            0.0,
+            9.0
+          ],
+          "current": [
+            0.0,
+            9.0
+          ]
+        },
+        "o": {
+          "reference": [
+            0.0,
+            9.0
+          ],
+          "current": [
+            0.0,
+            9.0
+          ]
+        },
+        "H": {
+          "reference": [
+            0.0,
+            12.0
+          ],
+          "current": [
+            0.0,
+            12.0
+          ]
+        }
+      }
+    }
+  ],
+  "status": "passed",
+  "reference_fonts": 18
+}

@@ -82,6 +82,8 @@ def main():
             out['hmtx'][name] = advances[name], getattr(glyph, 'xMin', 0)
         assert all(out['hmtx'][n][0] == w for n, w in advances.items())
         rename_font(out)
+        from truetype_hinting import hint_font
+        hint_font(out, sorted(affected))
         out.save(path)
         with report_path.open('w') as f:
             writer = csv.DictWriter(f, fieldnames=columns, delimiter='\t', lineterminator='\n')
