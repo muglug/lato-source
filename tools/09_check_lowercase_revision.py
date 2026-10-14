@@ -20,7 +20,7 @@ from matplotlib.ft2font import FT2Font
 from PIL import ImageFont
 from modified_font_names import original_path, rename_font, FAMILY_NAME_IDS
 from lowercase_kerning import (CONFIG as SPACING_CONFIG, strip_spacing,
-                               spacing_strength, e_left_edge_difference, pair_advance, optical_addition)
+                               spacing_strength, e_left_edge_difference, pair_advance, optical_addition, bowl_allowance)
 
 build = importlib.import_module('07_build_revised_lato')
 ROOT = build.ROOT
@@ -126,7 +126,7 @@ def main():
                         before = ImageFont.truetype(str(args.baseline_dir/original_path(relative)), 2000)
                         after = ImageFont.truetype(str(path), 2000)
                         for sample in ('la', 'le', 'lo', 'lc', 'lè', 'lô', 'lé', 'ló', 'lv', 'lw', 'ly'):
-                            base = 'o' if sample[-1] in 'oôó' else sample[-1]
+                            base = 'o' if sample[-1] in 'oôó' else 'e' if sample[-1] in 'eèé' else sample[-1]
                             matches_e = base in spacing.get('match_e_spacing_rights', [])
                             strength = spacing_strength(spacing, 'e' if sample[-1] in 'eèé' or matches_e else 'o', design)
                             item = spacing['styles'][style]['left']['l']
@@ -138,6 +138,7 @@ def main():
                                 extra = item['clearance'][base]
                                 restored += round(extra[0]*(1-design/1000)+extra[1]*design/1000)*strength
                             restored += optical_addition(spacing, base)
+                            restored += bowl_allowance(spacing, style, base, design)
                             assert abs(before.getlength(sample)+restored-after.getlength(sample)) <= 1.01, (relative, sample)
                             results['spacing_shaped_pairs'] += 1
                         if spacing.get('l_pair_tightening'):

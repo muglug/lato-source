@@ -82,11 +82,11 @@ Vector PDF proofs are in `output/pdf/`; validation reports are in `build/proofs/
 metrics, and the authored Glyphs paths against a saved pre-revision build.
 
 The follow-up revision aligns both edges of the `a` bowl in `ae` with the
-lowered `e` crossbar, including accented and turned forms. Pair kerning offsets
-the added `l` advance before round and diagonal left sides, restoring original
-Lato spacing for pairs such as `lv`. For `le` and accented forms,
-Hairline through Regular restore a quarter of the removed space; Bold through
-Black restore half, with a gradual transition through Medium and Semibold.
+lowered `e` crossbar, including accented and turned forms. The first spacing
+pass offset most of the added `l` advance before round and diagonal left sides.
+For `le` and accented forms it restored a quarter of the removed space through
+Regular, and half from Bold onward. The later bowl-allowance pass below reduces
+that compensation further so the wider `l` retains room for its bowl.
 The `lo` and `lc` gaps now match `le`, including `fl`/`ffl` ligatures and accented
 forms, with a small correction for the different left edges of `e`, `o`, and `c`.
 The later optical-spacing review adds 20 units before `a`, 8 before `w`, and
@@ -110,9 +110,93 @@ configuration and normal rebuild preserve it thereafter.
 `14_refine_optical_spacing.py` records the later `lc` match and restrained
 `la`/`lw`/`ly` additions. Rebuild and export Glyphs normally afterward.
 
-`15_audit_optical_spacing.py --before-build PATH` measures every `la`-`lz`
+The Fira Sans lowercase-l/capital-I review led to a bowl-allowance pass,
+followed by a per-shape rhythm refinement. The first pass was too generous
+for upright `lo` and `ly`. The current pass compares both multiscale ink
+interaction (`lX / IX`) and the gap halfway up the x-height, using Fira as a
+reference for shape relationships while retaining Lato's widths and incoming
+spacing (`ol`, for example). It does not force every pair to a Fira target.
+
+Changes from the first allowance pass, in native 2,000 UPM units:
+
+| Style / pair | Hairline | Regular | Bold | Black |
+| --- | ---: | ---: | ---: | ---: |
+| Upright la | -30 | -55 | -10 | -5 |
+| Upright lc/le/lo | -45 | -55 | -25 | -10 |
+| Upright ld/lq | -5 | -20 | +30 | +45 |
+| Upright ls | -10 | -50 | 0 | 0 |
+| Upright lv | -50 | -60 | -25 | -5 |
+| Upright lw | -35 | -40 | -5 | 0 |
+| Upright lx | 0 | -20 | 0 | 0 |
+| Upright ly | -60 | -75 | -35 | -15 |
+| Italic la | 0 | 0 | +20 | +30 |
+| Italic lc/le/lo | -20 | -25 | -5 | 0 |
+| Italic ld/lq | 0 | 0 | +35 | +50 |
+| Italic ls | 0 | -15 | 0 | 0 |
+| Italic lv | -25 | -25 | +15 | +25 |
+| Italic lw | -10 | -15 | +20 | +30 |
+| Italic lx | -25 | -35 | -12 | 0 |
+| Italic ly | 0 | 0 | +20 | +30 |
+
+Intervening weights interpolate between these four Glyphs master positions.
+Before the smaller-bowl edit below, Regular upright `la/lc/le/lo/lw/ly`
+kerned at -46/-75/-74/-75/-61/-90.
+`lc` and `lo` retain the `le` outline-edge gap. The earlier +20/+8/+14
+`a/w/y` preferences remain inside these totals. Related accents, ligatures
+such as `ae`, and alternates follow their base, preserving clearance
+exceptions. Distinct turned/reversed shapes and `lg` are left alone where
+the evidence does not support the same adjustment.
+
+That spacing-only refinement kept the allowance at or above zero. It left
+vertical-left pairs, `lh/lk/ll`, capital-I pairs, `fl/ffl`, and Carlito26
+unchanged, preserving all outlines, advances, and corrected hint bytes.
+
+`26_refine_l_rhythm.py` records this one-time refinement of the VFJ sources and
+spacing JSON. The current per-glyph tables are in `bowl_allowance.additions`;
+`initial_budgets` documents the superseded blanket pass, and
+`rhythm_refinement` records the signed changes and method.
+
+`23_restore_l_bowl_spacing.py` records the one-time VFJ migration. Its
+`--refresh-only` mode updates built TTF/OTF positioning without rebuilding
+outlines or hints, refreshes the static Regular Glyphs kerning, and packages
+the desktop archive. Run `11_export_editable_glyphs.py` afterward for the two
+four-master editable sources. Normal outline rebuilds also use this policy.
+`24_check_l_bowl_spacing.py --snapshot PATH` compares every revision pair and
+all other font tables against a saved before-build, checks shaping and source
+preservation, and verifies the packaged fonts. Its report records the current
+font hashes separately from the earlier hint-validation reports.
+
+The subsequent authored Regular `l` edit reduces its advance from 591.3 to
+537 units and narrows and lowers the bowl. `27_propagate_smaller_l.py`
+transfers those exact control-point changes across upright weights. Shared
+inner/outer movement stays constant; differential movement scales with stem
+thickness, preserving thin strokes. Italics use the existing `t`-derived
+narrowing/shear. The change covers 35 related forms per style, including
+accents, alternates, small forms and ligatures. Carlito26 keeps all advances.
+
+The special outgoing pairs retain their preceding horizontal outline-edge
+gaps, including `lc/le/lo`, `la`, `lw`, `ly`, and `ll`. Kerning compensates for
+the reduced advance and bowl extent, including actual TTF/OTF conversion
+rounding. Ordinary vertical-left pairs such as `lh`, `li`, and `lj` keep
+their kerning and use the narrower advance. The correction and old metrics
+are recorded in `lowercase-spacing.json`; the authored edit and propagation
+method are in `smaller-l.json`.
+
+After the one-time migration, `27_propagate_smaller_l.py --snapshot PATH
+--build` rebuilds only these forms. `--glyphs` merges their geometry and
+kerning into the editable files while preserving the authored Regular layer
+and all unrelated glyph data. Use this merge mode for the current sources;
+a full `11_export_editable_glyphs.py` export replaces unrelated editor data.
+`08_refresh_carlito_outlines.py --only-smaller-l` updates the matching Carlito
+forms. `28_check_smaller_l.py --snapshot PATH` verifies the exact authored
+layer, unchanged unrelated outlines/hints/layout, special-pair gaps within
+half a unit, native hint execution, and packaged fonts. Only revised `l`
+instructions are regenerated; the corrected Bold `a` instructions are intact.
+
+`15_audit_optical_spacing.py --before-build PATH --reference-dir /Library/Fonts` measures every `la`-`lz`
 pair at all 18 weights/styles against the saved build before that adjustment.
-The audit uses Gaussian blur at 6%, 12%, and 24% of x-height, measures the
+It uses unhinted masks at approximately 256 pixels per x-height. The audit uses
+Gaussian blur at 6%, 12%, and 24% of x-height, measures the
 overlap of the two ink fields between baseline and x-height, and normalizes
 each scale to current `le` in the same font. The reported index is the
 geometric mean of those three ratios. This approach is related to
@@ -120,12 +204,43 @@ geometric mean of those three ratios. This approach is related to
 The implementation additionally requires `scipy`.
 
 The index measures ink interaction, not an objectively optimal spacing or
-reading performance. In particular, regular `lw`/`ly` already have lower
-indices than `le`; their small increases are explicit design choices, not
-automatic model recommendations. The report preserves all three scale
-ratios and checks the selected Regular pairs at double raster resolution.
+reading performance. The report also measures original Lato 2.015 relative
+to its own `le`, and samples horizontal contour clearance across the lower
+third of the bowl. Both before/after Lato26 columns use current `le` as their
+reference. It preserves all three scale ratios and checks selected Regular
+pairs at double raster resolution. The 18 alphabet pages compare the previous
+Lato26 build with the current one, covering all 468 pairs without fl ligatures.
 Results are in `build/proofs/optical-spacing.json` and `.csv`; generated blur
 images in `build/proofs/optical-blur/` are inputs to the PDF renderer.
+
+`21_compare_fira_spacing.py` compares `la`-`lz` against the official
+[Fira Sans 4.301 normal-width TTFs](https://github.com/bBoxType/FiraSans/tree/f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e/Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal).
+Place the reference fonts in `.cache/fira-sans-4.301/`, or supply
+`--reference-dir PATH`. Weights match by nominal class: Lato26 Hairline/Thin
+use Fira Thin/UltraLight, and Heavy/Black use Fira ExtraBold/Heavy.
+The audit checks shaping, measures normalized kerning and horizontal edge
+gaps, and applies the same three-scale blur heuristic to explicitly unhinted
+coverage at equal x-height. It writes 936 measurements and resolution checks
+to `build/proofs/fira-spacing-comparison.json` and `.csv`, plus the 20-page
+vector comparison `output/pdf/Lato26-FiraSans-Spacing.pdf`. This is an audit;
+it does not change the fonts. Use `--reuse-report` to redraw the PDF from
+verified, unchanged font files without repeating the raster audit.
+
+`22_compare_capital_i_spacing.py` extends that comparison to `Ia`-`Iz`, reusing
+the lowercase measurements only when all font hashes still match. It writes
+`fira-capital-i-comparison.json` and `.csv` alongside the earlier report, plus
+`output/pdf/Lato26-FiraSans-Capital-I-Spacing.pdf`, with both left letters shown
+side by side. Capital-I blur ratios use `Ie` as their own reference and also
+record a common `le` reference. Direct overlap summation avoids FFT cancellation
+when light capital-I pairs have very little interaction at the narrowest blur
+scale. A zero overlap is allowed when the truncated blur fields do not meet.
+
+`25_compare_rhythm.py --before-snapshot PATH` adds the `ly/Iy` and
+`IoloIolo` comparison, including mid-height gaps and common-reference ink
+interaction. With a snapshot containing the preceding report and fonts, its
+three-page PDF also shows the direct before/after change and the current
+`lj/Ij`, `li/Ii`, and `lh/Ih` relationships. It verifies the saved
+font hashes and checks pair gaps against the shaped whole string.
 
 ### Editable Glyphs sources and proofs
 
@@ -139,8 +254,9 @@ incompatible source topology use their compatible exported TTF contours;
 their names are recorded in each file's user data. The separate static Regular
 Glyphs file retains the authored `a` and `e` quadratics exactly.
 
-Regenerate the editable sources after rebuilding with
-`python tools/11_export_editable_glyphs.py`. Generate the vector
+Merge this authored revision into the editable sources with the `--glyphs`
+mode described above. Use `python tools/11_export_editable_glyphs.py` only
+when a full replacement export is intended. Generate the vector
 proof packet with `python tools/12_render_proofs.py --baseline-dir PATH
 --previous-build PATH`; the two paths refer to saved original and previous
 build directories. The output is `output/pdf/Lato26-Proofs.pdf`. Glyphs are

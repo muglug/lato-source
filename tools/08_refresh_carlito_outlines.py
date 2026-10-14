@@ -6,6 +6,7 @@ Calibri installation: existing advances, layout and vertical metrics are kept.
 Recover the original interpolation weight from the per-glyph build report and
 the unchanged Lato master advances. Reuse the original fitter and emboldener.
 """
+import argparse
 import copy
 import csv
 import importlib
@@ -38,6 +39,9 @@ def recover_weight(style, rows, affected):
 
 
 def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--only-smaller-l',action='store_true')
+    args=parser.parse_args()
     manifest = json.loads(MANIFEST.read_text())
     for key, short in (('upright', 'Upr'), ('italic', 'Ita')):
         style = build.STYLES[key]
@@ -47,8 +51,10 @@ def main():
             reader = csv.DictReader(f, delimiter='\t')
             columns = reader.fieldnames
             rows = {r['glyph']: r for r in reader}
-        affected = set(manifest['styles'][short]['glyphs'])
-        design, interval = recover_weight(style, rows, affected)
+        all_affected = set(manifest['styles'][short]['glyphs'])
+        affected = (set(json.loads((ROOT/'sources/data/smaller-l.json').read_text())['styles'][short]['glyphs'])
+                    if args.only_smaller_l else all_affected)
+        design, interval = recover_weight(style, rows, all_affected)
         lato = build.interpolate_lato(style, design)
         original = TTFont(path, recalcTimestamp=False)
         out = copy.deepcopy(original)

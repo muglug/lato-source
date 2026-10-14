@@ -157,7 +157,7 @@ def scales():
 def hint_comparison(before_build):
     im=Image.new('RGB',(1040,1040),'white')
     label(im,(40,50),'Lato 2.015 hinting / before and after',26,INK)
-    label(im,(40,80),'Identical outlines and spacing. 16 px text, enlarged 3x with nearest-neighbor sampling.',13)
+    label(im,(40,80),'Historical / current builds. Hinting, l shape and spacing differ. 16 px text, enlarged 3x.',13)
     label(im,(40,126),'PREVIOUS LATO26 HINTS',12,BLUE)
     label(im,(552,126),'LATO26 / 2.015 RECIPE',12,BLUE)
     for row,(weight,it) in enumerate((w,it) for w in ('Light','Regular','Bold') for it in (False,True)):
@@ -392,10 +392,10 @@ def main():
         'References: freetype.org/freetype2/docs/reference/ft2-lcd_rendering.html and Microsoft DirectWrite documentation.'
     ],4,total)
     if comparison:
-        pdf_page(c,'Embedded TrueType instructions','Before/after at the same size with unchanged outlines, widths, and kerning.',comparison,[
+        pdf_page(c,'Embedded TrueType instructions','Historical/current builds at the same size; the current l has a smaller bowl and advance.',comparison,[
             'All 20 desktop TTFs now use the Lato 2.015 hinting recipe, replacing the previous hint programs.',
             'The recipe reproduces all original glyph programs and global hint tables in the 18 reference fonts exactly.',
-            'Outline coordinates, components, naming, advance widths, and layout tables are preserved.'
+            'Current l pairs preserve the established special-pair gaps with the smaller bowl.'
         ],5,total)
         pdf_page(c,'Bold a / corrected hinting','A focused comparison at 12-20 px, including the reported 16 px size.',bowl,[
             'The bowl control keeps the top stroke thin; a final point link preserves the arch-to-stem overlap.',
@@ -417,7 +417,7 @@ def main():
         ],total-1,total)
         pdf_page(c,'Bold a / accented and related forms','All 34 affected forms at 14 and 16 px; enlarged 4x for inspection.',accents,[
             '32,946 glyph/size/render-target cases passed: connected joins and unchanged bowl/accents.',
-            'All source outlines, advance widths, kerning, and naming remain unchanged.',
+            'The a outlines and accent positions are unchanged; the l was revised separately.',
             'FreeType RGB approximation; PDF viewers can resample the pixels.'
         ],total,total)
     c.save()

@@ -1,0 +1,1745 @@
+{
+  "fonts": [
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
+      "sha256": "b6ed0690d8bd6dd89ce58cb59cdc5096cd5d3ef0029fe087bc074aa4132ed84c",
+      "version": "Version 3.100; https://www.latofonts.com/",
+      "units_per_em": 2000,
+      "xheight": 1010,
+      "weight_class": 400,
+      "render_ppem": 507,
+      "render_xheight_pixels": 256.035,
+      "family": "Lato26",
+      "style": "Upr",
+      "lato_weight": "Regular"
+    },
+    {
+      "path": ".cache/fira-sans-4.301/FiraSans-Regular.ttf",
+      "sha256": "43c240a110cf888686d13cd17400fd0ca376ce55656150e52abff95f67a9532e",
+      "version": "Version 4.301",
+      "units_per_em": 1000,
+      "xheight": 527,
+      "weight_class": 400,
+      "render_ppem": 486,
+      "render_xheight_pixels": 256.122,
+      "family": "Fira Sans",
+      "style": "Upr",
+      "lato_weight": "Regular"
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
+      "sha256": "e554c83c69809023d95b152a62b8e48b685d9fe32bb25cd1277aa94b7a09f6ea",
+      "version": "Version 3.100; https://www.latofonts.com/",
+      "units_per_em": 2000,
+      "xheight": 1024,
+      "weight_class": 700,
+      "render_ppem": 500,
+      "render_xheight_pixels": 256.0,
+      "family": "Lato26",
+      "style": "Upr",
+      "lato_weight": "Bold"
+    },
+    {
+      "path": ".cache/fira-sans-4.301/FiraSans-Bold.ttf",
+      "sha256": "2c41b665c7e1c20a0fb3fce3aa09b464b7c9c253db965979c45a6e8ee6a41546",
+      "version": "Version 4.301",
+      "units_per_em": 1000,
+      "xheight": 531,
+      "weight_class": 700,
+      "render_ppem": 482,
+      "render_xheight_pixels": 255.94199999999998,
+      "family": "Fira Sans",
+      "style": "Upr",
+      "lato_weight": "Bold"
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ttf",
+      "sha256": "1ad94f6661760a34711aa15c02d1a858bda89f75067c6a065466285057c7d4fd",
+      "version": "Version 3.100; https://www.latofonts.com/",
+      "units_per_em": 2000,
+      "xheight": 1012,
+      "weight_class": 400,
+      "render_ppem": 506,
+      "render_xheight_pixels": 256.036,
+      "family": "Lato26",
+      "style": "Ita",
+      "lato_weight": "Regular"
+    },
+    {
+      "path": ".cache/fira-sans-4.301/FiraSans-Italic.ttf",
+      "sha256": "5d55f0530d51d071e498acbefed420fe2c30c1d16c68a1ab86bcd88206ad688f",
+      "version": "Version 4.301",
+      "units_per_em": 1000,
+      "xheight": 527,
+      "weight_class": 400,
+      "render_ppem": 486,
+      "render_xheight_pixels": 256.122,
+      "family": "Fira Sans",
+      "style": "Ita",
+      "lato_weight": "Regular"
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ttf",
+      "sha256": "d609c20c6b36209a6d876cc3a6600e26760a562bd93c9c83ce36f7121bfeb55b",
+      "version": "Version 3.100; https://www.latofonts.com/",
+      "units_per_em": 2000,
+      "xheight": 1026,
+      "weight_class": 700,
+      "render_ppem": 499,
+      "render_xheight_pixels": 255.987,
+      "family": "Lato26",
+      "style": "Ita",
+      "lato_weight": "Bold"
+    },
+    {
+      "path": ".cache/fira-sans-4.301/FiraSans-BoldItalic.ttf",
+      "sha256": "4b12e45c1798b65a82f37f1ef9273068f74bab442f99083f3c1f89e7189031c4",
+      "version": "Version 4.301",
+      "units_per_em": 1000,
+      "xheight": 531,
+      "weight_class": 700,
+      "render_ppem": 482,
+      "render_xheight_pixels": 255.94199999999998,
+      "family": "Fira Sans",
+      "style": "Ita",
+      "lato_weight": "Bold"
+    }
+  ],
+  "sequence": "IoloIolo",
+  "gap_units": "percent of x-height",
+  "interaction": "Geometric mean of three unhinted Gaussian-overlap ratios; same le reference for all four pairs within each font.",
+  "rows": [
+    {
+      "style": "Upr",
+      "weight": "Regular",
+      "family": "Lato26",
+      "pairs": {
+        "Io": {
+          "kern": -31,
+          "horizontal_outline_gap": 235,
+          "blur_index": 0.95537,
+          "per_scale_ratios": [
+            0.97149,
+            0.98353,
+            0.91261
+          ],
+          "blur_index_relative_to_le": 0.712802109611811,
+          "kern_per_1000_em": -15.5,
+          "gap_percent_xheight": 23.2673,
+          "gap_per_1000_em": 117.5,
+          "interaction_relative_to_le": 0.712802109611811
+        },
+        "lo": {
+          "kern": -41,
+          "horizontal_outline_gap": 53,
+          "blur_index": 1.00808,
+          "per_scale_ratios": [
+            1.10741,
+            1.0081,
+            0.91765
+          ],
+          "kern_per_1000_em": -20.5,
+          "gap_percent_xheight": 5.2475,
+          "gap_per_1000_em": 26.5,
+          "interaction_relative_to_le": 1.00808
+        },
+        "oI": {
+          "kern": -31,
+          "horizontal_outline_gap": 236,
+          "blur_index": 0.41733,
+          "per_scale_ratios": [
+            0.12203,
+            0.6477,
+            0.91956
+          ],
+          "blur_index_relative_to_le": 0.7021831925690413,
+          "kern_per_1000_em": -15.5,
+          "gap_percent_xheight": 23.3663,
+          "gap_per_1000_em": 118.0,
+          "interaction_relative_to_le": 0.7021831925690413
+        },
+        "ol": {
+          "kern": 0,
+          "horizontal_outline_gap": 231,
+          "blur_index": 0.44479,
+          "per_scale_ratios": [
+            0.14846,
+            0.66347,
+            0.89336
+          ],
+          "blur_index_relative_to_le": 0.748388790804418,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 22.8713,
+          "gap_per_1000_em": 115.5,
+          "interaction_relative_to_le": 0.748388790804418
+        }
+      },
+      "sequence_gaps": [
+        23.2673,
+        22.8713,
+        5.2475,
+        23.3663,
+        23.2673,
+        22.8713,
+        5.2475
+      ],
+      "mid_xheight_gaps": {
+        "Io": 23.268,
+        "ol": 22.8719,
+        "lo": 25.2482,
+        "oI": 23.367,
+        "lj": 35.9406,
+        "Ij": 31.4851,
+        "li": 35.9406,
+        "Ii": 31.4851,
+        "lh": 34.9505,
+        "Ih": 30.495
+      },
+      "ly_Iy_interaction_ratio": 1.11320573531467,
+      "lo_Io_interaction_ratio": 1.4142494619565535,
+      "ol_oI_interaction_ratio": 1.0658027687423373,
+      "vertical_stem_interaction_ratios": {
+        "h": 3.0644849032836516,
+        "i": 3.3767631876248356,
+        "j": 3.7419346737686485
+      }
+    },
+    {
+      "style": "Upr",
+      "weight": "Regular",
+      "family": "Fira Sans",
+      "pairs": {
+        "Io": {
+          "kern": 0,
+          "horizontal_outline_gap": 157,
+          "blur_index": 0.96009,
+          "per_scale_ratios": [
+            0.98873,
+            0.98289,
+            0.91064
+          ],
+          "blur_index_relative_to_le": 0.7397601049242549,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 29.7913,
+          "gap_per_1000_em": 157.0,
+          "interaction_relative_to_le": 0.7397601049242549
+        },
+        "lo": {
+          "kern": -5,
+          "horizontal_outline_gap": 77,
+          "blur_index": 0.92869,
+          "per_scale_ratios": [
+            0.89951,
+            0.97683,
+            0.91156
+          ],
+          "kern_per_1000_em": -5.0,
+          "gap_percent_xheight": 14.611,
+          "gap_per_1000_em": 77.0,
+          "interaction_relative_to_le": 0.92869
+        },
+        "oI": {
+          "kern": 0,
+          "horizontal_outline_gap": 157,
+          "blur_index": 0.24324,
+          "per_scale_ratios": [
+            0.03933,
+            0.46814,
+            0.78174
+          ],
+          "blur_index_relative_to_le": 0.7413189084087514,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 29.7913,
+          "gap_per_1000_em": 157.0,
+          "interaction_relative_to_le": 0.7413189084087514
+        },
+        "ol": {
+          "kern": 0,
+          "horizontal_outline_gap": 143,
+          "blur_index": 0.4378,
+          "per_scale_ratios": [
+            0.14259,
+            0.67155,
+            0.87628
+          ],
+          "blur_index_relative_to_le": 1.3342431569947155,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 27.1347,
+          "gap_per_1000_em": 143.0,
+          "interaction_relative_to_le": 1.3342431569947155
+        }
+      },
+      "sequence_gaps": [
+        29.7913,
+        27.1347,
+        14.611,
+        29.7913,
+        29.7913,
+        27.1347,
+        14.611
+      ],
+      "mid_xheight_gaps": {
+        "Io": 29.7915,
+        "ol": 27.135,
+        "lo": 31.8788,
+        "oI": 29.7915,
+        "lj": 39.6584,
+        "Ij": 36.6224,
+        "li": 39.4687,
+        "Ii": 36.4326,
+        "lh": 39.4687,
+        "Ih": 36.4326
+      },
+      "ly_Iy_interaction_ratio": 0.8545146615854651,
+      "lo_Io_interaction_ratio": 1.255393463121521,
+      "ol_oI_interaction_ratio": 1.7998234523097247,
+      "vertical_stem_interaction_ratios": {
+        "h": 3.6306293058631143,
+        "i": 3.698304887257705,
+        "j": 4.24920253677528
+      }
+    },
+    {
+      "style": "Upr",
+      "weight": "Bold",
+      "family": "Lato26",
+      "pairs": {
+        "Io": {
+          "kern": -31,
+          "horizontal_outline_gap": 198,
+          "blur_index": 0.96314,
+          "per_scale_ratios": [
+            0.9741,
+            0.98761,
+            0.92871
+          ],
+          "blur_index_relative_to_le": 0.9503251803779387,
+          "kern_per_1000_em": -15.5,
+          "gap_percent_xheight": 19.3359,
+          "gap_per_1000_em": 99.0,
+          "interaction_relative_to_le": 0.9503251803779387
+        },
+        "lo": {
+          "kern": -20,
+          "horizontal_outline_gap": 49,
+          "blur_index": 1.00295,
+          "per_scale_ratios": [
+            1.07193,
+            1.00778,
+            0.9339
+          ],
+          "kern_per_1000_em": -10.0,
+          "gap_percent_xheight": 4.7852,
+          "gap_per_1000_em": 24.5,
+          "interaction_relative_to_le": 1.00295
+        },
+        "oI": {
+          "kern": -31,
+          "horizontal_outline_gap": 197,
+          "blur_index": 0.51779,
+          "per_scale_ratios": [
+            0.19927,
+            0.72323,
+            0.96326
+          ],
+          "blur_index_relative_to_le": 0.9707442038378296,
+          "kern_per_1000_em": -15.5,
+          "gap_percent_xheight": 19.2383,
+          "gap_per_1000_em": 98.5,
+          "interaction_relative_to_le": 0.9707442038378296
+        },
+        "ol": {
+          "kern": 0,
+          "horizontal_outline_gap": 192,
+          "blur_index": 0.5458,
+          "per_scale_ratios": [
+            0.23467,
+            0.73929,
+            0.9372
+          ],
+          "blur_index_relative_to_le": 1.0232604297180823,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 18.75,
+          "gap_per_1000_em": 96.0,
+          "interaction_relative_to_le": 1.0232604297180823
+        }
+      },
+      "sequence_gaps": [
+        19.3359,
+        18.75,
+        4.7852,
+        19.2383,
+        19.3359,
+        18.75,
+        4.7852
+      ],
+      "mid_xheight_gaps": {
+        "Io": 19.3366,
+        "ol": 18.7507,
+        "lo": 22.9499,
+        "oI": 19.239,
+        "lj": 31.0547,
+        "Ij": 27.1484,
+        "li": 31.0547,
+        "Ii": 27.1484,
+        "lh": 30.2734,
+        "Ih": 26.2695
+      },
+      "ly_Iy_interaction_ratio": 0.8654281336434226,
+      "lo_Io_interaction_ratio": 1.0553755921748098,
+      "ol_oI_interaction_ratio": 1.0540989332438249,
+      "vertical_stem_interaction_ratios": {
+        "h": 2.4546668686377875,
+        "i": 2.6812252775608787,
+        "j": 2.9197846805862953
+      }
+    },
+    {
+      "style": "Upr",
+      "weight": "Bold",
+      "family": "Fira Sans",
+      "pairs": {
+        "Io": {
+          "kern": 0,
+          "horizontal_outline_gap": 96,
+          "blur_index": 0.991,
+          "per_scale_ratios": [
+            1.01074,
+            1.00262,
+            0.96037
+          ],
+          "blur_index_relative_to_le": 1.1022341451214661,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 18.0791,
+          "gap_per_1000_em": 96.0,
+          "interaction_relative_to_le": 1.1022341451214661
+        },
+        "lo": {
+          "kern": -5,
+          "horizontal_outline_gap": 31,
+          "blur_index": 0.99601,
+          "per_scale_ratios": [
+            1.02271,
+            1.00444,
+            0.96186
+          ],
+          "kern_per_1000_em": -5.0,
+          "gap_percent_xheight": 5.838,
+          "gap_per_1000_em": 31.0,
+          "interaction_relative_to_le": 0.99601
+        },
+        "oI": {
+          "kern": 0,
+          "horizontal_outline_gap": 97,
+          "blur_index": 0.52186,
+          "per_scale_ratios": [
+            0.21265,
+            0.71291,
+            0.93751
+          ],
+          "blur_index_relative_to_le": 1.068298020498447,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 18.2674,
+          "gap_per_1000_em": 97.0,
+          "interaction_relative_to_le": 1.068298020498447
+        },
+        "ol": {
+          "kern": 0,
+          "horizontal_outline_gap": 86,
+          "blur_index": 0.72094,
+          "per_scale_ratios": [
+            0.41995,
+            0.88338,
+            1.01008
+          ],
+          "blur_index_relative_to_le": 1.4758302082817811,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 16.1959,
+          "gap_per_1000_em": 86.0,
+          "interaction_relative_to_le": 1.4758302082817811
+        }
+      },
+      "sequence_gaps": [
+        18.0791,
+        16.1959,
+        5.838,
+        18.2674,
+        18.0791,
+        16.1959,
+        5.838
+      ],
+      "mid_xheight_gaps": {
+        "Io": 18.0795,
+        "ol": 16.1962,
+        "lo": 21.6576,
+        "oI": 18.2678,
+        "lj": 28.0603,
+        "Ij": 23.5405,
+        "li": 28.0603,
+        "Ii": 23.5405,
+        "lh": 28.0603,
+        "Ih": 23.5405
+      },
+      "ly_Iy_interaction_ratio": 0.7357666801151433,
+      "lo_Io_interaction_ratio": 0.9036283301586885,
+      "ol_oI_interaction_ratio": 1.3814779958060652,
+      "vertical_stem_interaction_ratios": {
+        "h": 1.433033930015382,
+        "i": 1.4599757587264786,
+        "j": 1.64707824383832
+      }
+    },
+    {
+      "style": "Ita",
+      "weight": "Regular",
+      "family": "Lato26",
+      "pairs": {
+        "Io": {
+          "kern": 0,
+          "horizontal_outline_gap": 131,
+          "blur_index": 0.9699,
+          "per_scale_ratios": [
+            1.01569,
+            0.98938,
+            0.90794
+          ],
+          "blur_index_relative_to_le": 0.6204960828000275,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 12.9447,
+          "gap_per_1000_em": 65.5,
+          "interaction_relative_to_le": 0.6204960828000275
+        },
+        "lo": {
+          "kern": -36,
+          "horizontal_outline_gap": 118,
+          "blur_index": 0.96045,
+          "per_scale_ratios": [
+            0.96384,
+            1.00478,
+            0.91483
+          ],
+          "kern_per_1000_em": -18.0,
+          "gap_percent_xheight": 11.6601,
+          "gap_per_1000_em": 59.0,
+          "interaction_relative_to_le": 0.96045
+        },
+        "oI": {
+          "kern": 0,
+          "horizontal_outline_gap": 182,
+          "blur_index": 0.26524,
+          "per_scale_ratios": [
+            0.04965,
+            0.47421,
+            0.79252
+          ],
+          "blur_index_relative_to_le": 0.6070942465048768,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 17.9842,
+          "gap_per_1000_em": 91.0,
+          "interaction_relative_to_le": 0.6070942465048768
+        },
+        "ol": {
+          "kern": 0,
+          "horizontal_outline_gap": 180.828,
+          "blur_index": 0.43033,
+          "per_scale_ratios": [
+            0.14606,
+            0.6406,
+            0.85166
+          ],
+          "blur_index_relative_to_le": 0.9849634935587237,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 17.8684,
+          "gap_per_1000_em": 90.414,
+          "interaction_relative_to_le": 0.9849634935587237
+        }
+      },
+      "sequence_gaps": [
+        12.9447,
+        17.8683,
+        11.6601,
+        17.9842,
+        12.9447,
+        17.8683,
+        11.6601
+      ],
+      "mid_xheight_gaps": {
+        "Io": 24.7466,
+        "ol": 22.0894,
+        "lo": 25.0265,
+        "oI": 24.762,
+        "lj": 34.9483,
+        "Ij": 31.111,
+        "li": 34.9799,
+        "Ii": 31.1426,
+        "lh": 34.0103,
+        "Ih": 30.173
+      },
+      "ly_Iy_interaction_ratio": 1.4810858505843716,
+      "lo_Io_interaction_ratio": 1.547874396992015,
+      "ol_oI_interaction_ratio": 1.6224227115135599,
+      "vertical_stem_interaction_ratios": {
+        "h": 2.423345653073277,
+        "i": 2.61628302958634,
+        "j": 3.0085670788493526
+      }
+    },
+    {
+      "style": "Ita",
+      "weight": "Regular",
+      "family": "Fira Sans",
+      "pairs": {
+        "Io": {
+          "kern": 0,
+          "horizontal_outline_gap": 91,
+          "blur_index": 0.95031,
+          "per_scale_ratios": [
+            0.98215,
+            0.97566,
+            0.89561
+          ],
+          "blur_index_relative_to_le": 0.7366191530147687,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 17.2676,
+          "gap_per_1000_em": 91.0,
+          "interaction_relative_to_le": 0.7366191530147687
+        },
+        "lo": {
+          "kern": -5,
+          "horizontal_outline_gap": 86,
+          "blur_index": 0.93956,
+          "per_scale_ratios": [
+            0.95012,
+            0.97444,
+            0.89587
+          ],
+          "kern_per_1000_em": -5.0,
+          "gap_percent_xheight": 16.3188,
+          "gap_per_1000_em": 86.0,
+          "interaction_relative_to_le": 0.93956
+        },
+        "oI": {
+          "kern": 0,
+          "horizontal_outline_gap": 114,
+          "blur_index": 0.25169,
+          "per_scale_ratios": [
+            0.04466,
+            0.47407,
+            0.7531
+          ],
+          "blur_index_relative_to_le": 0.7154989688001092,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 21.6319,
+          "gap_per_1000_em": 114.0,
+          "interaction_relative_to_le": 0.7154989688001092
+        },
+        "ol": {
+          "kern": 0,
+          "horizontal_outline_gap": 119,
+          "blur_index": 0.36808,
+          "per_scale_ratios": [
+            0.10415,
+            0.59019,
+            0.81129
+          ],
+          "blur_index_relative_to_le": 1.0463763032317854,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 22.5806,
+          "gap_per_1000_em": 119.0,
+          "interaction_relative_to_le": 1.0463763032317854
+        }
+      },
+      "sequence_gaps": [
+        17.2676,
+        22.5806,
+        16.3188,
+        21.6319,
+        17.2676,
+        22.5806,
+        16.3188
+      ],
+      "mid_xheight_gaps": {
+        "Io": 29.4122,
+        "ol": 27.6526,
+        "lo": 30.0806,
+        "oI": 29.4511,
+        "lj": 38.214,
+        "Ij": 36.5968,
+        "li": 38.2212,
+        "Ii": 36.6041,
+        "lh": 38.2464,
+        "Ih": 36.6293
+      },
+      "ly_Iy_interaction_ratio": 1.1174284055751342,
+      "lo_Io_interaction_ratio": 1.275503082094259,
+      "ol_oI_interaction_ratio": 1.462442783092416,
+      "vertical_stem_interaction_ratios": {
+        "h": 4.1341392480706185,
+        "i": 4.163570222666756,
+        "j": 5.025962271759713
+      }
+    },
+    {
+      "style": "Ita",
+      "weight": "Bold",
+      "family": "Lato26",
+      "pairs": {
+        "Io": {
+          "kern": 0,
+          "horizontal_outline_gap": 94,
+          "blur_index": 0.96605,
+          "per_scale_ratios": [
+            0.98642,
+            0.98882,
+            0.9243
+          ],
+          "blur_index_relative_to_le": 0.8461859745528082,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 9.1618,
+          "gap_per_1000_em": 47.0,
+          "interaction_relative_to_le": 0.8461859745528082
+        },
+        "lo": {
+          "kern": -20,
+          "horizontal_outline_gap": 109,
+          "blur_index": 0.97508,
+          "per_scale_ratios": [
+            0.99852,
+            0.9993,
+            0.92911
+          ],
+          "kern_per_1000_em": -10.0,
+          "gap_percent_xheight": 10.6238,
+          "gap_per_1000_em": 54.5,
+          "interaction_relative_to_le": 0.97508
+        },
+        "oI": {
+          "kern": 0,
+          "horizontal_outline_gap": 145,
+          "blur_index": 0.33843,
+          "per_scale_ratios": [
+            0.08752,
+            0.53392,
+            0.82955
+          ],
+          "blur_index_relative_to_le": 0.8274185729635272,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 14.1326,
+          "gap_per_1000_em": 72.5,
+          "interaction_relative_to_le": 0.8274185729635272
+        },
+        "ol": {
+          "kern": 0,
+          "horizontal_outline_gap": 147.569,
+          "blur_index": 0.5201,
+          "per_scale_ratios": [
+            0.22333,
+            0.70656,
+            0.89158
+          ],
+          "blur_index_relative_to_le": 1.2715889937145244,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 14.3829,
+          "gap_per_1000_em": 73.7845,
+          "interaction_relative_to_le": 1.2715889937145244
+        }
+      },
+      "sequence_gaps": [
+        9.1618,
+        14.383,
+        10.6238,
+        14.1326,
+        9.1618,
+        14.383,
+        10.6238
+      ],
+      "mid_xheight_gaps": {
+        "Io": 20.8144,
+        "ol": 18.1731,
+        "lo": 22.7752,
+        "oI": 20.835,
+        "lj": 30.6829,
+        "Ij": 26.7727,
+        "li": 30.7175,
+        "Ii": 26.8074,
+        "lh": 29.807,
+        "Ih": 25.8968
+      },
+      "ly_Iy_interaction_ratio": 1.278383548882425,
+      "lo_Io_interaction_ratio": 1.1523235190884717,
+      "ol_oI_interaction_ratio": 1.5368146610005773,
+      "vertical_stem_interaction_ratios": {
+        "h": 1.88707089368821,
+        "i": 1.9901814581992705,
+        "j": 2.2325603382643666
+      }
+    },
+    {
+      "style": "Ita",
+      "weight": "Bold",
+      "family": "Fira Sans",
+      "pairs": {
+        "Io": {
+          "kern": 0,
+          "horizontal_outline_gap": 33,
+          "blur_index": 0.98487,
+          "per_scale_ratios": [
+            0.99463,
+            1.00339,
+            0.95721
+          ],
+          "blur_index_relative_to_le": 0.8936305124566869,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 6.2147,
+          "gap_per_1000_em": 33.0,
+          "interaction_relative_to_le": 0.8936305124566869
+        },
+        "lo": {
+          "kern": -5,
+          "horizontal_outline_gap": 32,
+          "blur_index": 0.97841,
+          "per_scale_ratios": [
+            0.97885,
+            0.99963,
+            0.95722
+          ],
+          "kern_per_1000_em": -5.0,
+          "gap_percent_xheight": 6.0264,
+          "gap_per_1000_em": 32.0,
+          "interaction_relative_to_le": 0.97841
+        },
+        "oI": {
+          "kern": 0,
+          "horizontal_outline_gap": 55,
+          "blur_index": 0.52434,
+          "per_scale_ratios": [
+            0.22272,
+            0.71274,
+            0.90812
+          ],
+          "blur_index_relative_to_le": 0.8813799195487934,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 10.3578,
+          "gap_per_1000_em": 55.0,
+          "interaction_relative_to_le": 0.8813799195487934
+        },
+        "ol": {
+          "kern": 0,
+          "horizontal_outline_gap": 63,
+          "blur_index": 0.66054,
+          "per_scale_ratios": [
+            0.36573,
+            0.82261,
+            0.95794
+          ],
+          "blur_index_relative_to_le": 1.1103093798713066,
+          "kern_per_1000_em": 0.0,
+          "gap_percent_xheight": 11.8644,
+          "gap_per_1000_em": 63.0,
+          "interaction_relative_to_le": 1.1103093798713066
+        }
+      },
+      "sequence_gaps": [
+        6.2147,
+        11.8644,
+        6.0264,
+        10.3578,
+        6.2147,
+        11.8644,
+        6.0264
+      ],
+      "mid_xheight_gaps": {
+        "Io": 18.1446,
+        "ol": 16.5197,
+        "lo": 19.6625,
+        "oI": 18.0886,
+        "lj": 26.0481,
+        "Ij": 23.5885,
+        "li": 26.1578,
+        "Ii": 23.6982,
+        "lh": 26.0095,
+        "Ih": 23.55
+      },
+      "ly_Iy_interaction_ratio": 1.0024715924628034,
+      "lo_Io_interaction_ratio": 1.0948708513882826,
+      "ol_oI_interaction_ratio": 1.2597398184879338,
+      "vertical_stem_interaction_ratios": {
+        "h": 1.8054031179065189,
+        "i": 1.833195950780777,
+        "j": 2.0772832220306814
+      }
+    }
+  ],
+  "previous": {
+    "snapshot": "/private/tmp/lato-narrow-l",
+    "fonts": [
+      {
+        "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
+        "sha256": "65ab13563391784fd566496e0ced930c37f4cc7193df71c01045a41752a1c4f7",
+        "version": "Version 3.100; https://www.latofonts.com/",
+        "units_per_em": 2000,
+        "xheight": 1010,
+        "weight_class": 400,
+        "render_ppem": 507,
+        "render_xheight_pixels": 256.035,
+        "family": "Lato26",
+        "style": "Upr",
+        "lato_weight": "Regular"
+      },
+      {
+        "path": ".cache/fira-sans-4.301/FiraSans-Regular.ttf",
+        "sha256": "43c240a110cf888686d13cd17400fd0ca376ce55656150e52abff95f67a9532e",
+        "version": "Version 4.301",
+        "units_per_em": 1000,
+        "xheight": 527,
+        "weight_class": 400,
+        "render_ppem": 486,
+        "render_xheight_pixels": 256.122,
+        "family": "Fira Sans",
+        "style": "Upr",
+        "lato_weight": "Regular"
+      },
+      {
+        "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
+        "sha256": "eee88d338fc7bc04047fa5c6c44f19c6b19a9fdad804feec0448a7746d07d68d",
+        "version": "Version 3.100; https://www.latofonts.com/",
+        "units_per_em": 2000,
+        "xheight": 1024,
+        "weight_class": 700,
+        "render_ppem": 500,
+        "render_xheight_pixels": 256.0,
+        "family": "Lato26",
+        "style": "Upr",
+        "lato_weight": "Bold"
+      },
+      {
+        "path": ".cache/fira-sans-4.301/FiraSans-Bold.ttf",
+        "sha256": "2c41b665c7e1c20a0fb3fce3aa09b464b7c9c253db965979c45a6e8ee6a41546",
+        "version": "Version 4.301",
+        "units_per_em": 1000,
+        "xheight": 531,
+        "weight_class": 700,
+        "render_ppem": 482,
+        "render_xheight_pixels": 255.94199999999998,
+        "family": "Fira Sans",
+        "style": "Upr",
+        "lato_weight": "Bold"
+      },
+      {
+        "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ttf",
+        "sha256": "a2a9ce566a241dd5761293ce1400d360c9568bbe38276c53c1faac45ee0381fe",
+        "version": "Version 3.100; https://www.latofonts.com/",
+        "units_per_em": 2000,
+        "xheight": 1012,
+        "weight_class": 400,
+        "render_ppem": 506,
+        "render_xheight_pixels": 256.036,
+        "family": "Lato26",
+        "style": "Ita",
+        "lato_weight": "Regular"
+      },
+      {
+        "path": ".cache/fira-sans-4.301/FiraSans-Italic.ttf",
+        "sha256": "5d55f0530d51d071e498acbefed420fe2c30c1d16c68a1ab86bcd88206ad688f",
+        "version": "Version 4.301",
+        "units_per_em": 1000,
+        "xheight": 527,
+        "weight_class": 400,
+        "render_ppem": 486,
+        "render_xheight_pixels": 256.122,
+        "family": "Fira Sans",
+        "style": "Ita",
+        "lato_weight": "Regular"
+      },
+      {
+        "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ttf",
+        "sha256": "d8b10114e631544668a0065eda9fc0ad5c59b368f2830006c2301ce8949e0299",
+        "version": "Version 3.100; https://www.latofonts.com/",
+        "units_per_em": 2000,
+        "xheight": 1026,
+        "weight_class": 700,
+        "render_ppem": 499,
+        "render_xheight_pixels": 255.987,
+        "family": "Lato26",
+        "style": "Ita",
+        "lato_weight": "Bold"
+      },
+      {
+        "path": ".cache/fira-sans-4.301/FiraSans-BoldItalic.ttf",
+        "sha256": "4b12e45c1798b65a82f37f1ef9273068f74bab442f99083f3c1f89e7189031c4",
+        "version": "Version 4.301",
+        "units_per_em": 1000,
+        "xheight": 531,
+        "weight_class": 700,
+        "render_ppem": 482,
+        "render_xheight_pixels": 255.94199999999998,
+        "family": "Fira Sans",
+        "style": "Ita",
+        "lato_weight": "Bold"
+      }
+    ],
+    "rows": [
+      {
+        "style": "Upr",
+        "weight": "Regular",
+        "family": "Lato26",
+        "pairs": {
+          "Io": {
+            "kern": -31,
+            "horizontal_outline_gap": 235,
+            "blur_index": 0.95537,
+            "per_scale_ratios": [
+              0.97149,
+              0.98353,
+              0.91261
+            ],
+            "blur_index_relative_to_le": 0.8000108117227366,
+            "kern_per_1000_em": -15.5,
+            "gap_percent_xheight": 23.2673,
+            "gap_per_1000_em": 117.5,
+            "interaction_relative_to_le": 0.8000108117227366
+          },
+          "lo": {
+            "kern": -75,
+            "horizontal_outline_gap": 53,
+            "blur_index": 1.01311,
+            "per_scale_ratios": [
+              1.1182,
+              1.01136,
+              0.91949
+            ],
+            "kern_per_1000_em": -37.5,
+            "gap_percent_xheight": 5.2475,
+            "gap_per_1000_em": 26.5,
+            "interaction_relative_to_le": 1.01311
+          },
+          "oI": {
+            "kern": -31,
+            "horizontal_outline_gap": 236,
+            "blur_index": 0.41733,
+            "per_scale_ratios": [
+              0.12203,
+              0.6477,
+              0.91956
+            ],
+            "blur_index_relative_to_le": 0.7880927094494015,
+            "kern_per_1000_em": -15.5,
+            "gap_percent_xheight": 23.3663,
+            "gap_per_1000_em": 118.0,
+            "interaction_relative_to_le": 0.7880927094494015
+          },
+          "ol": {
+            "kern": 0,
+            "horizontal_outline_gap": 231,
+            "blur_index": 0.43946,
+            "per_scale_ratios": [
+              0.14743,
+              0.6528,
+              0.88182
+            ],
+            "blur_index_relative_to_le": 0.8298797462255595,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 22.8713,
+            "gap_per_1000_em": 115.5,
+            "interaction_relative_to_le": 0.8298797462255595
+          }
+        },
+        "sequence_gaps": [
+          23.2673,
+          22.8713,
+          5.2475,
+          23.3663,
+          23.2673,
+          22.8713,
+          5.2475
+        ],
+        "mid_xheight_gaps": {
+          "Io": 23.268,
+          "ol": 22.8719,
+          "lo": 27.2284,
+          "oI": 23.367,
+          "lj": 41.2871,
+          "Ij": 31.4851,
+          "li": 41.2871,
+          "Ii": 31.4851,
+          "lh": 40.297,
+          "Ih": 30.495
+        },
+        "ly_Iy_interaction_ratio": 0.7867242176333319,
+        "lo_Io_interaction_ratio": 1.2663703854431385,
+        "ol_oI_interaction_ratio": 1.0530229962479318,
+        "vertical_stem_interaction_ratios": {
+          "h": 1.6378689256644283,
+          "i": 1.7864476642441296,
+          "j": 2.0096584815511247
+        }
+      },
+      {
+        "style": "Upr",
+        "weight": "Regular",
+        "family": "Fira Sans",
+        "pairs": {
+          "Io": {
+            "kern": 0,
+            "horizontal_outline_gap": 157,
+            "blur_index": 0.96009,
+            "per_scale_ratios": [
+              0.98873,
+              0.98289,
+              0.91064
+            ],
+            "blur_index_relative_to_le": 0.7397601049242549,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 29.7913,
+            "gap_per_1000_em": 157.0,
+            "interaction_relative_to_le": 0.7397601049242549
+          },
+          "lo": {
+            "kern": -5,
+            "horizontal_outline_gap": 77,
+            "blur_index": 0.92869,
+            "per_scale_ratios": [
+              0.89951,
+              0.97683,
+              0.91156
+            ],
+            "kern_per_1000_em": -5.0,
+            "gap_percent_xheight": 14.611,
+            "gap_per_1000_em": 77.0,
+            "interaction_relative_to_le": 0.92869
+          },
+          "oI": {
+            "kern": 0,
+            "horizontal_outline_gap": 157,
+            "blur_index": 0.24324,
+            "per_scale_ratios": [
+              0.03933,
+              0.46814,
+              0.78174
+            ],
+            "blur_index_relative_to_le": 0.7413189084087514,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 29.7913,
+            "gap_per_1000_em": 157.0,
+            "interaction_relative_to_le": 0.7413189084087514
+          },
+          "ol": {
+            "kern": 0,
+            "horizontal_outline_gap": 143,
+            "blur_index": 0.4378,
+            "per_scale_ratios": [
+              0.14259,
+              0.67155,
+              0.87628
+            ],
+            "blur_index_relative_to_le": 1.3342431569947155,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 27.1347,
+            "gap_per_1000_em": 143.0,
+            "interaction_relative_to_le": 1.3342431569947155
+          }
+        },
+        "sequence_gaps": [
+          29.7913,
+          27.1347,
+          14.611,
+          29.7913,
+          29.7913,
+          27.1347,
+          14.611
+        ],
+        "mid_xheight_gaps": {
+          "Io": 29.7915,
+          "ol": 27.135,
+          "lo": 31.8788,
+          "oI": 29.7915,
+          "lj": 39.6584,
+          "Ij": 36.6224,
+          "li": 39.4687,
+          "Ii": 36.4326,
+          "lh": 39.4687,
+          "Ih": 36.4326
+        },
+        "ly_Iy_interaction_ratio": 0.8545146615854651,
+        "lo_Io_interaction_ratio": 1.255393463121521,
+        "ol_oI_interaction_ratio": 1.7998234523097247,
+        "vertical_stem_interaction_ratios": {
+          "h": 3.6306293058631143,
+          "i": 3.698304887257705,
+          "j": 4.24920253677528
+        }
+      },
+      {
+        "style": "Upr",
+        "weight": "Bold",
+        "family": "Lato26",
+        "pairs": {
+          "Io": {
+            "kern": -31,
+            "horizontal_outline_gap": 198,
+            "blur_index": 0.96314,
+            "per_scale_ratios": [
+              0.9741,
+              0.98761,
+              0.92871
+            ],
+            "blur_index_relative_to_le": 1.0581450156356689,
+            "kern_per_1000_em": -15.5,
+            "gap_percent_xheight": 19.3359,
+            "gap_per_1000_em": 99.0,
+            "interaction_relative_to_le": 1.0581450156356689
+          },
+          "lo": {
+            "kern": -54,
+            "horizontal_outline_gap": 49,
+            "blur_index": 1.00673,
+            "per_scale_ratios": [
+              1.08026,
+              1.00984,
+              0.93531
+            ],
+            "kern_per_1000_em": -27.0,
+            "gap_percent_xheight": 4.7852,
+            "gap_per_1000_em": 24.5,
+            "interaction_relative_to_le": 1.00673
+          },
+          "oI": {
+            "kern": -31,
+            "horizontal_outline_gap": 197,
+            "blur_index": 0.51779,
+            "per_scale_ratios": [
+              0.19927,
+              0.72323,
+              0.96326
+            ],
+            "blur_index_relative_to_le": 1.080880694268996,
+            "kern_per_1000_em": -15.5,
+            "gap_percent_xheight": 19.2383,
+            "gap_per_1000_em": 98.5,
+            "interaction_relative_to_le": 1.080880694268996
+          },
+          "ol": {
+            "kern": 0,
+            "horizontal_outline_gap": 192,
+            "blur_index": 0.53783,
+            "per_scale_ratios": [
+              0.23214,
+              0.72541,
+              0.92387
+            ],
+            "blur_index_relative_to_le": 1.1227167787822774,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 18.75,
+            "gap_per_1000_em": 96.0,
+            "interaction_relative_to_le": 1.1227167787822774
+          }
+        },
+        "sequence_gaps": [
+          19.3359,
+          18.75,
+          4.7852,
+          19.2383,
+          19.3359,
+          18.75,
+          4.7852
+        ],
+        "mid_xheight_gaps": {
+          "Io": 19.3366,
+          "ol": 18.7507,
+          "lo": 24.903,
+          "oI": 19.239,
+          "lj": 36.3281,
+          "Ij": 27.1484,
+          "li": 36.3281,
+          "Ii": 27.1484,
+          "lh": 35.5469,
+          "Ih": 26.2695
+        },
+        "ly_Iy_interaction_ratio": 0.6253705229069901,
+        "lo_Io_interaction_ratio": 0.9514102368995406,
+        "ol_oI_interaction_ratio": 1.0387055525508997,
+        "vertical_stem_interaction_ratios": {
+          "h": 1.3899599613653413,
+          "i": 1.5083008731543055,
+          "j": 1.6720474692334275
+        }
+      },
+      {
+        "style": "Upr",
+        "weight": "Bold",
+        "family": "Fira Sans",
+        "pairs": {
+          "Io": {
+            "kern": 0,
+            "horizontal_outline_gap": 96,
+            "blur_index": 0.991,
+            "per_scale_ratios": [
+              1.01074,
+              1.00262,
+              0.96037
+            ],
+            "blur_index_relative_to_le": 1.1022341451214661,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 18.0791,
+            "gap_per_1000_em": 96.0,
+            "interaction_relative_to_le": 1.1022341451214661
+          },
+          "lo": {
+            "kern": -5,
+            "horizontal_outline_gap": 31,
+            "blur_index": 0.99601,
+            "per_scale_ratios": [
+              1.02271,
+              1.00444,
+              0.96186
+            ],
+            "kern_per_1000_em": -5.0,
+            "gap_percent_xheight": 5.838,
+            "gap_per_1000_em": 31.0,
+            "interaction_relative_to_le": 0.99601
+          },
+          "oI": {
+            "kern": 0,
+            "horizontal_outline_gap": 97,
+            "blur_index": 0.52186,
+            "per_scale_ratios": [
+              0.21265,
+              0.71291,
+              0.93751
+            ],
+            "blur_index_relative_to_le": 1.068298020498447,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 18.2674,
+            "gap_per_1000_em": 97.0,
+            "interaction_relative_to_le": 1.068298020498447
+          },
+          "ol": {
+            "kern": 0,
+            "horizontal_outline_gap": 86,
+            "blur_index": 0.72094,
+            "per_scale_ratios": [
+              0.41995,
+              0.88338,
+              1.01008
+            ],
+            "blur_index_relative_to_le": 1.4758302082817811,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 16.1959,
+            "gap_per_1000_em": 86.0,
+            "interaction_relative_to_le": 1.4758302082817811
+          }
+        },
+        "sequence_gaps": [
+          18.0791,
+          16.1959,
+          5.838,
+          18.2674,
+          18.0791,
+          16.1959,
+          5.838
+        ],
+        "mid_xheight_gaps": {
+          "Io": 18.0795,
+          "ol": 16.1962,
+          "lo": 21.6576,
+          "oI": 18.2678,
+          "lj": 28.0603,
+          "Ij": 23.5405,
+          "li": 28.0603,
+          "Ii": 23.5405,
+          "lh": 28.0603,
+          "Ih": 23.5405
+        },
+        "ly_Iy_interaction_ratio": 0.7357666801151433,
+        "lo_Io_interaction_ratio": 0.9036283301586885,
+        "ol_oI_interaction_ratio": 1.3814779958060652,
+        "vertical_stem_interaction_ratios": {
+          "h": 1.433033930015382,
+          "i": 1.4599757587264786,
+          "j": 1.64707824383832
+        }
+      },
+      {
+        "style": "Ita",
+        "weight": "Regular",
+        "family": "Lato26",
+        "pairs": {
+          "Io": {
+            "kern": 0,
+            "horizontal_outline_gap": 131,
+            "blur_index": 0.9699,
+            "per_scale_ratios": [
+              1.01569,
+              0.98938,
+              0.90794
+            ],
+            "blur_index_relative_to_le": 0.7030659454165236,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 12.9447,
+            "gap_per_1000_em": 65.5,
+            "interaction_relative_to_le": 0.7030659454165236
+          },
+          "lo": {
+            "kern": -70,
+            "horizontal_outline_gap": 118,
+            "blur_index": 0.95303,
+            "per_scale_ratios": [
+              0.9408,
+              1.00387,
+              0.91653
+            ],
+            "kern_per_1000_em": -35.0,
+            "gap_percent_xheight": 11.6601,
+            "gap_per_1000_em": 59.0,
+            "interaction_relative_to_le": 0.95303
+          },
+          "oI": {
+            "kern": 0,
+            "horizontal_outline_gap": 182,
+            "blur_index": 0.26524,
+            "per_scale_ratios": [
+              0.04965,
+              0.47421,
+              0.79252
+            ],
+            "blur_index_relative_to_le": 0.6878807170704417,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 17.9842,
+            "gap_per_1000_em": 91.0,
+            "interaction_relative_to_le": 0.6878807170704417
+          },
+          "ol": {
+            "kern": 0,
+            "horizontal_outline_gap": 183.541,
+            "blur_index": 0.43768,
+            "per_scale_ratios": [
+              0.15438,
+              0.64211,
+              0.84578
+            ],
+            "blur_index_relative_to_le": 1.135103685100245,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 18.1365,
+            "gap_per_1000_em": 91.7705,
+            "interaction_relative_to_le": 1.135103685100245
+          }
+        },
+        "sequence_gaps": [
+          12.9447,
+          18.1364,
+          11.6601,
+          17.9842,
+          12.9447,
+          18.1364,
+          11.6601
+        ],
+        "mid_xheight_gaps": {
+          "Io": 24.7466,
+          "ol": 21.9205,
+          "lo": 26.7785,
+          "oI": 24.762,
+          "lj": 40.0599,
+          "Ij": 31.111,
+          "li": 40.0915,
+          "Ii": 31.1426,
+          "lh": 39.1219,
+          "Ih": 30.173
+        },
+        "ly_Iy_interaction_ratio": 1.0892978795917865,
+        "lo_Io_interaction_ratio": 1.3555342940631097,
+        "ol_oI_interaction_ratio": 1.6501461037233958,
+        "vertical_stem_interaction_ratios": {
+          "h": 1.2664545300258574,
+          "i": 1.3538592871730641,
+          "j": 1.5995450382164735
+        }
+      },
+      {
+        "style": "Ita",
+        "weight": "Regular",
+        "family": "Fira Sans",
+        "pairs": {
+          "Io": {
+            "kern": 0,
+            "horizontal_outline_gap": 91,
+            "blur_index": 0.95031,
+            "per_scale_ratios": [
+              0.98215,
+              0.97566,
+              0.89561
+            ],
+            "blur_index_relative_to_le": 0.7366191530147687,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 17.2676,
+            "gap_per_1000_em": 91.0,
+            "interaction_relative_to_le": 0.7366191530147687
+          },
+          "lo": {
+            "kern": -5,
+            "horizontal_outline_gap": 86,
+            "blur_index": 0.93956,
+            "per_scale_ratios": [
+              0.95012,
+              0.97444,
+              0.89587
+            ],
+            "kern_per_1000_em": -5.0,
+            "gap_percent_xheight": 16.3188,
+            "gap_per_1000_em": 86.0,
+            "interaction_relative_to_le": 0.93956
+          },
+          "oI": {
+            "kern": 0,
+            "horizontal_outline_gap": 114,
+            "blur_index": 0.25169,
+            "per_scale_ratios": [
+              0.04466,
+              0.47407,
+              0.7531
+            ],
+            "blur_index_relative_to_le": 0.7154989688001092,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 21.6319,
+            "gap_per_1000_em": 114.0,
+            "interaction_relative_to_le": 0.7154989688001092
+          },
+          "ol": {
+            "kern": 0,
+            "horizontal_outline_gap": 119,
+            "blur_index": 0.36808,
+            "per_scale_ratios": [
+              0.10415,
+              0.59019,
+              0.81129
+            ],
+            "blur_index_relative_to_le": 1.0463763032317854,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 22.5806,
+            "gap_per_1000_em": 119.0,
+            "interaction_relative_to_le": 1.0463763032317854
+          }
+        },
+        "sequence_gaps": [
+          17.2676,
+          22.5806,
+          16.3188,
+          21.6319,
+          17.2676,
+          22.5806,
+          16.3188
+        ],
+        "mid_xheight_gaps": {
+          "Io": 29.4122,
+          "ol": 27.6526,
+          "lo": 30.0806,
+          "oI": 29.4511,
+          "lj": 38.214,
+          "Ij": 36.5968,
+          "li": 38.2212,
+          "Ii": 36.6041,
+          "lh": 38.2464,
+          "Ih": 36.6293
+        },
+        "ly_Iy_interaction_ratio": 1.1174284055751342,
+        "lo_Io_interaction_ratio": 1.275503082094259,
+        "ol_oI_interaction_ratio": 1.462442783092416,
+        "vertical_stem_interaction_ratios": {
+          "h": 4.1341392480706185,
+          "i": 4.163570222666756,
+          "j": 5.025962271759713
+        }
+      },
+      {
+        "style": "Ita",
+        "weight": "Bold",
+        "family": "Lato26",
+        "pairs": {
+          "Io": {
+            "kern": 0,
+            "horizontal_outline_gap": 94,
+            "blur_index": 0.96605,
+            "per_scale_ratios": [
+              0.98642,
+              0.98882,
+              0.9243
+            ],
+            "blur_index_relative_to_le": 0.9141759036748033,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 9.1618,
+            "gap_per_1000_em": 47.0,
+            "interaction_relative_to_le": 0.9141759036748033
+          },
+          "lo": {
+            "kern": -56,
+            "horizontal_outline_gap": 109,
+            "blur_index": 0.97432,
+            "per_scale_ratios": [
+              0.995,
+              0.99933,
+              0.93019
+            ],
+            "kern_per_1000_em": -28.0,
+            "gap_percent_xheight": 10.6238,
+            "gap_per_1000_em": 54.5,
+            "interaction_relative_to_le": 0.97432
+          },
+          "oI": {
+            "kern": 0,
+            "horizontal_outline_gap": 145,
+            "blur_index": 0.33843,
+            "per_scale_ratios": [
+              0.08752,
+              0.53392,
+              0.82955
+            ],
+            "blur_index_relative_to_le": 0.8939005660735438,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 14.1326,
+            "gap_per_1000_em": 72.5,
+            "interaction_relative_to_le": 0.8939005660735438
+          },
+          "ol": {
+            "kern": 0,
+            "horizontal_outline_gap": 150.049,
+            "blur_index": 0.52751,
+            "per_scale_ratios": [
+              0.23457,
+              0.70709,
+              0.88501
+            ],
+            "blur_index_relative_to_le": 1.3933179978967627,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 14.6247,
+            "gap_per_1000_em": 75.0245,
+            "interaction_relative_to_le": 1.3933179978967627
+          }
+        },
+        "sequence_gaps": [
+          9.1618,
+          14.6246,
+          10.6238,
+          14.1326,
+          9.1618,
+          14.6246,
+          10.6238
+        ],
+        "mid_xheight_gaps": {
+          "Io": 20.8144,
+          "ol": 17.9982,
+          "lo": 24.2193,
+          "oI": 20.835,
+          "lj": 35.6357,
+          "Ij": 26.7727,
+          "li": 35.6704,
+          "Ii": 26.8074,
+          "lh": 34.7598,
+          "Ih": 25.8968
+        },
+        "ly_Iy_interaction_ratio": 1.014565634643528,
+        "lo_Io_interaction_ratio": 1.0657905071479454,
+        "ol_oI_interaction_ratio": 1.5586946141190052,
+        "vertical_stem_interaction_ratios": {
+          "h": 1.0559553864997178,
+          "i": 1.1036212555882432,
+          "j": 1.2752345277997725
+        }
+      },
+      {
+        "style": "Ita",
+        "weight": "Bold",
+        "family": "Fira Sans",
+        "pairs": {
+          "Io": {
+            "kern": 0,
+            "horizontal_outline_gap": 33,
+            "blur_index": 0.98487,
+            "per_scale_ratios": [
+              0.99463,
+              1.00339,
+              0.95721
+            ],
+            "blur_index_relative_to_le": 0.8936305124566869,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 6.2147,
+            "gap_per_1000_em": 33.0,
+            "interaction_relative_to_le": 0.8936305124566869
+          },
+          "lo": {
+            "kern": -5,
+            "horizontal_outline_gap": 32,
+            "blur_index": 0.97841,
+            "per_scale_ratios": [
+              0.97885,
+              0.99963,
+              0.95722
+            ],
+            "kern_per_1000_em": -5.0,
+            "gap_percent_xheight": 6.0264,
+            "gap_per_1000_em": 32.0,
+            "interaction_relative_to_le": 0.97841
+          },
+          "oI": {
+            "kern": 0,
+            "horizontal_outline_gap": 55,
+            "blur_index": 0.52434,
+            "per_scale_ratios": [
+              0.22272,
+              0.71274,
+              0.90812
+            ],
+            "blur_index_relative_to_le": 0.8813799195487934,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 10.3578,
+            "gap_per_1000_em": 55.0,
+            "interaction_relative_to_le": 0.8813799195487934
+          },
+          "ol": {
+            "kern": 0,
+            "horizontal_outline_gap": 63,
+            "blur_index": 0.66054,
+            "per_scale_ratios": [
+              0.36573,
+              0.82261,
+              0.95794
+            ],
+            "blur_index_relative_to_le": 1.1103093798713066,
+            "kern_per_1000_em": 0.0,
+            "gap_percent_xheight": 11.8644,
+            "gap_per_1000_em": 63.0,
+            "interaction_relative_to_le": 1.1103093798713066
+          }
+        },
+        "sequence_gaps": [
+          6.2147,
+          11.8644,
+          6.0264,
+          10.3578,
+          6.2147,
+          11.8644,
+          6.0264
+        ],
+        "mid_xheight_gaps": {
+          "Io": 18.1446,
+          "ol": 16.5197,
+          "lo": 19.6625,
+          "oI": 18.0886,
+          "lj": 26.0481,
+          "Ij": 23.5885,
+          "li": 26.1578,
+          "Ii": 23.6982,
+          "lh": 26.0095,
+          "Ih": 23.55
+        },
+        "ly_Iy_interaction_ratio": 1.0024715924628034,
+        "lo_Io_interaction_ratio": 1.0948708513882826,
+        "ol_oI_interaction_ratio": 1.2597398184879338,
+        "vertical_stem_interaction_ratios": {
+          "h": 1.8054031179065189,
+          "i": 1.833195950780777,
+          "j": 2.0772832220306814
+        }
+      }
+    ]
+  },
+  "status": "passed"
+}

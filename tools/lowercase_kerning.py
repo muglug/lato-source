@@ -115,7 +115,22 @@ def optical_addition(config, group):
                if group in item['rights'])
 
 
-def correction(source, name, group, design, config):
+def bowl_allowance(config, style, group, design, left='l'):
+    """Restore part of the added l advance, with independent style/weight curves."""
+    policy = config.get('bowl_allowance', {})
+    if left not in policy.get('lefts', {}).get(style, []):
+        return 0
+    stops = policy['additions'][style].get(group)
+    if stops is None:
+        return 0
+    for (a, va), (b, vb) in zip(stops, stops[1:]):
+        if a <= design <= b:
+            return otRound(va+(vb-va)*(design-a)/(b-a))
+    raise ValueError(design)
+
+
+def base_correction(source, name, group, design, config):
+    allowance = bowl_allowance(config, source.style, group, design, name)
     if group in config.get('match_e_spacing_rights', []):
         # Original e/c/o pair kerns agree for these left forms. Match the
         # e gap, retaining extra clearance for accents and hooks.
@@ -123,9 +138,54 @@ def correction(source, name, group, design, config):
         clearance = (_base_correction(source, name, group, design, config)
                      - _base_correction(source, name, base, design, config))
         return (_base_correction(source, name, 'e', design, config)
-                + e_left_edge_difference(source, base, design) + clearance)
+                + e_left_edge_difference(source, base, design) + clearance + allowance)
     return (_base_correction(source, name, group, design, config)
-            + optical_addition(config, group))
+            + optical_addition(config, group) + allowance)
+
+
+@lru_cache(maxsize=4096)
+def source_edges(source, name, design):
+    pen = BoundsPen(None)
+    source.recording(name, design).replay(pen)
+    return pen.bounds[0], pen.bounds[2]
+
+
+class PreviousMetrics:
+    def __init__(self, source, reference):
+        self.source, self.reference, self.style = source, reference, source.style
+
+    def width(self, name, design):
+        if name not in self.reference['widths']:
+            return self.source.width(name, design)
+        a, b = self.reference['widths'][name]
+        return otRound(a+(b-a)*design/1000)
+
+    def recording(self, *args, **kwargs):
+        return self.source.recording(*args, **kwargs)
+
+
+def reference_edges(reference, name, design):
+    stops = reference['edges'][name]
+    for a, b in zip(stops, stops[1:]):
+        if a[0] <= design <= b[0]:
+            t = (design-a[0])/(b[0]-a[0])
+            return tuple(x+(y-x)*t for x,y in zip(a[1:],b[1:]))
+    raise ValueError((name,design))
+
+
+def correction(source, name, group, design, config):
+    """Keep the established special-pair ink gaps after narrowing l."""
+    policy = config.get('outline_spacing_reference', {}).get(source.style)
+    if not policy or name not in policy['widths']:
+        return base_correction(source, name, group, design, config)
+    if not hasattr(source, '_previous_spacing_metrics'):
+        source._previous_spacing_metrics = PreviousMetrics(source, policy)
+    previous = source._previous_spacing_metrics
+    delta = (previous.width(name,design)-source.width(name,design)
+             + source_edges(source,name,design)[1]-reference_edges(policy,name,design)[1])
+    if group in policy['edges']:
+        delta += reference_edges(policy,group,design)[0]-source_edges(source,group,design)[0]
+    return otRound(base_correction(previous,name,group,design,config)+delta)
 
 
 def apply_spacing(font, path, source, design, output_name):
@@ -136,16 +196,30 @@ def apply_spacing(font, path, source, design, output_name):
     strip_spacing(font, metadata)
     spec = config['styles'][source.style]
     pairs = {}
+    reference = metadata.get('outline_reference_metrics', {})
+    glyph_set = font.getGlyphSet() if reference else None
+    compiled_edges = {}
+    def edges(name):
+        if name not in compiled_edges:
+            pen=BoundsPen(glyph_set);glyph_set[name].draw(pen)
+            compiled_edges[name]=(pen.bounds[0],pen.bounds[2])
+        return compiled_edges[name]
     for name, item in spec['left'].items():
         left = output_name(source, name, font)
-        reference = output_name(source, item['reference'], font)
+        reference_name = output_name(source, item['reference'], font)
         for group, rights in spec['right'].items():
             delta = correction(source, name, group, design, config)
             for right_name in rights:
                 right = output_name(source, right_name, font)
                 adjustment = delta
-                if reference != left:
-                    adjustment += pair_advance(font, reference, right)-pair_advance(font, left, right)
+                if left in reference:
+                    previous=source._previous_spacing_metrics
+                    old_width,_,old_right=reference[left]
+                    compensation=old_width-font['hmtx'][left][0]+edges(left)[1]-old_right
+                    if right in reference:compensation+=reference[right][1]-edges(right)[0]
+                    adjustment=otRound(base_correction(previous,name,group,design,config)+compensation)
+                if reference_name != left:
+                    adjustment += pair_advance(font, reference_name, right)-pair_advance(font, left, right)
                 # Retain zero entries too, so both interpolation masters have
                 # the same pair coverage and subsequent rebuilds stay stable.
                 pairs[left, right] = (buildValue({'XAdvance': adjustment}), None)

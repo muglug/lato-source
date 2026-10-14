@@ -88,8 +88,8 @@ f_j	lc	fit	lig	0.989	3.7	1057	1103	1057
 f_f_j	lc	fit	lig	0.974	5.5	1620	1719	1620
 f_k	lc	fit	lig	0.932	10.7	1507	1665	1507
 f_f_k	lc	fit	lig	0.935	10.3	2071	2284	2071
-f_l	lc	fit	existing	0.859	19.7	1057	1266	1057
-f_f_l	lc	fit	existing	0.888	16.1	1620	1881	1620
+f_l	lc	fit	existing	0.895	15.3	1057	1212	1057
+f_f_l	lc	fit	existing	0.913	13.0	1620	1827	1620
 f_t	lc	fit	lig	0.956	7.7	1238	1334	1238
 f_f_t	lc	fit	lig	0.952	8.2	1802	1953	1802
 g	lc	fit	cmap	0.963	6.9	960	1028	960
@@ -105,12 +105,12 @@ j	lc	fit	cmap	1.007	1.5	471	459	471
 jdotless	lc	fit	cmap	0.989	3.7	471	459	471
 k	lc	fit	cmap	0.957	7.7	903	976	903
 kgreenlandic	lc	fit	cmap	0.957	7.7	903	976	903
-l	lc	fit	existing	0.873	17.9	452	574	452
-l.ss05	lc	fit	existing	0.873	17.9	452	574	452
-lslash	lc	fit	existing	0.730	35.6	489	706	489
-lslash.ss05	lc	fit	existing	0.829	23.4	489	593	489
-lcaron	lc	fit	existing	0.912	13.2	493	605	493
-lcaron.ss05	lc	fit	existing	0.920	12.2	493	574	493
+l	lc	fit	existing	0.913	13.1	452	520	452
+l.ss05	lc	fit	existing	0.913	13.1	452	520	452
+lslash	lc	fit	existing	0.767	31.0	489	652	489
+lslash.ss05	lc	fit	existing	0.923	11.9	489	539	489
+lcaron	lc	fit	existing	0.944	9.3	493	551	493
+lcaron.ss05	lc	fit	existing	0.974	5.5	493	520	493
 m	lc	fit	cmap	1.025	0.0	1620	1623	1620
 n	lc	fit	cmap	0.993	3.2	1064	1106	1064
 eng	lc	fit	cmap	0.993	3.2	1064	1106	1064
@@ -159,7 +159,7 @@ h.sups	lc	uniform	none	1.000	2.4	736	601	581
 i.sups	lc	narrow	gsub	1.000	2.4	342	271	342
 j.sups	lc	uniform	none	1.000	2.4	352	271	262
 k.sups	lc	uniform	none	1.000	2.4	640	543	525
-l.sups	lc	fit	existing	0.899	14.8	337	377	337
+l.sups	lc	fit	existing	1.009	1.3	337	331	337
 m.sups	lc	uniform	none	1.000	2.4	1098	868	839
 nmod	lc	expand-capped	cmap	1.120	0.0	732	600	732
 o.sups	lc	uniform	none	1.000	2.4	734	601	581
@@ -706,7 +706,7 @@ ramshorn	lc	fit	cmap	0.902	14.5	901	1019	901
 hturned	lc	fit	cmap	0.994	3.1	1064	1105	1064
 hhook	lc	fit	cmap	0.993	3.2	1064	1106	1064
 henghook	lc	fit	cmap	0.993	3.2	1064	1106	1064
-lbelt	lc	fit	existing	0.667	43.3	550	857	550
+lbelt	lc	fit	existing	0.712	37.7	550	803	550
 lhookretroflex	lc	fit	cmap	0.993	3.3	453	438	453
 lezh	lc	fit	cmap	1.036	0.0	1118	1104	1118
 mturned	lc	fit	cmap	1.025	0.0	1620	1623	1620
@@ -1300,7 +1300,7 @@ peseta.numr	caps	uniform	none	1.000	4.5		668	613
 euro.numr	caps	uniform	none	1.000	4.5		668	613
 parenleft.numr	lc	uniform	none	1.000	2.4		334	323
 parenright.numr	lc	uniform	none	1.000	2.4		334	323
-ldot	lc	fit	existing	0.926	11.5	710	835	710
+ldot	lc	fit	existing	0.953	8.2	710	781	710
 apple	lc	uniform	none	1.000	2.4		1578	1525
 sunWithRays	lc	uniform	none	1.000	2.4		1551	1499
 blackSunWithRays	lc	uniform	none	1.000	2.4		1551	1499
@@ -1468,8 +1468,8 @@ _retroflex	lc	uniform	none	1.000	2.4		0	0
 _palatalhook_long	lc	uniform	none	1.000	2.4		0	0
 _palatalhook_medium	lc	uniform	none	1.000	2.4		0	0
 f_jcircumflex	lc	fit	lig	0.989	3.7	1057	1103	1057
-f_lcaron	lc	fit	existing	0.875	17.8	1098	1297	1098
-f_lcommaaccent	lc	fit	existing	0.859	19.7	1057	1266	1057
+f_lcaron	lc	fit	existing	0.910	13.5	1098	1243	1098
+f_lcommaaccent	lc	fit	existing	0.895	15.3	1057	1212	1057
 f_tcommaaccent	lc	fit	lig	0.956	7.7	1238	1334	1238
 f_tcaron	lc	fit	lig	0.984	4.3	1272	1334	1272
 onefraction	caps	fit	cmap	0.957	10.0	736	839	736
@@ -2075,7 +2075,7 @@ f_f_ihookabove	lc	fit	lig	0.979	4.9	1620	1709	1620
 f_f_dotlessidotbelow	lc	fit	lig	0.974	5.5	1620	1719	1620
 f_f_dotlessitildebelow	lc	fit	lig	0.973	5.7	1620	1719	1620
 f_f_dotlessibar	lc	fit	lig	0.966	6.6	1642	1755	1642
-f_lacute	lc	fit	existing	0.853	20.4	1057	1266	1057
+f_lacute	lc	fit	existing	0.899	14.8	1057	1212	1057
 gcircumflex	lc	fit	cmap	0.963	6.9	960	1028	960
 gbreve	lc	fit	cmap	0.963	6.9	960	1028	960
 gdotaccent	lc	fit	cmap	0.963	6.9	960	1028	960
@@ -2136,26 +2136,26 @@ kdotbelow	lc	fit	cmap	0.957	7.7	903	976	903
 klinebelow	lc	fit	cmap	0.957	7.7	903	976	903
 kpalatalhook	lc	fit	cmap	0.876	17.6	918	1090	918
 kappa	lc	fit	cmap	0.956	7.8	903	977	903
-lacute	lc	fit	existing	0.798	27.2	452	574	452
-lcommaaccent	lc	fit	existing	0.850	20.7	452	574	452
-lbar	lc	fit	existing	0.853	20.4	539	649	539
-ldotbelow	lc	fit	existing	0.847	21.2	452	574	452
-ldotbelowmacron	lc	fit	existing	0.792	28.0	452	574	452
-llinebelow	lc	fit	existing	0.798	27.2	452	574	452
-lcircumflexbelow	lc	fit	existing	0.798	27.2	452	574	452
-ldoublebar	lc	fit	existing	0.923	11.9	643	731	643
-lmiddletilde	lc	fit	existing	0.915	12.8	715	819	715
-lj	lc	fit	existing	0.914	12.9	923	1072	923
-lacute.ss05	lc	fit	existing	0.798	27.2	452	574	452
-lcommaaccent.ss05	lc	fit	existing	0.873	17.9	452	574	452
-lbar.ss05	lc	fit	existing	0.960	7.3	539	574	539
-ldotbelow.ss05	lc	fit	existing	0.873	17.9	452	574	452
-ldotbelowmacron.ss05	lc	fit	existing	0.995	3.0	555	574	555
-llinebelow.ss05	lc	fit	existing	0.840	22.0	452	574	452
-lcircumflexbelow.ss05	lc	fit	existing	0.840	22.0	452	574	452
-ldoublebar.ss05	lc	fit	existing	0.994	3.1	555	574	555
-lmiddletilde.ss05	lc	fit	existing	1.019	0.0	715	723	715
-lj.ss05	lc	fit	existing	0.941	9.7	923	1033	923
+lacute	lc	fit	existing	0.903	14.3	452	520	452
+lcommaaccent	lc	fit	existing	0.901	14.5	452	520	452
+lbar	lc	fit	existing	0.925	11.6	539	595	539
+ldotbelow	lc	fit	existing	0.900	14.7	452	520	452
+ldotbelowmacron	lc	fit	existing	0.875	17.7	452	520	452
+llinebelow	lc	fit	existing	0.879	17.3	452	520	452
+lcircumflexbelow	lc	fit	existing	0.879	17.3	452	520	452
+ldoublebar	lc	fit	existing	0.978	5.0	643	677	643
+lmiddletilde	lc	fit	existing	0.964	6.8	715	765	715
+lj	lc	fit	existing	0.951	8.4	923	1018	923
+lacute.ss05	lc	fit	existing	0.903	14.3	452	520	452
+lcommaaccent.ss05	lc	fit	existing	0.913	13.1	452	520	452
+lbar.ss05	lc	fit	existing	1.070	0.0	539	520	539
+ldotbelow.ss05	lc	fit	existing	0.913	13.1	452	520	452
+ldotbelowmacron.ss05	lc	fit	existing	1.081	0.0	555	520	555
+llinebelow.ss05	lc	fit	existing	0.923	11.8	452	520	452
+lcircumflexbelow.ss05	lc	fit	existing	0.923	11.8	452	520	452
+ldoublebar.ss05	lc	fit	existing	1.101	0.0	555	520	555
+lmiddletilde.ss05	lc	fit	existing	1.095	0.0	715	669	715
+lj.ss05	lc	fit	existing	0.978	5.0	923	979	923
 te-cy.cyrlSRB	lc	uniform	none	1.000	2.4	791	1624	1569
 macute	lc	fit	cmap	1.025	0.0	1620	1623	1620
 mdotaccent	lc	fit	cmap	1.025	0.0	1620	1623	1620
@@ -2355,7 +2355,7 @@ hmod	lc	expand-capped	cmap	1.120	0.0	736	610	736
 imod	lc	narrow	cmap	1.000	2.4	342	401	342
 jmod	lc	expand-capped	cmap	1.120	0.0	352	298	352
 kmod	lc	expand-capped	cmap	1.120	0.0	640	543	640
-lmod	lc	fit	existing	0.836	22.5	337	402	337
+lmod	lc	fit	existing	0.967	6.5	337	355	337
 mmod	lc	expand-capped	cmap	1.120	0.0	1098	868	1098
 omod	lc	expand-capped	cmap	1.120	0.0	734	601	734
 oinferior	lc	expand-capped	cmap	1.120	0.0	734	601	734

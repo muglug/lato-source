@@ -1,0 +1,265 @@
+{
+  "fonts": [
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.ttf",
+      "sha256": "4759867e250085c2c2512d0f0d94963c389333fd357ff3cfcc52f04c0a4b4ddd",
+      "edge_gap_max_difference": 0.48727984344418473
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ttf",
+      "sha256": "d609c20c6b36209a6d876cc3a6600e26760a562bd93c9c83ce36f7121bfeb55b",
+      "edge_gap_max_difference": 0.4795497185741624
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HairlineItalic.ttf",
+      "sha256": "e0efd0d364efa98e9300af5d14e14d649056fc0b20e5ccb81b4b4febe42af57e",
+      "edge_gap_max_difference": 0.4415458937198764
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HeavyItalic.ttf",
+      "sha256": "e9caf73caa17f70803cc48651ef841a582da4ecbaf5a2b91976485cc96953e6a",
+      "edge_gap_max_difference": 0.46683389074678416
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ttf",
+      "sha256": "1ad94f6661760a34711aa15c02d1a858bda89f75067c6a065466285057c7d4fd",
+      "edge_gap_max_difference": 0.2870456663561072
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-LightItalic.ttf",
+      "sha256": "6f574a98d0620935c1b11fd8ab5f50b05e6ca0a07513970f208e64643ab746be",
+      "edge_gap_max_difference": 0.11643719190897173
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-MediumItalic.ttf",
+      "sha256": "c69cee09224510c99368832c2b67127507751ecd0e12c8765c8cd4d6f01f45ee",
+      "edge_gap_max_difference": 0.1548387096775059
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-SemiboldItalic.ttf",
+      "sha256": "22fa6bd751cdef66b1da003c2c56ce8dfbfa96b6d6d8cbf61d4a4a79710a68a8",
+      "edge_gap_max_difference": 0.4285714285714448
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-ThinItalic.ttf",
+      "sha256": "fb089ec615c43bbd2148361355419bc87020139cd33806f061d5dd62c713d09a",
+      "edge_gap_max_difference": 0.428971588635477
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26.~VF/master_ttf_interpolatable/Lato26-BlackItalic.ttf",
+      "sha256": "442e987d61efc4974d85fda4facd4f705e47f10ef96fe774bc70ee6ec47f2d7e",
+      "edge_gap_max_difference": 0.48727984344418473
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26.~VF/master_ttf_interpolatable/Lato26-HairlineItalic.ttf",
+      "sha256": "424fa8e9024f091a207a8cecb75738fa1e9caf80d9dc7991fe910f0d9d815b8d",
+      "edge_gap_max_difference": 0.4871794871795032
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.ttf",
+      "sha256": "2e5577158961ee78290afdfe759936fe5d2f8a713c950c58e1f8cecbd5892ea2",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
+      "sha256": "e554c83c69809023d95b152a62b8e48b685d9fe32bb25cd1277aa94b7a09f6ea",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Hairline.ttf",
+      "sha256": "58d1ba5d0b28ea0288d63f4606bca6170706023babf8d1f5318d2a94896a2c66",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Heavy.ttf",
+      "sha256": "40d861c87843bb2ad328086d0717128c4d86b0231448cfd2c78f62b0221742f9",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Light.ttf",
+      "sha256": "09d72e4293d4870d604988ab4277c6a72f2b22d0c96e9c73b28df3439fb5d403",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Medium.ttf",
+      "sha256": "74b3a4600aae1bdbff0e04578c19683e16e597bb72110c56805b753fc1c2f97f",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
+      "sha256": "b6ed0690d8bd6dd89ce58cb59cdc5096cd5d3ef0029fe087bc074aa4132ed84c",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Semibold.ttf",
+      "sha256": "32a9d799e0ee2b8460a1d2be734d3f953f01a04f888846919e431074746c79dc",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Thin.ttf",
+      "sha256": "136297c127d90e71f65e5b1194bff0f693677b48f29ccb0cb88e6d38dcf8b33f",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26.~VF/master_ttf_interpolatable/Lato26-Black.ttf",
+      "sha256": "6cc841da367f144ab7dd70d7afa6d3258563f2f4ac4bbbfbf59619e4b1995a4a",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26.~VF/master_ttf_interpolatable/Lato26-Hairline.ttf",
+      "sha256": "2ce3a53eb3248e8f362ea444068354f53bddb7bda71426625254dbecacbcf5b5",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.otf",
+      "sha256": "5ce3b9edfbd145011da0fbcf44a3154473644f8856cfea78776ed531a9109bca",
+      "edge_gap_max_difference": 0.46776391925095595
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.otf",
+      "sha256": "a80f9491f265d49ac1dada5f49470b891903aac06d25a36a014f52548c16719d",
+      "edge_gap_max_difference": 0.34537169787517996
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HairlineItalic.otf",
+      "sha256": "b1846c3e18a3910fe6e03dc39630cc39afdd8f430ee47e834010be9e11555ea6",
+      "edge_gap_max_difference": 0.2576186293899809
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HeavyItalic.otf",
+      "sha256": "379902248f371f57ca141412e6176a573794b7bd4cb7635b86fdbff6dc0b5c52",
+      "edge_gap_max_difference": 0.3863353959754363
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.otf",
+      "sha256": "c8d93a493989ced46b5d3cea598d87a13883c8fec57dd84569dc0c92186a2b54",
+      "edge_gap_max_difference": 0.09281280081177101
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-LightItalic.otf",
+      "sha256": "9e107b3cc7b86a1bc0c60157a7996858ccea8bacb8dc92652b1ce1ed89cebac8",
+      "edge_gap_max_difference": 0.36325231024238747
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-MediumItalic.otf",
+      "sha256": "fec67ccf844dd013148229aa93acec8d373b494890634fbfe94725208fc6bbac",
+      "edge_gap_max_difference": 0.3667027557894471
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-SemiboldItalic.otf",
+      "sha256": "d4c15e8a4d9fe951d918b2cdb7c8148d1a2f157fd9086732289ba8ce4ae5f56a",
+      "edge_gap_max_difference": 0.4917613214652192
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-ThinItalic.otf",
+      "sha256": "8170b95e3a8515c510619c06ccf8bc74fff6e810c62d056032ad35656f3ca353",
+      "edge_gap_max_difference": 0.2425204070275413
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.otf",
+      "sha256": "9c3295fd403432fea74de36de78e406d2b2d67da54bf7870154a5f1453594e52",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.otf",
+      "sha256": "807d043a69af950048c79ed5c783f11bc5e842995e82fce1ea25aee6d984419d",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Hairline.otf",
+      "sha256": "56f2fe5c492f842775eaa24c2b64b85f6245d31c073778b34c65c73eae8b4c52",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Heavy.otf",
+      "sha256": "78b66a713aa445ce7cbdb8f1bdc042658d5124ae96ca683c7eb138aeba4a1673",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Light.otf",
+      "sha256": "0c128c4cc88aa5668b1ad59bca43ac07694e1240409e3b6b63baa15576a960c2",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Medium.otf",
+      "sha256": "79f411bbf5d6530557fbb4eccdb419c0dcde254e7c789420654fd9865d293b0a",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.otf",
+      "sha256": "3b33fa676fc77af8a5d5ce30a016f5004d5e814069c3487a63ba47f053b36d9b",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Semibold.otf",
+      "sha256": "fe64b41886074f9cb5a740fc44ac3c3eacf1bf3e2fea6fccdcf2ace35358ec8d",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Thin.otf",
+      "sha256": "a5ac39b229efb40a95601fd2a02afc647fbb7aef7a0dca45b226ae37de420150",
+      "edge_gap_max_difference": 0
+    },
+    {
+      "path": "build/Carlito26/Carlito26-Light.ttf",
+      "sha256": "8bb3a9eaba87eeb132add4dec8f4c041081e7e217d59abd07e4908bf516d2176"
+    },
+    {
+      "path": "build/Carlito26/Carlito26-LightItalic.ttf",
+      "sha256": "3af3674989e3b16657819639e4a8fbcde19d8b0225ef242248627306e572e17a"
+    }
+  ],
+  "status": "passed",
+  "unrelated_glyphs_preserved": 120706,
+  "special_pairs_checked": 265980,
+  "max_special_edge_gap_difference": 0.4917613214652192,
+  "revised_glyphs_with_instructions": 630,
+  "hint_execution": {
+    "fonts": 20,
+    "glyphs": 700,
+    "native_loads": 65800,
+    "native_rasterizations": 60200
+  },
+  "font_count": 42,
+  "authored_regular_preserved": true,
+  "packaged_fonts_verified": 38,
+  "unrelated_hint_programs_preserved": true,
+  "carlito_advances_preserved": true,
+  "pdf_proofs": [
+    {
+      "path": "output/pdf/Lato26-Proofs.pdf",
+      "sha256": "6104a59c0e854209f7723746f716db3d18066529f4a513192daff42c25901600",
+      "pages": 24
+    },
+    {
+      "path": "output/pdf/Lato26-FiraSans-Spacing.pdf",
+      "sha256": "3e94259a9bd123123883d0640eabd1fcf56ae8848478840149a60db88ca5da9e",
+      "pages": 20
+    },
+    {
+      "path": "output/pdf/Lato26-FiraSans-Capital-I-Spacing.pdf",
+      "sha256": "9719b51cc6abb7650d022ebba8430200d7f11b577308717b8e9bd100c47484d8",
+      "pages": 20
+    },
+    {
+      "path": "output/pdf/Lato26-FiraSans-Rhythm.pdf",
+      "sha256": "0635df259914778cede5ad2915c6233f63cfb679ca46d34455367bb27abb0411",
+      "pages": 3
+    },
+    {
+      "path": "output/pdf/Lato26-ClearType-Mockup.pdf",
+      "sha256": "b1de27257bd2b36de932d97e257d9935ce9f6e7e0a23c063ae9de135631a04d1",
+      "pages": 10
+    }
+  ],
+  "editable_sources": [
+    {
+      "path": "sources/Lato26-Upright.glyphs",
+      "sha256": "fe359f91c87569f1b51b76b8e48854d774b128795f8c74fb2848bb323a2d0b49"
+    },
+    {
+      "path": "sources/Lato26-Italic.glyphs",
+      "sha256": "15d5b6ab3ccd019938cf2cf0ebb40debe2ccb11dd883258e370eb3e318b7872d"
+    }
+  ]
+}

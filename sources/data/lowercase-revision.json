@@ -189,96 +189,144 @@
       ],
       "width_changes": {
         "l": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
         },
         "l.ss05": {
-          "Hairline": 0,
-          "Black": 0
+          "Hairline": -54.3,
+          "Black": -54.3
         },
         "l.sups": {
-          "Hairline": 119,
-          "Black": 79
+          "Hairline": 66.9625,
+          "Black": 41.5155
         },
         "lmod": {
-          "Hairline": 119,
-          "Black": 79
+          "Hairline": 66.9625,
+          "Black": 41.5155
         },
         "lbelt": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
         },
         "f_l": {
-          "Hairline": 124,
-          "Black": 114
+          "Hairline": 69.7,
+          "Black": 60.0503
         },
         "f_f_l": {
-          "Hairline": 124,
-          "Black": 114
+          "Hairline": 69.7,
+          "Black": 60.0503
         },
         "lslash": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
         },
         "lcaron": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
         },
         "ldot": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
         },
         "f_lcaron": {
-          "Hairline": 124,
-          "Black": 114
+          "Hairline": 69.7,
+          "Black": 60.0503
         },
         "f_lcommaaccent": {
-          "Hairline": 124,
-          "Black": 114
+          "Hairline": 69.7,
+          "Black": 60.0503
         },
         "f_lacute": {
-          "Hairline": 124,
-          "Black": 114
+          "Hairline": 69.7,
+          "Black": 60.0503
         },
         "lacute": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
         },
         "lcommaaccent": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
         },
         "lbar": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
         },
         "ldotbelow": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
         },
         "ldotbelowmacron": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
         },
         "llinebelow": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
         },
         "lcircumflexbelow": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
         },
         "ldoublebar": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
         },
         "lmiddletilde": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
         },
         "lj": {
-          "Hairline": 124,
-          "Black": 115
+          "Hairline": 69.7,
+          "Black": 60.7
+        },
+        "lslash.ss05": {
+          "Hairline": -54.3,
+          "Black": -54.3
+        },
+        "lcaron.ss05": {
+          "Hairline": -54.3,
+          "Black": -54.3
+        },
+        "lacute.ss05": {
+          "Hairline": -54.3,
+          "Black": -54.3
+        },
+        "lcommaaccent.ss05": {
+          "Hairline": -54.3,
+          "Black": -54.3
+        },
+        "lbar.ss05": {
+          "Hairline": -54.3,
+          "Black": -54.3
+        },
+        "ldotbelow.ss05": {
+          "Hairline": -54.3,
+          "Black": -54.3
+        },
+        "ldotbelowmacron.ss05": {
+          "Hairline": -54.3,
+          "Black": -54.3
+        },
+        "llinebelow.ss05": {
+          "Hairline": -54.3,
+          "Black": -54.3
+        },
+        "lcircumflexbelow.ss05": {
+          "Hairline": -54.3,
+          "Black": -54.3
+        },
+        "ldoublebar.ss05": {
+          "Hairline": -54.3,
+          "Black": -54.3
+        },
+        "lmiddletilde.ss05": {
+          "Hairline": -54.3,
+          "Black": -54.3
+        },
+        "lj.ss05": {
+          "Hairline": -54.3,
+          "Black": -54.3
         }
       },
       "carlito_design_weight": 360.74887435222155,
@@ -475,96 +523,144 @@
       ],
       "width_changes": {
         "l": {
-          "HairlineItalic": 128,
-          "BlackItalic": 132
+          "HairlineItalic": 77.9946,
+          "BlackItalic": 82.4407
         },
         "l.ss05": {
-          "HairlineItalic": 0,
-          "BlackItalic": 0
+          "HairlineItalic": -50.0054,
+          "BlackItalic": -49.5593
         },
         "l.sups": {
-          "HairlineItalic": 141,
-          "BlackItalic": 89
+          "HairlineItalic": 85.994,
+          "BlackItalic": 55.6365
         },
         "lmod": {
-          "HairlineItalic": 141,
-          "BlackItalic": 89
+          "HairlineItalic": 85.994,
+          "BlackItalic": 55.6365
         },
         "lbelt": {
-          "HairlineItalic": 154,
-          "BlackItalic": 129
+          "HairlineItalic": 93.9935,
+          "BlackItalic": 80.7364
         },
         "f_l": {
-          "HairlineItalic": 154,
-          "BlackItalic": 129
+          "HairlineItalic": 93.9935,
+          "BlackItalic": 80.4124
         },
         "f_f_l": {
-          "HairlineItalic": 154,
-          "BlackItalic": 129
+          "HairlineItalic": 93.9935,
+          "BlackItalic": 80.4124
         },
         "lslash": {
-          "HairlineItalic": 128,
-          "BlackItalic": 132
+          "HairlineItalic": 77.9946,
+          "BlackItalic": 82.4407
         },
         "lcaron": {
-          "HairlineItalic": 128,
-          "BlackItalic": 132
+          "HairlineItalic": 77.9946,
+          "BlackItalic": 82.4407
         },
         "ldot": {
-          "HairlineItalic": 128,
-          "BlackItalic": 132
+          "HairlineItalic": 77.9946,
+          "BlackItalic": 82.4407
         },
         "f_lcaron": {
-          "HairlineItalic": 154,
-          "BlackItalic": 129
+          "HairlineItalic": 93.9935,
+          "BlackItalic": 80.4124
         },
         "f_lcommaaccent": {
-          "HairlineItalic": 154,
-          "BlackItalic": 129
+          "HairlineItalic": 93.9935,
+          "BlackItalic": 80.4124
         },
         "f_lacute": {
-          "HairlineItalic": 154,
-          "BlackItalic": 129
+          "HairlineItalic": 93.9935,
+          "BlackItalic": 80.4124
         },
         "lacute": {
-          "HairlineItalic": 128,
-          "BlackItalic": 132
+          "HairlineItalic": 77.9946,
+          "BlackItalic": 82.4407
         },
         "lcommaaccent": {
-          "HairlineItalic": 128,
-          "BlackItalic": 132
+          "HairlineItalic": 77.9946,
+          "BlackItalic": 82.4407
         },
         "lbar": {
-          "HairlineItalic": 128,
-          "BlackItalic": 132
+          "HairlineItalic": 77.9946,
+          "BlackItalic": 82.4407
         },
         "ldotbelow": {
-          "HairlineItalic": 128,
-          "BlackItalic": 132
+          "HairlineItalic": 77.9946,
+          "BlackItalic": 82.4407
         },
         "ldotbelowmacron": {
-          "HairlineItalic": 128,
-          "BlackItalic": 132
+          "HairlineItalic": 77.9946,
+          "BlackItalic": 82.4407
         },
         "llinebelow": {
-          "HairlineItalic": 128,
-          "BlackItalic": 132
+          "HairlineItalic": 77.9946,
+          "BlackItalic": 82.4407
         },
         "lcircumflexbelow": {
-          "HairlineItalic": 128,
-          "BlackItalic": 132
+          "HairlineItalic": 77.9946,
+          "BlackItalic": 82.4407
         },
         "ldoublebar": {
-          "HairlineItalic": 128,
-          "BlackItalic": 132
+          "HairlineItalic": 77.9946,
+          "BlackItalic": 82.4407
         },
         "lmiddletilde": {
-          "HairlineItalic": 128,
-          "BlackItalic": 132
+          "HairlineItalic": 77.9946,
+          "BlackItalic": 82.4407
         },
         "lj": {
-          "HairlineItalic": 128,
-          "BlackItalic": 132
+          "HairlineItalic": 77.9946,
+          "BlackItalic": 82.4407
+        },
+        "lslash.ss05": {
+          "HairlineItalic": -50.0054,
+          "BlackItalic": -49.5593
+        },
+        "lcaron.ss05": {
+          "HairlineItalic": -50.0054,
+          "BlackItalic": -49.5593
+        },
+        "lacute.ss05": {
+          "HairlineItalic": -50.0054,
+          "BlackItalic": -49.5593
+        },
+        "lcommaaccent.ss05": {
+          "HairlineItalic": -50.0054,
+          "BlackItalic": -49.5593
+        },
+        "lbar.ss05": {
+          "HairlineItalic": -50.0054,
+          "BlackItalic": -49.5593
+        },
+        "ldotbelow.ss05": {
+          "HairlineItalic": -50.0054,
+          "BlackItalic": -49.5593
+        },
+        "ldotbelowmacron.ss05": {
+          "HairlineItalic": -50.0054,
+          "BlackItalic": -49.5593
+        },
+        "llinebelow.ss05": {
+          "HairlineItalic": -50.0054,
+          "BlackItalic": -49.5593
+        },
+        "lcircumflexbelow.ss05": {
+          "HairlineItalic": -50.0054,
+          "BlackItalic": -49.5593
+        },
+        "ldoublebar.ss05": {
+          "HairlineItalic": -50.0054,
+          "BlackItalic": -49.5593
+        },
+        "lmiddletilde.ss05": {
+          "HairlineItalic": -50.0054,
+          "BlackItalic": -49.5593
+        },
+        "lj.ss05": {
+          "HairlineItalic": -50.0054,
+          "BlackItalic": -49.5593
         }
       },
       "carlito_design_weight": 363.95808323329334,

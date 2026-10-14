@@ -7,6 +7,10 @@ or an objectively correct kerning value. It does not choose pair adjustments.
 import argparse
 import csv
 import json
+import importlib
+import hashlib
+import multiprocessing
+from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 
 import numpy as np
@@ -99,63 +103,100 @@ class Audit:
         Image.fromarray(np.uint8(np.clip(255*(1-crop),0,255))).save(path)
 
 
+def measure_font(job):
+    style,weight,before_build,reference_dir=job
+    assets=ROOT/'build/proofs/optical-blur'
+    report={'rows':[],'fonts':[],'resolution_checks':[]}
+    unhinted=importlib.import_module('21_compare_fira_spacing').UnhintedAudit
+    edges=importlib.import_module('10_refine_ae_and_l_spacing').edges
+    name=('Italic' if weight=='Regular' else weight+'Italic') if style=='Ita' else weight
+    rel=Path(f'Lato3{style}2M/ds-ufo/masters/Lato26-{name}.ttf')
+    audit=unhinted(before_build/rel); current=TTFont(ROOT/'build'/rel)
+    geometry_changed=audit.font.getTableData('glyf')!=current.getTableData('glyf')
+    after_audit=unhinted(ROOT/'build'/rel) if geometry_changed else audit
+    assert audit.xheight==after_audit.xheight
+    reference=after_audit.overlap('e',pair_advance(current,'l','e'))
+    original=unhinted(reference_dir/f'Lato-{name}.ttf') if reference_dir else None
+    original_ref=original.overlap('e',pair_advance(original.font,'l','e')) if original else None
+    ys=np.arange(.25,audit.xheight/3,2)
+    left_edges=edges(audit.glyphs,'l',ys)[1]
+    report['fonts'].append({'path':str(rel),'sha256':hashlib.sha256((ROOT/'build'/rel).read_bytes()).hexdigest()})
+    rows=[]
+    for char in 'abcdefghijklmnopqrstuvwxyz':
+        glyph=audit.cmap[ord(char)]
+        old_kern=pair_advance(audit.font,'l',glyph);new_kern=pair_advance(current,'l',glyph)
+        row={'style':style,'weight':weight,'pair':'l'+char,
+             'before':audit.metrics(char,old_kern,reference),
+             'after':after_audit.metrics(char,new_kern,reference),
+             'added_units':new_kern-old_kern,
+             'outline_changed':geometry_changed,
+             'advance_change_units':current['hmtx']['l'][0]-audit.font['hmtx']['l'][0],
+             'lower_right_ink_percent':audit.lower_right_density(char)}
+        if not geometry_changed and row['added_units']>0:
+            assert row['after']['blur_index']<row['before']['blur_index']
+        elif not geometry_changed and row['added_units']<0:
+            assert row['after']['blur_index']>row['before']['blur_index']
+        right_edges=edges(audit.glyphs,glyph,ys)[0]
+        for variant,kern in [('before',old_kern),('after',new_kern)]:
+            measure=after_audit if variant=='after' else audit
+            gap=(measure.font['hmtx']['l'][0]+kern+edges(measure.glyphs,glyph,ys)[0]
+                 -edges(measure.glyphs,'l',ys)[1])
+            row[variant]['lower_bowl_clearance']=round(float(np.nanmin(gap)),3)
+            row[variant]['gap_percent_xheight']=round(row[variant]['horizontal_outline_gap']/audit.xheight*100,4)
+        assert row['after']['lower_bowl_clearance'] >= min(row['before']['lower_bowl_clearance'],40)-1.1, row
+        if original:
+            original_glyph=original.cmap[ord(char)]
+            row['original']=original.metrics(char,pair_advance(original.font,'l',original_glyph),original_ref)
+            row['original']['gap_percent_xheight']=round(row['original']['horizontal_outline_gap']/original.xheight*100,4)
+        if char in 'co':
+            e_gap=after_audit.metrics('e',pair_advance(current,'l','e'),reference)['horizontal_outline_gap']
+            assert abs(row['after']['horizontal_outline_gap']-e_gap)<=1.1
+        if weight=='Regular' and char in 'acewy':
+            for variant,kern in [('before',old_kern),('after',new_kern)]:
+                filename=f'{style}-{char}-{variant}.png'
+                (after_audit if variant=='after' else audit).preview(char,kern,assets/filename)
+        rows.append(row)
+    report['rows'].extend(rows)
+    if weight=='Regular':
+        fine=unhinted(ROOT/'build'/rel,xheight_pixels=512)
+        fine_reference=fine.overlap('e',pair_advance(current,'l','e'))
+        for row in rows:
+            if row['pair'][1] not in 'acewy':continue
+            high=fine.metrics(row['pair'][1],row['after']['kern'],fine_reference)['blur_index']
+            relative=abs(high/row['after']['blur_index']-1)
+            report['resolution_checks'].append({'style':style,'pair':row['pair'],
+                'xheight_256':row['after']['blur_index'],'xheight_512':high,
+                'relative_difference':round(relative,5)})
+            assert relative<.08,(style,row['pair'],relative)
+    print(style,weight,'26 pairs measured',flush=True)
+    return report
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--before-build',required=True,type=Path)
+    parser.add_argument('--reference-dir',type=Path,help='Optional original Lato 2.015 TTFs')
     args=parser.parse_args()
     out=ROOT/'build/proofs'; assets=out/'optical-blur';assets.mkdir(parents=True,exist_ok=True)
     report={'method':'Geometric mean of Gaussian ink-overlap ratios against le in the same font.',
             'limitations':'A repeatable interaction proxy, not a validated perceptual optimum. Diagonals need not equal le.',
             'inspiration_url':'https://github.com/behdad/halfkern',
             'blur_sigma_xheight':SIGMAS,'vertical_measurement_band':'baseline to x-height',
-            'render_ppem':500,'upm':2000,'designer_additions':{'a':20,'w':8,'y':14},
-            'rows':[],'resolution_checks':[]}
-    for style in ('Upr','Ita'):
-        for weight in WEIGHTS:
-            name=('Italic' if weight=='Regular' else weight+'Italic') if style=='Ita' else weight
-            rel=Path(f'Lato3{style}2M/ds-ufo/masters/Lato26-{name}.ttf')
-            audit=Audit(args.before_build/rel); current=TTFont(ROOT/'build'/rel)
-            assert audit.font.getTableData('glyf')==current.getTableData('glyf')
-            assert audit.font.getTableData('hmtx')==current.getTableData('hmtx')
-            reference=audit.overlap('e',pair_advance(current,'l','e'))
-            rows=[]
-            for char in 'abcdefghijklmnopqrstuvwxyz':
-                glyph=audit.cmap[ord(char)]
-                old_kern=pair_advance(audit.font,'l',glyph);new_kern=pair_advance(current,'l',glyph)
-                row={'style':style,'weight':weight,'pair':'l'+char,
-                     'before':audit.metrics(char,old_kern,reference),
-                     'after':audit.metrics(char,new_kern,reference),
-                     'added_units':new_kern-old_kern,
-                     'lower_right_ink_percent':audit.lower_right_density(char)}
-                if char in 'awy':
-                    assert row['added_units']==report['designer_additions'][char]
-                    assert row['after']['blur_index']<row['before']['blur_index']
-                if char in 'co':
-                    e_gap=audit.metrics('e',pair_advance(current,'l','e'),reference)['horizontal_outline_gap']
-                    assert abs(row['after']['horizontal_outline_gap']-e_gap)<=1.1
-                if weight=='Regular' and char in 'acewy':
-                    for variant,kern in [('before',old_kern),('after',new_kern)]:
-                        filename=f'{style}-{char}-{variant}.png'
-                        audit.preview(char,kern,assets/filename)
-                rows.append(row)
-            report['rows'].extend(rows)
-            if weight=='Regular':
-                fine=Audit(args.before_build/rel,ppem=1000)
-                fine_reference=fine.overlap('e',pair_advance(current,'l','e'))
-                for row in rows:
-                    if row['pair'][1] not in 'acewy':continue
-                    high=fine.metrics(row['pair'][1],row['after']['kern'],fine_reference)['blur_index']
-                    relative=abs(high/row['after']['blur_index']-1)
-                    report['resolution_checks'].append({'style':style,'pair':row['pair'],
-                        'ppem_500':row['after']['blur_index'],'ppem_1000':high,
-                        'relative_difference':round(relative,5)})
-                    assert relative<.08,(style,row['pair'],relative)
-            print(style,weight,'26 pairs measured',flush=True)
+            'render_xheight_pixels':256,'upm':2000,'designer_additions':{'a':20,'w':8,'y':14},
+            'before_build':str(args.before_build.resolve()),
+            'reference_dir':str(args.reference_dir.resolve()) if args.reference_dir else None,
+            'rows':[],'resolution_checks':[],'fonts':[]}
+    jobs=[(style,weight,args.before_build,args.reference_dir)
+          for style in ('Upr','Ita') for weight in WEIGHTS]
+    with ProcessPoolExecutor(max_workers=3,mp_context=multiprocessing.get_context('spawn')) as pool:
+        for result in pool.map(measure_font,jobs):
+            for key in ('rows','fonts','resolution_checks'):
+                report[key].extend(result[key])
     assert len(report['rows'])==468
     report['status']='passed'
     (out/'optical-spacing.json').write_text(json.dumps(report,indent=2)+'\n')
     with (out/'optical-spacing.csv').open('w') as f:
-        writer=csv.writer(f);writer.writerow(['style','weight','pair','added_units','before_gap','after_gap',
+        writer=csv.writer(f,lineterminator='\n');writer.writerow(['style','weight','pair','added_units','before_gap','after_gap',
                                             'before_blur_index','after_blur_index','lower_right_ink_percent'])
         for row in report['rows']:
             writer.writerow([row['style'],row['weight'],row['pair'],row['added_units'],

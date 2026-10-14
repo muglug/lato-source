@@ -1,0 +1,518 @@
+{
+  "authored_glyph": "l",
+  "authored_design": 540,
+  "advance_delta": -54.299999999999955,
+  "authored_nodes": [
+    [
+      146.86,
+      1472.4,
+      "l"
+    ],
+    [
+      147,
+      244,
+      "l"
+    ],
+    [
+      147,
+      62,
+      "o"
+    ],
+    [
+      211,
+      -14,
+      "o"
+    ],
+    [
+      414,
+      -14,
+      "cs"
+    ],
+    [
+      457,
+      -14,
+      "o"
+    ],
+    [
+      491,
+      -7,
+      "o"
+    ],
+    [
+      527,
+      6,
+      "cs"
+    ],
+    [
+      520,
+      101,
+      "l"
+    ],
+    [
+      513,
+      126,
+      "o"
+    ],
+    [
+      500,
+      120,
+      "o"
+    ],
+    [
+      449,
+      120,
+      "cs"
+    ],
+    [
+      346,
+      120,
+      "o"
+    ],
+    [
+      325,
+      147,
+      "o"
+    ],
+    [
+      325,
+      244,
+      "cs"
+    ],
+    [
+      325.3,
+      1472.4,
+      "l"
+    ]
+  ],
+  "node_deltas": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.13999999999998636,
+      -30.24000000000001
+    ],
+    [
+      0.13999999999998636,
+      -51.040000000000006
+    ],
+    [
+      -19.419999999999987,
+      0.16000000000000014
+    ],
+    [
+      -19.579999999999984,
+      0.16000000000000014
+    ],
+    [
+      -20.139999999999986,
+      0.16000000000000014
+    ],
+    [
+      -19.860000000000014,
+      0.2400000000000002
+    ],
+    [
+      -19.74000000000001,
+      0.3200000000000003
+    ],
+    [
+      -19.5,
+      -0.1599999999999966
+    ],
+    [
+      -20.360000000000014,
+      -0.4000000000000057
+    ],
+    [
+      -19.980000000000018,
+      -0.3199999999999932
+    ],
+    [
+      -20.220000000000027,
+      -0.3199999999999932
+    ],
+    [
+      -19.860000000000014,
+      -0.3199999999999932
+    ],
+    [
+      -0.30000000000001137,
+      -20.319999999999993
+    ],
+    [
+      -0.30000000000001137,
+      -30.24000000000001
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "method": "Propagate the author's Regular l edit, retaining established special-pair gaps.\n\nOne-time source migration, followed by repeatable --build and --glyphs modes.\nThe Regular control points are authoritative. Across weight, shared motion\nof corresponding inner/outer points stays constant; differential motion\nscales with stem thickness so Hairline keeps its thin stroke. Italic uses\nits existing t-derived bowl transform and l-derived stem shear.\n",
+  "styles": {
+    "Upr": {
+      "glyphs": [
+        "f_f_l",
+        "f_l",
+        "f_lacute",
+        "f_lcaron",
+        "f_lcommaaccent",
+        "l",
+        "l.ss05",
+        "l.sups",
+        "lacute",
+        "lacute.ss05",
+        "lbar",
+        "lbar.ss05",
+        "lbelt",
+        "lcaron",
+        "lcaron.ss05",
+        "lcircumflexbelow",
+        "lcircumflexbelow.ss05",
+        "lcommaaccent",
+        "lcommaaccent.ss05",
+        "ldot",
+        "ldotbelow",
+        "ldotbelow.ss05",
+        "ldotbelowmacron",
+        "ldotbelowmacron.ss05",
+        "ldoublebar",
+        "ldoublebar.ss05",
+        "lj",
+        "lj.ss05",
+        "llinebelow",
+        "llinebelow.ss05",
+        "lmiddletilde",
+        "lmiddletilde.ss05",
+        "lmod",
+        "lslash",
+        "lslash.ss05"
+      ],
+      "width_deltas": {
+        "l": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "l.ss05": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "l.sups": {
+          "Hairline": -52.037494520531254,
+          "Black": -37.484516713073276
+        },
+        "lmod": {
+          "Hairline": -52.037494520532846,
+          "Black": -37.48451671307316
+        },
+        "lbelt": {
+          "Hairline": -54.3000000000136,
+          "Black": -54.300000000022465
+        },
+        "f_l": {
+          "Hairline": -54.30000000005384,
+          "Black": -53.94967542259701
+        },
+        "f_f_l": {
+          "Hairline": -54.30000000010182,
+          "Black": -53.949675422654764
+        },
+        "lslash": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "lslash.ss05": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "lcaron": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "lcaron.ss05": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "ldot": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "f_lcaron": {
+          "Hairline": -54.30000000005384,
+          "Black": -53.94967542259701
+        },
+        "f_lcommaaccent": {
+          "Hairline": -54.30000000005384,
+          "Black": -53.94967542259701
+        },
+        "f_lacute": {
+          "Hairline": -54.30000000005384,
+          "Black": -53.94967542259701
+        },
+        "lacute": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "lcommaaccent": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "lbar": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "ldotbelow": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "ldotbelowmacron": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "llinebelow": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "lcircumflexbelow": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "ldoublebar": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "lmiddletilde": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "lj": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "lacute.ss05": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "lcommaaccent.ss05": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "lbar.ss05": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "ldotbelow.ss05": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "ldotbelowmacron.ss05": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "llinebelow.ss05": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "lcircumflexbelow.ss05": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "ldoublebar.ss05": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "lmiddletilde.ss05": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        },
+        "lj.ss05": {
+          "Hairline": -54.299999999999955,
+          "Black": -54.299999999999955
+        }
+      }
+    },
+    "Ita": {
+      "glyphs": [
+        "f_f_l",
+        "f_l",
+        "f_lacute",
+        "f_lcaron",
+        "f_lcommaaccent",
+        "l",
+        "l.ss05",
+        "l.sups",
+        "lacute",
+        "lacute.ss05",
+        "lbar",
+        "lbar.ss05",
+        "lbelt",
+        "lcaron",
+        "lcaron.ss05",
+        "lcircumflexbelow",
+        "lcircumflexbelow.ss05",
+        "lcommaaccent",
+        "lcommaaccent.ss05",
+        "ldot",
+        "ldotbelow",
+        "ldotbelow.ss05",
+        "ldotbelowmacron",
+        "ldotbelowmacron.ss05",
+        "ldoublebar",
+        "ldoublebar.ss05",
+        "lj",
+        "lj.ss05",
+        "llinebelow",
+        "llinebelow.ss05",
+        "lmiddletilde",
+        "lmiddletilde.ss05",
+        "lmod",
+        "lslash",
+        "lslash.ss05"
+      ],
+      "width_deltas": {
+        "l": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "l.ss05": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "l.sups": {
+          "HairlineItalic": -55.00599058017235,
+          "BlackItalic": -33.36346424368162
+        },
+        "lmod": {
+          "HairlineItalic": -55.005990580172295,
+          "BlackItalic": -33.36346424369435
+        },
+        "lbelt": {
+          "HairlineItalic": -60.006527333695885,
+          "BlackItalic": -48.26364307798849
+        },
+        "f_l": {
+          "HairlineItalic": -60.00653254794702,
+          "BlackItalic": -48.587559726071504
+        },
+        "f_f_l": {
+          "HairlineItalic": -60.00653254794679,
+          "BlackItalic": -48.58755972626136
+        },
+        "lslash": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "lslash.ss05": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "lcaron": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "lcaron.ss05": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "ldot": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "f_lcaron": {
+          "HairlineItalic": -60.00653254794702,
+          "BlackItalic": -48.587559726071504
+        },
+        "f_lcommaaccent": {
+          "HairlineItalic": -60.00653254794702,
+          "BlackItalic": -48.587559726071504
+        },
+        "f_lacute": {
+          "HairlineItalic": -60.00653254794702,
+          "BlackItalic": -48.587559726071504
+        },
+        "lacute": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "lcommaaccent": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "lbar": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "ldotbelow": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "ldotbelowmacron": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "llinebelow": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "lcircumflexbelow": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "ldoublebar": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "lmiddletilde": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "lj": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "lacute.ss05": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "lcommaaccent.ss05": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "lbar.ss05": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "ldotbelow.ss05": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "ldotbelowmacron.ss05": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "llinebelow.ss05": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "lcircumflexbelow.ss05": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "ldoublebar.ss05": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "lmiddletilde.ss05": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        },
+        "lj.ss05": {
+          "HairlineItalic": -50.00544079117947,
+          "BlackItalic": -49.55931476799992
+        }
+      }
+    }
+  }
+}

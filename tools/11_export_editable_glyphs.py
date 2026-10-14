@@ -119,7 +119,7 @@ def fallback_layer(layer, name, design, source, masters):
     layer.width = source.width(name, design)
 
 
-def export(style):
+def export(style, output_path=None):
     data = json.loads((ROOT/f'sources/Lato3{style}2M.vfj').read_text())['font']
     source = build.Source(style); spacing = json.loads(CONFIG.read_text()); spec = spacing['styles'][style]
     font = gs.GSFont(); font.format_version = 3; font.familyName = 'Lato26'
@@ -134,6 +134,10 @@ def export(style):
     font.customParameters['Use Typo Metrics'] = data['info']['useTypoMetrics']
     font.customParameters["Don't use Production Names"] = True
     font.userData['Lato26.spacing'] = {'eSpacingStrength': spacing['e_spacing_strength'], 'lPairTightening': spacing['l_pair_tightening']}
+    if 'bowl_allowance' in spacing:
+        font.userData['Lato26.spacing']['bowlAllowance'] = spacing['bowl_allowance']['additions'][style]
+    if 'outline_spacing_reference' in spacing:
+        font.userData['Lato26.spacing']['outlineSpacingReference'] = spacing['outline_spacing_reference'][style]
     originals = {m['fontMaster']['name']: m['fontMaster'] for m in data['masters']}
     ma, mb = list(originals.values())
     assert ma['name'].startswith('Hairline') and mb['name'].startswith('Black')
@@ -210,7 +214,7 @@ def export(style):
         font.kerning[master.id]=pairs
     font.userData['Lato26.compatibleOutlineFallbacks'] = fallback
     font.note = 'Converted from active FontLab sources. Regular and Bold masters preserve the weight-dependent kerning curve. The separate Lato26-Regular.glyphs export retains the hand-edited Regular a/e quadratics exactly.'
-    path=ROOT/f'sources/Lato26-{ "Italic" if style=="Ita" else "Upright"}.glyphs';font.save(path)
+    path=Path(output_path) if output_path else ROOT/f'sources/Lato26-{ "Italic" if style=="Ita" else "Upright"}.glyphs';font.save(path)
     read=gs.GSFont(path)
     assert len(read.glyphs)==len(font.glyphs)==len(data['glyphs']) and len(read.masters)==4 and len(read.instances)==9
     for before,after in zip(font.glyphs,read.glyphs):
@@ -228,7 +232,7 @@ def export(style):
     assert font.kerning==read.kerning
     feature_code='\n'.join('@'+c.name+' = ['+c.code+'];' for c in font.classes)+'\n'+prefix+'\n'+'\n'.join(f['feature'] for f in data['openTypeFeatures'][1:])
     test=TTFont();test.setGlyphOrder([g.name for g in font.glyphs]);addOpenTypeFeaturesFromString(test,feature_code)
-    print(path.relative_to(ROOT),f'{len(read.glyphs)} glyphs, 4 masters, 9 instances; round-trip and features verified; compatible fallbacks',fallback,flush=True)
+    print(path,f'{len(read.glyphs)} glyphs, 4 masters, 9 instances; round-trip and features verified; compatible fallbacks',fallback,flush=True)
 
 
 if __name__=='__main__':
