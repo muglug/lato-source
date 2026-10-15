@@ -22,7 +22,7 @@ value = (
 4,
 3,
 0,
-3,
+3
 );
 },
 {
@@ -46,13 +46,12 @@ value = (
 36,
 42,
 62,
-64,
+64
 );
 },
 {
 name = fsType;
-value = (
-);
+value = ();
 },
 {
 name = glyphOrder;
@@ -3111,9 +3110,45 @@ orn.001,
 longs.short,
 f_dotlessi.short,
 longs.mid,
-f_f_dotlessi.short,
+f_f_dotlessi.short
 );
 },
+{
+name = hheaAscender;
+value = 1974;
+},
+{
+name = hheaDescender;
+value = -426;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1974;
+},
+{
+name = winDescent;
+value = 426;
+},
+{
+name = typoAscender;
+value = 1610;
+},
+{
+name = typoDescender;
+value = -390;
+},
+{
+name = typoLineGap;
+value = 400;
+},
+{
+name = "Use Typo Metrics";
+value = 0;
+}
 );
 date = "2020-09-06 05:01:13 +0000";
 features = (

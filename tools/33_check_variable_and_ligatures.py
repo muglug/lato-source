@@ -11,6 +11,7 @@ from fontTools.ttLib import TTFont
 from lcd_font_proofs import RasterFace, bind, FaceRecord, set_size, load, render
 from lowercase_kerning import pair_advance, CONFIG
 from variable_font_support import ProofFace, PairValues
+from lato_vertical_metrics import assert_published_metrics, metrics
 
 build = importlib.import_module('07_build_revised_lato')
 ROOT = build.ROOT
@@ -48,10 +49,12 @@ def main():
             if path.suffix not in ('.otf', '.ttf'):
                 continue
             check_ligatures(ProofFace(path), report)
+            assert_published_metrics(TTFont(path))
             report['static_fonts'] += 1
         italic = 'Italic' if style == 'Ita' else ''
         path = ROOT / f'build/Lato26-Variable/Lato26-Variable{italic}.ttf'
         font = TTFont(path, checkChecksums=2)
+        assert_published_metrics(font)
         assert [(a.axisTag, a.minValue, a.defaultValue, a.maxValue) for a in font['fvar'].axes] == [('wght', 100, 400, 900)]
         assert [i.coordinates['wght'] for i in font['fvar'].instances] == list(range(100, 901, 100))
         assert all(not getattr(font['glyf'][n], 'program', None) or not font['glyf'][n].program.getBytecode()
@@ -61,6 +64,8 @@ def main():
             check_ligatures(ProofFace(path, weight), report)
             coordinate = (C.c_long * 1)(weight * 65536)
             assert set_design(native.handle, 1, coordinate) == 0
+            assert (native.handle.contents.ascender, native.handle.contents.descender,
+                    native.handle.contents.height) == (1974, -426, 2400)
             for ppem in (14, 16, 24):
                 assert set_size(native.handle, 0, ppem * 64, 72, 72) == 0
                 for gid in range(len(font.getGlyphOrder())):
@@ -106,7 +111,8 @@ def main():
                         report['pair_gap_checks'] += 1
         report['variable_fonts'].append({'path': str(path.relative_to(ROOT)), 'sha256': hashlib.sha256(path.read_bytes()).hexdigest(),
                                          'glyphs': len(font.getGlyphOrder()), 'rendered_weights': list(range(100,901,50)),
-                                         'maximum_common_pair_gap_error': max(gap_errors), 'hinting': 'unhinted'})
+                                         'maximum_common_pair_gap_error': max(gap_errors), 'hinting': 'unhinted',
+                                         'vertical_metrics': metrics(font)})
         print(path.name, 'shaping, continuous weight, pair spacing and native rendering passed', flush=True)
     report['status'] = 'passed'
     (ROOT / 'build/proofs/variable-ligature-validation.json').write_text(json.dumps(report, indent=2) + '\n')

@@ -17,6 +17,10 @@ have dedicated compatible outlines. Other source substitution features remain.
 Special l-pair outline-edge gaps match the static TTFs within half a unit at
 the four masters, with tiny interpolation/conversion differences between them.
 
+Line metrics match published Lato 2.015 and the static Lato26 fonts: hhea
+ascent/descent 1974/-426 with zero line gap (2,000 units per em). Windows
+ascent/descent are 1974/426. The total line height is 2,400 units.
+
 These variable fonts are UNHINTED. Use the static Lato26 desktop TTFs for the
 existing Lato 2.015-based native TrueType hinting and Bold a join correction.
 

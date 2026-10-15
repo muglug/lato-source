@@ -22,6 +22,7 @@ from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
 
 from lowercase_kerning import CONFIG, correction
 import connected_ligatures
+from lato_vertical_metrics import GLYPHS_PARAMETERS
 build = importlib.import_module('07_build_revised_lato')
 refine = importlib.import_module('10_refine_ae_and_l_spacing')
 ROOT = build.ROOT
@@ -133,6 +134,8 @@ def export(style, output_path=None):
         font.customParameters[key] = data['info'][key]
     font.customParameters['vendorID'] = data['info']['vendorID']
     font.customParameters['Use Typo Metrics'] = data['info']['useTypoMetrics']
+    for name, value in GLYPHS_PARAMETERS.items():
+        font.customParameters[name] = value
     font.customParameters["Don't use Production Names"] = True
     font.userData['Lato26.spacing'] = {'eSpacingStrength': spacing['e_spacing_strength'], 'lPairTightening': spacing['l_pair_tightening']}
     if 'bowl_allowance' in spacing:

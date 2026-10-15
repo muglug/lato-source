@@ -19,6 +19,17 @@
     "spacing": {
       "adjusted_master_pairs": 2535,
       "maximum_adjustment": 2
+    },
+    "vertical_metrics": {
+      "hheaAscender": 1974,
+      "hheaDescender": -426,
+      "hheaLineGap": 0,
+      "winAscent": 1974,
+      "winDescent": 426,
+      "typoAscender": 1610,
+      "typoDescender": -390,
+      "typoLineGap": 400,
+      "Use Typo Metrics": false
     }
   },
   {
@@ -41,6 +52,17 @@
     "spacing": {
       "adjusted_master_pairs": 11833,
       "maximum_adjustment": 52
+    },
+    "vertical_metrics": {
+      "hheaAscender": 1974,
+      "hheaDescender": -426,
+      "hheaLineGap": 0,
+      "winAscent": 1974,
+      "winDescent": 426,
+      "typoAscender": 1610,
+      "typoDescender": -390,
+      "typoLineGap": 400,
+      "Use Typo Metrics": false
     }
   }
 ]

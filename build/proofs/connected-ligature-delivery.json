@@ -47,7 +47,8 @@
     },
     {
       "path": "build/Lato26-Variable.zip",
-      "sha256": "f1e91831aa68897a6de5c6402b486c802dec52464a0127811ca625a5543e251a"
+      "sha256": "54e97cd30ff3d72c78a1a828f043d0919281665a0f841d6f8186e3c39ec7941f"
     }
-  ]
+  ],
+  "vertical_metrics_correction": "Variable package updated to published Lato 2.015 line metrics. Glyph outlines and all variation/layout tables are byte-identical; fixed-baseline PDF proofs remain valid and unchanged."
 }

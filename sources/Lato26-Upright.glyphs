@@ -38,6 +38,38 @@ value = 0;
 {
 name = "Don't use Production Names";
 value = 1;
+},
+{
+name = hheaAscender;
+value = 1974;
+},
+{
+name = hheaDescender;
+value = -426;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1974;
+},
+{
+name = winDescent;
+value = 426;
+},
+{
+name = typoAscender;
+value = 1610;
+},
+{
+name = typoDescender;
+value = -390;
+},
+{
+name = typoLineGap;
+value = 400;
 }
 );
 date = "2026-10-14 16:22:24 +0000";

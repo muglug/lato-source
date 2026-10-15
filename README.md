@@ -84,6 +84,14 @@ within half a font unit; common pairs at intervening named weights stay within
 TTFs retain the Lato 2.015-based native hinting and Bold `a` join correction;
 those point-specific programs cannot simply be copied to the variable outlines.
 
+Line metrics are explicitly pinned to published Lato 2.015 in the editable
+Glyphs sources and variable export checks: `hhea` 1974/-426/0, Windows
+1974/426, and typographic 1610/-390/400 with `USE_TYPO_METRICS` disabled.
+The first variable export used an inferred 2010/-390 split, moving the
+baseline down by 36 units (0.288 px at 16 px) despite the same 2400-unit line
+height. `37_fix_vertical_metrics.py --snapshot PATH` corrects those metadata
+tables without changing outlines, spacing, variation data, or hinting.
+
 Variable export additionally requires `fontmake`, `ufo2ft`, `ufoLib2`, and
 `typing_extensions`. Run `33_check_variable_and_ligatures.py` to check shaping,
 spacing and native rendering throughout the weight range. Run

@@ -8,7 +8,7 @@
   "variable_fonts": [
     {
       "path": "build/Lato26-Variable/Lato26-Variable.ttf",
-      "sha256": "d61da7c6925ffa06cc46384c3517519f644c7ef316038127ce03ff8da4d18fcf",
+      "sha256": "f002f0bc2f05c520c6e37d9a197e6d8566319a194ac37c4e7c6e8b66cf93b647",
       "glyphs": 3055,
       "rendered_weights": [
         100,
@@ -30,11 +30,22 @@
         900
       ],
       "maximum_common_pair_gap_error": 1.546019459337458,
-      "hinting": "unhinted"
+      "hinting": "unhinted",
+      "vertical_metrics": {
+        "hheaAscender": 1974,
+        "hheaDescender": -426,
+        "hheaLineGap": 0,
+        "winAscent": 1974,
+        "winDescent": 426,
+        "typoAscender": 1610,
+        "typoDescender": -390,
+        "typoLineGap": 400,
+        "Use Typo Metrics": false
+      }
     },
     {
       "path": "build/Lato26-Variable/Lato26-VariableItalic.ttf",
-      "sha256": "43c56ff52c618ec80dc556e2817547bddf95b9a2c84b9c77352c1c3c64613734",
+      "sha256": "814cb5039cee106b2255176022a34155b98d865ee21ce1a7a2bddf513cdb570a",
       "glyphs": 3053,
       "rendered_weights": [
         100,
@@ -56,7 +67,18 @@
         900
       ],
       "maximum_common_pair_gap_error": 2.580346184974701,
-      "hinting": "unhinted"
+      "hinting": "unhinted",
+      "vertical_metrics": {
+        "hheaAscender": 1974,
+        "hheaDescender": -426,
+        "hheaLineGap": 0,
+        "winAscent": 1974,
+        "winDescent": 426,
+        "typoAscender": 1610,
+        "typoDescender": -390,
+        "typoLineGap": 400,
+        "Use Typo Metrics": false
+      }
     }
   ]
 }
