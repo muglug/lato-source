@@ -190,3 +190,5 @@ html,body{height:100%;overflow:clip}
 .message p:last-child{margin-bottom:0}
 
 .channel-pane{border-radius:0 9px 9px 0}
+
+img.avatar{object-fit:cover;object-position:center;display:block}

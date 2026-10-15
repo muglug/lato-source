@@ -1,6 +1,6 @@
 # Lato26 Slack-style specimen
 
-A static, responsive Slack-inspired interface using the repository's Lato26 variable upright and italic fonts (weight axis 100–900). The conversation uses the user-supplied A Few Good Men excerpt, with full character names and consecutive messages from the same speaker grouped as paragraphs under one avatar. Avatars are flat colored rectangles. This is an independent type specimen, not a Slack product.
+A static, responsive Slack-inspired interface using the repository's Lato26 variable upright and italic fonts (weight axis 100–900). The conversation uses the user-supplied A Few Good Men excerpt, with full character names and consecutive messages from the same speaker grouped as paragraphs under one avatar. Character avatars use the three user-supplied portraits, cropped to their rounded frames with CSS. This is an independent type specimen, not a Slack product.
 
 Published at https://muglug.github.io/lato-source/slack/ through GitHub Pages (master branch, /docs directory).
 
