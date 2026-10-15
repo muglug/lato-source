@@ -2,10 +2,10 @@
 @font-face{font-family:Lato26;src:url('assets/lato26-italic.ttf') format('truetype');font-weight:100 900;font-style:italic;font-display:swap}
 
 *{box-sizing:border-box}
-body{margin:0;background:#361039;color:#252425;font:15px/1.4667 Lato26,sans-serif;font-synthesis:none}
+body{margin:0;background:#3a073b;color:#252425;font:15px/1.4667 Lato26,sans-serif;font-synthesis:none}
 .app{height:100dvh;min-height:0;display:grid;grid-template-columns:70px 263px minmax(0,1fr);grid-template-rows:39px minmax(0,1fr);padding:0 5px 5px 0;overflow:hidden}
 .icon{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;vertical-align:middle}
-.topbar{grid-column:1/-1;display:flex;align-items:center;color:#f6eaf7;gap:20px;padding:0 15px}
+.topbar{background:linear-gradient(90deg,#4a154b 0%,#49144a 13%,#441045 43%,#3d073d 77%,#39063a 94%,#380539 100%);grid-column:1/-1;display:flex;align-items:center;color:#f6eaf7;gap:20px;padding:0 15px}
 .traffic{display:flex;align-items:center;gap:9px;width:220px;flex-shrink:0}
 .traffic i{width:13px;height:13px;background:#ff5f57;border-radius:50%}
 .traffic i:nth-child(2){background:#febc2e}
@@ -13,28 +13,28 @@ body{margin:0;background:#361039;color:#252425;font:15px/1.4667 Lato26,sans-seri
 .traffic span{font-size:25px;margin-left:7px}
 .history{font-size:24px;line-height:1}
 .history span{opacity:.45}
-.search{background:#68426c;border:1px solid #78577c;border-radius:6px;height:28px;display:flex;align-items:center;gap:10px;padding:0 12px;max-width:510px;flex:1;font-size:13px}
+.search{background:linear-gradient(90deg,#744777,#6f4373);border:1px solid #784e7b;border-radius:6px;height:28px;display:flex;align-items:center;gap:10px;padding:0 12px;max-width:510px;flex:1;font-size:13px}
 .search .icon{width:17px}
 kbd{margin-left:auto;font:12px Lato26;opacity:.65}
 .top-label{font-weight:800;letter-spacing:-.5px}
 .help{margin-left:auto;border:2px solid;border-radius:50%;width:21px;height:21px;text-align:center;line-height:17px}
-.rail{display:flex;align-items:center;flex-direction:column;color:white;padding-top:12px;gap:22px;background:linear-gradient(#411346,#350c38)}
+.rail{display:flex;align-items:center;flex-direction:column;color:white;padding-top:12px;gap:22px;background:linear-gradient(180deg,#481449 1.20%,#481349 4.49%,#471348 8.86%,#471248 15.43%,#461147 23.09%,#451046 28.56%,#441045 34.03%,#420d42 50.44%,#3f0c40 61.38%,#3e0a3f 72.32%,#3c083d 83.26%,#3b073c 94.20%,#3a073b 98.58%)}
 .workspace-mark{width:42px;height:43px;background:#fff;border:1px solid #76517a;border-radius:11px;box-shadow:0 4px #76517a;font-size:32px;font-weight:900;font-style:italic;text-align:center;color:#e3b6ee;line-height:40px;position:relative}
 .workspace-mark span{font-size:10px;position:absolute;bottom:-5px;right:3px}
 .rail-item{display:flex;align-items:center;flex-direction:column;font-size:11px;font-weight:700;gap:4px}
 .rail-item>.icon{width:23px;height:23px;margin:9px}
-.rail-item.active>.icon{background:#77517b;box-shadow:0 0 0 9px #77517b;border-radius:3px;margin-bottom:12px}
+.rail-item.active>.icon{background:#744a77;box-shadow:0 0 0 9px #744a77;border-radius:3px;margin-bottom:12px}
 .spark{font-size:38px;line-height:40px}
 .rail-bottom{margin-top:auto;position:relative;display:flex;align-items:center;flex-direction:column;gap:23px;margin-bottom:16px}
-.add{background:#69416e;border-radius:50%;font-size:30px;width:40px;text-align:center;line-height:40px}
-.online{position:absolute;bottom:-2px;right:-2px;background:#35b59a;width:13px;height:13px;border:3px solid #37103c;border-radius:50%}
-.sidebar{border-radius:9px 0 0 9px;background:linear-gradient(120deg,#5d3262,#4b2552);color:#d9c2df;position:relative;padding:0 10px;overflow:clip;min-height:0}
+.add{background:#6b426e;border-radius:50%;font-size:30px;width:40px;text-align:center;line-height:40px}
+.online{position:absolute;bottom:-2px;right:-2px;background:#35b59a;width:13px;height:13px;border:3px solid #3a073b;border-radius:50%}
+.sidebar{border-radius:9px 0 0 9px;background:#59295b url("assets/sidebar-aubergine.svg") center/100% 100% no-repeat;color:#d9c2df;position:relative;padding:0 10px;overflow:clip;min-height:0}
 .workspace-title{height:52px;display:flex;align-items:center;color:white;font-size:18px;font-weight:700;padding:0 8px;gap:8px}
 .workspace-title>.workspace-name{font-size:inherit;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .workspace-title>.settings{font-size:15px;flex-shrink:0}
 .workspace-title .settings{margin-left:auto;white-space:nowrap;color:#d9c2df}
 .settings .icon{width:20px}
-.find{border:1px solid #946b98;border-radius:6px;background:#ffffff13;padding:3px 6px;font-size:13px;margin:0 0 12px;white-space:nowrap}
+.find{border:1px solid #98769c;border-radius:6px;background:#6d4170;padding:3px 6px;font-size:13px;margin:0 0 12px;white-space:nowrap}
 .find .icon{width:17px;margin-right:3px}
 .side-row{display:flex;align-items:center;gap:11px;padding:3px 9px;font-size:15px}
 .side-row>.icon,.side-icon{width:18px;height:18px;flex:0 0 18px}
@@ -44,7 +44,7 @@ kbd{margin-left:auto;font:12px Lato26;opacity:.65}
 .channels{border:0;margin-top:17px}
 .plus{margin-left:auto}
 .channel{padding:3px 12px 3px 54px;font-size:15px;border-radius:6px}
-.selected{color:#4b2052;background:#f7eafb;font-weight:400}
+.selected{color:#4a154b;background:#f9edff;font-weight:400}
 .dm{display:flex;gap:8px;align-items:center;padding:5px 10px 5px 26px}
 .dm>span:last-child:not(.avatar){opacity:.65}
 .specimen-note{margin:60px 10px 20px;font-size:11px;font-weight:750;letter-spacing:1.3px;color:#dcc4e1}
@@ -61,7 +61,7 @@ h1{font-size:18px;font-weight:800;margin:0}
 .tabs{display:flex;gap:23px;border-bottom:1px solid #ddd;height:35px;padding:0 16px;flex-shrink:0;color:#585658;font-size:13px;font-weight:700}
 .tabs>span{display:flex;align-items:center;gap:7px}
 .tabs .icon{width:17px;height:17px}
-.tabs .current{border-bottom:3px solid #853c91;color:#252425}
+.tabs .current{border-bottom:3px solid #83388a;color:#252425}
 .messages{overflow:auto;flex:1;padding:0 0 12px;min-height:0}
 .date-divider{display:flex;align-items:center;justify-content:center;margin:17px 0 13px;position:relative}
 .date-divider:before{content:'';position:absolute;left:0;right:0;border-top:1px solid #e8e8e8}
