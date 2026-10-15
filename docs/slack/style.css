@@ -19,7 +19,7 @@ kbd{margin-left:auto;font:12px Lato26;opacity:.65}
 .top-label{font-weight:800;letter-spacing:-.5px}
 .help{margin-left:auto;border:2px solid;border-radius:50%;width:21px;height:21px;text-align:center;line-height:17px}
 .rail{display:flex;align-items:center;flex-direction:column;color:white;padding-top:12px;gap:22px;background:linear-gradient(#411346,#350c38)}
-.workspace-mark{width:42px;height:43px;background:#201b25;border:1px solid #76517a;border-radius:11px;box-shadow:0 4px #76517a;font-size:32px;font-weight:900;font-style:italic;text-align:center;color:#e3b6ee;line-height:40px;position:relative}
+.workspace-mark{width:42px;height:43px;background:#fff;border:1px solid #76517a;border-radius:11px;box-shadow:0 4px #76517a;font-size:32px;font-weight:900;font-style:italic;text-align:center;color:#e3b6ee;line-height:40px;position:relative}
 .workspace-mark span{font-size:10px;position:absolute;bottom:-5px;right:3px}
 .rail-item{display:flex;align-items:center;flex-direction:column;font-size:11px;font-weight:700;gap:4px}
 .rail-item>.icon{width:23px;height:23px;margin:9px}
@@ -194,3 +194,6 @@ html,body{height:100%;overflow:clip}
 .channel-pane{border-radius:0 9px 9px 0}
 
 img.avatar{object-fit:cover;object-position:center;display:block}
+
+.workspace-mark{display:flex;align-items:center;justify-content:center;overflow:hidden;padding:3px}
+.workspace-mark img{display:block;width:100%;height:100%;object-fit:contain}
