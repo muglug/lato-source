@@ -184,4 +184,4 @@ html,body{height:100%;overflow:clip}
 .byline b{font-size:15px}
 .byline time{font-size:12px}
 }
-
+@media(max-width:700px){.header-tools .members,.replies>span:last-child{display:none}.replies strong{white-space:nowrap}}
