@@ -30,7 +30,8 @@
       "typoDescender": -390,
       "typoLineGap": 400,
       "Use Typo Metrics": false
-    }
+    },
+    "punctuation_spacing": "Fira Sans positive l/punctuation kerns, scaled to 2000 UPM at all nine named weights; other pairs and outlines preserved."
   },
   {
     "path": "build/Lato26-Variable/Lato26-VariableItalic.ttf",
@@ -63,6 +64,7 @@
       "typoDescender": -390,
       "typoLineGap": 400,
       "Use Typo Metrics": false
-    }
+    },
+    "punctuation_spacing": "Fira Sans positive l/punctuation kerns, scaled to 2000 UPM at all nine named weights; other pairs and outlines preserved."
   }
 ]

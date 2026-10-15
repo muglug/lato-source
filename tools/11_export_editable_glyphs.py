@@ -21,6 +21,7 @@ from fontTools.ttLib import TTFont
 from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
 
 from lowercase_kerning import CONFIG, correction
+from punctuation_kerning import adjustment as punctuation_adjustment
 import connected_ligatures
 from lato_vertical_metrics import GLYPHS_PARAMETERS
 build = importlib.import_module('07_build_revised_lato')
@@ -226,6 +227,15 @@ def export(style, output_path=None):
                 for i,k in enumerate((ma['kerning'],mb['kerning'])):
                     base.append(refine.effective(k['pairs'],classes,left,right)-correction(source,left,right,i*1000,spacing))
                 pairs.setdefault(left,{})[right]=round(base[0]*(1-t)+base[1]*t)+correction(source,left,right,design,spacing)
+        punctuation = spacing.get('punctuation_allowance')
+        if punctuation:
+            for left in punctuation['lefts'][style]:
+                for right in punctuation['rights']:
+                    base = [refine.effective(k['pairs'], classes, left, right)
+                            - punctuation_adjustment(punctuation, right, d)
+                            for k, d in ((ma['kerning'], 0), (mb['kerning'], 1000))]
+                    pairs.setdefault(left, {})[right] = (round(base[0]*(1-t)+base[1]*t)
+                        + punctuation_adjustment(punctuation, right, design))
         font.kerning[master.id]=pairs
     font.userData['Lato26.compatibleOutlineFallbacks'] = fallback
     font.note = 'Converted from active FontLab sources. Regular and Bold masters preserve the weight-dependent kerning curve. The separate Lato26-Regular.glyphs export retains the hand-edited Regular a/e quadratics exactly.'

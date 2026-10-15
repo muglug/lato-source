@@ -20,6 +20,7 @@ from glyphsLib import GSFont, to_designspace
 from fontmake.font_project import FontProject
 from lowercase_kerning import CONFIG, pair_advance
 from lato_vertical_metrics import assert_designspace_metrics, assert_published_metrics, metrics
+from punctuation_kerning import remove_master_adjustments, append_variable_adjustments
 
 build = importlib.import_module('07_build_revised_lato')
 export = importlib.import_module('11_export_editable_glyphs')
@@ -91,6 +92,8 @@ def export_variable(style, directory):
             export.fallback_layer(layer, name, master.axes[0], source, masters)
     designspace = to_designspace(font)
     assert_designspace_metrics(designspace)
+    punctuation = json.loads(CONFIG.read_text()).get('punctuation_allowance')
+    remove_master_adjustments(designspace, style, punctuation)
     axis = designspace.axes[0]
     axis.minimum, axis.default, axis.maximum = 100, 400, 900
     axis.map = [(100 + i * 100, design) for i, design in enumerate(build.WEIGHTS.values())]
@@ -110,6 +113,7 @@ def export_variable(style, directory):
     compile_font()
     result = TTFont(output, recalcTimestamp=False)
     normalize_names(result, bool(italic))
+    append_variable_adjustments(result, style, punctuation)
     assert_published_metrics(result)
     assert len(result['fvar'].axes) == 1
     assert [(a.axisTag, a.minValue, a.defaultValue, a.maxValue) for a in result['fvar'].axes] == [('wght', 100, 400, 900)]
@@ -119,6 +123,8 @@ def export_variable(style, directory):
     return {'path': str(output.relative_to(ROOT)) if output.is_relative_to(ROOT) else str(output),
             'source': str(path.relative_to(ROOT)), 'compatible_fallbacks': list(FALLBACKS),
             'hinting': 'unhinted', 'axis': {'wght': [100, 400, 900]}, 'spacing': spacing,
+            'punctuation_spacing': ('Fira Sans positive l/punctuation kerns, scaled to 2000 UPM at all nine named weights; other pairs and outlines preserved.'
+                                    if punctuation else None),
             'vertical_metrics': metrics(result)}
 
 

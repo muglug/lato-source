@@ -27,6 +27,13 @@ this base spacing. lc and lo still match le.
 Related accents and alternates follow their bases, retaining clearance
 exceptions for hooks and marks. Native UPM is 2,000.
 
+Positive l/punctuation kerning follows Fira Sans, scaled to this UPM. Periods,
+commas, ellipses, low quotation marks, exclamation marks and closing square/
+curly brackets gain 0, 0, 4, 8, 12, 14, 16, 18 and 20 units from Hairline to
+Black. Colon, semicolon and Greek question mark gain 20 units throughout.
+Both styles and related l forms follow this policy. Letter pairs, fl ligatures,
+glyph advances, outlines and hinting remain unchanged by this spacing pass.
+
 The updated PDF proofs and measurement files in the source repository include
 all la-lz pairs, a multiscale unhinted Gaussian blur audit, and lower-bowl
 contour clearance. These diagnose spacing relationships, not an objectively

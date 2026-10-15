@@ -9,6 +9,7 @@ from fontTools.pens.boundsPen import BoundsPen
 from fontTools.otlLib.builder import buildLookup, buildPairPosGlyphs, buildValue
 from fontTools.ttLib import newTable
 from fontTools.ttLib.tables import otTables
+from punctuation_kerning import adjustment as punctuation_adjustment
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT/'sources/data/lowercase-spacing.json'
@@ -223,6 +224,14 @@ def apply_spacing(font, path, source, design, output_name):
                 # Retain zero entries too, so both interpolation masters have
                 # the same pair coverage and subsequent rebuilds stay stable.
                 pairs[left, right] = (buildValue({'XAdvance': adjustment}), None)
+    punctuation = config.get('punctuation_allowance')
+    if punctuation:
+        for name in punctuation['lefts'][source.style]:
+            left = output_name(source, name, font)
+            for right_name in punctuation['rights']:
+                right = output_name(source, right_name, font)
+                pairs[left, right] = (buildValue({'XAdvance': punctuation_adjustment(
+                    punctuation, right_name, design)}), None)
     lookup = buildLookup(buildPairPosGlyphs(pairs, font.getReverseGlyphMap()), flags=8)
     if not metadata['lookups']:
         table = otTables.GPOS(); table.Version = 0x00010000

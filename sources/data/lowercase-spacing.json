@@ -74867,5 +74867,256 @@
         ]
       }
     }
+  },
+  "punctuation_allowance": {
+    "description": "Positive Fira Sans l/punctuation kerning, scaled from 1000 to 2000 UPM. Existing Lato kerning is retained; fl ligatures are excluded.",
+    "reference": {
+      "repository": "https://github.com/bBoxType/FiraSans",
+      "commit": "f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e",
+      "paths": [
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Roman/FiraSans-Thin.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Italic/FiraSans-ThinItalic.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Roman/FiraSans-UltraLight.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Italic/FiraSans-UltraLightItalic.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Roman/FiraSans-Light.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Italic/FiraSans-LightItalic.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Roman/FiraSans-Regular.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Italic/FiraSans-Italic.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Roman/FiraSans-Medium.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Italic/FiraSans-MediumItalic.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Roman/FiraSans-SemiBold.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Italic/FiraSans-SemiBoldItalic.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Roman/FiraSans-Bold.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Italic/FiraSans-BoldItalic.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Roman/FiraSans-ExtraBold.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Italic/FiraSans-ExtraBoldItalic.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Roman/FiraSans-Heavy.ttf",
+        "Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Italic/FiraSans-HeavyItalic.ttf",
+        "OFL.txt"
+      ]
+    },
+    "lefts": {
+      "Upr": [
+        "l",
+        "l.ss05",
+        "lacute",
+        "lacute.ss05",
+        "lbar",
+        "lbar.ss05",
+        "lbelt",
+        "lcaron",
+        "lcaron.ss05",
+        "lcircumflexbelow",
+        "lcircumflexbelow.ss05",
+        "lcommaaccent",
+        "lcommaaccent.ss05",
+        "ldot",
+        "ldotbelow",
+        "ldotbelow.ss05",
+        "ldotbelowmacron",
+        "ldotbelowmacron.ss05",
+        "ldoublebar",
+        "ldoublebar.ss05",
+        "llinebelow",
+        "llinebelow.ss05",
+        "lmiddletilde",
+        "lmiddletilde.ss05",
+        "lslash",
+        "lslash.ss05"
+      ],
+      "Ita": [
+        "l",
+        "l.ss05",
+        "lacute",
+        "lacute.ss05",
+        "lbar",
+        "lbar.ss05",
+        "lbelt",
+        "lcaron",
+        "lcaron.ss05",
+        "lcircumflexbelow",
+        "lcircumflexbelow.ss05",
+        "lcommaaccent",
+        "lcommaaccent.ss05",
+        "ldot",
+        "ldotbelow",
+        "ldotbelow.ss05",
+        "ldotbelowmacron",
+        "ldotbelowmacron.ss05",
+        "ldoublebar",
+        "ldoublebar.ss05",
+        "llinebelow",
+        "llinebelow.ss05",
+        "lmiddletilde",
+        "lmiddletilde.ss05",
+        "lslash",
+        "lslash.ss05"
+      ]
+    },
+    "rights": {
+      "period": "period",
+      "comma": "period",
+      "ellipsis": "period",
+      "exclam": "period",
+      "bracketright": "period",
+      "braceright": "period",
+      "quotesinglbase": "period",
+      "quotedblbase": "period",
+      "colon": "colon",
+      "semicolon": "colon",
+      "questiongreek": "colon"
+    },
+    "curves": {
+      "period": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ],
+        [
+          250,
+          4
+        ],
+        [
+          540,
+          8
+        ],
+        [
+          600,
+          12
+        ],
+        [
+          666,
+          14
+        ],
+        [
+          780,
+          16
+        ],
+        [
+          880,
+          18
+        ],
+        [
+          1000,
+          20
+        ]
+      ],
+      "colon": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          20
+        ],
+        [
+          250,
+          20
+        ],
+        [
+          540,
+          20
+        ],
+        [
+          600,
+          20
+        ],
+        [
+          666,
+          20
+        ],
+        [
+          780,
+          20
+        ],
+        [
+          880,
+          20
+        ],
+        [
+          1000,
+          20
+        ]
+      ]
+    },
+    "reference_fonts": [
+      {
+        "filename": "FiraSans-Thin.ttf",
+        "sha256": "bc5d2803c514dde2b1460361e6ec7e4af2f37c51d01612905d18dfc58fdd080c"
+      },
+      {
+        "filename": "FiraSans-ThinItalic.ttf",
+        "sha256": "508c3390a5cfa4b6df5438d574d8fec93edd62546131f7649202925dac892ac8"
+      },
+      {
+        "filename": "FiraSans-UltraLight.ttf",
+        "sha256": "d79391c50e73adf91da8be21b704d7e2e56156990849e79f419411cf43ce602f"
+      },
+      {
+        "filename": "FiraSans-UltraLightItalic.ttf",
+        "sha256": "f754cba73db936e6ecb6f4571d58ae73d4aab383a4117c3b5cf702becf1c4ef8"
+      },
+      {
+        "filename": "FiraSans-Light.ttf",
+        "sha256": "a8695b3e54100751a578b0b0d9c9efb5c766009894e7fc2fb018d8c12ffa1f41"
+      },
+      {
+        "filename": "FiraSans-LightItalic.ttf",
+        "sha256": "6e80aecb79fa70c7dcee24272a6267153971f2bb298595f743a7b4e006aefedc"
+      },
+      {
+        "filename": "FiraSans-Regular.ttf",
+        "sha256": "43c240a110cf888686d13cd17400fd0ca376ce55656150e52abff95f67a9532e"
+      },
+      {
+        "filename": "FiraSans-Italic.ttf",
+        "sha256": "5d55f0530d51d071e498acbefed420fe2c30c1d16c68a1ab86bcd88206ad688f"
+      },
+      {
+        "filename": "FiraSans-Medium.ttf",
+        "sha256": "7e7acee3fda79ae2cc3ec899f14f7a5b9e988b27a88f31a81a8ad4cb870b8987"
+      },
+      {
+        "filename": "FiraSans-MediumItalic.ttf",
+        "sha256": "3a0eb7eb576d4dcdc2bdbc98737f54d19d281be67a48cbd24e33102c8ad84037"
+      },
+      {
+        "filename": "FiraSans-SemiBold.ttf",
+        "sha256": "4509358c476fa900ad504a3fcd24d660e01e5bee977f6536eea0a7ac896f290d"
+      },
+      {
+        "filename": "FiraSans-SemiBoldItalic.ttf",
+        "sha256": "afbf14ce4b3ab267de1c4c6603abf875142c4067862853f5c891816ce6f74c74"
+      },
+      {
+        "filename": "FiraSans-Bold.ttf",
+        "sha256": "2c41b665c7e1c20a0fb3fce3aa09b464b7c9c253db965979c45a6e8ee6a41546"
+      },
+      {
+        "filename": "FiraSans-BoldItalic.ttf",
+        "sha256": "4b12e45c1798b65a82f37f1ef9273068f74bab442f99083f3c1f89e7189031c4"
+      },
+      {
+        "filename": "FiraSans-ExtraBold.ttf",
+        "sha256": "36aba5573a54c328268081b3093376cdad3dfa7c34f2c56053e7995217c88345"
+      },
+      {
+        "filename": "FiraSans-ExtraBoldItalic.ttf",
+        "sha256": "4e04dedf68ec8295d5074b03d2966c18ea108060c6ada96b6fd4d269a547973f"
+      },
+      {
+        "filename": "FiraSans-Heavy.ttf",
+        "sha256": "5d73c1aeed18e73ad0124d7428d8dc903858c939782be0470dda1a66ee11f21d"
+      },
+      {
+        "filename": "FiraSans-HeavyItalic.ttf",
+        "sha256": "a30804a11e8ad1b38d6cabc725644a1048aab6fb7e2811507f0e208a469c8ef9"
+      }
+    ]
   }
 }

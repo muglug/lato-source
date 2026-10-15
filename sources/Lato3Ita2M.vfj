@@ -551506,7 +551506,18 @@
                 "lmiddletilde":"0",
                 "lmiddletilde.ss05":"0",
                 "lslash":"0",
-                "lslash.ss05":"0"
+                "lslash.ss05":"0",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lacute.ss05":{
                 "@_KERN_O_2ND":"-20",
@@ -551739,7 +551750,18 @@
                 "lmiddletilde":"18",
                 "lmiddletilde.ss05":"18",
                 "lslash":"18",
-                "lslash.ss05":"18"
+                "lslash.ss05":"18",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lambda":{
                 "@_KERN_alpha":"-24",
@@ -551991,7 +552013,18 @@
                 "lmiddletilde":"18",
                 "lmiddletilde.ss05":"18",
                 "lslash":"18",
-                "lslash.ss05":"18"
+                "lslash.ss05":"18",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lbar.ss05":{
                 "@_KERN_O_2ND":"-20",
@@ -552224,7 +552257,18 @@
                 "lmiddletilde":"39",
                 "lmiddletilde.ss05":"39",
                 "lslash":"39",
-                "lslash.ss05":"39"
+                "lslash.ss05":"39",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lbelt":{
                 "@_KERN_period_2ND":"-35",
@@ -552444,7 +552488,16 @@
                 "lmiddletilde":"19",
                 "lmiddletilde.ss05":"19",
                 "lslash":"19",
-                "lslash.ss05":"19"
+                "lslash.ss05":"19",
+                "period":"-35",
+                "comma":"0",
+                "ellipsis":"-35",
+                "exclam":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lcaron":{
                 "@_KERN_i_2ND":"18",
@@ -552671,7 +552724,16 @@
                 "lmiddletilde":"18",
                 "lmiddletilde.ss05":"18",
                 "lslash":"18",
-                "lslash.ss05":"18"
+                "lslash.ss05":"18",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lcircumflexbelow.ss05":{
                 "@_KERN_O_2ND":"-20",
@@ -552904,7 +552966,18 @@
                 "lmiddletilde":"18",
                 "lmiddletilde.ss05":"18",
                 "lslash":"18",
-                "lslash.ss05":"18"
+                "lslash.ss05":"18",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lcommaaccent.ss05":{
                 "@_KERN_O_2ND":"-20",
@@ -553137,7 +553210,18 @@
                 "lmiddletilde":"0",
                 "lmiddletilde.ss05":"0",
                 "lslash":"0",
-                "lslash.ss05":"0"
+                "lslash.ss05":"0",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "ldot":{
                 "@_KERN_f_2ND":"-16",
@@ -553377,7 +553461,15 @@
                 "lmiddletilde":"18",
                 "lmiddletilde.ss05":"18",
                 "lslash":"18",
-                "lslash.ss05":"18"
+                "lslash.ss05":"18",
+                "period":"-83",
+                "ellipsis":"-83",
+                "exclam":"0",
+                "quotesinglbase":"-84",
+                "quotedblbase":"-84",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "ldotbelow.ss05":{
                 "@_KERN_O_2ND":"-20",
@@ -553610,7 +553702,18 @@
                 "lmiddletilde":"0",
                 "lmiddletilde.ss05":"0",
                 "lslash":"0",
-                "lslash.ss05":"0"
+                "lslash.ss05":"0",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "ldotbelowmacron.ss05":{
                 "@_KERN_O_2ND":"-20",
@@ -553843,7 +553946,18 @@
                 "lmiddletilde":"18",
                 "lmiddletilde.ss05":"18",
                 "lslash":"18",
-                "lslash.ss05":"18"
+                "lslash.ss05":"18",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "ldoublebar":{
                 "space":"-83",
@@ -554060,7 +554174,18 @@
                 "lmiddletilde":"18",
                 "lmiddletilde.ss05":"18",
                 "lslash":"18",
-                "lslash.ss05":"18"
+                "lslash.ss05":"18",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "ldoublebar.ss05":{
                 "@_KERN_O_2ND":"-20",
@@ -554293,7 +554418,18 @@
                 "lmiddletilde":"54",
                 "lmiddletilde.ss05":"54",
                 "lslash":"54",
-                "lslash.ss05":"54"
+                "lslash.ss05":"54",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lj.ss05":{
                 "@_KERN_I_2ND":"-15",
@@ -554528,7 +554664,17 @@
                 "lmiddletilde":"0",
                 "lmiddletilde.ss05":"0",
                 "lslash":"0",
-                "lslash.ss05":"0"
+                "lslash.ss05":"0",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "llinebelow.ss05":{
                 "@_KERN_O_2ND":"-20",
@@ -554761,7 +554907,18 @@
                 "lmiddletilde":"18",
                 "lmiddletilde.ss05":"18",
                 "lslash":"18",
-                "lslash.ss05":"18"
+                "lslash.ss05":"18",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lmiddletilde":{
                 "@_KERN_period_2ND":"-43",
@@ -554982,7 +555139,15 @@
                 "lmiddletilde":"18",
                 "lmiddletilde.ss05":"18",
                 "lslash":"18",
-                "lslash.ss05":"18"
+                "lslash.ss05":"18",
+                "period":"-43",
+                "ellipsis":"-43",
+                "exclam":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "longs":{
                 "Eng.small.ss01":"-15",
@@ -555234,7 +555399,18 @@
                 "lmiddletilde":"18",
                 "lmiddletilde.ss05":"18",
                 "lslash":"18",
-                "lslash.ss05":"18"
+                "lslash.ss05":"18",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lzdigraph":{
                 "braceright":"-39",
@@ -558166,7 +558342,18 @@
                 "lmiddletilde":"0",
                 "lmiddletilde.ss05":"0",
                 "lslash":"0",
-                "lslash.ss05":"0"
+                "lslash.ss05":"0",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lacute":{
                 "a":"17",
@@ -558382,7 +558569,18 @@
                 "lmiddletilde":"18",
                 "lmiddletilde.ss05":"18",
                 "lslash":"18",
-                "lslash.ss05":"18"
+                "lslash.ss05":"18",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lcaron.ss05":{
                 "a":"17",
@@ -558598,7 +558796,18 @@
                 "lmiddletilde":"18",
                 "lmiddletilde.ss05":"18",
                 "lslash":"18",
-                "lslash.ss05":"18"
+                "lslash.ss05":"18",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lcircumflexbelow":{
                 "a":"-1",
@@ -558814,7 +559023,18 @@
                 "lmiddletilde":"0",
                 "lmiddletilde.ss05":"0",
                 "lslash":"0",
-                "lslash.ss05":"0"
+                "lslash.ss05":"0",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lcommaaccent":{
                 "a":"-1",
@@ -559030,7 +559250,18 @@
                 "lmiddletilde":"0",
                 "lmiddletilde.ss05":"0",
                 "lslash":"0",
-                "lslash.ss05":"0"
+                "lslash.ss05":"0",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "ldotbelow":{
                 "a":"-1",
@@ -559246,7 +559477,18 @@
                 "lmiddletilde":"0",
                 "lmiddletilde.ss05":"0",
                 "lslash":"0",
-                "lslash.ss05":"0"
+                "lslash.ss05":"0",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "ldotbelowmacron":{
                 "a":"17",
@@ -559462,7 +559704,18 @@
                 "lmiddletilde":"18",
                 "lmiddletilde.ss05":"18",
                 "lslash":"18",
-                "lslash.ss05":"18"
+                "lslash.ss05":"18",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lmiddletilde.ss05":{
                 "a":"118",
@@ -559678,7 +559931,18 @@
                 "lmiddletilde":"43",
                 "lmiddletilde.ss05":"43",
                 "lslash":"43",
-                "lslash.ss05":"43"
+                "lslash.ss05":"43",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lslash.ss05":{
                 "a":"132",
@@ -559894,7 +560158,18 @@
                 "lmiddletilde":"47",
                 "lmiddletilde.ss05":"47",
                 "lslash":"47",
-                "lslash.ss05":"47"
+                "lslash.ss05":"47",
+                "period":"0",
+                "comma":"0",
+                "ellipsis":"0",
+                "exclam":"0",
+                "bracketright":"0",
+                "braceright":"0",
+                "quotesinglbase":"0",
+                "quotedblbase":"0",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               }
             }
           },
@@ -579615,7 +579890,18 @@
                 "lmiddletilde":"14",
                 "lmiddletilde.ss05":"14",
                 "lslash":"14",
-                "lslash.ss05":"14"
+                "lslash.ss05":"14",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lacute.ss05":{
                 "@_KERN_O_2ND":"0",
@@ -579848,7 +580134,18 @@
                 "lmiddletilde":"17",
                 "lmiddletilde.ss05":"17",
                 "lslash":"17",
-                "lslash.ss05":"17"
+                "lslash.ss05":"17",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lambda":{
                 "@_KERN_alpha":"-16",
@@ -580100,7 +580397,18 @@
                 "lmiddletilde":"17",
                 "lmiddletilde.ss05":"17",
                 "lslash":"17",
-                "lslash.ss05":"17"
+                "lslash.ss05":"17",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lbar.ss05":{
                 "@_KERN_O_2ND":"0",
@@ -580333,12 +580641,23 @@
                 "lmiddletilde":"30",
                 "lmiddletilde.ss05":"30",
                 "lslash":"30",
-                "lslash.ss05":"30"
+                "lslash.ss05":"30",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lbelt":{
                 "@_KERN_period_2ND":"-28",
-                "braceright":"0",
-                "bracketright":"0",
+                "braceright":"20",
+                "bracketright":"20",
                 "parenright":"0",
                 "a":"-21",
                 "aacute":"-21",
@@ -580553,15 +580872,24 @@
                 "lmiddletilde":"16",
                 "lmiddletilde.ss05":"16",
                 "lslash":"16",
-                "lslash.ss05":"16"
+                "lslash.ss05":"16",
+                "period":"-8",
+                "comma":"20",
+                "ellipsis":"-8",
+                "exclam":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lcaron":{
                 "@_KERN_i_2ND":"142",
                 "asterisk":"151",
                 "backslash":"194",
                 "bar":"185",
-                "braceright":"189",
-                "bracketright":"198",
+                "braceright":"209",
+                "bracketright":"218",
                 "j":"155",
                 "parenright":"188",
                 "quotedblrightreversed":"185",
@@ -580780,7 +581108,16 @@
                 "lmiddletilde":"17",
                 "lmiddletilde.ss05":"17",
                 "lslash":"17",
-                "lslash.ss05":"17"
+                "lslash.ss05":"17",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lcircumflexbelow.ss05":{
                 "@_KERN_O_2ND":"0",
@@ -581013,7 +581350,18 @@
                 "lmiddletilde":"17",
                 "lmiddletilde.ss05":"17",
                 "lslash":"17",
-                "lslash.ss05":"17"
+                "lslash.ss05":"17",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lcommaaccent.ss05":{
                 "@_KERN_O_2ND":"0",
@@ -581246,7 +581594,18 @@
                 "lmiddletilde":"14",
                 "lmiddletilde.ss05":"14",
                 "lslash":"14",
-                "lslash.ss05":"14"
+                "lslash.ss05":"14",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "ldot":{
                 "@_KERN_f_2ND":"0",
@@ -581260,9 +581619,9 @@
                 "@_KERN_z_2ND":"0",
                 "asterisk":"-40",
                 "backslash":"-49",
-                "braceright":"-52",
-                "bracketright":"-54",
-                "comma":"-118",
+                "braceright":"-32",
+                "bracketright":"-34",
+                "comma":"-98",
                 "ordfeminine":"0",
                 "ordmasculine":"-33",
                 "parenright":"-54",
@@ -581486,7 +581845,15 @@
                 "lmiddletilde":"17",
                 "lmiddletilde.ss05":"17",
                 "lslash":"17",
-                "lslash.ss05":"17"
+                "lslash.ss05":"17",
+                "period":"-97",
+                "ellipsis":"-97",
+                "exclam":"20",
+                "quotesinglbase":"-97",
+                "quotedblbase":"-97",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "ldotbelow.ss05":{
                 "@_KERN_O_2ND":"0",
@@ -581719,7 +582086,18 @@
                 "lmiddletilde":"14",
                 "lmiddletilde.ss05":"14",
                 "lslash":"14",
-                "lslash.ss05":"14"
+                "lslash.ss05":"14",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "ldotbelowmacron.ss05":{
                 "@_KERN_O_2ND":"0",
@@ -581952,7 +582330,18 @@
                 "lmiddletilde":"17",
                 "lmiddletilde.ss05":"17",
                 "lslash":"17",
-                "lslash.ss05":"17"
+                "lslash.ss05":"17",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "ldoublebar":{
                 "space":"-52",
@@ -582169,7 +582558,18 @@
                 "lmiddletilde":"17",
                 "lmiddletilde.ss05":"17",
                 "lslash":"17",
-                "lslash.ss05":"17"
+                "lslash.ss05":"17",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "ldoublebar.ss05":{
                 "@_KERN_O_2ND":"0",
@@ -582402,7 +582802,18 @@
                 "lmiddletilde":"42",
                 "lmiddletilde.ss05":"42",
                 "lslash":"42",
-                "lslash.ss05":"42"
+                "lslash.ss05":"42",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lj.ss05":{
                 "@_KERN_I_2ND":"0",
@@ -582422,7 +582833,7 @@
                 "Zstroke":"0"
               },
               "llinebelow":{
-                "bracketright":"33",
+                "bracketright":"53",
                 "parenright":"24",
                 "a":"-17",
                 "aacute":"-17",
@@ -582637,7 +583048,17 @@
                 "lmiddletilde":"14",
                 "lmiddletilde.ss05":"14",
                 "lslash":"14",
-                "lslash.ss05":"14"
+                "lslash.ss05":"14",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "llinebelow.ss05":{
                 "@_KERN_O_2ND":"0",
@@ -582870,13 +583291,24 @@
                 "lmiddletilde":"17",
                 "lmiddletilde.ss05":"17",
                 "lslash":"17",
-                "lslash.ss05":"17"
+                "lslash.ss05":"17",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lmiddletilde":{
                 "@_KERN_period_2ND":"-57",
-                "braceright":"-36",
-                "bracketright":"-40",
-                "comma":"-59",
+                "braceright":"-16",
+                "bracketright":"-20",
+                "comma":"-39",
                 "parenright":"-34",
                 "a":"-22",
                 "aacute":"-22",
@@ -583091,7 +583523,15 @@
                 "lmiddletilde":"17",
                 "lmiddletilde.ss05":"17",
                 "lslash":"17",
-                "lslash.ss05":"17"
+                "lslash.ss05":"17",
+                "period":"-37",
+                "ellipsis":"-37",
+                "exclam":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "longs":{
                 "Eng.small.ss01":"0",
@@ -583343,7 +583783,18 @@
                 "lmiddletilde":"17",
                 "lmiddletilde.ss05":"17",
                 "lslash":"17",
-                "lslash.ss05":"17"
+                "lslash.ss05":"17",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lzdigraph":{
                 "braceright":"-35",
@@ -586275,7 +586726,18 @@
                 "lmiddletilde":"14",
                 "lmiddletilde.ss05":"14",
                 "lslash":"14",
-                "lslash.ss05":"14"
+                "lslash.ss05":"14",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lacute":{
                 "a":"-9",
@@ -586491,7 +586953,18 @@
                 "lmiddletilde":"17",
                 "lmiddletilde.ss05":"17",
                 "lslash":"17",
-                "lslash.ss05":"17"
+                "lslash.ss05":"17",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lcaron.ss05":{
                 "a":"69",
@@ -586707,7 +587180,18 @@
                 "lmiddletilde":"40",
                 "lmiddletilde.ss05":"40",
                 "lslash":"40",
-                "lslash.ss05":"40"
+                "lslash.ss05":"40",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lcircumflexbelow":{
                 "a":"-17",
@@ -586923,7 +587407,18 @@
                 "lmiddletilde":"14",
                 "lmiddletilde.ss05":"14",
                 "lslash":"14",
-                "lslash.ss05":"14"
+                "lslash.ss05":"14",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lcommaaccent":{
                 "a":"-17",
@@ -587139,7 +587634,18 @@
                 "lmiddletilde":"14",
                 "lmiddletilde.ss05":"14",
                 "lslash":"14",
-                "lslash.ss05":"14"
+                "lslash.ss05":"14",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "ldotbelow":{
                 "a":"-17",
@@ -587355,7 +587861,18 @@
                 "lmiddletilde":"14",
                 "lmiddletilde.ss05":"14",
                 "lslash":"14",
-                "lslash.ss05":"14"
+                "lslash.ss05":"14",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "ldotbelowmacron":{
                 "a":"-14",
@@ -587571,7 +588088,18 @@
                 "lmiddletilde":"17",
                 "lmiddletilde.ss05":"17",
                 "lslash":"17",
-                "lslash.ss05":"17"
+                "lslash.ss05":"17",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lmiddletilde.ss05":{
                 "a":"110",
@@ -587787,7 +588315,18 @@
                 "lmiddletilde":"50",
                 "lmiddletilde.ss05":"50",
                 "lslash":"50",
-                "lslash.ss05":"50"
+                "lslash.ss05":"50",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               },
               "lslash.ss05":{
                 "a":"75",
@@ -588003,7 +588542,18 @@
                 "lmiddletilde":"41",
                 "lmiddletilde.ss05":"41",
                 "lslash":"41",
-                "lslash.ss05":"41"
+                "lslash.ss05":"41",
+                "period":"20",
+                "comma":"20",
+                "ellipsis":"20",
+                "exclam":"20",
+                "bracketright":"20",
+                "braceright":"20",
+                "quotesinglbase":"20",
+                "quotedblbase":"20",
+                "colon":"20",
+                "semicolon":"20",
+                "questiongreek":"20"
               }
             }
           },
