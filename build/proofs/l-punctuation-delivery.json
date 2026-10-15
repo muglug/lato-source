@@ -1,22 +1,47 @@
 {
   "status": "passed",
-  "fresh_glyphs_exports_checked": [
-    "Upr",
-    "Ita"
-  ],
-  "native_hinting_raster_samples": 90,
-  "raster_sizes": [
-    12,
-    14,
-    16,
-    18,
-    24
-  ],
+  "revision": "Black at three times its original punctuation allowance; Heavy halfway between current Bold and Black",
+  "revision_checks": {
+    "bold_and_lighter_static_fonts_byte_identical": 30,
+    "glyphs_source_changes": "Black punctuation kerning only; outline and width data unchanged",
+    "unchanged_variable_weights_checked": [
+      100,
+      125,
+      150,
+      175,
+      200,
+      225,
+      250,
+      275,
+      300,
+      325,
+      350,
+      375,
+      400,
+      425,
+      450,
+      475,
+      500,
+      525,
+      550,
+      575,
+      600,
+      625,
+      650,
+      675,
+      700
+    ],
+    "variable_black_allowance": 60,
+    "variable_heavy_allowance_period_group": 46,
+    "variable_heavy_allowance_colon_group": 50,
+    "variable_replacement_idempotent": true,
+    "native_hinting_raster_samples": 20
+  },
   "proof_pages": 4,
   "files": {
-    "build/Lato26-Desktop.zip": "0b4de8c4ac8c824f4a40deb411c2e39179f5b1a9d6ea290a8125eae21582d6d7",
-    "build/Lato26-Variable.zip": "59896a32163026819a117f1c898a3245ad0bdc89522569e9dd3eb2ec4c3f6799",
-    "output/pdf/Lato26-Punctuation-Spacing.pdf": "587882acddbbaa4b792f36de8b3c4a5960d0a43dba07a1b483dd7e5572de9341",
-    "build/proofs/l-punctuation-validation.json": "16e4670d4939536f210f8d0de52f11ec3a94d8eb31badf43a0f0ba218226b0a4"
+    "build/Lato26-Desktop.zip": "d54936d352f658ae7e5fb367c28355aa3842ad2943320fbc76623b1738edc295",
+    "build/Lato26-Variable.zip": "3f52678aa405d9681f4c540be5be7f44923586580d7c82222a01bc4c8f4696e6",
+    "output/pdf/Lato26-Punctuation-Spacing.pdf": "a4cfd86c3f5e95ca65f05bd5fba177cda384bd3b4a5cbe12e0c6f33db4b4cd34",
+    "build/proofs/l-punctuation-validation.json": "e5d2af3d8250f4fbe4db89f68de85fb0efd75af1cc9a9f06342f6ba3036a9eef"
   }
 }

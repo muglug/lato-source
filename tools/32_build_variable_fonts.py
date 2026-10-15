@@ -123,8 +123,7 @@ def export_variable(style, directory):
     return {'path': str(output.relative_to(ROOT)) if output.is_relative_to(ROOT) else str(output),
             'source': str(path.relative_to(ROOT)), 'compatible_fallbacks': list(FALLBACKS),
             'hinting': 'unhinted', 'axis': {'wght': [100, 400, 900]}, 'spacing': spacing,
-            'punctuation_spacing': ('Fira Sans positive l/punctuation kerns, scaled to 2000 UPM at all nine named weights; other pairs and outlines preserved.'
-                                    if punctuation else None),
+            'punctuation_spacing': punctuation['description'] if punctuation else None,
             'vertical_metrics': metrics(result)}
 
 

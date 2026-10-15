@@ -31,7 +31,7 @@
       "typoLineGap": 400,
       "Use Typo Metrics": false
     },
-    "punctuation_spacing": "Fira Sans positive l/punctuation kerns, scaled to 2000 UPM at all nine named weights; other pairs and outlines preserved."
+    "punctuation_spacing": "Fira Sans positive l/punctuation kerning scaled to 2000 UPM, with Black at 3x its original allowance and Heavy halfway between Bold and Black. Existing letter kerning is retained; fl ligatures are excluded."
   },
   {
     "path": "build/Lato26-Variable/Lato26-VariableItalic.ttf",
@@ -65,6 +65,6 @@
       "typoLineGap": 400,
       "Use Typo Metrics": false
     },
-    "punctuation_spacing": "Fira Sans positive l/punctuation kerns, scaled to 2000 UPM at all nine named weights; other pairs and outlines preserved."
+    "punctuation_spacing": "Fira Sans positive l/punctuation kerning scaled to 2000 UPM, with Black at 3x its original allowance and Heavy halfway between Bold and Black. Existing letter kerning is retained; fl ligatures are excluded."
   }
 ]

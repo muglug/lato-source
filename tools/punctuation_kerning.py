@@ -1,4 +1,4 @@
-"""Fira's positive l/punctuation adjustments, scaled to Lato's 2000 UPM."""
+"""Weight-dependent l/punctuation adjustments based on Fira Sans."""
 from fontTools.misc.roundTools import otRound
 from fontTools.otlLib.builder import buildLookup, buildPairPosGlyphs, buildValue
 from fontTools.varLib.builder import buildVarDevTable
@@ -86,3 +86,42 @@ def append_variable_adjustments(font, style, policy):
         if record.FeatureTag == 'kern':
             record.Feature.LookupListIndex.append(index)
             record.Feature.LookupCount = len(record.Feature.LookupListIndex)
+
+
+def replace_variable_adjustments(font, style, policy):
+    """Replace our final lookup and its private variation data, without stacking."""
+    table = font['GPOS'].table
+    index = len(table.LookupList.Lookup) - 1
+    lookup = table.LookupList.Lookup[index]
+    assert lookup.LookupType == 2 and lookup.LookupFlag == 8
+    pairs, outer_indices = set(), set()
+    for sub in lookup.SubTable:
+        assert sub.Format == 1
+        for left, row in zip(sub.Coverage.glyphs, sub.PairSet):
+            for pair in row.PairValueRecord:
+                pairs.add((left, pair.SecondGlyph))
+                device = getattr(pair.Value1, 'XAdvDevice', None)
+                if device is not None:
+                    assert device.DeltaFormat == 0x8000
+                    outer_indices.add(device.StartSize)
+    assert pairs == {(left, right) for left in policy['lefts'][style]
+                     for right in policy['rights']}
+    store = font['GDEF'].table.VarStore
+    first_data = min(outer_indices)
+    assert outer_indices == set(range(first_data, len(store.VarData)))
+    first_region = min(i for data in store.VarData[first_data:] for i in data.VarRegionIndex)
+    assert all(i < first_region for data in store.VarData[:first_data] for i in data.VarRegionIndex)
+    del store.VarData[first_data:]
+    store.VarDataCount = len(store.VarData)
+    del store.VarRegionList.Region[first_region:]
+    store.VarRegionList.RegionCount = len(store.VarRegionList.Region)
+    table.LookupList.Lookup.pop()
+    table.LookupList.LookupCount -= 1
+    for record in table.FeatureList.FeatureRecord:
+        if record.FeatureTag == 'kern':
+            assert record.Feature.LookupListIndex[-1] == index
+            record.Feature.LookupListIndex.pop()
+            record.Feature.LookupCount -= 1
+        else:
+            assert index not in record.Feature.LookupListIndex
+    append_variable_adjustments(font, style, policy)

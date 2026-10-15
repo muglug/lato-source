@@ -3,7 +3,7 @@
   "static_fonts": [
     {
       "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.ttf",
-      "sha256": "816c2ed5ca5117b62f47d8675ae993213eceba1fb4a37a7552ec47803bacb4f4",
+      "sha256": "4fd1f10018fc17b1656c4c62d6355d4abb2549369c77dd250d02ad4643ae9786",
       "only_changed_tables": [
         "GPOS",
         "head.checkSumAdjustment"
@@ -11,7 +11,7 @@
     },
     {
       "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ttf",
-      "sha256": "409c57c686b39763858f517b7b466933e8685cbaac10a56bf231a0e6b10a608f",
+      "sha256": "72b876f8f86eda70d00a67259b61216baa6bc27d7e651284d4b5d80b3ba68539",
       "only_changed_tables": [
         "GPOS",
         "head.checkSumAdjustment"
@@ -27,7 +27,7 @@
     },
     {
       "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HeavyItalic.ttf",
-      "sha256": "3bc5cb09ecfb4185c7f38e08e7cd9cf63a71f701ce4ab7b98bfec1562b26266b",
+      "sha256": "3a8d8ac0d83dd7bc04d7f859504a135851de603ae1b4bbc4ec83aed1cfd947d1",
       "only_changed_tables": [
         "GPOS",
         "head.checkSumAdjustment"
@@ -75,7 +75,7 @@
     },
     {
       "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26.~VF/master_ttf_interpolatable/Lato26-BlackItalic.ttf",
-      "sha256": "fe3de3275abe60e60063b7a56c3a348f841542d136a79720d9d740cfa5b71cce",
+      "sha256": "0f8dd701d2c2d0108b050d9809137909b745c29dcf0d80d8e665ea6dbbc223bf",
       "only_changed_tables": [
         "GPOS",
         "head.checkSumAdjustment"
@@ -91,7 +91,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.ttf",
-      "sha256": "0784bdc0d32dd975d97f5bd6a871c7e13f5dcb306ebbf54d883cd0b3fa290503",
+      "sha256": "fbff258b20650c68832636c92608792dfe737a2f048465e2cb69c3cb9180ff78",
       "only_changed_tables": [
         "GPOS",
         "head.checkSumAdjustment"
@@ -99,7 +99,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
-      "sha256": "4e2f9f3c17a9dc52e0ce991e8865e1d19cf02fd3331fde229be806665c27cfa0",
+      "sha256": "6d357391391eb683f40e0603a192ad259fd3c01b18a17e030b69b071f214fdc0",
       "only_changed_tables": [
         "GPOS",
         "head.checkSumAdjustment"
@@ -115,7 +115,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Heavy.ttf",
-      "sha256": "1d6cd50592387b97d75e0706db1a58bc3c413e669fe61acbc7d697122436c4b2",
+      "sha256": "205b4332f51aff4d806653d7f9805acda988ac2a94d44b63252c0ffd48e7f049",
       "only_changed_tables": [
         "GPOS",
         "head.checkSumAdjustment"
@@ -163,7 +163,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26.~VF/master_ttf_interpolatable/Lato26-Black.ttf",
-      "sha256": "e59e4266ecf6b30aa79356daa71f51f532b249c0943fef2679ccbb0cc7182d6f",
+      "sha256": "8695874ea93a5652dba2274dae09daab6467a08f407b29fd4690a3a5f271ee3a",
       "only_changed_tables": [
         "GPOS",
         "head.checkSumAdjustment"
@@ -179,7 +179,7 @@
     },
     {
       "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.otf",
-      "sha256": "d92c11a5fb6f272d427be8ede47b560b3b2f47948b7a321bb6a2fb7711a091ea",
+      "sha256": "2e76da9965b93b6b295e355d0bf42f090b41d7591569d7b3b62db16bbdcc5c12",
       "only_changed_tables": [
         "GPOS",
         "head.checkSumAdjustment"
@@ -187,7 +187,7 @@
     },
     {
       "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.otf",
-      "sha256": "c8e05d190a9195188f9aa5432ce4f5cd5be13176b094e0d8452ae6e9a92b78f6",
+      "sha256": "a8610598558d495990a10db08dad9750b85d16379fe7d1a47df3fa93c7f75488",
       "only_changed_tables": [
         "GPOS",
         "head.checkSumAdjustment"
@@ -203,7 +203,7 @@
     },
     {
       "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HeavyItalic.otf",
-      "sha256": "e886cc9549a247b81dffa85a405ee9422dff63a71d9b91d6b817719fd2abcf4b",
+      "sha256": "f3336d4ceabc9944adbda578eb805bba53a49027823ae718925e2fe0c9326450",
       "only_changed_tables": [
         "GPOS",
         "head.checkSumAdjustment"
@@ -251,7 +251,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.otf",
-      "sha256": "0ae8980d0dde456df25104c41fa247f1d42d261c3d3c167870790280e59f02df",
+      "sha256": "a532fa2a45b7b079307088436a00e1dd80bc561b559534d78ef1f3bb064dceda",
       "only_changed_tables": [
         "GPOS",
         "head.checkSumAdjustment"
@@ -259,7 +259,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.otf",
-      "sha256": "8adf2d86fae0a1fbf263021963d6e192b98883982b0f868274acae576080e7e0",
+      "sha256": "1e2e303550a682a76c14a69c58b5f08e2389bec3751fe6366513561e2523aff5",
       "only_changed_tables": [
         "GPOS",
         "head.checkSumAdjustment"
@@ -275,7 +275,7 @@
     },
     {
       "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Heavy.otf",
-      "sha256": "a0c0a02a71420bcb6a3ead832052e474c72fdee8501b2ad3d151f05f355b3474",
+      "sha256": "e81222736d067e5e825161968d50e5379f2220b468bd809873b3147a8b79da2b",
       "only_changed_tables": [
         "GPOS",
         "head.checkSumAdjustment"
@@ -325,7 +325,7 @@
   "variable_fonts": [
     {
       "path": "build/Lato26-Variable/Lato26-Variable.ttf",
-      "sha256": "67d319eaeaec0fcc7e4b49b8a820af55067a9e3bf3f8662f3c46a2cece2d6e83",
+      "sha256": "7fae169cfafefff3ff6193e154b617de48908dafa6249c69aa20bda56f8b2c47",
       "weights_checked": [
         100,
         125,
@@ -369,7 +369,7 @@
     },
     {
       "path": "build/Lato26-Variable/Lato26-VariableItalic.ttf",
-      "sha256": "aa36af5a09d855189dc5e4149b1417fce6f5fcf62f35e580d59e4fde5f00f291",
+      "sha256": "5e80e72ed662bd615950d84dca191b7b240ff021a5b2cde58b692aa2104d7eb0",
       "weights_checked": [
         100,
         125,

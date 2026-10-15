@@ -94,7 +94,7 @@ def check(snapshot):
                 report['native_shaping_checks'] += 1
             for text in ('la le lo ly lj ll lk lh', 'fl. ffi. office', 'IoloIolo', 'l- l? l) l\u2019', '\u013a. \u013e, \u0142;'):
                 if text.startswith('\u013a'):
-                    assert sum(g[1] for g in b.shaped(text)) - sum(g[1] for g in a.shaped(text)) == 2 * adjustment(policy, 'period', design) + 20
+                    assert sum(g[1] for g in b.shaped(text)) - sum(g[1] for g in a.shaped(text)) == 2 * adjustment(policy, 'period', design) + adjustment(policy, 'semicolon', design)
                 else:
                     assert b.shaped(text) == a.shaped(text), (path, text)
                 report['native_shaping_checks'] += 1

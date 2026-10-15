@@ -17,10 +17,13 @@ have dedicated compatible outlines. Other source substitution features remain.
 Special l-pair outline-edge gaps match the static TTFs within half a unit at
 the four masters, with tiny interpolation/conversion differences between them.
 
-Positive l/punctuation kerning follows Fira Sans, scaled to 2,000 UPM. The
-period/comma/ellipsis group gains 0, 0, 4, 8, 12, 14, 16, 18 and 20 units at
+Positive l/punctuation kerning uses Fira Sans as a base, scaled to 2,000 UPM,
+with a doubled allowance at Bold, three times the original allowance at Black,
+and Heavy halfway between Bold and Black. The
+period/comma/ellipsis group gains 0, 0, 4, 8, 12, 14, 32, 46 and 60 units at
 the nine named weights, with continuous interpolation between them. Colon,
-semicolon and Greek question mark gain 20 units throughout. This applies
+semicolon and Greek question mark gain 20 units through Semibold and 40, 50
+and 60 units at Bold, Heavy and Black respectively. This applies
 to both styles and related l forms; letter pairs and fl ligatures are unchanged.
 Editable Glyphs sources contain this punctuation kerning at their four masters;
 the repository exporter supplies the exact nine-weight curve in these binaries.

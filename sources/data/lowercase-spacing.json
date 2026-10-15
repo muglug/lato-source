@@ -74869,7 +74869,7 @@
     }
   },
   "punctuation_allowance": {
-    "description": "Positive Fira Sans l/punctuation kerning, scaled from 1000 to 2000 UPM. Existing Lato kerning is retained; fl ligatures are excluded.",
+    "description": "Fira Sans positive l/punctuation kerning scaled to 2000 UPM, with Black at 3x its original allowance and Heavy halfway between Bold and Black. Existing letter kerning is retained; fl ligatures are excluded.",
     "reference": {
       "repository": "https://github.com/bBoxType/FiraSans",
       "commit": "f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e",
@@ -74994,15 +74994,15 @@
         ],
         [
           780,
-          16
+          32
         ],
         [
           880,
-          18
+          46
         ],
         [
           1000,
-          20
+          60
         ]
       ],
       "colon": [
@@ -75032,15 +75032,15 @@
         ],
         [
           780,
-          20
+          40
         ],
         [
           880,
-          20
+          50
         ],
         [
           1000,
-          20
+          60
         ]
       ]
     },
@@ -75117,6 +75117,86 @@
         "filename": "FiraSans-HeavyItalic.ttf",
         "sha256": "a30804a11e8ad1b38d6cabc725644a1048aab6fb7e2811507f0e208a469c8ef9"
       }
-    ]
+    ],
+    "reference_curves": {
+      "period": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ],
+        [
+          250,
+          4
+        ],
+        [
+          540,
+          8
+        ],
+        [
+          600,
+          12
+        ],
+        [
+          666,
+          14
+        ],
+        [
+          780,
+          16
+        ],
+        [
+          880,
+          18
+        ],
+        [
+          1000,
+          20
+        ]
+      ],
+      "colon": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          20
+        ],
+        [
+          250,
+          20
+        ],
+        [
+          540,
+          20
+        ],
+        [
+          600,
+          20
+        ],
+        [
+          666,
+          20
+        ],
+        [
+          780,
+          20
+        ],
+        [
+          880,
+          20
+        ],
+        [
+          1000,
+          20
+        ]
+      ]
+    },
+    "black_reference_multiplier": 3,
+    "heavy_rule": "Halfway between the Bold and Black allowances."
   }
 }

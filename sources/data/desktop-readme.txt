@@ -27,10 +27,13 @@ this base spacing. lc and lo still match le.
 Related accents and alternates follow their bases, retaining clearance
 exceptions for hooks and marks. Native UPM is 2,000.
 
-Positive l/punctuation kerning follows Fira Sans, scaled to this UPM. Periods,
+Positive l/punctuation kerning uses Fira Sans as a base, scaled to this UPM.
+Bold retains its doubled allowance; Black is three times its original allowance,
+with Heavy halfway between Bold and Black. Periods,
 commas, ellipses, low quotation marks, exclamation marks and closing square/
-curly brackets gain 0, 0, 4, 8, 12, 14, 16, 18 and 20 units from Hairline to
-Black. Colon, semicolon and Greek question mark gain 20 units throughout.
+curly brackets gain 0, 0, 4, 8, 12, 14, 32, 46 and 60 units from Hairline to
+Black. Colon, semicolon and Greek question mark gain 20 units through Semibold
+and 40, 50 and 60 units at Bold, Heavy and Black respectively.
 Both styles and related l forms follow this policy. Letter pairs, fl ligatures,
 glyph advances, outlines and hinting remain unchanged by this spacing pass.
 

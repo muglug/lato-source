@@ -17,7 +17,7 @@ from fontTools.ttLib import TTFont
 from fontTools.ttLib.tables.DefaultTable import DefaultTable
 
 from lowercase_kerning import CONFIG, apply_spacing, pair_advance
-from punctuation_kerning import adjustment, append_variable_adjustments
+from punctuation_kerning import adjustment, append_variable_adjustments, replace_variable_adjustments
 
 build = importlib.import_module('07_build_revised_lato')
 refine = importlib.import_module('10_refine_ae_and_l_spacing')
@@ -63,12 +63,13 @@ def glyphs_effective(pairs, glyphs, left, right):
     return 0
 
 
-def patch_glyphs(path, style, policy, static=False):
+def patch_glyphs(path, style, policy, static=False, previous=None, reset_black_width=False):
     text = path.read_text()
     before = openstep_plist.loads(text, use_numbers=True)
     expected = copy.deepcopy(before)
     glyphs = {g['glyphname']: g for g in expected['glyphs']}
-    if style == 'Upr' and not static:
+    if reset_black_width:
+        assert style == 'Upr' and not static
         black = next(m['id'] for m in expected['fontMaster'] if m['axesValues'] == [1000])
         layer = next(l for l in glyphs['l']['layers'] if l['layerId'] == black)
         assert layer['width'] == 607, layer['width']
@@ -92,7 +93,10 @@ def patch_glyphs(path, style, policy, static=False):
                     value = pair_advance(font, a, b)
                 else:
                     a, b = left, right
-                    value = glyphs_effective(original, glyphs, a, b) + adjustment(policy, right, design)
+                    delta = adjustment(policy, right, design)
+                    if previous:
+                        delta -= adjustment(previous, right, design)
+                    value = glyphs_effective(original, glyphs, a, b) + delta
                 pairs.setdefault(a, {})[b] = value
     start = re.search(r'^kerningLTR = \{', text, re.M).end() - 1
     text = text[:start] + openstep_plist.dumps(expected['kerningLTR'], indent=0, sort_keys=False) + text[balanced_end(text, start):]
@@ -100,7 +104,7 @@ def patch_glyphs(path, style, policy, static=False):
     path.write_text(text)
 
 
-def patch_vfj(style, policy):
+def patch_vfj(style, policy, previous=None):
     path = ROOT / f'sources/Lato3{style}2M.vfj'
     text = path.read_text()
     parsed = json.loads(text)
@@ -113,7 +117,10 @@ def patch_vfj(style, policy):
         for left in policy['lefts'][style]:
             for right in policy['rights']:
                 value = refine.effective(original['pairs'], original['kerningClasses'], left, right)
-                kerning['pairs'].setdefault(left, {})[right] = str(value + adjustment(policy, right, design))
+                delta = adjustment(policy, right, design)
+                if previous:
+                    delta -= adjustment(previous, right, design)
+                kerning['pairs'].setdefault(left, {})[right] = str(value + delta)
         text = refine.patch_json_block(text, original, kerning, 10)
     assert json.loads(text) == expected
     path.write_text(text)
@@ -147,7 +154,7 @@ def migrate(snapshot):
     config['punctuation_allowance'] = policy
     CONFIG.write_text(json.dumps(config, indent=2) + '\n')
     for style, suffix in (('Upr', 'Upright'), ('Ita', 'Italic')):
-        patch_glyphs(ROOT / f'sources/Lato26-{suffix}.glyphs', style, policy)
+        patch_glyphs(ROOT / f'sources/Lato26-{suffix}.glyphs', style, policy, reset_black_width=style == 'Upr')
         patch_vfj(style, policy)
     sources = {s: build.Source(s) for s in ('Upr', 'Ita')}
     for name in config['fonts']:
@@ -173,7 +180,78 @@ def migrate(snapshot):
     print('Punctuation policy applied to sources, 40 static/master fonts and both variable fonts.', flush=True)
 
 
+def revise_heavy(snapshot, black_multiplier=None):
+    """Revise heavier allowances once per snapshot, preserving other spacing."""
+    config = json.loads(CONFIG.read_text())
+    assert config == json.loads((snapshot / CONFIG.relative_to(ROOT)).read_text()), 'Snapshot must match the current policy.'
+    previous = copy.deepcopy(config['punctuation_allowance'])
+    policy = config['punctuation_allowance']
+    policy.setdefault('reference_curves', copy.deepcopy(policy['curves']))
+    if black_multiplier is None:
+        policy['heavy_weight_multiplier'] = policy.get('heavy_weight_multiplier', 1) * 2
+        description = f'with {policy["heavy_weight_multiplier"]}x allowance at Bold, Heavy and Black'
+        for stops in policy['curves'].values():
+            for stop in stops:
+                if stop[0] >= 780:
+                    stop[1] *= 2
+    else:
+        assert black_multiplier > 0
+        policy.pop('heavy_weight_multiplier', None)
+        policy['black_reference_multiplier'] = black_multiplier
+        policy['heavy_rule'] = 'Halfway between the Bold and Black allowances.'
+        description = (f'with Black at {black_multiplier}x its original allowance and '
+                       'Heavy halfway between Bold and Black')
+        for group, stops in policy['curves'].items():
+            values = dict(stops)
+            black = dict(policy['reference_curves'][group])[1000] * black_multiplier
+            heavy = (values[780] + black) / 2
+            assert heavy.is_integer()
+            for stop in stops:
+                if stop[0] == 880:
+                    stop[1] = int(heavy)
+                elif stop[0] == 1000:
+                    stop[1] = black
+    policy['description'] = ('Fira Sans positive l/punctuation kerning scaled to 2000 UPM, '
+        + description + '. Existing letter kerning is retained; fl ligatures are excluded.')
+    CONFIG.write_text(json.dumps(config, indent=2) + '\n')
+    for style, suffix in (('Upr', 'Upright'), ('Ita', 'Italic')):
+        patch_glyphs(ROOT / f'sources/Lato26-{suffix}.glyphs', style, policy, previous=previous)
+        patch_vfj(style, policy, previous=previous)
+    sources = {s: build.Source(s) for s in ('Upr', 'Ita')}
+    for name in config['fonts']:
+        path = ROOT / name
+        style = 'Ita' if 'Lato3Ita2M' in name else 'Upr'
+        label = path.stem.removeprefix('Lato26-').removesuffix('Italic') or 'Regular'
+        design = build.WEIGHTS[label]
+        if all(adjustment(policy, right, design) == adjustment(previous, right, design)
+               for right in policy['rights']):
+            continue
+        font = TTFont(path, recalcTimestamp=False, recalcBBoxes=False)
+        apply_spacing(font, path, sources[style], build.WEIGHTS[label], build.output_name)
+        save_layout_only(font, path, ['GPOS'])
+    for style, suffix in (('Upr', ''), ('Ita', 'Italic')):
+        path = ROOT / f'build/Lato26-Variable/Lato26-Variable{suffix}.ttf'
+        font = TTFont(path, recalcTimestamp=False)
+        replace_variable_adjustments(font, style, policy)
+        save_layout_only(font, path, ['GPOS', 'GDEF'])
+    info = ROOT / 'build/Lato26-Variable/build-info.json'
+    records = json.loads(info.read_text())
+    for record in records:
+        record['punctuation_spacing'] = policy['description']
+    info.write_text(json.dumps(records, indent=2) + '\n')
+    importlib.import_module('23_restore_l_bowl_spacing').package()
+    importlib.import_module('32_build_variable_fonts').package(ROOT / 'build/Lato26-Variable')
+    print(policy['description'], flush=True)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--snapshot', type=Path, required=True)
-    migrate(parser.parse_args().snapshot)
+    actions = parser.add_mutually_exclusive_group()
+    actions.add_argument('--double-heavy', action='store_true', help='Double the current Bold, Heavy and Black allowances.')
+    actions.add_argument('--black-multiplier', type=int, help='Scale Black from its original allowance; set Heavy halfway between Bold and Black.')
+    args = parser.parse_args()
+    if args.double_heavy or args.black_multiplier is not None:
+        revise_heavy(args.snapshot, args.black_multiplier)
+    else:
+        migrate(args.snapshot)
