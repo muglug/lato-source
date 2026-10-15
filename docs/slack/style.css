@@ -51,7 +51,7 @@ kbd{margin-left:auto;font:12px Lato26;opacity:.65}
 .channel-pane{background:white;display:flex;flex-direction:column;min-width:0}
 .channel-header{height:52px;border-bottom:1px solid #eee;display:flex;align-items:center;justify-content:space-between;padding:0 23px;flex-shrink:0}
 .channel-header>div{display:flex;align-items:center;gap:15px}
-h1{font-size:18px;font-weight:900;margin:0}
+h1{font-size:18px;font-weight:800;margin:0}
 .header-tools{color:#555;gap:13px!important}
 .members{display:flex;align-items:center;font-size:13px}
 .members .small{border:2px solid white;margin-left:-7px;width:24px;height:26px}
@@ -60,7 +60,7 @@ h1{font-size:18px;font-weight:900;margin:0}
 .tabs>span{display:flex;align-items:center;gap:7px}
 .tabs .icon{width:17px;height:17px}
 .tabs .current{border-bottom:3px solid #853c91;color:#252425}
-.messages{overflow:clip;flex:1;padding:0 0 12px;min-height:0}
+.messages{overflow:auto;flex:1;padding:0 0 12px;min-height:0}
 .date-divider{display:flex;align-items:center;justify-content:center;margin:17px 0 13px;position:relative}
 .date-divider:before{content:'';position:absolute;left:0;right:0;border-top:1px solid #e8e8e8}
 .date-divider>span{position:relative;border:1px solid #ddd;border-radius:30px;background:white;padding:3px 14px;font-size:13px;font-weight:700;box-shadow:0 1px 2px #0000000a}
@@ -72,7 +72,7 @@ h1{font-size:18px;font-weight:900;margin:0}
 .pink{background:#bf80a5}
 .lilac{background:#a79acb}
 .byline{line-height:20px;margin-top:-3px;margin-bottom:0}
-.byline b{font-weight:900;font-size:15px}
+.byline b{font-weight:800;font-size:15px}
 .byline time{font-size:12px;color:#797779;margin-left:6px;font-weight:400}
 p{margin:0 0 9px}
 strong{font-weight:750}
@@ -168,12 +168,12 @@ h1{font-size:20px}
 }
 
 
-/* Static specimen: crop overflowing conversation content without scroll containers. */
+/* Keep the frame fixed while the main conversation scrolls independently. */
 html,body{height:100%;overflow:clip}
 
 .channel-pane,.thread{min-height:0;overflow:clip}
 
-.messages{min-height:0;overflow:clip}
+.messages{min-height:0;overflow:auto}
 
 .thread-scroll{min-height:0;overflow:clip}
 
