@@ -3,7 +3,7 @@
 
 *{box-sizing:border-box}
 body{margin:0;background:#361039;color:#252425;font:15px/1.4667 Lato26,sans-serif;font-synthesis:none}
-.app{height:100dvh;min-height:0;display:grid;grid-template-columns:70px 263px minmax(0,1fr) 332px;grid-template-rows:39px minmax(0,1fr);padding:0 5px 5px 0;overflow:hidden}
+.app{height:100dvh;min-height:0;display:grid;grid-template-columns:70px 263px minmax(0,1fr);grid-template-rows:39px minmax(0,1fr);padding:0 5px 5px 0;overflow:hidden}
 .icon{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;vertical-align:middle}
 .topbar{grid-column:1/-1;display:flex;align-items:center;color:#f6eaf7;gap:20px;padding:0 15px}
 .traffic{display:flex;align-items:center;gap:9px;width:220px;flex-shrink:0}
@@ -185,3 +185,7 @@ html,body{height:100%;overflow:clip}
 .byline time{font-size:12px}
 }
 @media(max-width:700px){.header-tools .members,.replies>span:last-child{display:none}.replies strong{white-space:nowrap}}
+/* Consecutive lines share one speaker badge; spacing belongs between paragraphs. */
+.message p:last-child{margin-bottom:0}
+
+.channel-pane{border-radius:0 9px 9px 0}
