@@ -1,0 +1,460 @@
+{
+  "base": "2.015",
+  "status": "passed",
+  "static": [
+    {
+      "font": "Lato26-Hairline.ttf",
+      "sha256": "3a6debbc619a1eaf828b838062b95090739eb094003bb4dfc3f75b511ca32464",
+      "unchanged_glyphs": 2906,
+      "pair_gap_error": 0,
+      "otf_sha256": "d0588521122e26e0ff8728a37c8af07da232f6a1f87ea0bb2bdc0401893bf39c",
+      "otf_pair_gap_error": 0.25,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-Thin.ttf",
+      "sha256": "075fcfe982257198b850d3b9713a103c42b6680e9702c7943706a65632f9feec",
+      "unchanged_glyphs": 2906,
+      "pair_gap_error": 0,
+      "otf_sha256": "d64dd05844b133df34c5d15f07d23e3da3b8ca3347bef4acba5b0a53b1762b82",
+      "otf_pair_gap_error": 0,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-Light.ttf",
+      "sha256": "1d3a72eebcc7dc07f78a787b36719582a0f83c7a4fd53face89268c8e822777a",
+      "unchanged_glyphs": 2906,
+      "pair_gap_error": 0,
+      "otf_sha256": "6f5ba2e3110dab4abb21d5151332a9b4a058b6c13f8932593564b7628eba107c",
+      "otf_pair_gap_error": 0.33781005728826585,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-Regular.ttf",
+      "sha256": "5a23e48525072e1ef9a6f4383c88bcaa9b401b54d7e9ed5f764cda4959d7f66f",
+      "unchanged_glyphs": 2906,
+      "pair_gap_error": 0,
+      "otf_sha256": "4fd0026b0abfc6413239c372d4852c0eb6adc9a6d9f9142af1b066d78e0dc6d8",
+      "otf_pair_gap_error": 0.48734892953882536,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-Medium.ttf",
+      "sha256": "6bb28f7976169fcba02a665f41d4287bd479b1f806521ed63968ea8e4c7ecdb4",
+      "unchanged_glyphs": 2906,
+      "pair_gap_error": 0,
+      "otf_sha256": "a595a7c4cd312e22a1bfcb6111d24e6db291d06ae9e2c22faa7940c4c1407578",
+      "otf_pair_gap_error": 0.08552631578947967,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-Semibold.ttf",
+      "sha256": "9120014760b988a6af14d36c9429119f454496c51037c44f5f1685534e12a7c5",
+      "unchanged_glyphs": 2906,
+      "pair_gap_error": 0,
+      "otf_sha256": "6438feafcf5e0692a602f3802dbb83e3e555989f333732361028d38f95c87b54",
+      "otf_pair_gap_error": 0.4966216216216708,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-Bold.ttf",
+      "sha256": "a65cd0c1b3752175b5494dfe545aaa4ded16a1ab18318d514607a3b27a49bd36",
+      "unchanged_glyphs": 2906,
+      "pair_gap_error": 0.22222222222228538,
+      "otf_sha256": "cf78d145c7408e9382174c0c20d64bdb51a83a5977477c8e700ba408af7977c7",
+      "otf_pair_gap_error": 0.4027777777778283,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-Heavy.ttf",
+      "sha256": "717ca309169d0adceb85af984f8590d940826bd0cd78b44b85b575649f99355b",
+      "unchanged_glyphs": 2906,
+      "pair_gap_error": 0.1950980392157362,
+      "otf_sha256": "1ecf52fc7a79cfcfe0cbe25f718aea549544d1ef23307f6f30147892ac546782",
+      "otf_pair_gap_error": 0.4849684504896459,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-Black.ttf",
+      "sha256": "75894b3890348ad4be064225fa92066eefcf402016adc42a595971fd0e2f7447",
+      "unchanged_glyphs": 2906,
+      "pair_gap_error": 0,
+      "otf_sha256": "5aa6d63ed090de7a2644f929a53376fb05faac23236de988e1da2394e6262058",
+      "otf_pair_gap_error": 0.28532495672845926,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-HairlineItalic.ttf",
+      "sha256": "60d20e5badb06418090caa194efe3a4fb0bc5bc97de1113949659fe469d305b2",
+      "unchanged_glyphs": 2941,
+      "pair_gap_error": 0.33571428571440265,
+      "otf_sha256": "def68044c0271549b6fe841c9ff606304a8df9f1fab744d811363d12092b8d45",
+      "otf_pair_gap_error": 0.47253903123123564,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-ThinItalic.ttf",
+      "sha256": "f271cd16f225bd31e7ed58528b0ef803dbc76e5c12b94ae7b979a92a4d507d2c",
+      "unchanged_glyphs": 2941,
+      "pair_gap_error": 0.09208523592087658,
+      "otf_sha256": "eff4dbab7e2bf1021701aabfbab9b92e1b92cc5680c5f51d5e2a55c2a0d1f70f",
+      "otf_pair_gap_error": 0.05502373524223003,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-LightItalic.ttf",
+      "sha256": "314f2a874aa2bc5cc2f098e964789430e3d63f961322315a67afd989122b25fe",
+      "unchanged_glyphs": 2941,
+      "pair_gap_error": 0.10285714285714675,
+      "otf_sha256": "3098702fbae4647bfe646f7c9197d494e56e8d502d1bbb3b878de31bb31b0135",
+      "otf_pair_gap_error": 0.24522332506205657,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-Italic.ttf",
+      "sha256": "c5992e5ab37c4af3aecf63b0989a9253402ed5ce4d35cbd2413ecd854d55cc36",
+      "unchanged_glyphs": 2941,
+      "pair_gap_error": 0,
+      "otf_sha256": "b75f753e50842c67f22d4bc393089f4af9fe8e52dadb54de6cee02d667358e0f",
+      "otf_pair_gap_error": 0.14606633525636425,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-MediumItalic.ttf",
+      "sha256": "8ceef59c0d3f7353ded62bee96912f963736ede245e8f44bccb18074fa518208",
+      "unchanged_glyphs": 2941,
+      "pair_gap_error": 0,
+      "otf_sha256": "de328c3d6c91b07d50298f27d927ce24856afe41e828b3769a56af06ed46e585",
+      "otf_pair_gap_error": 0.24652314041486534,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-SemiboldItalic.ttf",
+      "sha256": "f8d8ac9b6fa6a357c54755b4f8ba5b931f63c010279a0c8f59d426f46857e362",
+      "unchanged_glyphs": 2941,
+      "pair_gap_error": 0,
+      "otf_sha256": "2e2ea4ade3849b221c7af1fa0ede39273dd5222b0ca832da848eb4278c7c1140",
+      "otf_pair_gap_error": 0.1584748933978517,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-BoldItalic.ttf",
+      "sha256": "00600671d5a723fcf60d5b2657afd04dbd6a2526971152658185e3979d56136d",
+      "unchanged_glyphs": 2941,
+      "pair_gap_error": 0.032258064516099694,
+      "otf_sha256": "ccba629087449d9e2bab24943fd0eaeba456e8532a997e9341504cd6845c4626",
+      "otf_pair_gap_error": 0.22251200717005304,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-HeavyItalic.ttf",
+      "sha256": "b6303a4a52135c4fb173eadf9fe508ea2cf7edf3bc97f284709911f324b0de8a",
+      "unchanged_glyphs": 2941,
+      "pair_gap_error": 0,
+      "otf_sha256": "b46aa2e19f58ab6e5d0b23c3aaa8b5ab816479a85515511195ce502493224027",
+      "otf_pair_gap_error": 0.16394927536225623,
+      "otf_native_renders": 3023
+    },
+    {
+      "font": "Lato26-BlackItalic.ttf",
+      "sha256": "f54ee18e697b6e6b896da0b8ffe7cf8ebe9feb9214eda13bfa9e86d98118e381",
+      "unchanged_glyphs": 2941,
+      "pair_gap_error": 0,
+      "otf_sha256": "e325850cba8e055e08fc5d80a1e4f8b6b77602edb72d648f219a4532c3d6f8d8",
+      "otf_pair_gap_error": 0.3073630136987049,
+      "otf_native_renders": 3023
+    }
+  ],
+  "bold_joins": {
+    "forms": [
+      "a",
+      "aacute",
+      "abreve",
+      "acircumflex",
+      "adieresis",
+      "agrave",
+      "amacron",
+      "aogonek",
+      "aring",
+      "aringacute",
+      "atilde",
+      "uni01CE",
+      "uni01DF",
+      "uni01E1",
+      "uni0201",
+      "uni0203",
+      "uni0227",
+      "uni0430",
+      "uni04D1",
+      "uni04D3",
+      "uni1D8F",
+      "uni1E01",
+      "uni1EA1",
+      "uni1EA3",
+      "uni1EA5",
+      "uni1EA7",
+      "uni1EA9",
+      "uni1EAB",
+      "uni1EAD",
+      "uni1EAF",
+      "uni1EB1",
+      "uni1EB3",
+      "uni1EB5",
+      "uni1EB7",
+      "uni2C65"
+    ],
+    "minimum_overlap_px": 0.078125,
+    "samples": [
+      {
+        "ppem": 12,
+        "bowl_top_px": 1.078125
+      },
+      {
+        "ppem": 14,
+        "bowl_top_px": 1.296875
+      },
+      {
+        "ppem": 16,
+        "bowl_top_px": 1.296875
+      },
+      {
+        "ppem": 18,
+        "bowl_top_px": 1.3125
+      },
+      {
+        "ppem": 20,
+        "bowl_top_px": 1.515625
+      },
+      {
+        "ppem": 24,
+        "bowl_top_px": 1.953125
+      }
+    ]
+  },
+  "variable": [
+    {
+      "font": "Lato26-Variable.ttf",
+      "weight": "Hairline",
+      "maximum_bounds_error": 0.43478260869574115,
+      "worst_glyph": "uni2034",
+      "maximum_pair_gap_error": 0.0,
+      "maximum_signed_area_error": 1006.6666666667443,
+      "maximum_advance_error": 0
+    },
+    {
+      "font": "Lato26-Variable.ttf",
+      "weight": "Thin",
+      "maximum_bounds_error": 1.0064080265194661,
+      "worst_glyph": "uni0479",
+      "maximum_pair_gap_error": 0.502578451794875,
+      "maximum_signed_area_error": 3894.9057423777413,
+      "maximum_advance_error": 0.5092916373359913
+    },
+    {
+      "font": "Lato26-Variable.ttf",
+      "weight": "Light",
+      "maximum_bounds_error": 0.46906267671965907,
+      "worst_glyph": "uni02BD",
+      "maximum_pair_gap_error": 0.19818369170161532,
+      "maximum_signed_area_error": 750.0299086259329,
+      "maximum_advance_error": 0.0037528659358940786
+    },
+    {
+      "font": "Lato26-Variable.ttf",
+      "weight": "Regular",
+      "maximum_bounds_error": 0.4919354838709751,
+      "worst_glyph": "uni0374",
+      "maximum_pair_gap_error": 0.38636363636362603,
+      "maximum_signed_area_error": 632.1666666666861,
+      "maximum_advance_error": 0
+    },
+    {
+      "font": "Lato26-Variable.ttf",
+      "weight": "Medium",
+      "maximum_bounds_error": 0.4916973034763714,
+      "worst_glyph": "glyph00539",
+      "maximum_pair_gap_error": 0.027551643803576553,
+      "maximum_signed_area_error": 521.584861365729,
+      "maximum_advance_error": 0.0014647543484898051
+    },
+    {
+      "font": "Lato26-Variable.ttf",
+      "weight": "Semibold",
+      "maximum_bounds_error": 1.0040738235857134,
+      "worst_glyph": "glyph02489",
+      "maximum_pair_gap_error": 0.5083686887942918,
+      "maximum_signed_area_error": 2204.6886990102357,
+      "maximum_advance_error": 0.5027235119014222
+    },
+    {
+      "font": "Lato26-Variable.ttf",
+      "weight": "Bold",
+      "maximum_bounds_error": 1.16756858896008,
+      "worst_glyph": "glyph01203",
+      "maximum_pair_gap_error": 0.5080741663409754,
+      "maximum_signed_area_error": 2654.734939863207,
+      "maximum_advance_error": 0.5050783903484444
+    },
+    {
+      "font": "Lato26-Variable.ttf",
+      "weight": "Heavy",
+      "maximum_bounds_error": 1.0567456877794257,
+      "worst_glyph": "glyph01172",
+      "maximum_pair_gap_error": 0.5035373874547986,
+      "maximum_signed_area_error": 2217.607704835478,
+      "maximum_advance_error": 0.5033847398060516
+    },
+    {
+      "font": "Lato26-Variable.ttf",
+      "weight": "Black",
+      "maximum_bounds_error": 0.4853515625,
+      "worst_glyph": "glyph01798",
+      "maximum_pair_gap_error": 0.37878787878787534,
+      "maximum_signed_area_error": 598.0539033999667,
+      "maximum_advance_error": 0
+    },
+    {
+      "font": "Lato26-VariableItalic.ttf",
+      "weight": "Hairline",
+      "maximum_bounds_error": 0.5,
+      "worst_glyph": "guilsinglright",
+      "maximum_pair_gap_error": 0.4722222222221717,
+      "maximum_signed_area_error": 1006.6666666667443,
+      "maximum_advance_error": 0
+    },
+    {
+      "font": "Lato26-VariableItalic.ttf",
+      "weight": "Thin",
+      "maximum_bounds_error": 1.3370329029282857,
+      "worst_glyph": "quotedblright",
+      "maximum_pair_gap_error": 0.5004729745032819,
+      "maximum_signed_area_error": 2661.75550990802,
+      "maximum_advance_error": 0.5070030564361332
+    },
+    {
+      "font": "Lato26-VariableItalic.ttf",
+      "weight": "Light",
+      "maximum_bounds_error": 0.46906267671965907,
+      "worst_glyph": "uni02BD",
+      "maximum_pair_gap_error": 0.15857816814127546,
+      "maximum_signed_area_error": 1103.9084148047841,
+      "maximum_advance_error": 0.003935943468604819
+    },
+    {
+      "font": "Lato26-VariableItalic.ttf",
+      "weight": "Regular",
+      "maximum_bounds_error": 0.5,
+      "worst_glyph": "uni1DB4",
+      "maximum_pair_gap_error": 0.01731601731603405,
+      "maximum_signed_area_error": 994.5416666660458,
+      "maximum_advance_error": 0
+    },
+    {
+      "font": "Lato26-VariableItalic.ttf",
+      "weight": "Medium",
+      "maximum_bounds_error": 0.4917583349075585,
+      "worst_glyph": "glyph00537",
+      "maximum_pair_gap_error": 0.11770427454428045,
+      "maximum_signed_area_error": 635.5452054115012,
+      "maximum_advance_error": 0.0015868172108639556
+    },
+    {
+      "font": "Lato26-VariableItalic.ttf",
+      "weight": "Semibold",
+      "maximum_bounds_error": 1.0038754749266445,
+      "worst_glyph": "glyph02256",
+      "maximum_pair_gap_error": 0.5038525863936911,
+      "maximum_signed_area_error": 2501.152708524838,
+      "maximum_advance_error": 0.5038525863938048
+    },
+    {
+      "font": "Lato26-VariableItalic.ttf",
+      "weight": "Bold",
+      "maximum_bounds_error": 1.2347961923015873,
+      "worst_glyph": "guillemotleft",
+      "maximum_pair_gap_error": 0.5056632843397892,
+      "maximum_signed_area_error": 2019.976128567243,
+      "maximum_advance_error": 0.5050783903484444
+    },
+    {
+      "font": "Lato26-VariableItalic.ttf",
+      "weight": "Heavy",
+      "maximum_bounds_error": 0.998408030739256,
+      "worst_glyph": "glyph01571",
+      "maximum_pair_gap_error": 0.5029447948818415,
+      "maximum_signed_area_error": 1828.803565519629,
+      "maximum_advance_error": 0.5037687339486183
+    },
+    {
+      "font": "Lato26-VariableItalic.ttf",
+      "weight": "Black",
+      "maximum_bounds_error": 0.4545454545454959,
+      "worst_glyph": "uni1D9D",
+      "maximum_pair_gap_error": 0.07256571640141374,
+      "maximum_signed_area_error": 754.5964990016073,
+      "maximum_advance_error": 0
+    }
+  ],
+  "native_variable": {
+    "rendered_glyph_cases": 308346,
+    "weights": [
+      100,
+      150,
+      200,
+      250,
+      300,
+      350,
+      400,
+      450,
+      500,
+      550,
+      600,
+      650,
+      700,
+      750,
+      800,
+      850,
+      900
+    ],
+    "ppem": [
+      14,
+      16,
+      24
+    ]
+  },
+  "sources": [
+    {
+      "file": "Lato26-Upright.glyphs",
+      "masters": 9,
+      "glyphs": 3023,
+      "compatible_topology": true,
+      "geometry_roundtrip": true,
+      "substitutions_compile": true,
+      "full_regular_layout_compiles": true
+    },
+    {
+      "file": "Lato26-Italic.glyphs",
+      "masters": 9,
+      "glyphs": 3023,
+      "compatible_topology": true,
+      "geometry_roundtrip": true,
+      "substitutions_compile": true,
+      "full_regular_layout_compiles": true
+    }
+  ],
+  "character_set": {
+    "glyphs": 3023,
+    "unicode_characters": 2164,
+    "base": "Published Lato 2.015"
+  },
+  "metadata": {
+    "italic_angles_preserved": true,
+    "underline_metrics_preserved_across_weights": true,
+    "other_variable_tables_unchanged_by_metadata_correction": true
+  },
+  "pdf": {
+    "path": "output/pdf/Lato26-Lato-2.015-Rebase.pdf",
+    "pages": 12,
+    "visually_reviewed": true
+  }
+}

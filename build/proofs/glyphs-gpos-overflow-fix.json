@@ -1,0 +1,42 @@
+[
+  {
+    "file": "Lato26-Upright.glyphs",
+    "new_left_classes": 470,
+    "new_right_classes": 505,
+    "masters": 9,
+    "records": 282249,
+    "kerning_values_and_coverage_unchanged": true,
+    "unrelated_source_text_sha256": "faf04f66b99859011be0e45ad0bceb9c839d07e9dd2dc299bf8c31b8b0f40975",
+    "glyphs4_variable_text_preview_compiles": true,
+    "preview_glyphs": 3023,
+    "preview_axis": [
+      100,
+      400,
+      900
+    ],
+    "preview_gpos_bytes": 809008,
+    "special_pair_cases": 2016,
+    "maximum_special_pair_rounding": 0.8362891456017678,
+    "special_pair_coverage": "Seven l forms against a-z and .,:;!? at all nine masters"
+  },
+  {
+    "file": "Lato26-Italic.glyphs",
+    "new_left_classes": 477,
+    "new_right_classes": 507,
+    "masters": 9,
+    "records": 287843,
+    "kerning_values_and_coverage_unchanged": true,
+    "unrelated_source_text_sha256": "695cce6e655c8d7113c383a2db814a67b46e3f4bb60598e5a21420dd5da954c5",
+    "glyphs4_variable_text_preview_compiles": true,
+    "preview_glyphs": 3023,
+    "preview_axis": [
+      100,
+      400,
+      900
+    ],
+    "preview_gpos_bytes": 817540,
+    "special_pair_cases": 2016,
+    "maximum_special_pair_rounding": 0.7506573696888381,
+    "special_pair_coverage": "Seven l forms against a-z and .,:;!? at all nine masters"
+  }
+]

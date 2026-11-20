@@ -1,0 +1,319 @@
+{
+  "upstream": "83bd714f56fc33210b4cd603304c086aed365ac4",
+  "donor": "fe9eda744",
+  "styles": {
+    "Upr": {
+      "alternates": {
+        "a": "a.ss05",
+        "a-cy": "a-cy.ss05",
+        "a.sups": "a.sups.ss05",
+        "aTurnedmod": "aTurnedmod.ss05",
+        "aacute": "aacute.ss05",
+        "abreve": "abreve.ss05",
+        "abreve-cy": "abreve-cy.ss05",
+        "abreveacute": "abreveacute.ss05",
+        "abrevedotbelow": "abrevedotbelow.ss05",
+        "abrevegrave": "abrevegrave.ss05",
+        "abrevehookabove": "abrevehookabove.ss05",
+        "abrevetilde": "abrevetilde.ss05",
+        "acaron": "acaron.ss05",
+        "acircumflex": "acircumflex.ss05",
+        "acircumflexacute": "acircumflexacute.ss05",
+        "acircumflexdotbelow": "acircumflexdotbelow.ss05",
+        "acircumflexgrave": "acircumflexgrave.ss05",
+        "acircumflexhookabove": "acircumflexhookabove.ss05",
+        "acircumflextilde": "acircumflextilde.ss05",
+        "acomb": "acomb.ss05",
+        "acomb.case": "acomb.case.ss05",
+        "adblgrave": "adblgrave.ss05",
+        "adieresis": "adieresis.ss05",
+        "adieresis-cy": "adieresis-cy.ss05",
+        "adieresismacron": "adieresismacron.ss05",
+        "adotaccent": "adotaccent.ss05",
+        "adotbelow": "adotbelow.ss05",
+        "adotmacron": "adotmacron.ss05",
+        "ae": "ae.ss05",
+        "aeTurned": "aeTurned.ss05",
+        "aeTurnedmod": "aeTurnedmod.ss05",
+        "aeacute": "aeacute.ss05",
+        "aemacron": "aemacron.ss05",
+        "agrave": "agrave.ss05",
+        "ahookabove": "ahookabove.ss05",
+        "ainferior": "ainferior.ss05",
+        "ainvertedbreve": "ainvertedbreve.ss05",
+        "amacron": "amacron.ss05",
+        "amod": "amod.ss05",
+        "aogonek": "aogonek.ss05",
+        "aretroflexhook": "aretroflexhook.ss05",
+        "aring": "aring.ss05",
+        "aringacute": "aringacute.ss05",
+        "aringbelow": "aringbelow.ss05",
+        "astroke": "astroke.ss05",
+        "atilde": "atilde.ss05",
+        "e": "e.ss05",
+        "e.sups": "e.sups.ss05",
+        "eSign-myanmar": "eSign-myanmar.ss05",
+        "eSign-myanmar.case": "eSign-myanmar.case.ss05",
+        "eacute": "eacute.ss05",
+        "ebreve": "ebreve.ss05",
+        "ecaron": "ecaron.ss05",
+        "ecedilla": "ecedilla.ss05",
+        "ecedillabreve": "ecedillabreve.ss05",
+        "ecircumflex": "ecircumflex.ss05",
+        "ecircumflexacute": "ecircumflexacute.ss05",
+        "ecircumflexbelow": "ecircumflexbelow.ss05",
+        "ecircumflexdotbelow": "ecircumflexdotbelow.ss05",
+        "ecircumflexgrave": "ecircumflexgrave.ss05",
+        "ecircumflexhookabove": "ecircumflexhookabove.ss05",
+        "ecircumflextilde": "ecircumflextilde.ss05",
+        "ecomb": "ecomb.ss05",
+        "ecomb.case": "ecomb.case.ss05",
+        "edblgrave": "edblgrave.ss05",
+        "edieresis": "edieresis.ss05",
+        "edotaccent": "edotaccent.ss05",
+        "edotbelow": "edotbelow.ss05",
+        "egrave": "egrave.ss05",
+        "ehookabove": "ehookabove.ss05",
+        "einferior": "einferior.ss05",
+        "einvertedbreve": "einvertedbreve.ss05",
+        "emacron": "emacron.ss05",
+        "emacronacute": "emacronacute.ss05",
+        "emacrongrave": "emacrongrave.ss05",
+        "emod": "emod.ss05",
+        "eogonek": "eogonek.ss05",
+        "eretroflexhook": "eretroflexhook.ss05",
+        "ereversed": "ereversed.ss05",
+        "estroke": "estroke.ss05",
+        "etilde": "etilde.ss05",
+        "etildebelow": "etildebelow.ss05",
+        "eturned": "eturned.ss05",
+        "f_f_l": "f_f_l.ss05",
+        "f_l": "f_l.ss05",
+        "f_lacute": "f_lacute.ss05",
+        "f_lcaron": "f_lcaron.ss05",
+        "f_lcommaaccent": "f_lcommaaccent.ss05",
+        "ie-cy": "ie-cy.ss05",
+        "iebreve-cy": "iebreve-cy.ss05",
+        "iegrave-cy": "iegrave-cy.ss05",
+        "io-cy": "io-cy.ss05",
+        "l": "l.ss05",
+        "l.sups": "l.sups.ss05",
+        "lacute": "lacute.ss05",
+        "lbar": "lbar.ss05",
+        "lbelt": "lbelt.ss05",
+        "lcaron": "lcaron.ss05",
+        "lcircumflexbelow": "lcircumflexbelow.ss05",
+        "lcommaaccent": "lcommaaccent.ss05",
+        "ldot": "ldot.ss05",
+        "ldotbelow": "ldotbelow.ss05",
+        "ldotbelowmacron": "ldotbelowmacron.ss05",
+        "ldoublebar": "ldoublebar.ss05",
+        "lj": "lj.ss05",
+        "llinebelow": "llinebelow.ss05",
+        "lmiddletilde": "lmiddletilde.ss05",
+        "lmod": "lmod.ss05",
+        "lslash": "lslash.ss05",
+        "oe": "oe.ss05",
+        "oeTurned": "oeTurned.ss05",
+        "schwa": "schwa.ss05",
+        "schwa-cy": "schwa-cy.ss05",
+        "schwadieresis-cy": "schwadieresis-cy.ss05",
+        "schwainferior": "schwainferior.ss05",
+        "schwamod": "schwamod.ss05",
+        "schwaretroflexhook": "schwaretroflexhook.ss05"
+      },
+      "kerning_overrides": 35540,
+      "ss05_lo_spacing_addition": 25,
+      "ss05_capital_spacing_addition": {
+        "J": 60,
+        "I.ss05": 40
+      },
+      "capital_spacing_pairs": {
+        "19AA5A16-AB7E-58F6-8ECF-B56DDAA4B844": {
+          "J": {
+            "before": 0,
+            "after": 60
+          },
+          "I.ss05": {
+            "before": -19,
+            "after": 21
+          }
+        },
+        "7E34DB9F-A80D-501A-A57E-0A6D858088AF": {
+          "J": {
+            "before": 0,
+            "after": 60
+          },
+          "I.ss05": {
+            "before": -15,
+            "after": 25
+          }
+        },
+        "6A4071E9-7126-50E7-AD2F-DC8A86F84452": {
+          "J": {
+            "before": 0,
+            "after": 60
+          },
+          "I.ss05": {
+            "before": -13,
+            "after": 27
+          }
+        },
+        "731DD0F1-55B7-5E75-822A-6A788A58CACD": {
+          "J": {
+            "before": 0,
+            "after": 60
+          },
+          "I.ss05": {
+            "before": -11,
+            "after": 29
+          }
+        }
+      }
+    },
+    "Ita": {
+      "alternates": {
+        "a.sups": "a.sups.ss05",
+        "aTurnedmod": "aTurnedmod.ss05",
+        "acomb": "acomb.ss05",
+        "acomb.case": "acomb.case.ss05",
+        "ae": "ae.ss05",
+        "aeTurned": "aeTurned.ss05",
+        "aeTurnedmod": "aeTurnedmod.ss05",
+        "aeacute": "aeacute.ss05",
+        "aemacron": "aemacron.ss05",
+        "ainferior": "ainferior.ss05",
+        "amod": "amod.ss05",
+        "e": "e.ss05",
+        "e.sups": "e.sups.ss05",
+        "eSign-myanmar": "eSign-myanmar.ss05",
+        "eSign-myanmar.case": "eSign-myanmar.case.ss05",
+        "eacute": "eacute.ss05",
+        "ebreve": "ebreve.ss05",
+        "ecaron": "ecaron.ss05",
+        "ecedilla": "ecedilla.ss05",
+        "ecedillabreve": "ecedillabreve.ss05",
+        "ecircumflex": "ecircumflex.ss05",
+        "ecircumflexacute": "ecircumflexacute.ss05",
+        "ecircumflexbelow": "ecircumflexbelow.ss05",
+        "ecircumflexdotbelow": "ecircumflexdotbelow.ss05",
+        "ecircumflexgrave": "ecircumflexgrave.ss05",
+        "ecircumflexhookabove": "ecircumflexhookabove.ss05",
+        "ecircumflextilde": "ecircumflextilde.ss05",
+        "ecomb": "ecomb.ss05",
+        "ecomb.case": "ecomb.case.ss05",
+        "edblgrave": "edblgrave.ss05",
+        "edieresis": "edieresis.ss05",
+        "edotaccent": "edotaccent.ss05",
+        "edotbelow": "edotbelow.ss05",
+        "egrave": "egrave.ss05",
+        "ehookabove": "ehookabove.ss05",
+        "einferior": "einferior.ss05",
+        "einvertedbreve": "einvertedbreve.ss05",
+        "emacron": "emacron.ss05",
+        "emacronacute": "emacronacute.ss05",
+        "emacrongrave": "emacrongrave.ss05",
+        "emod": "emod.ss05",
+        "eogonek": "eogonek.ss05",
+        "eretroflexhook": "eretroflexhook.ss05",
+        "ereversed": "ereversed.ss05",
+        "estroke": "estroke.ss05",
+        "etilde": "etilde.ss05",
+        "etildebelow": "etildebelow.ss05",
+        "eturned": "eturned.ss05",
+        "f_f_l": "f_f_l.ss05",
+        "f_l": "f_l.ss05",
+        "f_lacute": "f_lacute.ss05",
+        "f_lcaron": "f_lcaron.ss05",
+        "f_lcommaaccent": "f_lcommaaccent.ss05",
+        "ie-cy": "ie-cy.ss05",
+        "iebreve-cy": "iebreve-cy.ss05",
+        "iegrave-cy": "iegrave-cy.ss05",
+        "io-cy": "io-cy.ss05",
+        "l": "l.ss05",
+        "l.sups": "l.sups.ss05",
+        "lacute": "lacute.ss05",
+        "lbar": "lbar.ss05",
+        "lbelt": "lbelt.ss05",
+        "lcaron": "lcaron.ss05",
+        "lcircumflexbelow": "lcircumflexbelow.ss05",
+        "lcommaaccent": "lcommaaccent.ss05",
+        "ldot": "ldot.ss05",
+        "ldotbelow": "ldotbelow.ss05",
+        "ldotbelowmacron": "ldotbelowmacron.ss05",
+        "ldoublebar": "ldoublebar.ss05",
+        "lj": "lj.ss05",
+        "llinebelow": "llinebelow.ss05",
+        "lmiddletilde": "lmiddletilde.ss05",
+        "lmod": "lmod.ss05",
+        "lslash": "lslash.ss05",
+        "oe": "oe.ss05",
+        "oeTurned": "oeTurned.ss05",
+        "schwa": "schwa.ss05",
+        "schwa-cy": "schwa-cy.ss05",
+        "schwadieresis-cy": "schwadieresis-cy.ss05",
+        "schwainferior": "schwainferior.ss05",
+        "schwamod": "schwamod.ss05",
+        "schwaretroflexhook": "schwaretroflexhook.ss05"
+      },
+      "kerning_overrides": 34994,
+      "ss05_lo_spacing_addition": 25,
+      "ss05_capital_spacing_addition": {
+        "J": 60,
+        "I.ss05": 40
+      },
+      "capital_spacing_pairs": {
+        "E709F264-5912-589D-9EE5-5AECA6F16C69": {
+          "J": {
+            "before": 0,
+            "after": 60
+          },
+          "I.ss05": {
+            "before": -19,
+            "after": 21
+          }
+        },
+        "039E4D9D-3F73-5DBC-B1B1-1DBB83CFA3A6": {
+          "J": {
+            "before": 0,
+            "after": 60
+          },
+          "I.ss05": {
+            "before": -17,
+            "after": 23
+          }
+        },
+        "82BFDE0C-A6F1-5DB8-8907-2AF99F5AA867": {
+          "J": {
+            "before": 0,
+            "after": 60
+          },
+          "I.ss05": {
+            "before": -16,
+            "after": 24
+          }
+        },
+        "A6600749-ABF2-5A09-9F9B-D11FD8204CAD": {
+          "J": {
+            "before": 0,
+            "after": 60
+          },
+          "I.ss05": {
+            "before": -15,
+            "after": 25
+          }
+        }
+      }
+    }
+  },
+  "carlito": {
+    "Upr": {
+      "restored_glyphs": 130,
+      "layout_preserved": true
+    },
+    "Ita": {
+      "restored_glyphs": 95,
+      "layout_preserved": true
+    }
+  }
+}

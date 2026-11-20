@@ -1,0 +1,6492 @@
+{
+  "Light": {
+    "webapp_path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-light.woff2",
+    "ours_path": "/Users/brownmatthew/git/lato-source/build/Lato3Upr2M/ds-ufo/masters/Lato26-Light.ttf",
+    "glyph_counts": [
+      3051,
+      3159
+    ],
+    "encoded_characters": [
+      2168,
+      2170
+    ],
+    "added_codepoints": [
+      0,
+      13
+    ],
+    "removed_codepoints": [],
+    "line_metrics": {
+      "hhea.ascent": [
+        1974,
+        1974
+      ],
+      "hhea.descent": [
+        -426,
+        -426
+      ],
+      "hhea.lineGap": [
+        0,
+        0
+      ],
+      "OS/2.sTypoAscender": [
+        1610,
+        1610
+      ],
+      "OS/2.sTypoDescender": [
+        -390,
+        -390
+      ],
+      "OS/2.sTypoLineGap": [
+        400,
+        400
+      ],
+      "OS/2.usWinAscent": [
+        1974,
+        1974
+      ],
+      "OS/2.usWinDescent": [
+        426,
+        426
+      ]
+    },
+    "changed_default_advances": [],
+    "ss05_samples": {
+      "a": {
+        "webapp_glyphs": [
+          "a"
+        ],
+        "ours_glyphs": [
+          "a.ss05"
+        ],
+        "webapp_advance": 968,
+        "ours_advance": 968
+      },
+      "e": {
+        "webapp_glyphs": [
+          "e"
+        ],
+        "ours_glyphs": [
+          "e.ss05"
+        ],
+        "webapp_advance": 1043,
+        "ours_advance": 1043
+      },
+      "l": {
+        "webapp_glyphs": [
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05"
+        ],
+        "webapp_advance": 564,
+        "ours_advance": 510
+      },
+      "I": {
+        "webapp_glyphs": [
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "I.ss05"
+        ],
+        "webapp_advance": 721,
+        "ours_advance": 721
+      },
+      "J": {
+        "webapp_glyphs": [
+          "J"
+        ],
+        "ours_glyphs": [
+          "J"
+        ],
+        "webapp_advance": 829,
+        "ours_advance": 829
+      },
+      "la": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "a"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "a.ss05"
+        ],
+        "webapp_advance": 1532,
+        "ours_advance": 1467
+      },
+      "le": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "e"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "e.ss05"
+        ],
+        "webapp_advance": 1588,
+        "ours_advance": 1527
+      },
+      "lo": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "webapp_advance": 1661,
+        "ours_advance": 1625
+      },
+      "lJ": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "webapp_advance": 1393,
+        "ours_advance": 1399
+      },
+      "lI": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 1285,
+        "ours_advance": 1254
+      },
+      "fl": {
+        "webapp_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1245,
+        "ours_advance": 1191
+      },
+      "ffl": {
+        "webapp_glyphs": [
+          "ff",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f_f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1854,
+        "ours_advance": 1800
+      },
+      "ffi": {
+        "webapp_glyphs": [
+          "ffi"
+        ],
+        "ours_glyphs": [
+          "f_f_i"
+        ],
+        "webapp_advance": 1685,
+        "ours_advance": 1685
+      },
+      "FillJitter": {
+        "webapp_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e",
+          "r"
+        ],
+        "ours_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e.ss05",
+          "r"
+        ],
+        "webapp_advance": 7020,
+        "ours_advance": 6975
+      },
+      "The quick brown fox jumps over the lazy dog.": {
+        "webapp_glyphs": [
+          "T",
+          "h",
+          "e",
+          "nonbreakingspace",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "nonbreakingspace",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "nonbreakingspace",
+          "f",
+          "o",
+          "x",
+          "nonbreakingspace",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "nonbreakingspace",
+          "o",
+          "v",
+          "e",
+          "r",
+          "nonbreakingspace",
+          "t",
+          "h",
+          "e",
+          "nonbreakingspace",
+          "l.ss05",
+          "a",
+          "z",
+          "y",
+          "nonbreakingspace",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "ours_glyphs": [
+          "T",
+          "h",
+          "e.ss05",
+          "space",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "space",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "space",
+          "f",
+          "o",
+          "x",
+          "space",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "space",
+          "o",
+          "v",
+          "e.ss05",
+          "r",
+          "space",
+          "t",
+          "h",
+          "e.ss05",
+          "space",
+          "l.ss05",
+          "a.ss05",
+          "z",
+          "y",
+          "space",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "webapp_advance": 39104,
+        "ours_advance": 39039
+      },
+      "A little elegant letter. Il1 lJ lI": {
+        "webapp_glyphs": [
+          "A",
+          "nonbreakingspace",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e",
+          "nonbreakingspace",
+          "e",
+          "l.ss05",
+          "e",
+          "g",
+          "a",
+          "n",
+          "t",
+          "nonbreakingspace",
+          "l.ss05",
+          "e",
+          "t_t",
+          "e",
+          "r",
+          "period",
+          "nonbreakingspace",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "nonbreakingspace",
+          "l.ss05",
+          "J",
+          "nonbreakingspace",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "A",
+          "space",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e.ss05",
+          "space",
+          "e.ss05",
+          "l.ss05",
+          "e.ss05",
+          "g",
+          "a.ss05",
+          "n",
+          "t",
+          "space",
+          "l.ss05",
+          "e.ss05",
+          "t_t",
+          "e.ss05",
+          "r",
+          "period",
+          "space",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "space",
+          "l.ss05",
+          "J",
+          "space",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 24968,
+        "ours_advance": 24652
+      }
+    },
+    "hint_tables_identical": {
+      "fpgm": false,
+      "prep": true,
+      "cvt ": true
+    },
+    "woff2_bytes": [
+      207468,
+      212752
+    ]
+  },
+  "Regular": {
+    "webapp_path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-regular.woff2",
+    "ours_path": "/Users/brownmatthew/git/lato-source/build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
+    "glyph_counts": [
+      3051,
+      3159
+    ],
+    "encoded_characters": [
+      2168,
+      2170
+    ],
+    "added_codepoints": [
+      0,
+      13
+    ],
+    "removed_codepoints": [],
+    "line_metrics": {
+      "hhea.ascent": [
+        1974,
+        1974
+      ],
+      "hhea.descent": [
+        -426,
+        -426
+      ],
+      "hhea.lineGap": [
+        0,
+        0
+      ],
+      "OS/2.sTypoAscender": [
+        1610,
+        1610
+      ],
+      "OS/2.sTypoDescender": [
+        -390,
+        -390
+      ],
+      "OS/2.sTypoLineGap": [
+        400,
+        400
+      ],
+      "OS/2.usWinAscent": [
+        1974,
+        1974
+      ],
+      "OS/2.usWinDescent": [
+        426,
+        426
+      ]
+    },
+    "changed_default_advances": [],
+    "ss05_samples": {
+      "a": {
+        "webapp_glyphs": [
+          "a"
+        ],
+        "ours_glyphs": [
+          "a.ss05"
+        ],
+        "webapp_advance": 994,
+        "ours_advance": 994
+      },
+      "e": {
+        "webapp_glyphs": [
+          "e"
+        ],
+        "ours_glyphs": [
+          "e.ss05"
+        ],
+        "webapp_advance": 1056,
+        "ours_advance": 1056
+      },
+      "l": {
+        "webapp_glyphs": [
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05"
+        ],
+        "webapp_advance": 591,
+        "ours_advance": 537
+      },
+      "I": {
+        "webapp_glyphs": [
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "I.ss05"
+        ],
+        "webapp_advance": 740,
+        "ours_advance": 740
+      },
+      "J": {
+        "webapp_glyphs": [
+          "J"
+        ],
+        "ours_glyphs": [
+          "J"
+        ],
+        "webapp_advance": 845,
+        "ours_advance": 845
+      },
+      "la": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "a"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "a.ss05"
+        ],
+        "webapp_advance": 1585,
+        "ours_advance": 1519
+      },
+      "le": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "e"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "e.ss05"
+        ],
+        "webapp_advance": 1627,
+        "ours_advance": 1553
+      },
+      "lo": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "webapp_advance": 1705,
+        "ours_advance": 1655
+      },
+      "lJ": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "webapp_advance": 1436,
+        "ours_advance": 1442
+      },
+      "lI": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 1331,
+        "ours_advance": 1302
+      },
+      "fl": {
+        "webapp_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1292,
+        "ours_advance": 1238
+      },
+      "ffl": {
+        "webapp_glyphs": [
+          "ff",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f_f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1922,
+        "ours_advance": 1868
+      },
+      "ffi": {
+        "webapp_glyphs": [
+          "ffi"
+        ],
+        "ours_glyphs": [
+          "f_f_i"
+        ],
+        "webapp_advance": 1775,
+        "ours_advance": 1775
+      },
+      "FillJitter": {
+        "webapp_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e",
+          "r"
+        ],
+        "ours_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e.ss05",
+          "r"
+        ],
+        "webapp_advance": 7248,
+        "ours_advance": 7204
+      },
+      "The quick brown fox jumps over the lazy dog.": {
+        "webapp_glyphs": [
+          "T",
+          "h",
+          "e",
+          "nonbreakingspace",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "nonbreakingspace",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "nonbreakingspace",
+          "f",
+          "o",
+          "x",
+          "nonbreakingspace",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "nonbreakingspace",
+          "o",
+          "v",
+          "e",
+          "r",
+          "nonbreakingspace",
+          "t",
+          "h",
+          "e",
+          "nonbreakingspace",
+          "l.ss05",
+          "a",
+          "z",
+          "y",
+          "nonbreakingspace",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "ours_glyphs": [
+          "T",
+          "h",
+          "e.ss05",
+          "space",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "space",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "space",
+          "f",
+          "o",
+          "x",
+          "space",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "space",
+          "o",
+          "v",
+          "e.ss05",
+          "r",
+          "space",
+          "t",
+          "h",
+          "e.ss05",
+          "space",
+          "l.ss05",
+          "a.ss05",
+          "z",
+          "y",
+          "space",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "webapp_advance": 39691,
+        "ours_advance": 39626
+      },
+      "A little elegant letter. Il1 lJ lI": {
+        "webapp_glyphs": [
+          "A",
+          "nonbreakingspace",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e",
+          "nonbreakingspace",
+          "e",
+          "l.ss05",
+          "e",
+          "g",
+          "a",
+          "n",
+          "t",
+          "nonbreakingspace",
+          "l.ss05",
+          "e",
+          "t_t",
+          "e",
+          "r",
+          "period",
+          "nonbreakingspace",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "nonbreakingspace",
+          "l.ss05",
+          "J",
+          "nonbreakingspace",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "A",
+          "space",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e.ss05",
+          "space",
+          "e.ss05",
+          "l.ss05",
+          "e.ss05",
+          "g",
+          "a.ss05",
+          "n",
+          "t",
+          "space",
+          "l.ss05",
+          "e.ss05",
+          "t_t",
+          "e.ss05",
+          "r",
+          "period",
+          "space",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "space",
+          "l.ss05",
+          "J",
+          "space",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 25381,
+        "ours_advance": 25028
+      }
+    },
+    "hint_tables_identical": {
+      "fpgm": false,
+      "prep": true,
+      "cvt ": true
+    },
+    "woff2_bytes": [
+      210560,
+      217696
+    ]
+  },
+  "Bold": {
+    "webapp_path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-bold.woff2",
+    "ours_path": "/Users/brownmatthew/git/lato-source/build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
+    "glyph_counts": [
+      3051,
+      3159
+    ],
+    "encoded_characters": [
+      2168,
+      2170
+    ],
+    "added_codepoints": [
+      0,
+      13
+    ],
+    "removed_codepoints": [],
+    "line_metrics": {
+      "hhea.ascent": [
+        1974,
+        1974
+      ],
+      "hhea.descent": [
+        -426,
+        -426
+      ],
+      "hhea.lineGap": [
+        0,
+        0
+      ],
+      "OS/2.sTypoAscender": [
+        1610,
+        1610
+      ],
+      "OS/2.sTypoDescender": [
+        -390,
+        -390
+      ],
+      "OS/2.sTypoLineGap": [
+        400,
+        400
+      ],
+      "OS/2.usWinAscent": [
+        1974,
+        1974
+      ],
+      "OS/2.usWinDescent": [
+        426,
+        426
+      ]
+    },
+    "changed_default_advances": [
+      {
+        "codepoint": 33,
+        "glyph": "exclam",
+        "webapp": 523,
+        "ours": 562
+      },
+      {
+        "codepoint": 38,
+        "glyph": "ampersand",
+        "webapp": 1446,
+        "ours": 1447
+      },
+      {
+        "codepoint": 58,
+        "glyph": "colon",
+        "webapp": 516,
+        "ours": 515
+      },
+      {
+        "codepoint": 68,
+        "glyph": "D",
+        "webapp": 1522,
+        "ours": 1521
+      },
+      {
+        "codepoint": 71,
+        "glyph": "G",
+        "webapp": 1453,
+        "ours": 1452
+      },
+      {
+        "codepoint": 73,
+        "glyph": "I",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 82,
+        "glyph": "R",
+        "webapp": 1285,
+        "ours": 1286
+      },
+      {
+        "codepoint": 101,
+        "glyph": "e",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 104,
+        "glyph": "h",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 110,
+        "glyph": "n",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 121,
+        "glyph": "y",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 124,
+        "glyph": "bar",
+        "webapp": 521,
+        "ours": 522
+      },
+      {
+        "codepoint": 161,
+        "glyph": "exclamdown",
+        "webapp": 522,
+        "ours": 540
+      },
+      {
+        "codepoint": 166,
+        "glyph": "brokenbar",
+        "webapp": 527,
+        "ours": 528
+      },
+      {
+        "codepoint": 204,
+        "glyph": "Igrave",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 205,
+        "glyph": "Iacute",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 206,
+        "glyph": "Icircumflex",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 207,
+        "glyph": "Idieresis",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 232,
+        "glyph": "egrave",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 233,
+        "glyph": "eacute",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 234,
+        "glyph": "ecircumflex",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 235,
+        "glyph": "edieresis",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 241,
+        "glyph": "ntilde",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 253,
+        "glyph": "yacute",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 255,
+        "glyph": "ydieresis",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 270,
+        "glyph": "Dcaron",
+        "webapp": 1522,
+        "ours": 1521
+      },
+      {
+        "codepoint": 275,
+        "glyph": "emacron",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 277,
+        "glyph": "ebreve",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 279,
+        "glyph": "edotaccent",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 281,
+        "glyph": "eogonek",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 283,
+        "glyph": "ecaron",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 284,
+        "glyph": "Gcircumflex",
+        "webapp": 1453,
+        "ours": 1452
+      },
+      {
+        "codepoint": 286,
+        "glyph": "Gbreve",
+        "webapp": 1453,
+        "ours": 1452
+      },
+      {
+        "codepoint": 288,
+        "glyph": "Gdotaccent",
+        "webapp": 1453,
+        "ours": 1452
+      },
+      {
+        "codepoint": 290,
+        "glyph": "Gcommaaccent",
+        "webapp": 1453,
+        "ours": 1452
+      },
+      {
+        "codepoint": 293,
+        "glyph": "hcircumflex",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 295,
+        "glyph": "hbar",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 296,
+        "glyph": "Itilde",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 298,
+        "glyph": "Imacron",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 300,
+        "glyph": "Ibreve",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 304,
+        "glyph": "Idotaccent",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 324,
+        "glyph": "nacute",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 326,
+        "glyph": "ncommaaccent",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 328,
+        "glyph": "ncaron",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 331,
+        "glyph": "eng",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 340,
+        "glyph": "Racute",
+        "webapp": 1285,
+        "ours": 1286
+      },
+      {
+        "codepoint": 342,
+        "glyph": "Rcommaaccent",
+        "webapp": 1285,
+        "ours": 1286
+      },
+      {
+        "codepoint": 344,
+        "glyph": "Rcaron",
+        "webapp": 1285,
+        "ours": 1286
+      },
+      {
+        "codepoint": 375,
+        "glyph": "ycircumflex",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 399,
+        "glyph": "Schwa",
+        "webapp": 1464,
+        "ours": 1465
+      },
+      {
+        "codepoint": 404,
+        "glyph": "Gammaafrican",
+        "webapp": 1383,
+        "ours": 1384
+      },
+      {
+        "codepoint": 420,
+        "glyph": "Phook",
+        "webapp": 1565,
+        "ours": 1564
+      },
+      {
+        "codepoint": 430,
+        "glyph": "Tretroflexhook",
+        "webapp": 1207,
+        "ours": 1200
+      },
+      {
+        "codepoint": 443,
+        "glyph": "twostroke",
+        "webapp": 1168,
+        "ours": 1167
+      },
+      {
+        "codepoint": 451,
+        "glyph": "clickretroflex",
+        "webapp": 395,
+        "ours": 436
+      },
+      {
+        "codepoint": 452,
+        "glyph": "DZcaron",
+        "webapp": 2743,
+        "ours": 2742
+      },
+      {
+        "codepoint": 453,
+        "glyph": "Dzcaron",
+        "webapp": 2444,
+        "ours": 2443
+      },
+      {
+        "codepoint": 454,
+        "glyph": "dzcaron",
+        "webapp": 2082,
+        "ours": 2083
+      },
+      {
+        "codepoint": 457,
+        "glyph": "lj",
+        "webapp": 1033,
+        "ours": 1034
+      },
+      {
+        "codepoint": 463,
+        "glyph": "Icaron",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 477,
+        "glyph": "eturned",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 486,
+        "glyph": "Gcaron",
+        "webapp": 1453,
+        "ours": 1452
+      },
+      {
+        "codepoint": 497,
+        "glyph": "DZ",
+        "webapp": 2743,
+        "ours": 2742
+      },
+      {
+        "codepoint": 498,
+        "glyph": "Dz",
+        "webapp": 2444,
+        "ours": 2443
+      },
+      {
+        "codepoint": 499,
+        "glyph": "dz",
+        "webapp": 2082,
+        "ours": 2083
+      },
+      {
+        "codepoint": 500,
+        "glyph": "Gacute",
+        "webapp": 1453,
+        "ours": 1452
+      },
+      {
+        "codepoint": 505,
+        "glyph": "ngrave",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 517,
+        "glyph": "edblgrave",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 519,
+        "glyph": "einvertedbreve",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 520,
+        "glyph": "Idblgrave",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 522,
+        "glyph": "Iinvertedbreve",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 528,
+        "glyph": "Rdblgrave",
+        "webapp": 1285,
+        "ours": 1286
+      },
+      {
+        "codepoint": 530,
+        "glyph": "Rinvertedbreve",
+        "webapp": 1285,
+        "ours": 1286
+      },
+      {
+        "codepoint": 543,
+        "glyph": "hcaron",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 548,
+        "glyph": "Zhook",
+        "webapp": 1232,
+        "ours": 1226
+      },
+      {
+        "codepoint": 563,
+        "glyph": "ymacron",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 580,
+        "glyph": "Ubar",
+        "webapp": 1557,
+        "ours": 1518
+      },
+      {
+        "codepoint": 581,
+        "glyph": "Vturned",
+        "webapp": 1385,
+        "ours": 1386
+      },
+      {
+        "codepoint": 588,
+        "glyph": "Rstroke",
+        "webapp": 1296,
+        "ours": 1297
+      },
+      {
+        "codepoint": 589,
+        "glyph": "rstroke",
+        "webapp": 775,
+        "ours": 774
+      },
+      {
+        "codepoint": 590,
+        "glyph": "Ystroke",
+        "webapp": 1434,
+        "ours": 1435
+      },
+      {
+        "codepoint": 600,
+        "glyph": "ereversed",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 601,
+        "glyph": "schwa",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 614,
+        "glyph": "hhook",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 615,
+        "glyph": "henghook",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 622,
+        "glyph": "lezh",
+        "webapp": 1237,
+        "ours": 1236
+      },
+      {
+        "codepoint": 626,
+        "glyph": "nhookleft",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 627,
+        "glyph": "nhookretroflex",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 642,
+        "glyph": "shook",
+        "webapp": 886,
+        "ours": 885
+      },
+      {
+        "codepoint": 644,
+        "glyph": "jdotlessstrokehook",
+        "webapp": 628,
+        "ours": 627
+      },
+      {
+        "codepoint": 646,
+        "glyph": "eshcurl",
+        "webapp": 613,
+        "ours": 614
+      },
+      {
+        "codepoint": 663,
+        "glyph": "cstretched",
+        "webapp": 934,
+        "ours": 935
+      },
+      {
+        "codepoint": 674,
+        "glyph": "glottalstopstrokereversed",
+        "webapp": 806,
+        "ours": 805
+      },
+      {
+        "codepoint": 676,
+        "glyph": "dezh",
+        "webapp": 1915,
+        "ours": 1914
+      },
+      {
+        "codepoint": 698,
+        "glyph": "doubleprimemod",
+        "webapp": 1080,
+        "ours": 1081
+      },
+      {
+        "codepoint": 905,
+        "glyph": "Etatonos",
+        "webapp": 1548,
+        "ours": 1547
+      },
+      {
+        "codepoint": 906,
+        "glyph": "Iotatonos",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 921,
+        "glyph": "Iota",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 938,
+        "glyph": "Iotadieresis",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 1004,
+        "glyph": "Shima-coptic",
+        "webapp": 1451,
+        "ours": 1452
+      },
+      {
+        "codepoint": 1030,
+        "glyph": "I-cy",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 1031,
+        "glyph": "Yi-cy",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 1046,
+        "glyph": "Zhe-cy",
+        "webapp": 2135,
+        "ours": 2136
+      },
+      {
+        "codepoint": 1073,
+        "glyph": "be-cy",
+        "webapp": 1181,
+        "ours": 1182
+      },
+      {
+        "codepoint": 1077,
+        "glyph": "ie-cy",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 1082,
+        "glyph": "ka-cy",
+        "webapp": 1087,
+        "ours": 1086
+      },
+      {
+        "codepoint": 1091,
+        "glyph": "u-cy",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 1095,
+        "glyph": "che-cy",
+        "webapp": 1055,
+        "ours": 1054
+      },
+      {
+        "codepoint": 1102,
+        "glyph": "iu-cy",
+        "webapp": 1605,
+        "ours": 1604
+      },
+      {
+        "codepoint": 1104,
+        "glyph": "iegrave-cy",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 1105,
+        "glyph": "io-cy",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 1115,
+        "glyph": "tshe-cy",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 1118,
+        "glyph": "ushort-cy",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 1144,
+        "glyph": "Uk-cy",
+        "webapp": 2658,
+        "ours": 2657
+      },
+      {
+        "codepoint": 1146,
+        "glyph": "Omegaroundcyr",
+        "webapp": 1715,
+        "ours": 1723
+      },
+      {
+        "codepoint": 1147,
+        "glyph": "omegaroundcyr",
+        "webapp": 1323,
+        "ours": 1305
+      },
+      {
+        "codepoint": 1185,
+        "glyph": "kabashkir-cy",
+        "webapp": 1303,
+        "ours": 1304
+      },
+      {
+        "codepoint": 1188,
+        "glyph": "Enghe-cy",
+        "webapp": 2032,
+        "ours": 2031
+      },
+      {
+        "codepoint": 1191,
+        "glyph": "pemiddlehook-cy",
+        "webapp": 1638,
+        "ours": 1637
+      },
+      {
+        "codepoint": 1204,
+        "glyph": "Tetse-cy",
+        "webapp": 1864,
+        "ours": 1865
+      },
+      {
+        "codepoint": 1211,
+        "glyph": "shha-cy",
+        "webapp": 1045,
+        "ours": 1046
+      },
+      {
+        "codepoint": 1213,
+        "glyph": "cheabkhasian-cy",
+        "webapp": 1324,
+        "ours": 1325
+      },
+      {
+        "codepoint": 1215,
+        "glyph": "chedescenderabkhasian-cy",
+        "webapp": 1324,
+        "ours": 1325
+      },
+      {
+        "codepoint": 1216,
+        "glyph": "Palochka-cy",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 1217,
+        "glyph": "Zhebreve-cy",
+        "webapp": 2135,
+        "ours": 2136
+      },
+      {
+        "codepoint": 1220,
+        "glyph": "kahook-cy",
+        "webapp": 1114,
+        "ours": 1113
+      },
+      {
+        "codepoint": 1231,
+        "glyph": "palochka-cy",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 1236,
+        "glyph": "Aie-cy",
+        "webapp": 1863,
+        "ours": 1862
+      },
+      {
+        "codepoint": 1239,
+        "glyph": "iebreve-cy",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 1240,
+        "glyph": "Schwa-cy",
+        "webapp": 1464,
+        "ours": 1465
+      },
+      {
+        "codepoint": 1241,
+        "glyph": "schwa-cy",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 1242,
+        "glyph": "Schwadieresis-cy",
+        "webapp": 1464,
+        "ours": 1465
+      },
+      {
+        "codepoint": 1243,
+        "glyph": "schwadieresis-cy",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 1244,
+        "glyph": "Zhedieresis-cy",
+        "webapp": 2135,
+        "ours": 2136
+      },
+      {
+        "codepoint": 1263,
+        "glyph": "umacron-cy",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 1265,
+        "glyph": "udieresis-cy",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 1267,
+        "glyph": "uhungarumlaut-cy",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 1269,
+        "glyph": "chedieresis-cy",
+        "webapp": 1055,
+        "ours": 1054
+      },
+      {
+        "codepoint": 1279,
+        "glyph": "hastroke-cy",
+        "webapp": 1109,
+        "ours": 1110
+      },
+      {
+        "codepoint": 1283,
+        "glyph": "komidje-cy",
+        "webapp": 1563,
+        "ours": 1562
+      },
+      {
+        "codepoint": 7431,
+        "glyph": "Esmall",
+        "webapp": 852,
+        "ours": 853
+      },
+      {
+        "codepoint": 7451,
+        "glyph": "Tsmall",
+        "webapp": 846,
+        "ours": 845
+      },
+      {
+        "codepoint": 7459,
+        "glyph": "EzhSmall",
+        "webapp": 887,
+        "ours": 888
+      },
+      {
+        "codepoint": 7460,
+        "glyph": "spirantVoicedlaryngeal",
+        "webapp": 877,
+        "ours": 876
+      },
+      {
+        "codepoint": 7466,
+        "glyph": "Psismall",
+        "webapp": 1194,
+        "ours": 1229
+      },
+      {
+        "codepoint": 7471,
+        "glyph": "BBarredmod",
+        "webapp": 745,
+        "ours": 746
+      },
+      {
+        "codepoint": 7473,
+        "glyph": "Emod",
+        "webapp": 629,
+        "ours": 628
+      },
+      {
+        "codepoint": 7474,
+        "glyph": "EReversedmod",
+        "webapp": 629,
+        "ours": 628
+      },
+      {
+        "codepoint": 7478,
+        "glyph": "Jmod",
+        "webapp": 487,
+        "ours": 488
+      },
+      {
+        "codepoint": 7479,
+        "glyph": "Kmod",
+        "webapp": 784,
+        "ours": 783
+      },
+      {
+        "codepoint": 7481,
+        "glyph": "Mmod",
+        "webapp": 1028,
+        "ours": 1027
+      },
+      {
+        "codepoint": 7482,
+        "glyph": "Nmod",
+        "webapp": 854,
+        "ours": 838
+      },
+      {
+        "codepoint": 7483,
+        "glyph": "NReversedmod",
+        "webapp": 809,
+        "ours": 800
+      },
+      {
+        "codepoint": 7493,
+        "glyph": "alphamod-latin",
+        "webapp": 627,
+        "ours": 626
+      },
+      {
+        "codepoint": 7508,
+        "glyph": "oTophalfmod",
+        "webapp": 618,
+        "ours": 619
+      },
+      {
+        "codepoint": 7516,
+        "glyph": "ainmod",
+        "webapp": 594,
+        "ours": 593
+      },
+      {
+        "codepoint": 7522,
+        "glyph": "isubscript",
+        "webapp": 312,
+        "ours": 313
+      },
+      {
+        "codepoint": 7526,
+        "glyph": "betasubscript",
+        "webapp": 632,
+        "ours": 633
+      },
+      {
+        "codepoint": 7536,
+        "glyph": "nmiddletilde",
+        "webapp": 1484,
+        "ours": 1485
+      },
+      {
+        "codepoint": 7546,
+        "glyph": "thstrikethrough",
+        "webapp": 1899,
+        "ours": 1900
+      },
+      {
+        "codepoint": 7555,
+        "glyph": "gpalatalhook",
+        "webapp": 1469,
+        "ours": 1468
+      },
+      {
+        "codepoint": 7567,
+        "glyph": "aretroflexhook",
+        "webapp": 1099,
+        "ours": 1098
+      },
+      {
+        "codepoint": 7568,
+        "glyph": "alpharetroflexhook",
+        "webapp": 1216,
+        "ours": 1217
+      },
+      {
+        "codepoint": 7571,
+        "glyph": "eopenretroflexhook",
+        "webapp": 925,
+        "ours": 926
+      },
+      {
+        "codepoint": 7584,
+        "glyph": "fmod",
+        "webapp": 415,
+        "ours": 416
+      },
+      {
+        "codepoint": 7585,
+        "glyph": "jdotlessstrokemod",
+        "webapp": 370,
+        "ours": 369
+      },
+      {
+        "codepoint": 7591,
+        "glyph": "IstrokeSmallmod",
+        "webapp": 382,
+        "ours": 383
+      },
+      {
+        "codepoint": 7594,
+        "glyph": "lpalatalhookmod",
+        "webapp": 346,
+        "ours": 369
+      },
+      {
+        "codepoint": 7609,
+        "glyph": "vhookmod",
+        "webapp": 603,
+        "ours": 602
+      },
+      {
+        "codepoint": 7611,
+        "glyph": "zmod",
+        "webapp": 514,
+        "ours": 513
+      },
+      {
+        "codepoint": 7690,
+        "glyph": "Ddotaccent",
+        "webapp": 1522,
+        "ours": 1521
+      },
+      {
+        "codepoint": 7692,
+        "glyph": "Ddotbelow",
+        "webapp": 1522,
+        "ours": 1521
+      },
+      {
+        "codepoint": 7694,
+        "glyph": "Dlinebelow",
+        "webapp": 1522,
+        "ours": 1521
+      },
+      {
+        "codepoint": 7696,
+        "glyph": "Dcedilla",
+        "webapp": 1522,
+        "ours": 1521
+      },
+      {
+        "codepoint": 7698,
+        "glyph": "Dcircumflexbelow",
+        "webapp": 1522,
+        "ours": 1521
+      },
+      {
+        "codepoint": 7701,
+        "glyph": "emacrongrave",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 7703,
+        "glyph": "emacronacute",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 7705,
+        "glyph": "ecircumflexbelow",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 7707,
+        "glyph": "etildebelow",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 7712,
+        "glyph": "Gmacron",
+        "webapp": 1453,
+        "ours": 1452
+      },
+      {
+        "codepoint": 7715,
+        "glyph": "hdotaccent",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 7717,
+        "glyph": "hdotbelow",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 7719,
+        "glyph": "hdieresis",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 7721,
+        "glyph": "hcedilla",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 7723,
+        "glyph": "hbrevebelow",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 7724,
+        "glyph": "Itildebelow",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 7726,
+        "glyph": "Idieresisacute",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 7749,
+        "glyph": "ndotaccent",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 7751,
+        "glyph": "ndotbelow",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 7753,
+        "glyph": "nlinebelow",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 7755,
+        "glyph": "ncircumflexbelow",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 7756,
+        "glyph": "Otildeacute",
+        "webapp": 1609,
+        "ours": 1616
+      },
+      {
+        "codepoint": 7768,
+        "glyph": "Rdotaccent",
+        "webapp": 1285,
+        "ours": 1286
+      },
+      {
+        "codepoint": 7770,
+        "glyph": "Rdotbelow",
+        "webapp": 1285,
+        "ours": 1286
+      },
+      {
+        "codepoint": 7772,
+        "glyph": "Rdotbelowmacron",
+        "webapp": 1285,
+        "ours": 1286
+      },
+      {
+        "codepoint": 7774,
+        "glyph": "Rlinebelow",
+        "webapp": 1285,
+        "ours": 1286
+      },
+      {
+        "codepoint": 7782,
+        "glyph": "Scarondotaccent",
+        "webapp": 1090,
+        "ours": 1097
+      },
+      {
+        "codepoint": 7800,
+        "glyph": "Utildeacute",
+        "webapp": 1478,
+        "ours": 1485
+      },
+      {
+        "codepoint": 7823,
+        "glyph": "ydotaccent",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 7830,
+        "glyph": "hlinebelow",
+        "webapp": 1129,
+        "ours": 1128
+      },
+      {
+        "codepoint": 7833,
+        "glyph": "yring",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 7865,
+        "glyph": "edotbelow",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 7867,
+        "glyph": "ehookabove",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 7869,
+        "glyph": "etilde",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 7871,
+        "glyph": "ecircumflexacute",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 7873,
+        "glyph": "ecircumflexgrave",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 7877,
+        "glyph": "ecircumflextilde",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 7879,
+        "glyph": "ecircumflexdotbelow",
+        "webapp": 1067,
+        "ours": 1068
+      },
+      {
+        "codepoint": 7880,
+        "glyph": "Ihookabove",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 7882,
+        "glyph": "Idotbelow",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 7898,
+        "glyph": "Ohornacute",
+        "webapp": 1721,
+        "ours": 1720
+      },
+      {
+        "codepoint": 7900,
+        "glyph": "Ohorngrave",
+        "webapp": 1721,
+        "ours": 1720
+      },
+      {
+        "codepoint": 7902,
+        "glyph": "Ohornhookabove",
+        "webapp": 1721,
+        "ours": 1720
+      },
+      {
+        "codepoint": 7923,
+        "glyph": "ygrave",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 7925,
+        "glyph": "ydotbelow",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 7927,
+        "glyph": "yhookabove",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 7929,
+        "glyph": "ytilde",
+        "webapp": 1054,
+        "ours": 1055
+      },
+      {
+        "codepoint": 7936,
+        "glyph": "alphapsili",
+        "webapp": 1178,
+        "ours": 1205
+      },
+      {
+        "codepoint": 7952,
+        "glyph": "epsilonpsili",
+        "webapp": 909,
+        "ours": 914
+      },
+      {
+        "codepoint": 7984,
+        "glyph": "iotapsili",
+        "webapp": 546,
+        "ours": 560
+      },
+      {
+        "codepoint": 7992,
+        "glyph": "Iotapsili",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 7993,
+        "glyph": "Iotadasia",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 7994,
+        "glyph": "Iotapsilivaria",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 7995,
+        "glyph": "Iotadasiavaria",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 7996,
+        "glyph": "Iotapsilioxia",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 7997,
+        "glyph": "Iotadasiaoxia",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 7998,
+        "glyph": "Iotapsiliperispomeni",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 7999,
+        "glyph": "Iotadasiaperispomeni",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 8000,
+        "glyph": "omicronpsili",
+        "webapp": 1141,
+        "ours": 1149
+      },
+      {
+        "codepoint": 8016,
+        "glyph": "upsilonpsili",
+        "webapp": 1114,
+        "ours": 1119
+      },
+      {
+        "codepoint": 8032,
+        "glyph": "omegapsili",
+        "webapp": 1556,
+        "ours": 1586
+      },
+      {
+        "codepoint": 8139,
+        "glyph": "Etaoxia",
+        "webapp": 1548,
+        "ours": 1547
+      },
+      {
+        "codepoint": 8152,
+        "glyph": "Iotavrachy",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 8153,
+        "glyph": "Iotamacron",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 8154,
+        "glyph": "Iotavaria",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 8155,
+        "glyph": "Iotaoxia",
+        "webapp": 592,
+        "ours": 593
+      },
+      {
+        "codepoint": 8186,
+        "glyph": "Omegavaria",
+        "webapp": 1631,
+        "ours": 1630
+      },
+      {
+        "codepoint": 8216,
+        "glyph": "quoteleft",
+        "webapp": 442,
+        "ours": 441
+      },
+      {
+        "codepoint": 8243,
+        "glyph": "doubleprimemod",
+        "webapp": 1080,
+        "ours": 1081
+      },
+      {
+        "codepoint": 8252,
+        "glyph": "exclamdouble",
+        "webapp": 965,
+        "ours": 966
+      },
+      {
+        "codepoint": 8253,
+        "glyph": "interrobang",
+        "webapp": 1018,
+        "ours": 1019
+      },
+      {
+        "codepoint": 8305,
+        "glyph": "imod",
+        "webapp": 418,
+        "ours": 419
+      },
+      {
+        "codepoint": 8339,
+        "glyph": "xinferior",
+        "webapp": 611,
+        "ours": 610
+      },
+      {
+        "codepoint": 8370,
+        "glyph": "guarani",
+        "webapp": 1470,
+        "ours": 1469
+      },
+      {
+        "codepoint": 8480,
+        "glyph": "servicemark",
+        "webapp": 1513,
+        "ours": 1512
+      },
+      {
+        "codepoint": 8482,
+        "glyph": "trademark",
+        "webapp": 1487,
+        "ours": 1513
+      },
+      {
+        "codepoint": 8494,
+        "glyph": "estimated",
+        "webapp": 1637,
+        "ours": 1638
+      },
+      {
+        "codepoint": 8541,
+        "glyph": "fiveeighths",
+        "webapp": 1500,
+        "ours": 1499
+      },
+      {
+        "codepoint": 8579,
+        "glyph": "Onehundredreversed-roman",
+        "webapp": 1333,
+        "ours": 1334
+      },
+      {
+        "codepoint": 8719,
+        "glyph": "product",
+        "webapp": 1411,
+        "ours": 1410
+      },
+      {
+        "codepoint": 8721,
+        "glyph": "summation",
+        "webapp": 1425,
+        "ours": 1366
+      },
+      {
+        "codepoint": 9457,
+        "glyph": "one_seven.blackCircled",
+        "webapp": 2250,
+        "ours": 2237
+      },
+      {
+        "codepoint": 10102,
+        "glyph": "one.blackCircled",
+        "webapp": 2239,
+        "ours": 2237
+      },
+      {
+        "codepoint": 10108,
+        "glyph": "seven.blackCircled",
+        "webapp": 2239,
+        "ours": 2237
+      },
+      {
+        "codepoint": 11360,
+        "glyph": "Ldoublebar",
+        "webapp": 1064,
+        "ours": 1065
+      },
+      {
+        "codepoint": 11371,
+        "glyph": "Zdescender",
+        "webapp": 1206,
+        "ours": 1226
+      },
+      {
+        "codepoint": 11382,
+        "glyph": "halfh",
+        "webapp": 814,
+        "ours": 813
+      }
+    ],
+    "ss05_samples": {
+      "a": {
+        "webapp_glyphs": [
+          "a"
+        ],
+        "ours_glyphs": [
+          "a.ss05"
+        ],
+        "webapp_advance": 1015,
+        "ours_advance": 1015
+      },
+      "e": {
+        "webapp_glyphs": [
+          "e"
+        ],
+        "ours_glyphs": [
+          "e.ss05"
+        ],
+        "webapp_advance": 1067,
+        "ours_advance": 1068
+      },
+      "l": {
+        "webapp_glyphs": [
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05"
+        ],
+        "webapp_advance": 614,
+        "ours_advance": 560
+      },
+      "I": {
+        "webapp_glyphs": [
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "I.ss05"
+        ],
+        "webapp_advance": 756,
+        "ours_advance": 755
+      },
+      "J": {
+        "webapp_glyphs": [
+          "J"
+        ],
+        "ours_glyphs": [
+          "J"
+        ],
+        "webapp_advance": 859,
+        "ours_advance": 859
+      },
+      "la": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "a"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "a.ss05"
+        ],
+        "webapp_advance": 1629,
+        "ours_advance": 1587
+      },
+      "le": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "e"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "e.ss05"
+        ],
+        "webapp_advance": 1660,
+        "ours_advance": 1609
+      },
+      "lo": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "webapp_advance": 1742,
+        "ours_advance": 1714
+      },
+      "lJ": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "webapp_advance": 1473,
+        "ours_advance": 1479
+      },
+      "lI": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 1370,
+        "ours_advance": 1342
+      },
+      "fl": {
+        "webapp_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1331,
+        "ours_advance": 1277
+      },
+      "ffl": {
+        "webapp_glyphs": [
+          "ff",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f_f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1979,
+        "ours_advance": 1925
+      },
+      "ffi": {
+        "webapp_glyphs": [
+          "ffi"
+        ],
+        "ours_glyphs": [
+          "f_f_i"
+        ],
+        "webapp_advance": 1849,
+        "ours_advance": 1849
+      },
+      "FillJitter": {
+        "webapp_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e",
+          "r"
+        ],
+        "ours_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e.ss05",
+          "r"
+        ],
+        "webapp_advance": 7437,
+        "ours_advance": 7395
+      },
+      "The quick brown fox jumps over the lazy dog.": {
+        "webapp_glyphs": [
+          "T",
+          "h",
+          "e",
+          "nonbreakingspace",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "nonbreakingspace",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "nonbreakingspace",
+          "f",
+          "o",
+          "x",
+          "nonbreakingspace",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "nonbreakingspace",
+          "o",
+          "v",
+          "e",
+          "r",
+          "nonbreakingspace",
+          "t",
+          "h",
+          "e",
+          "nonbreakingspace",
+          "l.ss05",
+          "a",
+          "z",
+          "y",
+          "nonbreakingspace",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "ours_glyphs": [
+          "T",
+          "h",
+          "e.ss05",
+          "space",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "space",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "space",
+          "f",
+          "o",
+          "x",
+          "space",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "space",
+          "o",
+          "v",
+          "e.ss05",
+          "r",
+          "space",
+          "t",
+          "h",
+          "e.ss05",
+          "space",
+          "l.ss05",
+          "a.ss05",
+          "z",
+          "y",
+          "space",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "webapp_advance": 40172,
+        "ours_advance": 40132
+      },
+      "A little elegant letter. Il1 lJ lI": {
+        "webapp_glyphs": [
+          "A",
+          "nonbreakingspace",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e",
+          "nonbreakingspace",
+          "e",
+          "l.ss05",
+          "e",
+          "g",
+          "a",
+          "n",
+          "t",
+          "nonbreakingspace",
+          "l.ss05",
+          "e",
+          "t_t",
+          "e",
+          "r",
+          "period",
+          "nonbreakingspace",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "nonbreakingspace",
+          "l.ss05",
+          "J",
+          "nonbreakingspace",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "A",
+          "space",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e.ss05",
+          "space",
+          "e.ss05",
+          "l.ss05",
+          "e.ss05",
+          "g",
+          "a.ss05",
+          "n",
+          "t",
+          "space",
+          "l.ss05",
+          "e.ss05",
+          "t_t",
+          "e.ss05",
+          "r",
+          "period",
+          "space",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "space",
+          "l.ss05",
+          "J",
+          "space",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 25728,
+        "ours_advance": 25445
+      }
+    },
+    "hint_tables_identical": {
+      "fpgm": false,
+      "prep": true,
+      "cvt ": false
+    },
+    "woff2_bytes": [
+      215948,
+      220320
+    ]
+  },
+  "Black": {
+    "webapp_path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-black.woff2",
+    "ours_path": "/Users/brownmatthew/git/lato-source/build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.ttf",
+    "glyph_counts": [
+      3051,
+      3159
+    ],
+    "encoded_characters": [
+      2168,
+      2170
+    ],
+    "added_codepoints": [
+      0,
+      13
+    ],
+    "removed_codepoints": [],
+    "line_metrics": {
+      "hhea.ascent": [
+        1974,
+        1974
+      ],
+      "hhea.descent": [
+        -426,
+        -426
+      ],
+      "hhea.lineGap": [
+        0,
+        0
+      ],
+      "OS/2.sTypoAscender": [
+        1610,
+        1610
+      ],
+      "OS/2.sTypoDescender": [
+        -390,
+        -390
+      ],
+      "OS/2.sTypoLineGap": [
+        400,
+        400
+      ],
+      "OS/2.usWinAscent": [
+        1974,
+        1974
+      ],
+      "OS/2.usWinDescent": [
+        426,
+        426
+      ]
+    },
+    "changed_default_advances": [
+      {
+        "codepoint": 33,
+        "glyph": "exclam",
+        "webapp": 510,
+        "ours": 584
+      },
+      {
+        "codepoint": 161,
+        "glyph": "exclamdown",
+        "webapp": 539,
+        "ours": 573
+      },
+      {
+        "codepoint": 430,
+        "glyph": "Tretroflexhook",
+        "webapp": 1231,
+        "ours": 1218
+      },
+      {
+        "codepoint": 451,
+        "glyph": "clickretroflex",
+        "webapp": 384,
+        "ours": 461
+      },
+      {
+        "codepoint": 548,
+        "glyph": "Zhook",
+        "webapp": 1244,
+        "ours": 1232
+      },
+      {
+        "codepoint": 580,
+        "glyph": "Ubar",
+        "webapp": 1606,
+        "ours": 1530
+      },
+      {
+        "codepoint": 1146,
+        "glyph": "Omegaroundcyr",
+        "webapp": 1738,
+        "ours": 1753
+      },
+      {
+        "codepoint": 1147,
+        "glyph": "omegaroundcyr",
+        "webapp": 1383,
+        "ours": 1348
+      },
+      {
+        "codepoint": 7466,
+        "glyph": "Psismall",
+        "webapp": 1188,
+        "ours": 1255
+      },
+      {
+        "codepoint": 7481,
+        "glyph": "Mmod",
+        "webapp": 1056,
+        "ours": 1055
+      },
+      {
+        "codepoint": 7482,
+        "glyph": "Nmod",
+        "webapp": 884,
+        "ours": 853
+      },
+      {
+        "codepoint": 7483,
+        "glyph": "NReversedmod",
+        "webapp": 834,
+        "ours": 818
+      },
+      {
+        "codepoint": 7594,
+        "glyph": "lpalatalhookmod",
+        "webapp": 355,
+        "ours": 400
+      },
+      {
+        "codepoint": 7756,
+        "glyph": "Otildeacute",
+        "webapp": 1616,
+        "ours": 1629
+      },
+      {
+        "codepoint": 7782,
+        "glyph": "Scarondotaccent",
+        "webapp": 1095,
+        "ours": 1108
+      },
+      {
+        "codepoint": 7800,
+        "glyph": "Utildeacute",
+        "webapp": 1484,
+        "ours": 1498
+      },
+      {
+        "codepoint": 7936,
+        "glyph": "alphapsili",
+        "webapp": 1173,
+        "ours": 1225
+      },
+      {
+        "codepoint": 7952,
+        "glyph": "epsilonpsili",
+        "webapp": 911,
+        "ours": 921
+      },
+      {
+        "codepoint": 7984,
+        "glyph": "iotapsili",
+        "webapp": 561,
+        "ours": 587
+      },
+      {
+        "codepoint": 8000,
+        "glyph": "omicronpsili",
+        "webapp": 1148,
+        "ours": 1162
+      },
+      {
+        "codepoint": 8016,
+        "glyph": "upsilonpsili",
+        "webapp": 1123,
+        "ours": 1131
+      },
+      {
+        "codepoint": 8032,
+        "glyph": "omegapsili",
+        "webapp": 1582,
+        "ours": 1640
+      },
+      {
+        "codepoint": 8482,
+        "glyph": "trademark",
+        "webapp": 1475,
+        "ours": 1524
+      },
+      {
+        "codepoint": 8721,
+        "glyph": "summation",
+        "webapp": 1479,
+        "ours": 1367
+      },
+      {
+        "codepoint": 9457,
+        "glyph": "one_seven.blackCircled",
+        "webapp": 2286,
+        "ours": 2261
+      },
+      {
+        "codepoint": 10102,
+        "glyph": "one.blackCircled",
+        "webapp": 2265,
+        "ours": 2261
+      },
+      {
+        "codepoint": 10108,
+        "glyph": "seven.blackCircled",
+        "webapp": 2265,
+        "ours": 2261
+      },
+      {
+        "codepoint": 11371,
+        "glyph": "Zdescender",
+        "webapp": 1194,
+        "ours": 1232
+      }
+    ],
+    "ss05_samples": {
+      "a": {
+        "webapp_glyphs": [
+          "a"
+        ],
+        "ours_glyphs": [
+          "a.ss05"
+        ],
+        "webapp_advance": 1035,
+        "ours_advance": 1035
+      },
+      "e": {
+        "webapp_glyphs": [
+          "e"
+        ],
+        "ours_glyphs": [
+          "e.ss05"
+        ],
+        "webapp_advance": 1078,
+        "ours_advance": 1078
+      },
+      "l": {
+        "webapp_glyphs": [
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05"
+        ],
+        "webapp_advance": 635,
+        "ours_advance": 581
+      },
+      "I": {
+        "webapp_glyphs": [
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "I.ss05"
+        ],
+        "webapp_advance": 770,
+        "ours_advance": 770
+      },
+      "J": {
+        "webapp_glyphs": [
+          "J"
+        ],
+        "ours_glyphs": [
+          "J"
+        ],
+        "webapp_advance": 871,
+        "ours_advance": 871
+      },
+      "la": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "a"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "a.ss05"
+        ],
+        "webapp_advance": 1670,
+        "ours_advance": 1641
+      },
+      "le": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "e"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "e.ss05"
+        ],
+        "webapp_advance": 1691,
+        "ours_advance": 1646
+      },
+      "lo": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "webapp_advance": 1775,
+        "ours_advance": 1754
+      },
+      "lJ": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "webapp_advance": 1506,
+        "ours_advance": 1512
+      },
+      "lI": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 1405,
+        "ours_advance": 1380
+      },
+      "fl": {
+        "webapp_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1367,
+        "ours_advance": 1313
+      },
+      "ffl": {
+        "webapp_glyphs": [
+          "ff",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f_f",
+          "l.ss05"
+        ],
+        "webapp_advance": 2031,
+        "ours_advance": 1977
+      },
+      "ffi": {
+        "webapp_glyphs": [
+          "ffi"
+        ],
+        "ours_glyphs": [
+          "f_f_i"
+        ],
+        "webapp_advance": 1917,
+        "ours_advance": 1917
+      },
+      "FillJitter": {
+        "webapp_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e",
+          "r"
+        ],
+        "ours_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e.ss05",
+          "r"
+        ],
+        "webapp_advance": 7611,
+        "ours_advance": 7568
+      },
+      "The quick brown fox jumps over the lazy dog.": {
+        "webapp_glyphs": [
+          "T",
+          "h",
+          "e",
+          "nonbreakingspace",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "nonbreakingspace",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "nonbreakingspace",
+          "f",
+          "o",
+          "x",
+          "nonbreakingspace",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "nonbreakingspace",
+          "o",
+          "v",
+          "e",
+          "r",
+          "nonbreakingspace",
+          "t",
+          "h",
+          "e",
+          "nonbreakingspace",
+          "l.ss05",
+          "a",
+          "z",
+          "y",
+          "nonbreakingspace",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "ours_glyphs": [
+          "T",
+          "h",
+          "e.ss05",
+          "space",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "space",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "space",
+          "f",
+          "o",
+          "x",
+          "space",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "space",
+          "o",
+          "v",
+          "e.ss05",
+          "r",
+          "space",
+          "t",
+          "h",
+          "e.ss05",
+          "space",
+          "l.ss05",
+          "a.ss05",
+          "z",
+          "y",
+          "space",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "webapp_advance": 40614,
+        "ours_advance": 40585
+      },
+      "A little elegant letter. Il1 lJ lI": {
+        "webapp_glyphs": [
+          "A",
+          "nonbreakingspace",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e",
+          "nonbreakingspace",
+          "e",
+          "l.ss05",
+          "e",
+          "g",
+          "a",
+          "n",
+          "t",
+          "nonbreakingspace",
+          "l.ss05",
+          "e",
+          "t_t",
+          "e",
+          "r",
+          "period",
+          "nonbreakingspace",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "nonbreakingspace",
+          "l.ss05",
+          "J",
+          "nonbreakingspace",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "A",
+          "space",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e.ss05",
+          "space",
+          "e.ss05",
+          "l.ss05",
+          "e.ss05",
+          "g",
+          "a.ss05",
+          "n",
+          "t",
+          "space",
+          "l.ss05",
+          "e.ss05",
+          "t_t",
+          "e.ss05",
+          "r",
+          "period",
+          "space",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "space",
+          "l.ss05",
+          "J",
+          "space",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 26048,
+        "ours_advance": 25786
+      }
+    },
+    "hint_tables_identical": {
+      "fpgm": false,
+      "prep": true,
+      "cvt ": true
+    },
+    "woff2_bytes": [
+      203524,
+      208892
+    ]
+  },
+  "LightItalic": {
+    "webapp_path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-italic-light.woff2",
+    "ours_path": "/Users/brownmatthew/git/lato-source/build/Lato3Ita2M/ds-ufo/masters/Lato26-LightItalic.ttf",
+    "glyph_counts": [
+      3053,
+      3122
+    ],
+    "encoded_characters": [
+      2170,
+      2170
+    ],
+    "added_codepoints": [],
+    "removed_codepoints": [],
+    "line_metrics": {
+      "hhea.ascent": [
+        1974,
+        1974
+      ],
+      "hhea.descent": [
+        -426,
+        -426
+      ],
+      "hhea.lineGap": [
+        0,
+        0
+      ],
+      "OS/2.sTypoAscender": [
+        1610,
+        1610
+      ],
+      "OS/2.sTypoDescender": [
+        -390,
+        -390
+      ],
+      "OS/2.sTypoLineGap": [
+        400,
+        400
+      ],
+      "OS/2.usWinAscent": [
+        1974,
+        1974
+      ],
+      "OS/2.usWinDescent": [
+        426,
+        426
+      ]
+    },
+    "changed_default_advances": [
+      {
+        "codepoint": 44,
+        "glyph": "comma",
+        "webapp": 425,
+        "ours": 424
+      },
+      {
+        "codepoint": 79,
+        "glyph": "O",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 81,
+        "glyph": "Q",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 89,
+        "glyph": "Y",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 105,
+        "glyph": "i",
+        "webapp": 424,
+        "ours": 423
+      },
+      {
+        "codepoint": 210,
+        "glyph": "Ograve",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 211,
+        "glyph": "Oacute",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 212,
+        "glyph": "Ocircumflex",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 213,
+        "glyph": "Otilde",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 214,
+        "glyph": "Odieresis",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 216,
+        "glyph": "Oslash",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 221,
+        "glyph": "Yacute",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 237,
+        "glyph": "iacute",
+        "webapp": 424,
+        "ours": 423
+      },
+      {
+        "codepoint": 261,
+        "glyph": "aogonek",
+        "webapp": 998,
+        "ours": 997
+      },
+      {
+        "codepoint": 271,
+        "glyph": "dcaron",
+        "webapp": 1010,
+        "ours": 1055
+      },
+      {
+        "codepoint": 302,
+        "glyph": "Iogonek",
+        "webapp": 496,
+        "ours": 495
+      },
+      {
+        "codepoint": 303,
+        "glyph": "iogonek",
+        "webapp": 424,
+        "ours": 423
+      },
+      {
+        "codepoint": 309,
+        "glyph": "jcircumflex",
+        "webapp": 422,
+        "ours": 421
+      },
+      {
+        "codepoint": 317,
+        "glyph": "Lcaron",
+        "webapp": 934,
+        "ours": 933
+      },
+      {
+        "codepoint": 318,
+        "glyph": "lcaron",
+        "webapp": 390,
+        "ours": 441
+      },
+      {
+        "codepoint": 322,
+        "glyph": "lslash",
+        "webapp": 539,
+        "ours": 538
+      },
+      {
+        "codepoint": 330,
+        "glyph": "Eng",
+        "webapp": 1404,
+        "ours": 1403
+      },
+      {
+        "codepoint": 332,
+        "glyph": "Omacron",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 334,
+        "glyph": "Obreve",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 336,
+        "glyph": "Ohungarumlaut",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 357,
+        "glyph": "tcaron",
+        "webapp": 659,
+        "ours": 682
+      },
+      {
+        "codepoint": 374,
+        "glyph": "Ycircumflex",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 376,
+        "glyph": "Ydieresis",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 387,
+        "glyph": "btopbar",
+        "webapp": 1026,
+        "ours": 1025
+      },
+      {
+        "codepoint": 398,
+        "glyph": "Ereversed",
+        "webapp": 1076,
+        "ours": 1075
+      },
+      {
+        "codepoint": 405,
+        "glyph": "hv",
+        "webapp": 1592,
+        "ours": 1591
+      },
+      {
+        "codepoint": 407,
+        "glyph": "Istroke",
+        "webapp": 520,
+        "ours": 519
+      },
+      {
+        "codepoint": 413,
+        "glyph": "Nhookleft",
+        "webapp": 1404,
+        "ours": 1403
+      },
+      {
+        "codepoint": 414,
+        "glyph": "nlegrightlong",
+        "webapp": 1079,
+        "ours": 1078
+      },
+      {
+        "codepoint": 415,
+        "glyph": "Ocenteredtilde",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 427,
+        "glyph": "tpalatalhook",
+        "webapp": 688,
+        "ours": 687
+      },
+      {
+        "codepoint": 448,
+        "glyph": "clickdental",
+        "webapp": 401,
+        "ours": 400
+      },
+      {
+        "codepoint": 459,
+        "glyph": "Nj",
+        "webapp": 1830,
+        "ours": 1829
+      },
+      {
+        "codepoint": 465,
+        "glyph": "Ocaron",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 499,
+        "glyph": "dz",
+        "webapp": 1862,
+        "ours": 1861
+      },
+      {
+        "codepoint": 521,
+        "glyph": "idblgrave",
+        "webapp": 424,
+        "ours": 423
+      },
+      {
+        "codepoint": 524,
+        "glyph": "Odblgrave",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 526,
+        "glyph": "Oinvertedbreve",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 554,
+        "glyph": "Odieresismacron",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 556,
+        "glyph": "Otildemacron",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 558,
+        "glyph": "Odotaccent",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 560,
+        "glyph": "Odotaccentmacron",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 562,
+        "glyph": "Ymacron",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 587,
+        "glyph": "qhooktail",
+        "webapp": 999,
+        "ours": 998
+      },
+      {
+        "codepoint": 592,
+        "glyph": "aturned",
+        "webapp": 997,
+        "ours": 996
+      },
+      {
+        "codepoint": 600,
+        "glyph": "ereversed",
+        "webapp": 960,
+        "ours": 959
+      },
+      {
+        "codepoint": 601,
+        "glyph": "schwa",
+        "webapp": 967,
+        "ours": 966
+      },
+      {
+        "codepoint": 609,
+        "glyph": "gsingle",
+        "webapp": 1019,
+        "ours": 1018
+      },
+      {
+        "codepoint": 617,
+        "glyph": "iota-latin",
+        "webapp": 480,
+        "ours": 479
+      },
+      {
+        "codepoint": 619,
+        "glyph": "lmiddletilde",
+        "webapp": 557,
+        "ours": 619
+      },
+      {
+        "codepoint": 622,
+        "glyph": "lezh",
+        "webapp": 996,
+        "ours": 995
+      },
+      {
+        "codepoint": 639,
+        "glyph": "rfishhookreversed",
+        "webapp": 566,
+        "ours": 565
+      },
+      {
+        "codepoint": 652,
+        "glyph": "vturned",
+        "webapp": 927,
+        "ours": 926
+      },
+      {
+        "codepoint": 663,
+        "glyph": "cstretched",
+        "webapp": 860,
+        "ours": 859
+      },
+      {
+        "codepoint": 664,
+        "glyph": "bilabialclick",
+        "webapp": 1353,
+        "ours": 1352
+      },
+      {
+        "codepoint": 665,
+        "glyph": "Bsmall",
+        "webapp": 979,
+        "ours": 978
+      },
+      {
+        "codepoint": 666,
+        "glyph": "eopenclosed",
+        "webapp": 1029,
+        "ours": 1028
+      },
+      {
+        "codepoint": 668,
+        "glyph": "Hsmall",
+        "webapp": 1027,
+        "ours": 1026
+      },
+      {
+        "codepoint": 672,
+        "glyph": "qhook",
+        "webapp": 1001,
+        "ours": 1000
+      },
+      {
+        "codepoint": 674,
+        "glyph": "glottalstopstrokereversed",
+        "webapp": 717,
+        "ours": 716
+      },
+      {
+        "codepoint": 701,
+        "glyph": "commareversedmod",
+        "webapp": 396,
+        "ours": 395
+      },
+      {
+        "codepoint": 910,
+        "glyph": "Upsilontonos",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 920,
+        "glyph": "Theta",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 927,
+        "glyph": "Omicron",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 933,
+        "glyph": "Upsilon",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 937,
+        "glyph": "Omega",
+        "webapp": 1425,
+        "ours": 1424
+      },
+      {
+        "codepoint": 939,
+        "glyph": "Upsilondieresis",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 944,
+        "glyph": "upsilondieresistonos",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 965,
+        "glyph": "upsilon",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 968,
+        "glyph": "psi",
+        "webapp": 1358,
+        "ours": 1357
+      },
+      {
+        "codepoint": 971,
+        "glyph": "upsilondieresis",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 973,
+        "glyph": "upsilontonos",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 982,
+        "glyph": "piSymbol",
+        "webapp": 1503,
+        "ours": 1502
+      },
+      {
+        "codepoint": 994,
+        "glyph": "Shei-coptic",
+        "webapp": 1972,
+        "ours": 1971
+      },
+      {
+        "codepoint": 999,
+        "glyph": "khei-coptic",
+        "webapp": 1024,
+        "ours": 1023
+      },
+      {
+        "codepoint": 1012,
+        "glyph": "ThetaSymbol",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 1013,
+        "glyph": "epsilonLunateSymbol",
+        "webapp": 872,
+        "ours": 871
+      },
+      {
+        "codepoint": 1020,
+        "glyph": "rhoStrokeSymbol",
+        "webapp": 1029,
+        "ours": 1028
+      },
+      {
+        "codepoint": 1026,
+        "glyph": "Dje-cy",
+        "webapp": 1344,
+        "ours": 1343
+      },
+      {
+        "codepoint": 1047,
+        "glyph": "Ze-cy",
+        "webapp": 1056,
+        "ours": 1055
+      },
+      {
+        "codepoint": 1054,
+        "glyph": "O-cy",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 1067,
+        "glyph": "Yeru-cy",
+        "webapp": 1595,
+        "ours": 1594
+      },
+      {
+        "codepoint": 1074,
+        "glyph": "ve-cy",
+        "webapp": 937,
+        "ours": 936
+      },
+      {
+        "codepoint": 1085,
+        "glyph": "en-cy",
+        "webapp": 1027,
+        "ours": 1026
+      },
+      {
+        "codepoint": 1098,
+        "glyph": "hardsign-cy",
+        "webapp": 998,
+        "ours": 997
+      },
+      {
+        "codepoint": 1100,
+        "glyph": "softsign-cy",
+        "webapp": 883,
+        "ours": 882
+      },
+      {
+        "codepoint": 1103,
+        "glyph": "ia-cy",
+        "webapp": 929,
+        "ours": 928
+      },
+      {
+        "codepoint": 1106,
+        "glyph": "dje-cy",
+        "webapp": 1009,
+        "ours": 1008
+      },
+      {
+        "codepoint": 1110,
+        "glyph": "i-cy",
+        "webapp": 424,
+        "ours": 423
+      },
+      {
+        "codepoint": 1124,
+        "glyph": "Eiotified-cy",
+        "webapp": 1756,
+        "ours": 1755
+      },
+      {
+        "codepoint": 1129,
+        "glyph": "yuslittleiotified-cy",
+        "webapp": 1385,
+        "ours": 1384
+      },
+      {
+        "codepoint": 1137,
+        "glyph": "psi-cy",
+        "webapp": 1358,
+        "ours": 1357
+      },
+      {
+        "codepoint": 1138,
+        "glyph": "Fita-cy",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 1141,
+        "glyph": "izhitsa-cy",
+        "webapp": 929,
+        "ours": 928
+      },
+      {
+        "codepoint": 1172,
+        "glyph": "Ghemiddlehook-cy",
+        "webapp": 1172,
+        "ours": 1171
+      },
+      {
+        "codepoint": 1173,
+        "glyph": "ghemiddlehook-cy",
+        "webapp": 888,
+        "ours": 887
+      },
+      {
+        "codepoint": 1176,
+        "glyph": "Zedescender-cy",
+        "webapp": 1056,
+        "ours": 1055
+      },
+      {
+        "codepoint": 1188,
+        "glyph": "Enghe-cy",
+        "webapp": 1907,
+        "ours": 1906
+      },
+      {
+        "codepoint": 1190,
+        "glyph": "Pemiddlehook-cy",
+        "webapp": 2007,
+        "ours": 2006
+      },
+      {
+        "codepoint": 1197,
+        "glyph": "tedescender-cy",
+        "webapp": 1616,
+        "ours": 1615
+      },
+      {
+        "codepoint": 1198,
+        "glyph": "Ustraight-cy",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 1209,
+        "glyph": "cheverticalstroke-cy",
+        "webapp": 921,
+        "ours": 920
+      },
+      {
+        "codepoint": 1213,
+        "glyph": "cheabkhasian-cy",
+        "webapp": 1149,
+        "ours": 1148
+      },
+      {
+        "codepoint": 1220,
+        "glyph": "kahook-cy",
+        "webapp": 952,
+        "ours": 951
+      },
+      {
+        "codepoint": 1227,
+        "glyph": "Chekhakassian-cy",
+        "webapp": 1195,
+        "ours": 1194
+      },
+      {
+        "codepoint": 1241,
+        "glyph": "schwa-cy",
+        "webapp": 967,
+        "ours": 966
+      },
+      {
+        "codepoint": 1243,
+        "glyph": "schwadieresis-cy",
+        "webapp": 967,
+        "ours": 966
+      },
+      {
+        "codepoint": 1246,
+        "glyph": "Zedieresis-cy",
+        "webapp": 1056,
+        "ours": 1055
+      },
+      {
+        "codepoint": 1254,
+        "glyph": "Odieresis-cy",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 1256,
+        "glyph": "Obarred-cy",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 1258,
+        "glyph": "Obarreddieresis-cy",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 1272,
+        "glyph": "Yerudieresis-cy",
+        "webapp": 1595,
+        "ours": 1594
+      },
+      {
+        "codepoint": 1299,
+        "glyph": "elhook-cy",
+        "webapp": 1103,
+        "ours": 1102
+      },
+      {
+        "codepoint": 4145,
+        "glyph": "eSign-myanmar",
+        "webapp": 492,
+        "ours": 491
+      },
+      {
+        "codepoint": 7429,
+        "glyph": "Dsmall",
+        "webapp": 1035,
+        "ours": 1034
+      },
+      {
+        "codepoint": 7431,
+        "glyph": "Esmall",
+        "webapp": 799,
+        "ours": 798
+      },
+      {
+        "codepoint": 7432,
+        "glyph": "eTurnedopen",
+        "webapp": 834,
+        "ours": 833
+      },
+      {
+        "codepoint": 7436,
+        "glyph": "LstrokeSmall",
+        "webapp": 757,
+        "ours": 756
+      },
+      {
+        "codepoint": 7444,
+        "glyph": "oeTurned",
+        "webapp": 1616,
+        "ours": 1615
+      },
+      {
+        "codepoint": 7449,
+        "glyph": "RreversedSmall",
+        "webapp": 857,
+        "ours": 856
+      },
+      {
+        "codepoint": 7453,
+        "glyph": "uSideways",
+        "webapp": 1146,
+        "ours": 1145
+      },
+      {
+        "codepoint": 7469,
+        "glyph": "AEModifier",
+        "webapp": 886,
+        "ours": 885
+      },
+      {
+        "codepoint": 7497,
+        "glyph": "emod",
+        "webapp": 518,
+        "ours": 517
+      },
+      {
+        "codepoint": 7507,
+        "glyph": "oOpenmod",
+        "webapp": 474,
+        "ours": 473
+      },
+      {
+        "codepoint": 7511,
+        "glyph": "tmod",
+        "webapp": 375,
+        "ours": 374
+      },
+      {
+        "codepoint": 7523,
+        "glyph": "rsubscript",
+        "webapp": 360,
+        "ours": 359
+      },
+      {
+        "codepoint": 7524,
+        "glyph": "usubscript",
+        "webapp": 554,
+        "ours": 553
+      },
+      {
+        "codepoint": 7525,
+        "glyph": "vsubscript",
+        "webapp": 483,
+        "ours": 482
+      },
+      {
+        "codepoint": 7532,
+        "glyph": "bmiddletilde",
+        "webapp": 1009,
+        "ours": 1031
+      },
+      {
+        "codepoint": 7533,
+        "glyph": "dmiddletilde",
+        "webapp": 1010,
+        "ours": 1032
+      },
+      {
+        "codepoint": 7534,
+        "glyph": "fmiddletilde",
+        "webapp": 656,
+        "ours": 678
+      },
+      {
+        "codepoint": 7535,
+        "glyph": "mmiddletilde",
+        "webapp": 1633,
+        "ours": 1677
+      },
+      {
+        "codepoint": 7537,
+        "glyph": "pmiddletilde",
+        "webapp": 1010,
+        "ours": 1032
+      },
+      {
+        "codepoint": 7538,
+        "glyph": "rmiddletilde",
+        "webapp": 702,
+        "ours": 720
+      },
+      {
+        "codepoint": 7539,
+        "glyph": "rfishhookmiddletilde",
+        "webapp": 732,
+        "ours": 794
+      },
+      {
+        "codepoint": 7541,
+        "glyph": "tmiddletilde",
+        "webapp": 698,
+        "ours": 719
+      },
+      {
+        "codepoint": 7547,
+        "glyph": "idotlessstroke",
+        "webapp": 490,
+        "ours": 489
+      },
+      {
+        "codepoint": 7566,
+        "glyph": "zpalatalhook",
+        "webapp": 948,
+        "ours": 947
+      },
+      {
+        "codepoint": 7587,
+        "glyph": "hturnedmod",
+        "webapp": 553,
+        "ours": 552
+      },
+      {
+        "codepoint": 7599,
+        "glyph": "nretroflexhookmod",
+        "webapp": 554,
+        "ours": 553
+      },
+      {
+        "codepoint": 7725,
+        "glyph": "itildebelow",
+        "webapp": 424,
+        "ours": 423
+      },
+      {
+        "codepoint": 7756,
+        "glyph": "Otildeacute",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 7758,
+        "glyph": "Otildedieresis",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 7760,
+        "glyph": "Omacrongrave",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 7762,
+        "glyph": "Omacronacute",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 7822,
+        "glyph": "Ydotaccent",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 7883,
+        "glyph": "idotbelow",
+        "webapp": 424,
+        "ours": 423
+      },
+      {
+        "codepoint": 7884,
+        "glyph": "Odotbelow",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 7886,
+        "glyph": "Ohookabove",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 7888,
+        "glyph": "Ocircumflexacute",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 7890,
+        "glyph": "Ocircumflexgrave",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 7892,
+        "glyph": "Ocircumflexhookabove",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 7894,
+        "glyph": "Ocircumflextilde",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 7896,
+        "glyph": "Ocircumflexdotbelow",
+        "webapp": 1474,
+        "ours": 1473
+      },
+      {
+        "codepoint": 7898,
+        "glyph": "Ohornacute",
+        "webapp": 1547,
+        "ours": 1546
+      },
+      {
+        "codepoint": 7900,
+        "glyph": "Ohorngrave",
+        "webapp": 1547,
+        "ours": 1546
+      },
+      {
+        "codepoint": 7902,
+        "glyph": "Ohornhookabove",
+        "webapp": 1547,
+        "ours": 1546
+      },
+      {
+        "codepoint": 7904,
+        "glyph": "Ohorntilde",
+        "webapp": 1547,
+        "ours": 1546
+      },
+      {
+        "codepoint": 7922,
+        "glyph": "Ygrave",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 7924,
+        "glyph": "Ydotbelow",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 7926,
+        "glyph": "Yhookabove",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 7928,
+        "glyph": "Ytilde",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 8016,
+        "glyph": "upsilonpsili",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8017,
+        "glyph": "upsilondasia",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8018,
+        "glyph": "upsilonpsilivaria",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8019,
+        "glyph": "upsilondasiavaria",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8020,
+        "glyph": "upsilonpsilioxia",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8021,
+        "glyph": "upsilondasiaoxia",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8022,
+        "glyph": "upsilonpsiliperispomeni",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8023,
+        "glyph": "upsilondasiaperispomeni",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8025,
+        "glyph": "Upsilondasia",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 8027,
+        "glyph": "Upsilondasiavaria",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 8029,
+        "glyph": "Upsilondasiaoxia",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 8031,
+        "glyph": "Upsilondasiaperispomeni",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 8058,
+        "glyph": "upsilonvaria",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8059,
+        "glyph": "upsilonoxia",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8160,
+        "glyph": "upsilonvrachy",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8161,
+        "glyph": "upsilonmacron",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8162,
+        "glyph": "upsilondialytikavaria",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8163,
+        "glyph": "upsilondialytikaoxia",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8166,
+        "glyph": "upsilonperispomeni",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8167,
+        "glyph": "upsilondialytikaperispomeni",
+        "webapp": 1011,
+        "ours": 1010
+      },
+      {
+        "codepoint": 8168,
+        "glyph": "Upsilonvrachy",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 8169,
+        "glyph": "Upsilonmacron",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 8170,
+        "glyph": "Upsilonvaria",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 8171,
+        "glyph": "Upsilonoxia",
+        "webapp": 1104,
+        "ours": 1103
+      },
+      {
+        "codepoint": 8185,
+        "glyph": "Omicronoxia",
+        "webapp": 1473,
+        "ours": 1472
+      },
+      {
+        "codepoint": 8188,
+        "glyph": "Omegaprosgegrammeni",
+        "webapp": 1425,
+        "ours": 1424
+      },
+      {
+        "codepoint": 8218,
+        "glyph": "quotesinglbase",
+        "webapp": 385,
+        "ours": 384
+      },
+      {
+        "codepoint": 8221,
+        "glyph": "quotedblright",
+        "webapp": 646,
+        "ours": 645
+      },
+      {
+        "codepoint": 8250,
+        "glyph": "guilsinglright",
+        "webapp": 499,
+        "ours": 498
+      },
+      {
+        "codepoint": 8494,
+        "glyph": "estimated",
+        "webapp": 1657,
+        "ours": 1656
+      },
+      {
+        "codepoint": 8525,
+        "glyph": "aktieselskab",
+        "webapp": 1472,
+        "ours": 1471
+      },
+      {
+        "codepoint": 8526,
+        "glyph": "fturned",
+        "webapp": 776,
+        "ours": 775
+      },
+      {
+        "codepoint": 8532,
+        "glyph": "twothirds",
+        "webapp": 1387,
+        "ours": 1386
+      },
+      {
+        "codepoint": 8536,
+        "glyph": "fourfifths",
+        "webapp": 1384,
+        "ours": 1383
+      },
+      {
+        "codepoint": 8542,
+        "glyph": "seveneighths",
+        "webapp": 1285,
+        "ours": 1284
+      },
+      {
+        "codepoint": 8710,
+        "glyph": "increment",
+        "webapp": 1299,
+        "ours": 1298
+      },
+      {
+        "codepoint": 8992,
+        "glyph": "integraltp",
+        "webapp": 771,
+        "ours": 770
+      },
+      {
+        "codepoint": 8993,
+        "glyph": "integralbt",
+        "webapp": 771,
+        "ours": 770
+      },
+      {
+        "codepoint": 9642,
+        "glyph": "blackSmallSquare",
+        "webapp": 778,
+        "ours": 777
+      },
+      {
+        "codepoint": 9643,
+        "glyph": "whiteSmallSquare",
+        "webapp": 778,
+        "ours": 777
+      },
+      {
+        "codepoint": 9702,
+        "glyph": "whiteBullet",
+        "webapp": 778,
+        "ours": 777
+      },
+      {
+        "codepoint": 11363,
+        "glyph": "Pstroke",
+        "webapp": 1095,
+        "ours": 1094
+      },
+      {
+        "codepoint": 11364,
+        "glyph": "Rtail",
+        "webapp": 1127,
+        "ours": 1126
+      },
+      {
+        "codepoint": 11365,
+        "glyph": "astroke",
+        "webapp": 997,
+        "ours": 996
+      },
+      {
+        "codepoint": 64260,
+        "glyph": "f_f_l",
+        "webapp": 1604,
+        "ours": 1603
+      }
+    ],
+    "ss05_samples": {
+      "a": {
+        "webapp_glyphs": [
+          "a"
+        ],
+        "ours_glyphs": [
+          "a"
+        ],
+        "webapp_advance": 997,
+        "ours_advance": 997
+      },
+      "e": {
+        "webapp_glyphs": [
+          "e"
+        ],
+        "ours_glyphs": [
+          "e.ss05"
+        ],
+        "webapp_advance": 937,
+        "ours_advance": 937
+      },
+      "l": {
+        "webapp_glyphs": [
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05"
+        ],
+        "webapp_advance": 547,
+        "ours_advance": 497
+      },
+      "I": {
+        "webapp_glyphs": [
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "I.ss05"
+        ],
+        "webapp_advance": 726,
+        "ours_advance": 726
+      },
+      "J": {
+        "webapp_glyphs": [
+          "J"
+        ],
+        "ours_glyphs": [
+          "J"
+        ],
+        "webapp_advance": 781,
+        "ours_advance": 781
+      },
+      "la": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "a"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "a"
+        ],
+        "webapp_advance": 1544,
+        "ours_advance": 1486
+      },
+      "le": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "e"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "e.ss05"
+        ],
+        "webapp_advance": 1464,
+        "ours_advance": 1413
+      },
+      "lo": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "webapp_advance": 1554,
+        "ours_advance": 1525
+      },
+      "lJ": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "webapp_advance": 1328,
+        "ours_advance": 1338
+      },
+      "lI": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 1273,
+        "ours_advance": 1245
+      },
+      "fl": {
+        "webapp_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1163,
+        "ours_advance": 1113
+      },
+      "ffl": {
+        "webapp_glyphs": [
+          "f_f",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f_f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1741,
+        "ours_advance": 1691
+      },
+      "ffi": {
+        "webapp_glyphs": [
+          "f_f_i"
+        ],
+        "ours_glyphs": [
+          "f_f_i"
+        ],
+        "webapp_advance": 1558,
+        "ours_advance": 1558
+      },
+      "FillJitter": {
+        "webapp_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e",
+          "r"
+        ],
+        "ours_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e.ss05",
+          "r"
+        ],
+        "webapp_advance": 6587,
+        "ours_advance": 6550
+      },
+      "The quick brown fox jumps over the lazy dog.": {
+        "webapp_glyphs": [
+          "T",
+          "h",
+          "e",
+          "space",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "space",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "space",
+          "f",
+          "o",
+          "x",
+          "space",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "space",
+          "o",
+          "v",
+          "e",
+          "r",
+          "space",
+          "t",
+          "h",
+          "e",
+          "space",
+          "l.ss05",
+          "a",
+          "z",
+          "y",
+          "space",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "ours_glyphs": [
+          "T",
+          "h",
+          "e.ss05",
+          "space",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "space",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "space",
+          "f",
+          "o",
+          "x",
+          "space",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "space",
+          "o",
+          "v",
+          "e.ss05",
+          "r",
+          "space",
+          "t",
+          "h",
+          "e.ss05",
+          "space",
+          "l.ss05",
+          "a",
+          "z",
+          "y",
+          "space",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "webapp_advance": 36441,
+        "ours_advance": 36400
+      },
+      "A little elegant letter. Il1 lJ lI": {
+        "webapp_glyphs": [
+          "A",
+          "space",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e",
+          "space",
+          "e",
+          "l.ss05",
+          "e",
+          "g",
+          "a",
+          "n",
+          "t",
+          "space",
+          "l.ss05",
+          "e",
+          "t_t",
+          "e",
+          "r",
+          "period",
+          "space",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "space",
+          "l.ss05",
+          "J",
+          "space",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "A",
+          "space",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e.ss05",
+          "space",
+          "e.ss05",
+          "l.ss05",
+          "e.ss05",
+          "g",
+          "a",
+          "n",
+          "t",
+          "space",
+          "l.ss05",
+          "e.ss05",
+          "t_t",
+          "e.ss05",
+          "r",
+          "period",
+          "space",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "space",
+          "l.ss05",
+          "J",
+          "space",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 23578,
+        "ours_advance": 23308
+      }
+    },
+    "hint_tables_identical": {
+      "fpgm": false,
+      "prep": true,
+      "cvt ": false
+    },
+    "woff2_bytes": [
+      286212,
+      225496
+    ]
+  },
+  "Italic": {
+    "webapp_path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-italic.woff2",
+    "ours_path": "/Users/brownmatthew/git/lato-source/build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ttf",
+    "glyph_counts": [
+      3053,
+      3122
+    ],
+    "encoded_characters": [
+      2170,
+      2170
+    ],
+    "added_codepoints": [],
+    "removed_codepoints": [],
+    "line_metrics": {
+      "hhea.ascent": [
+        1974,
+        1974
+      ],
+      "hhea.descent": [
+        -426,
+        -426
+      ],
+      "hhea.lineGap": [
+        0,
+        0
+      ],
+      "OS/2.sTypoAscender": [
+        1610,
+        1610
+      ],
+      "OS/2.sTypoDescender": [
+        -390,
+        -390
+      ],
+      "OS/2.sTypoLineGap": [
+        400,
+        400
+      ],
+      "OS/2.usWinAscent": [
+        1974,
+        1974
+      ],
+      "OS/2.usWinDescent": [
+        426,
+        426
+      ]
+    },
+    "changed_default_advances": [
+      {
+        "codepoint": 106,
+        "glyph": "j",
+        "webapp": 458,
+        "ours": 459
+      },
+      {
+        "codepoint": 271,
+        "glyph": "dcaron",
+        "webapp": 1010,
+        "ours": 1107
+      },
+      {
+        "codepoint": 318,
+        "glyph": "lcaron",
+        "webapp": 390,
+        "ours": 500
+      },
+      {
+        "codepoint": 357,
+        "glyph": "tcaron",
+        "webapp": 659,
+        "ours": 709
+      },
+      {
+        "codepoint": 423,
+        "glyph": "Tonetwo",
+        "webapp": 1005,
+        "ours": 1006
+      },
+      {
+        "codepoint": 496,
+        "glyph": "jcaron",
+        "webapp": 458,
+        "ours": 459
+      },
+      {
+        "codepoint": 567,
+        "glyph": "jdotless",
+        "webapp": 458,
+        "ours": 459
+      },
+      {
+        "codepoint": 619,
+        "glyph": "lmiddletilde",
+        "webapp": 557,
+        "ours": 692
+      },
+      {
+        "codepoint": 641,
+        "glyph": "Rsmallinverted",
+        "webapp": 893,
+        "ours": 894
+      },
+      {
+        "codepoint": 645,
+        "glyph": "eshsquatreversed",
+        "webapp": 437,
+        "ours": 438
+      },
+      {
+        "codepoint": 680,
+        "glyph": "tccurl",
+        "webapp": 1371,
+        "ours": 1372
+      },
+      {
+        "codepoint": 956,
+        "glyph": "mu",
+        "webapp": 1109,
+        "ours": 1110
+      },
+      {
+        "codepoint": 957,
+        "glyph": "nu",
+        "webapp": 953,
+        "ours": 954
+      },
+      {
+        "codepoint": 1112,
+        "glyph": "je-cy",
+        "webapp": 458,
+        "ours": 459
+      },
+      {
+        "codepoint": 7433,
+        "glyph": "iTurned",
+        "webapp": 436,
+        "ours": 437
+      },
+      {
+        "codepoint": 7486,
+        "glyph": "Pmod",
+        "webapp": 613,
+        "ours": 614
+      },
+      {
+        "codepoint": 7532,
+        "glyph": "bmiddletilde",
+        "webapp": 1009,
+        "ours": 1057
+      },
+      {
+        "codepoint": 7533,
+        "glyph": "dmiddletilde",
+        "webapp": 1010,
+        "ours": 1058
+      },
+      {
+        "codepoint": 7534,
+        "glyph": "fmiddletilde",
+        "webapp": 656,
+        "ours": 704
+      },
+      {
+        "codepoint": 7535,
+        "glyph": "mmiddletilde",
+        "webapp": 1633,
+        "ours": 1729
+      },
+      {
+        "codepoint": 7537,
+        "glyph": "pmiddletilde",
+        "webapp": 1010,
+        "ours": 1057
+      },
+      {
+        "codepoint": 7538,
+        "glyph": "rmiddletilde",
+        "webapp": 702,
+        "ours": 740
+      },
+      {
+        "codepoint": 7539,
+        "glyph": "rfishhookmiddletilde",
+        "webapp": 732,
+        "ours": 865
+      },
+      {
+        "codepoint": 7541,
+        "glyph": "tmiddletilde",
+        "webapp": 698,
+        "ours": 744
+      },
+      {
+        "codepoint": 8244,
+        "glyph": "tripleprime",
+        "webapp": 1323,
+        "ours": 1324
+      },
+      {
+        "codepoint": 8367,
+        "glyph": "drachma",
+        "webapp": 2357,
+        "ours": 2358
+      }
+    ],
+    "ss05_samples": {
+      "a": {
+        "webapp_glyphs": [
+          "a"
+        ],
+        "ours_glyphs": [
+          "a"
+        ],
+        "webapp_advance": 1022,
+        "ours_advance": 1022
+      },
+      "e": {
+        "webapp_glyphs": [
+          "e"
+        ],
+        "ours_glyphs": [
+          "e.ss05"
+        ],
+        "webapp_advance": 957,
+        "ours_advance": 957
+      },
+      "l": {
+        "webapp_glyphs": [
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05"
+        ],
+        "webapp_advance": 581,
+        "ours_advance": 531
+      },
+      "I": {
+        "webapp_glyphs": [
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "I.ss05"
+        ],
+        "webapp_advance": 772,
+        "ours_advance": 772
+      },
+      "J": {
+        "webapp_glyphs": [
+          "J"
+        ],
+        "ours_glyphs": [
+          "J"
+        ],
+        "webapp_advance": 801,
+        "ours_advance": 801
+      },
+      "la": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "a"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "a"
+        ],
+        "webapp_advance": 1603,
+        "ours_advance": 1536
+      },
+      "le": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "e"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "e.ss05"
+        ],
+        "webapp_advance": 1518,
+        "ours_advance": 1452
+      },
+      "lo": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "webapp_advance": 1599,
+        "ours_advance": 1556
+      },
+      "lJ": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "webapp_advance": 1382,
+        "ours_advance": 1392
+      },
+      "lI": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 1353,
+        "ours_advance": 1326
+      },
+      "fl": {
+        "webapp_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1222,
+        "ours_advance": 1172
+      },
+      "ffl": {
+        "webapp_glyphs": [
+          "f_f",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f_f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1815,
+        "ours_advance": 1765
+      },
+      "ffi": {
+        "webapp_glyphs": [
+          "f_f_i"
+        ],
+        "ours_glyphs": [
+          "f_f_i"
+        ],
+        "webapp_advance": 1647,
+        "ours_advance": 1647
+      },
+      "FillJitter": {
+        "webapp_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e",
+          "r"
+        ],
+        "ours_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e.ss05",
+          "r"
+        ],
+        "webapp_advance": 6836,
+        "ours_advance": 6804
+      },
+      "The quick brown fox jumps over the lazy dog.": {
+        "webapp_glyphs": [
+          "T",
+          "h",
+          "e",
+          "space",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "space",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "space",
+          "f",
+          "o",
+          "x",
+          "space",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "space",
+          "o",
+          "v",
+          "e",
+          "r",
+          "space",
+          "t",
+          "h",
+          "e",
+          "space",
+          "l.ss05",
+          "a",
+          "z",
+          "y",
+          "space",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "ours_glyphs": [
+          "T",
+          "h",
+          "e.ss05",
+          "space",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "space",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "space",
+          "f",
+          "o",
+          "x",
+          "space",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "space",
+          "o",
+          "v",
+          "e.ss05",
+          "r",
+          "space",
+          "t",
+          "h",
+          "e.ss05",
+          "space",
+          "l.ss05",
+          "a",
+          "z",
+          "y",
+          "space",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "webapp_advance": 37067,
+        "ours_advance": 37039
+      },
+      "A little elegant letter. Il1 lJ lI": {
+        "webapp_glyphs": [
+          "A",
+          "space",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e",
+          "space",
+          "e",
+          "l.ss05",
+          "e",
+          "g",
+          "a",
+          "n",
+          "t",
+          "space",
+          "l.ss05",
+          "e",
+          "t_t",
+          "e",
+          "r",
+          "period",
+          "space",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "space",
+          "l.ss05",
+          "J",
+          "space",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "A",
+          "space",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e.ss05",
+          "space",
+          "e.ss05",
+          "l.ss05",
+          "e.ss05",
+          "g",
+          "a",
+          "n",
+          "t",
+          "space",
+          "l.ss05",
+          "e.ss05",
+          "t_t",
+          "e.ss05",
+          "r",
+          "period",
+          "space",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "space",
+          "l.ss05",
+          "J",
+          "space",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 24126,
+        "ours_advance": 23817
+      }
+    },
+    "hint_tables_identical": {
+      "fpgm": false,
+      "prep": true,
+      "cvt ": true
+    },
+    "woff2_bytes": [
+      293892,
+      232452
+    ]
+  },
+  "BoldItalic": {
+    "webapp_path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-italic-bold.woff2",
+    "ours_path": "/Users/brownmatthew/git/lato-source/build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ttf",
+    "glyph_counts": [
+      3053,
+      3122
+    ],
+    "encoded_characters": [
+      2170,
+      2170
+    ],
+    "added_codepoints": [],
+    "removed_codepoints": [],
+    "line_metrics": {
+      "hhea.ascent": [
+        1974,
+        1974
+      ],
+      "hhea.descent": [
+        -426,
+        -426
+      ],
+      "hhea.lineGap": [
+        0,
+        0
+      ],
+      "OS/2.sTypoAscender": [
+        1610,
+        1610
+      ],
+      "OS/2.sTypoDescender": [
+        -390,
+        -390
+      ],
+      "OS/2.sTypoLineGap": [
+        400,
+        400
+      ],
+      "OS/2.usWinAscent": [
+        1974,
+        1974
+      ],
+      "OS/2.usWinDescent": [
+        426,
+        426
+      ]
+    },
+    "changed_default_advances": [
+      {
+        "codepoint": 271,
+        "glyph": "dcaron",
+        "webapp": 1010,
+        "ours": 1150
+      },
+      {
+        "codepoint": 318,
+        "glyph": "lcaron",
+        "webapp": 390,
+        "ours": 548
+      },
+      {
+        "codepoint": 357,
+        "glyph": "tcaron",
+        "webapp": 659,
+        "ours": 731
+      },
+      {
+        "codepoint": 619,
+        "glyph": "lmiddletilde",
+        "webapp": 557,
+        "ours": 752
+      },
+      {
+        "codepoint": 7532,
+        "glyph": "bmiddletilde",
+        "webapp": 1009,
+        "ours": 1078
+      },
+      {
+        "codepoint": 7533,
+        "glyph": "dmiddletilde",
+        "webapp": 1010,
+        "ours": 1079
+      },
+      {
+        "codepoint": 7534,
+        "glyph": "fmiddletilde",
+        "webapp": 656,
+        "ours": 725
+      },
+      {
+        "codepoint": 7535,
+        "glyph": "mmiddletilde",
+        "webapp": 1633,
+        "ours": 1771
+      },
+      {
+        "codepoint": 7537,
+        "glyph": "pmiddletilde",
+        "webapp": 1010,
+        "ours": 1078
+      },
+      {
+        "codepoint": 7538,
+        "glyph": "rmiddletilde",
+        "webapp": 702,
+        "ours": 757
+      },
+      {
+        "codepoint": 7539,
+        "glyph": "rfishhookmiddletilde",
+        "webapp": 732,
+        "ours": 925
+      },
+      {
+        "codepoint": 7541,
+        "glyph": "tmiddletilde",
+        "webapp": 698,
+        "ours": 764
+      },
+      {
+        "codepoint": 8486,
+        "glyph": "Ohm",
+        "webapp": 1426,
+        "ours": 1427
+      }
+    ],
+    "ss05_samples": {
+      "a": {
+        "webapp_glyphs": [
+          "a"
+        ],
+        "ours_glyphs": [
+          "a"
+        ],
+        "webapp_advance": 1042,
+        "ours_advance": 1042
+      },
+      "e": {
+        "webapp_glyphs": [
+          "e"
+        ],
+        "ours_glyphs": [
+          "e.ss05"
+        ],
+        "webapp_advance": 974,
+        "ours_advance": 974
+      },
+      "l": {
+        "webapp_glyphs": [
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05"
+        ],
+        "webapp_advance": 608,
+        "ours_advance": 559
+      },
+      "I": {
+        "webapp_glyphs": [
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "I.ss05"
+        ],
+        "webapp_advance": 809,
+        "ours_advance": 809
+      },
+      "J": {
+        "webapp_glyphs": [
+          "J"
+        ],
+        "ours_glyphs": [
+          "J"
+        ],
+        "webapp_advance": 818,
+        "ours_advance": 818
+      },
+      "la": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "a"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "a"
+        ],
+        "webapp_advance": 1650,
+        "ours_advance": 1569
+      },
+      "le": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "e"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "e.ss05"
+        ],
+        "webapp_advance": 1562,
+        "ours_advance": 1512
+      },
+      "lo": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "webapp_advance": 1635,
+        "ours_advance": 1609
+      },
+      "lJ": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "webapp_advance": 1426,
+        "ours_advance": 1437
+      },
+      "lI": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 1417,
+        "ours_advance": 1392
+      },
+      "fl": {
+        "webapp_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1270,
+        "ours_advance": 1221
+      },
+      "ffl": {
+        "webapp_glyphs": [
+          "f_f",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f_f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1875,
+        "ours_advance": 1826
+      },
+      "ffi": {
+        "webapp_glyphs": [
+          "f_f_i"
+        ],
+        "ours_glyphs": [
+          "f_f_i"
+        ],
+        "webapp_advance": 1720,
+        "ours_advance": 1720
+      },
+      "FillJitter": {
+        "webapp_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e",
+          "r"
+        ],
+        "ours_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e.ss05",
+          "r"
+        ],
+        "webapp_advance": 7042,
+        "ours_advance": 7016
+      },
+      "The quick brown fox jumps over the lazy dog.": {
+        "webapp_glyphs": [
+          "T",
+          "h",
+          "e",
+          "space",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "space",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "space",
+          "f",
+          "o",
+          "x",
+          "space",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "space",
+          "o",
+          "v",
+          "e",
+          "r",
+          "space",
+          "t",
+          "h",
+          "e",
+          "space",
+          "l.ss05",
+          "a",
+          "z",
+          "y",
+          "space",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "ours_glyphs": [
+          "T",
+          "h",
+          "e.ss05",
+          "space",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "space",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "space",
+          "f",
+          "o",
+          "x",
+          "space",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "space",
+          "o",
+          "v",
+          "e.ss05",
+          "r",
+          "space",
+          "t",
+          "h",
+          "e.ss05",
+          "space",
+          "l.ss05",
+          "a",
+          "z",
+          "y",
+          "space",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "webapp_advance": 37594,
+        "ours_advance": 37569
+      },
+      "A little elegant letter. Il1 lJ lI": {
+        "webapp_glyphs": [
+          "A",
+          "space",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e",
+          "space",
+          "e",
+          "l.ss05",
+          "e",
+          "g",
+          "a",
+          "n",
+          "t",
+          "space",
+          "l.ss05",
+          "e",
+          "t_t",
+          "e",
+          "r",
+          "period",
+          "space",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "space",
+          "l.ss05",
+          "J",
+          "space",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "A",
+          "space",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e.ss05",
+          "space",
+          "e.ss05",
+          "l.ss05",
+          "e.ss05",
+          "g",
+          "a",
+          "n",
+          "t",
+          "space",
+          "l.ss05",
+          "e.ss05",
+          "t_t",
+          "e.ss05",
+          "r",
+          "period",
+          "space",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "space",
+          "l.ss05",
+          "J",
+          "space",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 24578,
+        "ours_advance": 24326
+      }
+    },
+    "hint_tables_identical": {
+      "fpgm": false,
+      "prep": true,
+      "cvt ": true
+    },
+    "woff2_bytes": [
+      295540,
+      235616
+    ]
+  },
+  "BlackItalic": {
+    "webapp_path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-italic-black.woff2",
+    "ours_path": "/Users/brownmatthew/git/lato-source/build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.ttf",
+    "glyph_counts": [
+      3053,
+      3122
+    ],
+    "encoded_characters": [
+      2170,
+      2170
+    ],
+    "added_codepoints": [],
+    "removed_codepoints": [],
+    "line_metrics": {
+      "hhea.ascent": [
+        1974,
+        1974
+      ],
+      "hhea.descent": [
+        -426,
+        -426
+      ],
+      "hhea.lineGap": [
+        0,
+        0
+      ],
+      "OS/2.sTypoAscender": [
+        1610,
+        1610
+      ],
+      "OS/2.sTypoDescender": [
+        -390,
+        -390
+      ],
+      "OS/2.sTypoLineGap": [
+        400,
+        400
+      ],
+      "OS/2.usWinAscent": [
+        1974,
+        1974
+      ],
+      "OS/2.usWinDescent": [
+        426,
+        426
+      ]
+    },
+    "changed_default_advances": [
+      {
+        "codepoint": 271,
+        "glyph": "dcaron",
+        "webapp": 1010,
+        "ours": 1190
+      },
+      {
+        "codepoint": 318,
+        "glyph": "lcaron",
+        "webapp": 390,
+        "ours": 593
+      },
+      {
+        "codepoint": 357,
+        "glyph": "tcaron",
+        "webapp": 659,
+        "ours": 751
+      },
+      {
+        "codepoint": 619,
+        "glyph": "lmiddletilde",
+        "webapp": 557,
+        "ours": 807
+      },
+      {
+        "codepoint": 7532,
+        "glyph": "bmiddletilde",
+        "webapp": 1009,
+        "ours": 1097
+      },
+      {
+        "codepoint": 7533,
+        "glyph": "dmiddletilde",
+        "webapp": 1010,
+        "ours": 1098
+      },
+      {
+        "codepoint": 7534,
+        "glyph": "fmiddletilde",
+        "webapp": 656,
+        "ours": 744
+      },
+      {
+        "codepoint": 7535,
+        "glyph": "mmiddletilde",
+        "webapp": 1633,
+        "ours": 1810
+      },
+      {
+        "codepoint": 7537,
+        "glyph": "pmiddletilde",
+        "webapp": 1010,
+        "ours": 1097
+      },
+      {
+        "codepoint": 7538,
+        "glyph": "rmiddletilde",
+        "webapp": 702,
+        "ours": 773
+      },
+      {
+        "codepoint": 7539,
+        "glyph": "rfishhookmiddletilde",
+        "webapp": 732,
+        "ours": 979
+      },
+      {
+        "codepoint": 7541,
+        "glyph": "tmiddletilde",
+        "webapp": 698,
+        "ours": 783
+      }
+    ],
+    "ss05_samples": {
+      "a": {
+        "webapp_glyphs": [
+          "a"
+        ],
+        "ours_glyphs": [
+          "a"
+        ],
+        "webapp_advance": 1061,
+        "ours_advance": 1061
+      },
+      "e": {
+        "webapp_glyphs": [
+          "e"
+        ],
+        "ours_glyphs": [
+          "e.ss05"
+        ],
+        "webapp_advance": 989,
+        "ours_advance": 989
+      },
+      "l": {
+        "webapp_glyphs": [
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05"
+        ],
+        "webapp_advance": 634,
+        "ours_advance": 584
+      },
+      "I": {
+        "webapp_glyphs": [
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "I.ss05"
+        ],
+        "webapp_advance": 844,
+        "ours_advance": 844
+      },
+      "J": {
+        "webapp_glyphs": [
+          "J"
+        ],
+        "ours_glyphs": [
+          "J"
+        ],
+        "webapp_advance": 833,
+        "ours_advance": 833
+      },
+      "la": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "a"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "a"
+        ],
+        "webapp_advance": 1695,
+        "ours_advance": 1633
+      },
+      "le": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "e"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "e.ss05"
+        ],
+        "webapp_advance": 1603,
+        "ours_advance": 1564
+      },
+      "lo": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "o"
+        ],
+        "webapp_advance": 1669,
+        "ours_advance": 1654
+      },
+      "lJ": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "J"
+        ],
+        "webapp_advance": 1467,
+        "ours_advance": 1477
+      },
+      "lI": {
+        "webapp_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 1478,
+        "ours_advance": 1453
+      },
+      "fl": {
+        "webapp_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1315,
+        "ours_advance": 1265
+      },
+      "ffl": {
+        "webapp_glyphs": [
+          "f_f",
+          "l.ss05"
+        ],
+        "ours_glyphs": [
+          "f_f",
+          "l.ss05"
+        ],
+        "webapp_advance": 1932,
+        "ours_advance": 1882
+      },
+      "ffi": {
+        "webapp_glyphs": [
+          "f_f_i"
+        ],
+        "ours_glyphs": [
+          "f_f_i"
+        ],
+        "webapp_advance": 1787,
+        "ours_advance": 1787
+      },
+      "FillJitter": {
+        "webapp_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e",
+          "r"
+        ],
+        "ours_glyphs": [
+          "F",
+          "i",
+          "l.ss05",
+          "l.ss05",
+          "J",
+          "i",
+          "t_t",
+          "e.ss05",
+          "r"
+        ],
+        "webapp_advance": 7232,
+        "ours_advance": 7218
+      },
+      "The quick brown fox jumps over the lazy dog.": {
+        "webapp_glyphs": [
+          "T",
+          "h",
+          "e",
+          "space",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "space",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "space",
+          "f",
+          "o",
+          "x",
+          "space",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "space",
+          "o",
+          "v",
+          "e",
+          "r",
+          "space",
+          "t",
+          "h",
+          "e",
+          "space",
+          "l.ss05",
+          "a",
+          "z",
+          "y",
+          "space",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "ours_glyphs": [
+          "T",
+          "h",
+          "e.ss05",
+          "space",
+          "q",
+          "u",
+          "i",
+          "c",
+          "k",
+          "space",
+          "b",
+          "r",
+          "o",
+          "w",
+          "n",
+          "space",
+          "f",
+          "o",
+          "x",
+          "space",
+          "j",
+          "u",
+          "m",
+          "p",
+          "s",
+          "space",
+          "o",
+          "v",
+          "e.ss05",
+          "r",
+          "space",
+          "t",
+          "h",
+          "e.ss05",
+          "space",
+          "l.ss05",
+          "a",
+          "z",
+          "y",
+          "space",
+          "d",
+          "o",
+          "g",
+          "period"
+        ],
+        "webapp_advance": 38065,
+        "ours_advance": 38073
+      },
+      "A little elegant letter. Il1 lJ lI": {
+        "webapp_glyphs": [
+          "A",
+          "space",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e",
+          "space",
+          "e",
+          "l.ss05",
+          "e",
+          "g",
+          "a",
+          "n",
+          "t",
+          "space",
+          "l.ss05",
+          "e",
+          "t_t",
+          "e",
+          "r",
+          "period",
+          "space",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "space",
+          "l.ss05",
+          "J",
+          "space",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "ours_glyphs": [
+          "A",
+          "space",
+          "l.ss05",
+          "i",
+          "t_t",
+          "l.ss05",
+          "e.ss05",
+          "space",
+          "e.ss05",
+          "l.ss05",
+          "e.ss05",
+          "g",
+          "a",
+          "n",
+          "t",
+          "space",
+          "l.ss05",
+          "e.ss05",
+          "t_t",
+          "e.ss05",
+          "r",
+          "period",
+          "space",
+          "I.ss05",
+          "l.ss05",
+          "one",
+          "space",
+          "l.ss05",
+          "J",
+          "space",
+          "l.ss05",
+          "I.ss05"
+        ],
+        "webapp_advance": 24994,
+        "ours_advance": 24774
+      }
+    },
+    "hint_tables_identical": {
+      "fpgm": false,
+      "prep": true,
+      "cvt ": true
+    },
+    "woff2_bytes": [
+      286108,
+      222856
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "static_fonts": 36,
+  "interpolatable_masters": 4,
+  "carlito_fonts": 2,
+  "glyph_rasterizations": 128214,
+  "baseline_comparison": false,
+  "ae_master_joins_checked": 12,
+  "spacing_shaped_pairs": 0,
+  "doubled_l_shaping_checks": 0,
+  "matched_e_o_gaps": 1116,
+  "matched_e_c_gaps": 1116,
+  "regular_a_matches_reference_exactly": true,
+  "regular_e_matches_authored_conversion": true,
+  "status": "passed"
+}

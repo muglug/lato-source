@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "baseline": "fa8106811",
+  "increase_font_units": 25,
+  "styles": [
+    "Upr",
+    "Ita"
+  ],
+  "weights": [
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    900
+  ],
+  "unchanged": [
+    "outlines",
+    "advances",
+    "substitutions",
+    "default kerning",
+    "other ss05 pairs"
+  ]
+}

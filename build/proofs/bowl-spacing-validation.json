@@ -1,0 +1,211 @@
+{
+  "fonts": [
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.ttf",
+      "sha256": "94b65b9f240d671f7069be8a92f32c7ebf0785f98c67f611367baea5c493c0bb",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ttf",
+      "sha256": "d8b10114e631544668a0065eda9fc0ad5c59b368f2830006c2301ce8949e0299",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HairlineItalic.ttf",
+      "sha256": "1e89d064732338b323bda5fa9ef492f7aec713773abe3858044fbdea0e9d96de",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HeavyItalic.ttf",
+      "sha256": "31f091e74a3a8419db5a33969e588772dbfa1488257eeb11a7bc073b81bb5825",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ttf",
+      "sha256": "a2a9ce566a241dd5761293ce1400d360c9568bbe38276c53c1faac45ee0381fe",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-LightItalic.ttf",
+      "sha256": "370b47ef7e8c34c34213d5bed5d5cb979c7a88733a82d15ddc70978980af23a2",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-MediumItalic.ttf",
+      "sha256": "95ef7f1d5e5fbd405efa47ff9385855fb7ca5eabe2d3fb7a65afedb489b87f88",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-SemiboldItalic.ttf",
+      "sha256": "c48b7b4e7e48c0de7626b463bd21c931194aa685867ce0a5efbfc7b0b55553af",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-ThinItalic.ttf",
+      "sha256": "40349c44ec0c8e40dac2c7772ccd1b78e2594b7a3f016fe9df88a361cc759b57",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26.~VF/master_ttf_interpolatable/Lato26-BlackItalic.ttf",
+      "sha256": "bb47cb1124a2992286cb64a12f7d23aa6abb4245414b017838eb5429d58c808f",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26.~VF/master_ttf_interpolatable/Lato26-HairlineItalic.ttf",
+      "sha256": "94d31eaf73ff1e38fd42c45d1466d60d3f55653b0358ae9874d239e5a686c33b",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.ttf",
+      "sha256": "922a5c67bba5120bc6de7279ac88a57ece6225d4bd3dbfcdcff38d92d79cb825",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
+      "sha256": "eee88d338fc7bc04047fa5c6c44f19c6b19a9fdad804feec0448a7746d07d68d",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Hairline.ttf",
+      "sha256": "97ad4fa59e2da4f18f4428374498add96e9d371de1f4ac1aeed04f036f752c41",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Heavy.ttf",
+      "sha256": "2aec8500e7ac1becb3e938415079f8d72c662979ec33601800dd8c67c2e95e81",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Light.ttf",
+      "sha256": "164806e589cf0f6ac10fa7d3945f3f68cc945839293dbf5b68ce5ec20c0698a7",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Medium.ttf",
+      "sha256": "9b1f4dfd9d86661dd078138fb4500c9a1018ed3b2b2f59ce7898ed5770b3111d",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
+      "sha256": "65ab13563391784fd566496e0ced930c37f4cc7193df71c01045a41752a1c4f7",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Semibold.ttf",
+      "sha256": "66b0e05da0df90f32d1a1b5b91a10f1b49f9f9ab6e068c61255ca8b74c36c011",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Thin.ttf",
+      "sha256": "d4bb0268042099f786b02be6747bd88117aecfebe8aa47b4d697cd0a690d9555",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26.~VF/master_ttf_interpolatable/Lato26-Black.ttf",
+      "sha256": "6b85189debf0c8737f0733cccd7cd21064cecbe0e867ff8585ccae3cd543b79d",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26.~VF/master_ttf_interpolatable/Lato26-Hairline.ttf",
+      "sha256": "c979603735fdf57447d9a59ade013228bb1f165650abe0e8369939398873d7c9",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.otf",
+      "sha256": "ade4785512a0a508618263b63c1e99d69c35ff97c7deea40980cfe626c3129bc",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.otf",
+      "sha256": "0d7ce162881065f7485aa5b1e24eda9c4f156f70005b609e03a71e82a524a573",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HairlineItalic.otf",
+      "sha256": "9429d3b0db3bc6742cd7e55e2fedfc843fc7baf727b58a934ecf91decaa87a1f",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HeavyItalic.otf",
+      "sha256": "d516ad36f7779427fb037709cbf34f357bf1342d85d679633262cc2e27de30b3",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.otf",
+      "sha256": "bdbe4b4f7bad65a3ea2214f458f983566b5fa528e3c4c3be9b0dffe73a81bb21",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-LightItalic.otf",
+      "sha256": "3da7152808131dc469ce342177c9609c98e51fcf38a98eb8664e6d9cc5ed2844",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-MediumItalic.otf",
+      "sha256": "5298f66141752cc50ba485dfafed04ce9f1ec13358e9ec5d3887c1c85dab8c72",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-SemiboldItalic.otf",
+      "sha256": "2f20e41965f25e488d61df0513dce522331beed6591b99df2d5742b8350e66b1",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-ThinItalic.otf",
+      "sha256": "faffdd92a1e24db53e322e541374d7064e94800d349dd8c6f8074633ca1c21e7",
+      "revision_pairs": 6634
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.otf",
+      "sha256": "7d115f3aa33ba438a465d20ce47479278f8d7254a1d22799c1dfce90855d1765",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.otf",
+      "sha256": "43ac35c8d2212e83ace1a70f4ceb93a0daf9e451dfb366f7cd1cca0c1dd74d47",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Hairline.otf",
+      "sha256": "21447b388e1b3adbb990bd298ada02ea84220410a92d9b3b39b09e5ba7b7a6cb",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Heavy.otf",
+      "sha256": "79e0c82e598c10a229c0907a6bc19ea225a2cc2400e8f0cf3f874670b59dca62",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Light.otf",
+      "sha256": "bb27dc1ebe9009c1169fa63b3cffb89f49ee9e710d19c67db86c56fbfc97e06b",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Medium.otf",
+      "sha256": "c5b9c633044638cd3f303810f6abbe6fd1efd3d48b744b622ddb8f97f73abc22",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.otf",
+      "sha256": "453ee8f0a78123dcc6a77858fee2b0050b27d6b7004339dda5d085bbdfc43b81",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Semibold.otf",
+      "sha256": "2996d6ca9201c4118988bcd049fd720d49e058ea8ef1db645cf820b3bcd106c2",
+      "revision_pairs": 6665
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Thin.otf",
+      "sha256": "3283eec0595f2328767522514d8bc401743323eb3c893bb2088c069eb527256e",
+      "revision_pairs": 6665
+    }
+  ],
+  "pair_adjustments_checked": 265980,
+  "shaped_pairs": 1260,
+  "source_files_checked": 5,
+  "preserved": "Every non-GPOS table; head differs only in checksum. Includes all outlines, hint bytes, advances and original layout lookups.",
+  "status": "passed",
+  "font_count": 40,
+  "archive_fonts": 38
+}

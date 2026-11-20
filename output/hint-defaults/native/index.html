@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>Shipping build comparison</title>
+<style>body{font:16px system-ui;margin:24px;color:#172332}img{max-width:none}</style>
+<h1>Shipping build comparison: native</h1>
+<p>Webapp v3 versus our current build recipe: ttfautohint 1.8.4.16, qsq stem fitting with Latin fallback. No experimental font variants. Our lJ +60 / lI +40 spacing and ss05 forms are preserved. Both fonts retain tt, fi, and ffi ligatures; our ss05 fl and ffl use a separate l.
+Webapp v3 is a reference, not a same-outline control. No shipped files were changed.</p>
+<p>FreeType simulation, NOT Windows DirectWrite. ss05 ON; gamma 1.8.
+Native sheets use 1 image pixel per sample pixel; details use 3x nearest-neighbor enlargement.</p>
+<ul><li><a href="screen-100.png">screen-100.png</a></li><li><a href="detail-Regular.png">detail-Regular.png</a></li><li><a href="detail-Bold.png">detail-Bold.png</a></li><li><a href="detail-Italic.png">detail-Italic.png</a></li><li><a href="detail-BoldItalic.png">detail-BoldItalic.png</a></li><li><a href="../report.json">Measurements and validation</a></li></ul>
+<img src="screen-100.png" alt="Shipping build comparison: webapp v3 and Lato26 at six screen sizes">
+</html>

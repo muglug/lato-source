@@ -1,0 +1,156 @@
+{
+  "options": [
+    "--no-info",
+    "--ttfa-table",
+    "--stem-width-mode=qsq",
+    "--fallback-script=latn"
+  ],
+  "fonts": [
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Hairline.ttf",
+      "before_sha256": "57fa766471477c29f9c50942d61312505bdf72c586458c15e9bf1f341edbc21a",
+      "after_sha256": "d4d54f4590927e90b5ecba690d1e396caec7bba735429baa83bcd09b7acacce1",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Thin.ttf",
+      "before_sha256": "499775cda95072fe19a7ec44d803f55be3449f92c2d2233594badf0189f5241b",
+      "after_sha256": "25b2be8ecec78fd5735d8b6e7ef5cb9802698a58f666892aef2fc31d3dd9952d",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Light.ttf",
+      "before_sha256": "094dd65faf19d5f605bed056e026335b5cb2e6434d39a7d02c3d0a50c23a8ded",
+      "after_sha256": "b0757b14bad769ef2f784e180eb532097154aba095c56fefa0bf52dd16091ea3",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
+      "before_sha256": "71ed594a1f5eaf70b33631f3cd222f30c851c642e20895f0abb571f3dcd2fda9",
+      "after_sha256": "9d3bb132ee0698efe38b9353678cd8f095b8ed223b795207a8bcd63c88633018",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Medium.ttf",
+      "before_sha256": "5dc130bcbd0cd42dbc5bcd1215f3fe31d9f54b18b184c32030b50d8f4746108c",
+      "after_sha256": "7b74744d77ec452e6ff43cfe35f0c40abf27462cc3a8e14750270838e7f9dfaa",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Semibold.ttf",
+      "before_sha256": "9c0b98f88acbbbdba291020b9d23bcb36aa9a3dbeded60de49179608d2ee5218",
+      "after_sha256": "35f0cc383e6c96e9dbf883c015e8862cd1bf73f53bb8ad5bc78ef44ecce40b42",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
+      "before_sha256": "f47351bed44edae0e20a04c39804e774cfcc58a8353f77f84af26474a2a145aa",
+      "after_sha256": "8c6f34d6b11924dc02c1833d33346d76e21e8109149d43716f73f82c30be5d09",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Heavy.ttf",
+      "before_sha256": "8bc8ac38e15ae0126c716eb9ac29840203c85ea87d0814cb8dc3773512f7b18e",
+      "after_sha256": "d667c6021540687f8a56cf30b851265e6654734d741ad7fa800376df5c60ce85",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.ttf",
+      "before_sha256": "9bd597da00728227c3017778087928cc6b003c03aa142958262fe2521fef4644",
+      "after_sha256": "8779ea5c1a8fd74f561d740e667ac23b858c918cab5b6130fc00a974be239b3b",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Carlito26/Carlito26-Light.ttf",
+      "before_sha256": "4b79856203527f2b80a6229ff547ada01ac10b44977486240699268b94af1548",
+      "after_sha256": "4363a45f2dd71455436ba070c8a77fb26273d5b1ba3283d2818444f040d88e61",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HairlineItalic.ttf",
+      "before_sha256": "35438e8b31de1bfd28ac671a0207c1ce3ffda1343248e758a3e06d7863cb3715",
+      "after_sha256": "e13d4d0a1051b92ea0b8f5266afa17faa5fe18ef796301ecb65e6fdd8203f331",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-ThinItalic.ttf",
+      "before_sha256": "e16607e983be535d1a0cf02ebad459a0bb4183ec274ee0697598c258fd220062",
+      "after_sha256": "32a5208c25871198fefcd5158820bdc74ec0e1abba65add2c5e2d4afa7f9485d",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-LightItalic.ttf",
+      "before_sha256": "85f5d8932865573650ee174c4ef5a7b6e60f86caccf9d24baeb209ad47e44cb7",
+      "after_sha256": "e8159bdb3a9dcb4c2b611304e9051175fda76d851ef1c34e4fab40d14ecdd485",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ttf",
+      "before_sha256": "31c6756d9511a2ed309bbb1fc9d3ee5aa62a114bf27627d288a088e9f205ffad",
+      "after_sha256": "8eeced038cce9f89a08d1d6ec708f95cfdcefef8d12aff112db1250f6c7dfa55",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-MediumItalic.ttf",
+      "before_sha256": "7b6d104fe725e6c18d5f9134c6acee2d3f648ad23a4c5c6e56b2e11175bcbfd5",
+      "after_sha256": "1534ad5c94f4b754df2797c55318fdbe57ad91995824a1bff11e771049ed6c28",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-SemiboldItalic.ttf",
+      "before_sha256": "691dc481f57c6f68000728683273a8eb53db6fcf21c99a84de4711f67f43705e",
+      "after_sha256": "90caff7c8874241b4d6d56e2a39576b7b9a3ca49e7fb42ba2d74766303e2e1f5",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ttf",
+      "before_sha256": "804e3d814ee4da9e67b0f8577d1eb8c56584176158ef09d2734469b3af887341",
+      "after_sha256": "d653e701493062fc5ccc21892b8ee7d2d1c41ec6c4adf583db674f9844994cdf",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HeavyItalic.ttf",
+      "before_sha256": "ad4cfc4a6d5a3005c528fa362dcdceb13f1b6ac64884d2a1c0f6d142aef15754",
+      "after_sha256": "f6077065b6c5bbb547119f1b520555e88509a59863060c806460505550e6f346",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.ttf",
+      "before_sha256": "f76b403ea8895f7cd4236defec7ef90770d7cf6a9bb095908bd2538c009c216a",
+      "after_sha256": "fd041dc375262181a09d6bd879685c62cf18b4c1d85c4b5d9b7a39dc5471b955",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    },
+    {
+      "path": "build/Carlito26/Carlito26-LightItalic.ttf",
+      "before_sha256": "4f2a1a660d1593c820b709bf6d2ffbb5d59d939d98e677f60f478bf329471cf2",
+      "after_sha256": "a3d2da1afa22476dd08ef140906d46ec2992e3de192983250859f82960c23229",
+      "outlines_metrics_layout_names_preserved": true,
+      "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+    }
+  ],
+  "status": "passed",
+  "validation": {
+    "unchanged_variable_otf_specimen_webapp_files": 35,
+    "archive_fonts_match": 20,
+    "bold_e_ss05_18px_crossbar_thickness": 1.828125
+  }
+}

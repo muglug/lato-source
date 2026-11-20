@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "revision": "Black at three times its original punctuation allowance; Heavy halfway between current Bold and Black",
+  "revision_checks": {
+    "bold_and_lighter_static_fonts_byte_identical": 30,
+    "glyphs_source_changes": "Black punctuation kerning only; outline and width data unchanged",
+    "unchanged_variable_weights_checked": [
+      100,
+      125,
+      150,
+      175,
+      200,
+      225,
+      250,
+      275,
+      300,
+      325,
+      350,
+      375,
+      400,
+      425,
+      450,
+      475,
+      500,
+      525,
+      550,
+      575,
+      600,
+      625,
+      650,
+      675,
+      700
+    ],
+    "variable_black_allowance": 60,
+    "variable_heavy_allowance_period_group": 46,
+    "variable_heavy_allowance_colon_group": 50,
+    "variable_replacement_idempotent": true,
+    "native_hinting_raster_samples": 20
+  },
+  "proof_pages": 4,
+  "files": {
+    "build/Lato26-Desktop.zip": "d54936d352f658ae7e5fb367c28355aa3842ad2943320fbc76623b1738edc295",
+    "build/Lato26-Variable.zip": "3f52678aa405d9681f4c540be5be7f44923586580d7c82222a01bc4c8f4696e6",
+    "output/pdf/Lato26-Punctuation-Spacing.pdf": "a4cfd86c3f5e95ca65f05bd5fba177cda384bd3b4a5cbe12e0c6f33db4b4cd34",
+    "build/proofs/l-punctuation-validation.json": "e5d2af3d8250f4fbe4db89f68de85fb0efd75af1cc9a9f06342f6ba3036a9eef"
+  }
+}

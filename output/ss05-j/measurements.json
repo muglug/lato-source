@@ -1,0 +1,482 @@
+{
+  "baseline": "3cb00ee1b",
+  "status": "passed",
+  "pairs": [
+    {
+      "style": "Upright",
+      "weight": 100,
+      "pair": "lJ",
+      "before_advance": 1301,
+      "current_advance": 1361
+    },
+    {
+      "style": "Upright",
+      "weight": 100,
+      "pair": "lI",
+      "before_advance": 1171,
+      "current_advance": 1211
+    },
+    {
+      "style": "Upright",
+      "weight": 150,
+      "pair": "lJ",
+      "before_advance": 1309,
+      "current_advance": 1369
+    },
+    {
+      "style": "Upright",
+      "weight": 150,
+      "pair": "lI",
+      "before_advance": 1179,
+      "current_advance": 1219
+    },
+    {
+      "style": "Upright",
+      "weight": 200,
+      "pair": "lJ",
+      "before_advance": 1316,
+      "current_advance": 1376
+    },
+    {
+      "style": "Upright",
+      "weight": 200,
+      "pair": "lI",
+      "before_advance": 1188,
+      "current_advance": 1228
+    },
+    {
+      "style": "Upright",
+      "weight": 250,
+      "pair": "lJ",
+      "before_advance": 1328,
+      "current_advance": 1388
+    },
+    {
+      "style": "Upright",
+      "weight": 250,
+      "pair": "lI",
+      "before_advance": 1201,
+      "current_advance": 1241
+    },
+    {
+      "style": "Upright",
+      "weight": 300,
+      "pair": "lJ",
+      "before_advance": 1339,
+      "current_advance": 1399
+    },
+    {
+      "style": "Upright",
+      "weight": 300,
+      "pair": "lI",
+      "before_advance": 1214,
+      "current_advance": 1254
+    },
+    {
+      "style": "Upright",
+      "weight": 350,
+      "pair": "lJ",
+      "before_advance": 1360,
+      "current_advance": 1420
+    },
+    {
+      "style": "Upright",
+      "weight": 350,
+      "pair": "lI",
+      "before_advance": 1237,
+      "current_advance": 1277
+    },
+    {
+      "style": "Upright",
+      "weight": 400,
+      "pair": "lJ",
+      "before_advance": 1382,
+      "current_advance": 1442
+    },
+    {
+      "style": "Upright",
+      "weight": 400,
+      "pair": "lI",
+      "before_advance": 1262,
+      "current_advance": 1302
+    },
+    {
+      "style": "Upright",
+      "weight": 450,
+      "pair": "lJ",
+      "before_advance": 1387,
+      "current_advance": 1447
+    },
+    {
+      "style": "Upright",
+      "weight": 450,
+      "pair": "lI",
+      "before_advance": 1267,
+      "current_advance": 1307
+    },
+    {
+      "style": "Upright",
+      "weight": 500,
+      "pair": "lJ",
+      "before_advance": 1392,
+      "current_advance": 1452
+    },
+    {
+      "style": "Upright",
+      "weight": 500,
+      "pair": "lI",
+      "before_advance": 1273,
+      "current_advance": 1313
+    },
+    {
+      "style": "Upright",
+      "weight": 550,
+      "pair": "lJ",
+      "before_advance": 1396,
+      "current_advance": 1456
+    },
+    {
+      "style": "Upright",
+      "weight": 550,
+      "pair": "lI",
+      "before_advance": 1278,
+      "current_advance": 1318
+    },
+    {
+      "style": "Upright",
+      "weight": 600,
+      "pair": "lJ",
+      "before_advance": 1401,
+      "current_advance": 1461
+    },
+    {
+      "style": "Upright",
+      "weight": 600,
+      "pair": "lI",
+      "before_advance": 1283,
+      "current_advance": 1323
+    },
+    {
+      "style": "Upright",
+      "weight": 650,
+      "pair": "lJ",
+      "before_advance": 1411,
+      "current_advance": 1471
+    },
+    {
+      "style": "Upright",
+      "weight": 650,
+      "pair": "lI",
+      "before_advance": 1293,
+      "current_advance": 1333
+    },
+    {
+      "style": "Upright",
+      "weight": 700,
+      "pair": "lJ",
+      "before_advance": 1419,
+      "current_advance": 1479
+    },
+    {
+      "style": "Upright",
+      "weight": 700,
+      "pair": "lI",
+      "before_advance": 1302,
+      "current_advance": 1342
+    },
+    {
+      "style": "Upright",
+      "weight": 750,
+      "pair": "lJ",
+      "before_advance": 1427,
+      "current_advance": 1487
+    },
+    {
+      "style": "Upright",
+      "weight": 750,
+      "pair": "lI",
+      "before_advance": 1310,
+      "current_advance": 1350
+    },
+    {
+      "style": "Upright",
+      "weight": 800,
+      "pair": "lJ",
+      "before_advance": 1434,
+      "current_advance": 1494
+    },
+    {
+      "style": "Upright",
+      "weight": 800,
+      "pair": "lI",
+      "before_advance": 1320,
+      "current_advance": 1360
+    },
+    {
+      "style": "Upright",
+      "weight": 850,
+      "pair": "lJ",
+      "before_advance": 1443,
+      "current_advance": 1503
+    },
+    {
+      "style": "Upright",
+      "weight": 850,
+      "pair": "lI",
+      "before_advance": 1329,
+      "current_advance": 1369
+    },
+    {
+      "style": "Upright",
+      "weight": 900,
+      "pair": "lJ",
+      "before_advance": 1452,
+      "current_advance": 1512
+    },
+    {
+      "style": "Upright",
+      "weight": 900,
+      "pair": "lI",
+      "before_advance": 1340,
+      "current_advance": 1380
+    },
+    {
+      "style": "Italic",
+      "weight": 100,
+      "pair": "lJ",
+      "before_advance": 1232,
+      "current_advance": 1292
+    },
+    {
+      "style": "Italic",
+      "weight": 100,
+      "pair": "lI",
+      "before_advance": 1136,
+      "current_advance": 1176
+    },
+    {
+      "style": "Italic",
+      "weight": 150,
+      "pair": "lJ",
+      "before_advance": 1241,
+      "current_advance": 1301
+    },
+    {
+      "style": "Italic",
+      "weight": 150,
+      "pair": "lI",
+      "before_advance": 1150,
+      "current_advance": 1190
+    },
+    {
+      "style": "Italic",
+      "weight": 200,
+      "pair": "lJ",
+      "before_advance": 1251,
+      "current_advance": 1311
+    },
+    {
+      "style": "Italic",
+      "weight": 200,
+      "pair": "lI",
+      "before_advance": 1164,
+      "current_advance": 1204
+    },
+    {
+      "style": "Italic",
+      "weight": 250,
+      "pair": "lJ",
+      "before_advance": 1264,
+      "current_advance": 1324
+    },
+    {
+      "style": "Italic",
+      "weight": 250,
+      "pair": "lI",
+      "before_advance": 1185,
+      "current_advance": 1225
+    },
+    {
+      "style": "Italic",
+      "weight": 300,
+      "pair": "lJ",
+      "before_advance": 1278,
+      "current_advance": 1338
+    },
+    {
+      "style": "Italic",
+      "weight": 300,
+      "pair": "lI",
+      "before_advance": 1205,
+      "current_advance": 1245
+    },
+    {
+      "style": "Italic",
+      "weight": 350,
+      "pair": "lJ",
+      "before_advance": 1305,
+      "current_advance": 1365
+    },
+    {
+      "style": "Italic",
+      "weight": 350,
+      "pair": "lI",
+      "before_advance": 1245,
+      "current_advance": 1285
+    },
+    {
+      "style": "Italic",
+      "weight": 400,
+      "pair": "lJ",
+      "before_advance": 1332,
+      "current_advance": 1392
+    },
+    {
+      "style": "Italic",
+      "weight": 400,
+      "pair": "lI",
+      "before_advance": 1286,
+      "current_advance": 1326
+    },
+    {
+      "style": "Italic",
+      "weight": 450,
+      "pair": "lJ",
+      "before_advance": 1338,
+      "current_advance": 1398
+    },
+    {
+      "style": "Italic",
+      "weight": 450,
+      "pair": "lI",
+      "before_advance": 1295,
+      "current_advance": 1335
+    },
+    {
+      "style": "Italic",
+      "weight": 500,
+      "pair": "lJ",
+      "before_advance": 1343,
+      "current_advance": 1403
+    },
+    {
+      "style": "Italic",
+      "weight": 500,
+      "pair": "lI",
+      "before_advance": 1302,
+      "current_advance": 1342
+    },
+    {
+      "style": "Italic",
+      "weight": 550,
+      "pair": "lJ",
+      "before_advance": 1350,
+      "current_advance": 1410
+    },
+    {
+      "style": "Italic",
+      "weight": 550,
+      "pair": "lI",
+      "before_advance": 1311,
+      "current_advance": 1351
+    },
+    {
+      "style": "Italic",
+      "weight": 600,
+      "pair": "lJ",
+      "before_advance": 1356,
+      "current_advance": 1416
+    },
+    {
+      "style": "Italic",
+      "weight": 600,
+      "pair": "lI",
+      "before_advance": 1321,
+      "current_advance": 1361
+    },
+    {
+      "style": "Italic",
+      "weight": 650,
+      "pair": "lJ",
+      "before_advance": 1366,
+      "current_advance": 1426
+    },
+    {
+      "style": "Italic",
+      "weight": 650,
+      "pair": "lI",
+      "before_advance": 1336,
+      "current_advance": 1376
+    },
+    {
+      "style": "Italic",
+      "weight": 700,
+      "pair": "lJ",
+      "before_advance": 1377,
+      "current_advance": 1437
+    },
+    {
+      "style": "Italic",
+      "weight": 700,
+      "pair": "lI",
+      "before_advance": 1352,
+      "current_advance": 1392
+    },
+    {
+      "style": "Italic",
+      "weight": 750,
+      "pair": "lJ",
+      "before_advance": 1386,
+      "current_advance": 1446
+    },
+    {
+      "style": "Italic",
+      "weight": 750,
+      "pair": "lI",
+      "before_advance": 1366,
+      "current_advance": 1406
+    },
+    {
+      "style": "Italic",
+      "weight": 800,
+      "pair": "lJ",
+      "before_advance": 1395,
+      "current_advance": 1455
+    },
+    {
+      "style": "Italic",
+      "weight": 800,
+      "pair": "lI",
+      "before_advance": 1379,
+      "current_advance": 1419
+    },
+    {
+      "style": "Italic",
+      "weight": 850,
+      "pair": "lJ",
+      "before_advance": 1406,
+      "current_advance": 1466
+    },
+    {
+      "style": "Italic",
+      "weight": 850,
+      "pair": "lI",
+      "before_advance": 1396,
+      "current_advance": 1436
+    },
+    {
+      "style": "Italic",
+      "weight": 900,
+      "pair": "lJ",
+      "before_advance": 1417,
+      "current_advance": 1477
+    },
+    {
+      "style": "Italic",
+      "weight": 900,
+      "pair": "lI",
+      "before_advance": 1413,
+      "current_advance": 1453
+    }
+  ]
+}

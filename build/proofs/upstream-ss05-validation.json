@@ -1,0 +1,179 @@
+{
+  "status": "passed",
+  "styles": {
+    "Upr": {
+      "unchanged_upstream_glyphs": 3042,
+      "alternate_glyphs": 117,
+      "capital_spacing_addition": {
+        "J": 60,
+        "I.ss05": 40
+      },
+      "capital_spacing_pairs": [
+        "l.ss05 J",
+        "l.ss05 I.ss05"
+      ],
+      "ss05_ligatures": {
+        "fl": "f + l.ss05",
+        "ffl": "f_f + l.ss05",
+        "ffi": "upstream"
+      },
+      "validated_static_fonts": [
+        "Lato26-Hairline.ttf",
+        "Lato26-Hairline.otf",
+        "Lato26-Thin.ttf",
+        "Lato26-Thin.otf",
+        "Lato26-Light.ttf",
+        "Lato26-Light.otf",
+        "Lato26-Regular.ttf",
+        "Lato26-Regular.otf",
+        "Lato26-Medium.ttf",
+        "Lato26-Medium.otf",
+        "Lato26-Semibold.ttf",
+        "Lato26-Semibold.otf",
+        "Lato26-Bold.ttf",
+        "Lato26-Bold.otf",
+        "Lato26-Heavy.ttf",
+        "Lato26-Heavy.otf",
+        "Lato26-Black.ttf",
+        "Lato26-Black.otf"
+      ],
+      "static_hinting_options": [
+        "--no-info",
+        "--ttfa-table",
+        "--stem-width-mode=qsq",
+        "--fallback-script=latn"
+      ],
+      "punctuation_curve_weights": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ],
+      "outline_weights": [
+        100,
+        200,
+        250,
+        300,
+        400,
+        500,
+        550,
+        600,
+        700,
+        800,
+        850,
+        900
+      ],
+      "shaping_weights": [
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400,
+        450,
+        500,
+        550,
+        600,
+        650,
+        700,
+        750,
+        800,
+        850,
+        900
+      ]
+    },
+    "Ita": {
+      "unchanged_upstream_glyphs": 3040,
+      "alternate_glyphs": 82,
+      "capital_spacing_addition": {
+        "J": 60,
+        "I.ss05": 40
+      },
+      "capital_spacing_pairs": [
+        "l.ss05 J",
+        "l.ss05 I.ss05"
+      ],
+      "ss05_ligatures": {
+        "fl": "f + l.ss05",
+        "ffl": "f_f + l.ss05",
+        "ffi": "upstream"
+      },
+      "validated_static_fonts": [
+        "Lato26-HairlineItalic.ttf",
+        "Lato26-HairlineItalic.otf",
+        "Lato26-ThinItalic.ttf",
+        "Lato26-ThinItalic.otf",
+        "Lato26-LightItalic.ttf",
+        "Lato26-LightItalic.otf",
+        "Lato26-Italic.ttf",
+        "Lato26-Italic.otf",
+        "Lato26-MediumItalic.ttf",
+        "Lato26-MediumItalic.otf",
+        "Lato26-SemiboldItalic.ttf",
+        "Lato26-SemiboldItalic.otf",
+        "Lato26-BoldItalic.ttf",
+        "Lato26-BoldItalic.otf",
+        "Lato26-HeavyItalic.ttf",
+        "Lato26-HeavyItalic.otf",
+        "Lato26-BlackItalic.ttf",
+        "Lato26-BlackItalic.otf"
+      ],
+      "static_hinting_options": [
+        "--no-info",
+        "--ttfa-table",
+        "--stem-width-mode=qsq",
+        "--fallback-script=latn"
+      ],
+      "punctuation_curve_weights": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ],
+      "outline_weights": [
+        100,
+        200,
+        250,
+        300,
+        400,
+        500,
+        550,
+        600,
+        700,
+        800,
+        850,
+        900
+      ],
+      "shaping_weights": [
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400,
+        450,
+        500,
+        550,
+        600,
+        650,
+        700,
+        750,
+        800,
+        850,
+        900
+      ]
+    }
+  }
+}

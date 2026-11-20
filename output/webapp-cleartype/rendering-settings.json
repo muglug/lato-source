@@ -1,0 +1,1558 @@
+{
+  "renderer": "Repository lcd_font_proofs: FreeType approximation, NOT Windows DirectWrite",
+  "freetype": "2.14.3",
+  "truetype_interpreter": 40,
+  "ss05": true,
+  "native_hints": true,
+  "autohinter": false,
+  "gamma": 1.8,
+  "rgb_filter": [
+    0.03125,
+    0.30078125,
+    0.3359375,
+    0.30078125,
+    0.03125
+  ],
+  "scales": [
+    100,
+    125,
+    150,
+    200
+  ],
+  "sizes_css_px": [
+    12,
+    14,
+    16,
+    18,
+    20,
+    24
+  ],
+  "sample": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+  "control_sample": "Hnmox",
+  "metric_note": "Coverage differences and ink ratios measure raster differences, not quality. Controls minimize, but do not eliminate, outline differences.",
+  "fonts": {
+    "Light": [
+      {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-light.woff2",
+        "sha256": "5e820529b410ad9cefb84996ccd86d62bd3c55bfe7eca121a470e54ee40f9279"
+      },
+      {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Upr2M/ds-ufo/masters/Lato26-Light.ttf",
+        "sha256": "b0757b14bad769ef2f784e180eb532097154aba095c56fefa0bf52dd16091ea3"
+      }
+    ],
+    "Regular": [
+      {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-regular.woff2",
+        "sha256": "37d76b16175e93eb240cab6d9359c9b8567b68bf5d7754b97eb80d867656a15b"
+      },
+      {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
+        "sha256": "9d3bb132ee0698efe38b9353678cd8f095b8ed223b795207a8bcd63c88633018"
+      }
+    ],
+    "Bold": [
+      {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-bold.woff2",
+        "sha256": "f0718c5d143a09ab8ae471a6648e8325d7a4ec75a9c83ffdaa6a0775e19dcf8a"
+      },
+      {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
+        "sha256": "8c6f34d6b11924dc02c1833d33346d76e21e8109149d43716f73f82c30be5d09"
+      }
+    ],
+    "Black": [
+      {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-black.woff2",
+        "sha256": "cd2be99c0ebe9acfa86913aa02fbd43ae8ac78e3d1d6dd5441fd83a6ce63cd7b"
+      },
+      {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.ttf",
+        "sha256": "8779ea5c1a8fd74f561d740e667ac23b858c918cab5b6130fc00a974be239b3b"
+      }
+    ],
+    "LightItalic": [
+      {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-italic-light.woff2",
+        "sha256": "65a468ebc536b467709e60903fc3c1f3557a71abbb223c7b88ef73dff10b10e7"
+      },
+      {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Ita2M/ds-ufo/masters/Lato26-LightItalic.ttf",
+        "sha256": "e8159bdb3a9dcb4c2b611304e9051175fda76d851ef1c34e4fab40d14ecdd485"
+      }
+    ],
+    "Italic": [
+      {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-italic.woff2",
+        "sha256": "bae3f0013865a1675b6883928cdd378ab5a7ef2f61fb6b0d4b4048cc760b3eed"
+      },
+      {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ttf",
+        "sha256": "8eeced038cce9f89a08d1d6ec708f95cfdcefef8d12aff112db1250f6c7dfa55"
+      }
+    ],
+    "BoldItalic": [
+      {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-italic-bold.woff2",
+        "sha256": "163efc0945ec7a6d4bd158e9cf6c79ed31db56e967cdc4e127c994634c653858"
+      },
+      {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ttf",
+        "sha256": "d653e701493062fc5ccc21892b8ee7d2d1c41ec6c4adf583db674f9844994cdf"
+      }
+    ],
+    "BlackItalic": [
+      {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-italic-black.woff2",
+        "sha256": "589f076c4561caf565ec54d8ebbb366c659323c3dbbddb65fedd47c257d8c6f0"
+      },
+      {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.ttf",
+        "sha256": "fd041dc375262181a09d6bd879685c62cf18b4c1d85c4b5d9b7a39dc5471b955"
+      }
+    ]
+  },
+  "controls": [
+    {
+      "style": "Light",
+      "ppem": 12.0,
+      "hinted_difference_relative_to_webapp_ink": 0.04462205779381665,
+      "unhinted_difference_relative_to_webapp_ink": 0.010305640565639514,
+      "hinted_ink_ratio_ours_over_webapp": 1.0098836583001185,
+      "unhinted_ink_ratio_ours_over_webapp": 1.006938581680034,
+      "hint_effect_webapp": 0.032718966006226265,
+      "hint_effect_ours": 0.066537355568947
+    },
+    {
+      "style": "Light",
+      "ppem": 14.0,
+      "hinted_difference_relative_to_webapp_ink": 0.013346201769272785,
+      "unhinted_difference_relative_to_webapp_ink": 0.008702610343355139,
+      "hinted_ink_ratio_ours_over_webapp": 1.004798689138577,
+      "unhinted_ink_ratio_ours_over_webapp": 1.003707226179616,
+      "hint_effect_webapp": 0.07835730818501194,
+      "hint_effect_ours": 0.08056670840423885
+    },
+    {
+      "style": "Light",
+      "ppem": 15.0,
+      "hinted_difference_relative_to_webapp_ink": 0.03674269732191626,
+      "unhinted_difference_relative_to_webapp_ink": 0.010361670096484721,
+      "hinted_ink_ratio_ours_over_webapp": 1.004273366963339,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0036772147628366,
+      "hint_effect_webapp": 0.17003520659031107,
+      "hint_effect_ours": 0.18999807779570438
+    },
+    {
+      "style": "Light",
+      "ppem": 16.0,
+      "hinted_difference_relative_to_webapp_ink": 0.03877645264751286,
+      "unhinted_difference_relative_to_webapp_ink": 0.008100789680131438,
+      "hinted_ink_ratio_ours_over_webapp": 1.005230580159765,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0034044316819373,
+      "hint_effect_webapp": 0.04369259647123255,
+      "hint_effect_ours": 0.07567380493147857
+    },
+    {
+      "style": "Light",
+      "ppem": 17.5,
+      "hinted_difference_relative_to_webapp_ink": 0.038554721709389575,
+      "unhinted_difference_relative_to_webapp_ink": 0.008106711590463667,
+      "hinted_ink_ratio_ours_over_webapp": 1.0027692963147055,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0039817410503857,
+      "hint_effect_webapp": 0.09601114592894885,
+      "hint_effect_ours": 0.10054514433709337
+    },
+    {
+      "style": "Light",
+      "ppem": 18.0,
+      "hinted_difference_relative_to_webapp_ink": 0.037786372462286145,
+      "unhinted_difference_relative_to_webapp_ink": 0.007759803706305988,
+      "hinted_ink_ratio_ours_over_webapp": 1.0028034054482575,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0039697874582818,
+      "hint_effect_webapp": 0.05367053472100238,
+      "hint_effect_ours": 0.05834461459281032
+    },
+    {
+      "style": "Light",
+      "ppem": 20.0,
+      "hinted_difference_relative_to_webapp_ink": 0.04152890805368484,
+      "unhinted_difference_relative_to_webapp_ink": 0.0067587948052935075,
+      "hinted_ink_ratio_ours_over_webapp": 1.0048952455765565,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0028975593999678,
+      "hint_effect_webapp": 0.06439595683586515,
+      "hint_effect_ours": 0.09453979027338347
+    },
+    {
+      "style": "Light",
+      "ppem": 21.0,
+      "hinted_difference_relative_to_webapp_ink": 0.026008559343666835,
+      "unhinted_difference_relative_to_webapp_ink": 0.007400279963029838,
+      "hinted_ink_ratio_ours_over_webapp": 1.006703938668586,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0027598658756771,
+      "hint_effect_webapp": 0.16448882565987447,
+      "hint_effect_ours": 0.1585361230076052
+    },
+    {
+      "style": "Light",
+      "ppem": 22.5,
+      "hinted_difference_relative_to_webapp_ink": 0.04014240259371719,
+      "unhinted_difference_relative_to_webapp_ink": 0.007133660086128907,
+      "hinted_ink_ratio_ours_over_webapp": 1.0070163739039133,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0022205109418105,
+      "hint_effect_webapp": 0.30680281470322157,
+      "hint_effect_ours": 0.34023702676240203
+    },
+    {
+      "style": "Light",
+      "ppem": 24.0,
+      "hinted_difference_relative_to_webapp_ink": 0.04776964013456631,
+      "unhinted_difference_relative_to_webapp_ink": 0.006763564502737858,
+      "hinted_ink_ratio_ours_over_webapp": 1.006874150674489,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0023392044069293,
+      "hint_effect_webapp": 0.05222814367657039,
+      "hint_effect_ours": 0.0680358657208972
+    },
+    {
+      "style": "Light",
+      "ppem": 25.0,
+      "hinted_difference_relative_to_webapp_ink": 0.027315019774511538,
+      "unhinted_difference_relative_to_webapp_ink": 0.007335403287739159,
+      "hinted_ink_ratio_ours_over_webapp": 1.0059795761761408,
+      "unhinted_ink_ratio_ours_over_webapp": 1.002364366398181,
+      "hint_effect_webapp": 0.20868915989405704,
+      "hint_effect_ours": 0.1966314482122066
+    },
+    {
+      "style": "Light",
+      "ppem": 27.0,
+      "hinted_difference_relative_to_webapp_ink": 0.030686777473054254,
+      "unhinted_difference_relative_to_webapp_ink": 0.0066382183191513655,
+      "hinted_ink_ratio_ours_over_webapp": 1.0044404973357017,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0012155970451642,
+      "hint_effect_webapp": 0.22332508811779858,
+      "hint_effect_ours": 0.23822774305771746
+    },
+    {
+      "style": "Light",
+      "ppem": 28.0,
+      "hinted_difference_relative_to_webapp_ink": 0.03242506558294334,
+      "unhinted_difference_relative_to_webapp_ink": 0.006459172512816559,
+      "hinted_ink_ratio_ours_over_webapp": 1.0045102655776144,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0012479281501754,
+      "hint_effect_webapp": 0.08645286511534903,
+      "hint_effect_ours": 0.09873635576724107
+    },
+    {
+      "style": "Light",
+      "ppem": 30.0,
+      "hinted_difference_relative_to_webapp_ink": 0.03131926703485414,
+      "unhinted_difference_relative_to_webapp_ink": 0.0067267230990228554,
+      "hinted_ink_ratio_ours_over_webapp": 1.0038712686567164,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0020064526170116,
+      "hint_effect_webapp": 0.08158982450900801,
+      "hint_effect_ours": 0.09913964437890935
+    },
+    {
+      "style": "Light",
+      "ppem": 32.0,
+      "hinted_difference_relative_to_webapp_ink": 0.026552867408698257,
+      "unhinted_difference_relative_to_webapp_ink": 0.0061185372548438165,
+      "hinted_ink_ratio_ours_over_webapp": 1.0041223977364289,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0018978637912053,
+      "hint_effect_webapp": 0.06168372975642847,
+      "hint_effect_ours": 0.0803736058903618
+    },
+    {
+      "style": "Light",
+      "ppem": 36.0,
+      "hinted_difference_relative_to_webapp_ink": 0.030013037602176613,
+      "unhinted_difference_relative_to_webapp_ink": 0.005702129753764373,
+      "hinted_ink_ratio_ours_over_webapp": 1.0051987577455865,
+      "unhinted_ink_ratio_ours_over_webapp": 1.002467625225394,
+      "hint_effect_webapp": 0.09182797644486335,
+      "hint_effect_ours": 0.10814018668222049
+    },
+    {
+      "style": "Light",
+      "ppem": 40.0,
+      "hinted_difference_relative_to_webapp_ink": 0.04249310323430808,
+      "unhinted_difference_relative_to_webapp_ink": 0.0056943832625272195,
+      "hinted_ink_ratio_ours_over_webapp": 1.005239833284572,
+      "unhinted_ink_ratio_ours_over_webapp": 1.002263104276151,
+      "hint_effect_webapp": 0.060131016788054235,
+      "hint_effect_ours": 0.06787215810816574
+    },
+    {
+      "style": "Light",
+      "ppem": 48.0,
+      "hinted_difference_relative_to_webapp_ink": 0.012024946103776392,
+      "unhinted_difference_relative_to_webapp_ink": 0.004685666820186893,
+      "hinted_ink_ratio_ours_over_webapp": 1.0040542582999357,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0020663438073127,
+      "hint_effect_webapp": 0.056888487260018224,
+      "hint_effect_ours": 0.06782574978663855
+    },
+    {
+      "style": "Regular",
+      "ppem": 12.0,
+      "hinted_difference_relative_to_webapp_ink": 0.03735044963222102,
+      "unhinted_difference_relative_to_webapp_ink": 0.007471699099852865,
+      "hinted_ink_ratio_ours_over_webapp": 1.0078937926085396,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0036784859063501,
+      "hint_effect_webapp": 0.06952777887972071,
+      "hint_effect_ours": 0.08241206684680281
+    },
+    {
+      "style": "Regular",
+      "ppem": 14.0,
+      "hinted_difference_relative_to_webapp_ink": 0.026631463120608167,
+      "unhinted_difference_relative_to_webapp_ink": 0.005934421916747953,
+      "hinted_ink_ratio_ours_over_webapp": 1.0072665918917105,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0020887230162432,
+      "hint_effect_webapp": 0.3287335758248866,
+      "hint_effect_ours": 0.3398315575635098
+    },
+    {
+      "style": "Regular",
+      "ppem": 15.0,
+      "hinted_difference_relative_to_webapp_ink": 0.026235321940083812,
+      "unhinted_difference_relative_to_webapp_ink": 0.006447138659965264,
+      "hinted_ink_ratio_ours_over_webapp": 1.0066831661052689,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0026516131416534,
+      "hint_effect_webapp": 0.11624331033574783,
+      "hint_effect_ours": 0.12654805893681526
+    },
+    {
+      "style": "Regular",
+      "ppem": 16.0,
+      "hinted_difference_relative_to_webapp_ink": 0.025714674117048437,
+      "unhinted_difference_relative_to_webapp_ink": 0.005743076588903055,
+      "hinted_ink_ratio_ours_over_webapp": 1.0064146410637127,
+      "unhinted_ink_ratio_ours_over_webapp": 1.002963841138115,
+      "hint_effect_webapp": 0.09413043996800675,
+      "hint_effect_ours": 0.10919581015819813
+    },
+    {
+      "style": "Regular",
+      "ppem": 17.5,
+      "hinted_difference_relative_to_webapp_ink": 0.028509881247189728,
+      "unhinted_difference_relative_to_webapp_ink": 0.004912231210061873,
+      "hinted_ink_ratio_ours_over_webapp": 1.0052078090291061,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0011901139398858,
+      "hint_effect_webapp": 0.03468885240220442,
+      "hint_effect_ours": 0.049780896893847806
+    },
+    {
+      "style": "Regular",
+      "ppem": 18.0,
+      "hinted_difference_relative_to_webapp_ink": 0.02832166962439079,
+      "unhinted_difference_relative_to_webapp_ink": 0.005236142524889308,
+      "hinted_ink_ratio_ours_over_webapp": 1.0052912814557222,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0012156732270365,
+      "hint_effect_webapp": 0.06848904014600876,
+      "hint_effect_ours": 0.07586525526897663
+    },
+    {
+      "style": "Regular",
+      "ppem": 20.0,
+      "hinted_difference_relative_to_webapp_ink": 0.02541052450521139,
+      "unhinted_difference_relative_to_webapp_ink": 0.004384513004184362,
+      "hinted_ink_ratio_ours_over_webapp": 1.0054828647169671,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0010681267856123,
+      "hint_effect_webapp": 0.0785062250143886,
+      "hint_effect_ours": 0.09156176191425776
+    },
+    {
+      "style": "Regular",
+      "ppem": 21.0,
+      "hinted_difference_relative_to_webapp_ink": 0.04450901923514842,
+      "unhinted_difference_relative_to_webapp_ink": 0.004109129315338135,
+      "hinted_ink_ratio_ours_over_webapp": 1.0062227261954002,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0017094178090253,
+      "hint_effect_webapp": 0.07826208012130742,
+      "hint_effect_ours": 0.0784186720792042
+    },
+    {
+      "style": "Regular",
+      "ppem": 22.5,
+      "hinted_difference_relative_to_webapp_ink": 0.020958354770859947,
+      "unhinted_difference_relative_to_webapp_ink": 0.0036280663162988683,
+      "hinted_ink_ratio_ours_over_webapp": 1.0034497169260854,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0008858304044883,
+      "hint_effect_webapp": 0.1316085165313998,
+      "hint_effect_ours": 0.14617622692630758
+    },
+    {
+      "style": "Regular",
+      "ppem": 24.0,
+      "hinted_difference_relative_to_webapp_ink": 0.018688251391790377,
+      "unhinted_difference_relative_to_webapp_ink": 0.003479963167736776,
+      "hinted_ink_ratio_ours_over_webapp": 1.0023617144351968,
+      "unhinted_ink_ratio_ours_over_webapp": 1.001142169473449,
+      "hint_effect_webapp": 0.08750930602395313,
+      "hint_effect_ours": 0.08477563035568399
+    },
+    {
+      "style": "Regular",
+      "ppem": 25.0,
+      "hinted_difference_relative_to_webapp_ink": 0.01270949304379286,
+      "unhinted_difference_relative_to_webapp_ink": 0.003425733564370251,
+      "hinted_ink_ratio_ours_over_webapp": 1.002012859938496,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0010366757265037,
+      "hint_effect_webapp": 0.05619007756793216,
+      "hint_effect_ours": 0.04624634157776642
+    },
+    {
+      "style": "Regular",
+      "ppem": 27.0,
+      "hinted_difference_relative_to_webapp_ink": 0.014093497231744533,
+      "unhinted_difference_relative_to_webapp_ink": 0.0033170456940326766,
+      "hinted_ink_ratio_ours_over_webapp": 1.0027514100976749,
+      "unhinted_ink_ratio_ours_over_webapp": 1.001233165019124,
+      "hint_effect_webapp": 0.059655336785056204,
+      "hint_effect_ours": 0.07023229988593761
+    },
+    {
+      "style": "Regular",
+      "ppem": 28.0,
+      "hinted_difference_relative_to_webapp_ink": 0.014718517192884655,
+      "unhinted_difference_relative_to_webapp_ink": 0.0035186992587246577,
+      "hinted_ink_ratio_ours_over_webapp": 1.0023413744171905,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0011684868095814,
+      "hint_effect_webapp": 0.17718100326621142,
+      "hint_effect_ours": 0.16625483715728964
+    },
+    {
+      "style": "Regular",
+      "ppem": 30.0,
+      "hinted_difference_relative_to_webapp_ink": 0.01032685358022431,
+      "unhinted_difference_relative_to_webapp_ink": 0.0033358246206764506,
+      "hinted_ink_ratio_ours_over_webapp": 1.0023042760844276,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0011788616948383,
+      "hint_effect_webapp": 0.13220574885401262,
+      "hint_effect_ours": 0.13772284653094613
+    },
+    {
+      "style": "Regular",
+      "ppem": 32.0,
+      "hinted_difference_relative_to_webapp_ink": 0.014388976612134768,
+      "unhinted_difference_relative_to_webapp_ink": 0.0032921459509175116,
+      "hinted_ink_ratio_ours_over_webapp": 1.001704244174557,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0007232313246275,
+      "hint_effect_webapp": 0.12914922635013312,
+      "hint_effect_ours": 0.12402481147831367
+    },
+    {
+      "style": "Regular",
+      "ppem": 36.0,
+      "hinted_difference_relative_to_webapp_ink": 0.013658578863955625,
+      "unhinted_difference_relative_to_webapp_ink": 0.003112079619579146,
+      "hinted_ink_ratio_ours_over_webapp": 1.001981053920686,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0009771632150912,
+      "hint_effect_webapp": 0.10085846191306132,
+      "hint_effect_ours": 0.09279256972694945
+    },
+    {
+      "style": "Regular",
+      "ppem": 40.0,
+      "hinted_difference_relative_to_webapp_ink": 0.013013479242732951,
+      "unhinted_difference_relative_to_webapp_ink": 0.0026666036117346365,
+      "hinted_ink_ratio_ours_over_webapp": 1.0023034642320365,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0011359613461919,
+      "hint_effect_webapp": 0.08375858941092106,
+      "hint_effect_ours": 0.07246333605991485
+    },
+    {
+      "style": "Regular",
+      "ppem": 48.0,
+      "hinted_difference_relative_to_webapp_ink": 0.013646305786063632,
+      "unhinted_difference_relative_to_webapp_ink": 0.0022553143041782625,
+      "hinted_ink_ratio_ours_over_webapp": 1.000600475761565,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0008988804525025,
+      "hint_effect_webapp": 0.06871301575292496,
+      "hint_effect_ours": 0.06650532741651878
+    },
+    {
+      "style": "Bold",
+      "ppem": 12.0,
+      "hinted_difference_relative_to_webapp_ink": 0.027592577475310322,
+      "unhinted_difference_relative_to_webapp_ink": 0.009964219854590867,
+      "hinted_ink_ratio_ours_over_webapp": 1.0053560857349586,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0035558565804514,
+      "hint_effect_webapp": 0.25929237065042554,
+      "hint_effect_ours": 0.24988111699603494
+    },
+    {
+      "style": "Bold",
+      "ppem": 14.0,
+      "hinted_difference_relative_to_webapp_ink": 0.02397231409651296,
+      "unhinted_difference_relative_to_webapp_ink": 0.0071044669190602535,
+      "hinted_ink_ratio_ours_over_webapp": 1.0043721121702287,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0013462720714692,
+      "hint_effect_webapp": 0.227486967716707,
+      "hint_effect_ours": 0.23209213450837765
+    },
+    {
+      "style": "Bold",
+      "ppem": 15.0,
+      "hinted_difference_relative_to_webapp_ink": 0.023126783217130818,
+      "unhinted_difference_relative_to_webapp_ink": 0.005925632857800901,
+      "hinted_ink_ratio_ours_over_webapp": 1.0040692973503174,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0009686771798623,
+      "hint_effect_webapp": 0.062266033554842025,
+      "hint_effect_ours": 0.07088228427186041
+    },
+    {
+      "style": "Bold",
+      "ppem": 16.0,
+      "hinted_difference_relative_to_webapp_ink": 0.02231960585389784,
+      "unhinted_difference_relative_to_webapp_ink": 0.0052431117380415575,
+      "hinted_ink_ratio_ours_over_webapp": 1.0056384207454143,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0021118005032628,
+      "hint_effect_webapp": 0.10118052622499299,
+      "hint_effect_ours": 0.11279949045162593
+    },
+    {
+      "style": "Bold",
+      "ppem": 17.5,
+      "hinted_difference_relative_to_webapp_ink": 0.013500725483782634,
+      "unhinted_difference_relative_to_webapp_ink": 0.006623710539398459,
+      "hinted_ink_ratio_ours_over_webapp": 1.0011308545812287,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0012975391498882,
+      "hint_effect_webapp": 0.043505546234153626,
+      "hint_effect_ours": 0.0454443898297511
+    },
+    {
+      "style": "Bold",
+      "ppem": 18.0,
+      "hinted_difference_relative_to_webapp_ink": 0.013979147085434199,
+      "unhinted_difference_relative_to_webapp_ink": 0.003738488603379767,
+      "hinted_ink_ratio_ours_over_webapp": 1.0005885349870873,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0013244784279098,
+      "hint_effect_webapp": 0.171503627931935,
+      "hint_effect_ours": 0.17917425455918498
+    },
+    {
+      "style": "Bold",
+      "ppem": 20.0,
+      "hinted_difference_relative_to_webapp_ink": 0.011243996386749847,
+      "unhinted_difference_relative_to_webapp_ink": 0.003719076791009828,
+      "hinted_ink_ratio_ours_over_webapp": 0.9995331905161683,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0004644310529263,
+      "hint_effect_webapp": 0.1541354349472947,
+      "hint_effect_ours": 0.14802726861523005
+    },
+    {
+      "style": "Bold",
+      "ppem": 21.0,
+      "hinted_difference_relative_to_webapp_ink": 0.013612147559630505,
+      "unhinted_difference_relative_to_webapp_ink": 0.006508267717554937,
+      "hinted_ink_ratio_ours_over_webapp": 1.000120639735282,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0002485947491264,
+      "hint_effect_webapp": 0.04079047087988731,
+      "hint_effect_ours": 0.03866427015015533
+    },
+    {
+      "style": "Bold",
+      "ppem": 22.5,
+      "hinted_difference_relative_to_webapp_ink": 0.013847646889501925,
+      "unhinted_difference_relative_to_webapp_ink": 0.005244962309441592,
+      "hinted_ink_ratio_ours_over_webapp": 1.0011221639060655,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0013836916894274,
+      "hint_effect_webapp": 0.07220257396734489,
+      "hint_effect_ours": 0.08060394287842741
+    },
+    {
+      "style": "Bold",
+      "ppem": 24.0,
+      "hinted_difference_relative_to_webapp_ink": 0.012268728010816833,
+      "unhinted_difference_relative_to_webapp_ink": 0.005339351667032389,
+      "hinted_ink_ratio_ours_over_webapp": 1.0004172061939856,
+      "unhinted_ink_ratio_ours_over_webapp": 1.000417716465696,
+      "hint_effect_webapp": 0.11244246071350204,
+      "hint_effect_ours": 0.10480398399201911
+    },
+    {
+      "style": "Bold",
+      "ppem": 25.0,
+      "hinted_difference_relative_to_webapp_ink": 0.01011233321340147,
+      "unhinted_difference_relative_to_webapp_ink": 0.0055449873892754,
+      "hinted_ink_ratio_ours_over_webapp": 0.9998853532704809,
+      "unhinted_ink_ratio_ours_over_webapp": 1.000601903183751,
+      "hint_effect_webapp": 0.017233838320763223,
+      "hint_effect_ours": 0.021680442851158756
+    },
+    {
+      "style": "Bold",
+      "ppem": 27.0,
+      "hinted_difference_relative_to_webapp_ink": 0.013274001580372632,
+      "unhinted_difference_relative_to_webapp_ink": 0.005251297675409375,
+      "hinted_ink_ratio_ours_over_webapp": 1.0002569026802108,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0003195241804625,
+      "hint_effect_webapp": 0.02544725227478244,
+      "hint_effect_ours": 0.030889965082778338
+    },
+    {
+      "style": "Bold",
+      "ppem": 28.0,
+      "hinted_difference_relative_to_webapp_ink": 0.014422731531818432,
+      "unhinted_difference_relative_to_webapp_ink": 0.005050725838863629,
+      "hinted_ink_ratio_ours_over_webapp": 0.999732420296109,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0004970468427818,
+      "hint_effect_webapp": 0.08111729237615573,
+      "hint_effect_ours": 0.07445170076344174
+    },
+    {
+      "style": "Bold",
+      "ppem": 30.0,
+      "hinted_difference_relative_to_webapp_ink": 0.006822085480865038,
+      "unhinted_difference_relative_to_webapp_ink": 0.004695391414141416,
+      "hinted_ink_ratio_ours_over_webapp": 0.9998891062626823,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0003909740840033,
+      "hint_effect_webapp": 0.07753473068486473,
+      "hint_effect_ours": 0.07883761967844376
+    },
+    {
+      "style": "Bold",
+      "ppem": 32.0,
+      "hinted_difference_relative_to_webapp_ink": 0.01372534036324774,
+      "unhinted_difference_relative_to_webapp_ink": 0.004557991764571147,
+      "hinted_ink_ratio_ours_over_webapp": 0.9993944902973242,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0006172481441653,
+      "hint_effect_webapp": 0.06280016479781776,
+      "hint_effect_ours": 0.060475741318520605
+    },
+    {
+      "style": "Bold",
+      "ppem": 36.0,
+      "hinted_difference_relative_to_webapp_ink": 0.013206251998372236,
+      "unhinted_difference_relative_to_webapp_ink": 0.0056730534868969715,
+      "hinted_ink_ratio_ours_over_webapp": 0.9988140569136412,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0003300717700538,
+      "hint_effect_webapp": 0.043739795378995215,
+      "hint_effect_ours": 0.041828957117745084
+    },
+    {
+      "style": "Bold",
+      "ppem": 40.0,
+      "hinted_difference_relative_to_webapp_ink": 0.012307582478019717,
+      "unhinted_difference_relative_to_webapp_ink": 0.004311808490697096,
+      "hinted_ink_ratio_ours_over_webapp": 0.9976942898488299,
+      "unhinted_ink_ratio_ours_over_webapp": 0.9999657456692057,
+      "hint_effect_webapp": 0.03763599445079841,
+      "hint_effect_ours": 0.036011128519039405
+    },
+    {
+      "style": "Bold",
+      "ppem": 48.0,
+      "hinted_difference_relative_to_webapp_ink": 0.006666164755560505,
+      "unhinted_difference_relative_to_webapp_ink": 0.0037565391435270376,
+      "hinted_ink_ratio_ours_over_webapp": 0.9998431665077464,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0003831739087636,
+      "hint_effect_webapp": 0.018184172291505495,
+      "hint_effect_ours": 0.020824706967726002
+    },
+    {
+      "style": "Black",
+      "ppem": 12.0,
+      "hinted_difference_relative_to_webapp_ink": 0.01780642169063422,
+      "unhinted_difference_relative_to_webapp_ink": 0.0048878702435474885,
+      "hinted_ink_ratio_ours_over_webapp": 0.9950605334316617,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0026024055129905,
+      "hint_effect_webapp": 0.21704471279373372,
+      "hint_effect_ours": 0.22168745037099016
+    },
+    {
+      "style": "Black",
+      "ppem": 14.0,
+      "hinted_difference_relative_to_webapp_ink": 0.01237103690795249,
+      "unhinted_difference_relative_to_webapp_ink": 0.003453597375942784,
+      "hinted_ink_ratio_ours_over_webapp": 1.001802231278596,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0020461098729523,
+      "hint_effect_webapp": 0.18586262024830333,
+      "hint_effect_ours": 0.1923010431915709
+    },
+    {
+      "style": "Black",
+      "ppem": 15.0,
+      "hinted_difference_relative_to_webapp_ink": 0.01246878101560339,
+      "unhinted_difference_relative_to_webapp_ink": 0.0033917693372437236,
+      "hinted_ink_ratio_ours_over_webapp": 1.0015023076964795,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0022640061396777,
+      "hint_effect_webapp": 0.04535254323813179,
+      "hint_effect_ours": 0.05376371470139417
+    },
+    {
+      "style": "Black",
+      "ppem": 16.0,
+      "hinted_difference_relative_to_webapp_ink": 0.010123977705961929,
+      "unhinted_difference_relative_to_webapp_ink": 0.003225856975561796,
+      "hinted_ink_ratio_ours_over_webapp": 1.001976833695449,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0018120219948627,
+      "hint_effect_webapp": 0.12396326800094458,
+      "hint_effect_ours": 0.12110500579664132
+    },
+    {
+      "style": "Black",
+      "ppem": 17.5,
+      "hinted_difference_relative_to_webapp_ink": 0.008382326970043008,
+      "unhinted_difference_relative_to_webapp_ink": 0.002893071478130382,
+      "hinted_ink_ratio_ours_over_webapp": 1.0018962757976861,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0015933780017026,
+      "hint_effect_webapp": 0.060047408037886094,
+      "hint_effect_ours": 0.06156210732351708
+    },
+    {
+      "style": "Black",
+      "ppem": 18.0,
+      "hinted_difference_relative_to_webapp_ink": 0.008535004855853102,
+      "unhinted_difference_relative_to_webapp_ink": 0.00251956698274321,
+      "hinted_ink_ratio_ours_over_webapp": 1.000568314659281,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0012095347855359,
+      "hint_effect_webapp": 0.11766030139476856,
+      "hint_effect_ours": 0.1210870572771237
+    },
+    {
+      "style": "Black",
+      "ppem": 20.0,
+      "hinted_difference_relative_to_webapp_ink": 0.007749621712377036,
+      "unhinted_difference_relative_to_webapp_ink": 0.002305965556339525,
+      "hinted_ink_ratio_ours_over_webapp": 1.0006751434679868,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0013033069488138,
+      "hint_effect_webapp": 0.09472307519588118,
+      "hint_effect_ours": 0.08931545150962207
+    },
+    {
+      "style": "Black",
+      "ppem": 21.0,
+      "hinted_difference_relative_to_webapp_ink": 0.006159889684304386,
+      "unhinted_difference_relative_to_webapp_ink": 0.0022994147015840813,
+      "hinted_ink_ratio_ours_over_webapp": 1.0010271112214726,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0011400692424406,
+      "hint_effect_webapp": 0.019821124567933317,
+      "hint_effect_ours": 0.02243449014181606
+    },
+    {
+      "style": "Black",
+      "ppem": 22.5,
+      "hinted_difference_relative_to_webapp_ink": 0.0061539754306402265,
+      "unhinted_difference_relative_to_webapp_ink": 0.002013621244033601,
+      "hinted_ink_ratio_ours_over_webapp": 1.0000167610874595,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0009385345210062,
+      "hint_effect_webapp": 0.04147591257246218,
+      "hint_effect_ours": 0.04245137515556539
+    },
+    {
+      "style": "Black",
+      "ppem": 24.0,
+      "hinted_difference_relative_to_webapp_ink": 0.009121702868826858,
+      "unhinted_difference_relative_to_webapp_ink": 0.0021456575379696584,
+      "hinted_ink_ratio_ours_over_webapp": 1.0005309557620152,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0012048424823607,
+      "hint_effect_webapp": 0.07626032301762753,
+      "hint_effect_ours": 0.0702980888127239
+    },
+    {
+      "style": "Black",
+      "ppem": 25.0,
+      "hinted_difference_relative_to_webapp_ink": 0.007036898793592458,
+      "unhinted_difference_relative_to_webapp_ink": 0.0019915088952317463,
+      "hinted_ink_ratio_ours_over_webapp": 1.0004034674230016,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0010987125140791,
+      "hint_effect_webapp": 0.029290452641940044,
+      "hint_effect_ours": 0.035813790358492574
+    },
+    {
+      "style": "Black",
+      "ppem": 27.0,
+      "hinted_difference_relative_to_webapp_ink": 0.00518486180568498,
+      "unhinted_difference_relative_to_webapp_ink": 0.0019487386568108175,
+      "hinted_ink_ratio_ours_over_webapp": 1.0006971623421894,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0010654057673967,
+      "hint_effect_webapp": 0.03701862261636599,
+      "hint_effect_ours": 0.03460484524557651
+    },
+    {
+      "style": "Black",
+      "ppem": 28.0,
+      "hinted_difference_relative_to_webapp_ink": 0.009816487959524394,
+      "unhinted_difference_relative_to_webapp_ink": 0.0017714070319366205,
+      "hinted_ink_ratio_ours_over_webapp": 0.9993633293098211,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0010046522158162,
+      "hint_effect_webapp": 0.04417639743349878,
+      "hint_effect_ours": 0.0410224720424703
+    },
+    {
+      "style": "Black",
+      "ppem": 30.0,
+      "hinted_difference_relative_to_webapp_ink": 0.0036655722874826486,
+      "unhinted_difference_relative_to_webapp_ink": 0.0015686519961750586,
+      "hinted_ink_ratio_ours_over_webapp": 0.9995242148867876,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0008932167584998,
+      "hint_effect_webapp": 0.03489299208434596,
+      "hint_effect_ours": 0.03423490500247742
+    },
+    {
+      "style": "Black",
+      "ppem": 32.0,
+      "hinted_difference_relative_to_webapp_ink": 0.009125564529737297,
+      "unhinted_difference_relative_to_webapp_ink": 0.0016270149173739348,
+      "hinted_ink_ratio_ours_over_webapp": 0.9995840854454859,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0009622946693213,
+      "hint_effect_webapp": 0.03464019934795202,
+      "hint_effect_ours": 0.035627092843752775
+    },
+    {
+      "style": "Black",
+      "ppem": 36.0,
+      "hinted_difference_relative_to_webapp_ink": 0.0031392289938045707,
+      "unhinted_difference_relative_to_webapp_ink": 0.0015762418508699695,
+      "hinted_ink_ratio_ours_over_webapp": 1.0008167912479577,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0008719664221608,
+      "hint_effect_webapp": 0.016206142561280126,
+      "hint_effect_ours": 0.01754293003126654
+    },
+    {
+      "style": "Black",
+      "ppem": 40.0,
+      "hinted_difference_relative_to_webapp_ink": 0.00270990650636536,
+      "unhinted_difference_relative_to_webapp_ink": 0.0014845025776827191,
+      "hinted_ink_ratio_ours_over_webapp": 1.0005249063826762,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0009208209472908,
+      "hint_effect_webapp": 0.014798048798890701,
+      "hint_effect_ours": 0.015883640475232625
+    },
+    {
+      "style": "Black",
+      "ppem": 48.0,
+      "hinted_difference_relative_to_webapp_ink": 0.002546613436316525,
+      "unhinted_difference_relative_to_webapp_ink": 0.0012663907102275463,
+      "hinted_ink_ratio_ours_over_webapp": 1.0005483417788403,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0006479768247958,
+      "hint_effect_webapp": 0.022994001565899404,
+      "hint_effect_ours": 0.02207457936853813
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 12.0,
+      "hinted_difference_relative_to_webapp_ink": 0.0464874031007752,
+      "unhinted_difference_relative_to_webapp_ink": 0.013222704525083515,
+      "hinted_ink_ratio_ours_over_webapp": 0.9974252491694353,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0057310481571013,
+      "hint_effect_webapp": 0.046895583222424445,
+      "hint_effect_ours": 0.0652905402668251
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 14.0,
+      "hinted_difference_relative_to_webapp_ink": 0.04265997727181302,
+      "unhinted_difference_relative_to_webapp_ink": 0.014757866686044185,
+      "hinted_ink_ratio_ours_over_webapp": 0.9953135685264894,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0055326143607424,
+      "hint_effect_webapp": 0.0819042416710099,
+      "hint_effect_ours": 0.08724996635899686
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 15.0,
+      "hinted_difference_relative_to_webapp_ink": 0.037349169312909276,
+      "unhinted_difference_relative_to_webapp_ink": 0.02030774125478593,
+      "hinted_ink_ratio_ours_over_webapp": 0.9908684063312381,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0047859380438566,
+      "hint_effect_webapp": 0.18926522254611905,
+      "hint_effect_ours": 0.19615782237810686
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 16.0,
+      "hinted_difference_relative_to_webapp_ink": 0.03615401516090067,
+      "unhinted_difference_relative_to_webapp_ink": 0.014985009843424438,
+      "hinted_ink_ratio_ours_over_webapp": 0.9976151392201195,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0076755729868858,
+      "hint_effect_webapp": 0.04755724123667116,
+      "hint_effect_ours": 0.0599540750003801
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 17.5,
+      "hinted_difference_relative_to_webapp_ink": 0.05064923631017557,
+      "unhinted_difference_relative_to_webapp_ink": 0.0164605,
+      "hinted_ink_ratio_ours_over_webapp": 1.0070863526198592,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0030335999999997,
+      "hint_effect_webapp": 0.10684089999999997,
+      "hint_effect_ours": 0.11879382704627245
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 18.0,
+      "hinted_difference_relative_to_webapp_ink": 0.04650214872944694,
+      "unhinted_difference_relative_to_webapp_ink": 0.021082286739890415,
+      "hinted_ink_ratio_ours_over_webapp": 1.008167414050822,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0019717185402024,
+      "hint_effect_webapp": 0.04966020364344555,
+      "hint_effect_ours": 0.06220148538608266
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 20.0,
+      "hinted_difference_relative_to_webapp_ink": 0.050403026651125095,
+      "unhinted_difference_relative_to_webapp_ink": 0.019965226720191357,
+      "hinted_ink_ratio_ours_over_webapp": 1.0041092913448049,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0041074807124863,
+      "hint_effect_webapp": 0.06205334823397935,
+      "hint_effect_ours": 0.08953484398797203
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 21.0,
+      "hinted_difference_relative_to_webapp_ink": 0.039188617462500526,
+      "unhinted_difference_relative_to_webapp_ink": 0.01626580694043209,
+      "hinted_ink_ratio_ours_over_webapp": 1.0013495508660335,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0032965280116264,
+      "hint_effect_webapp": 0.17632568666589865,
+      "hint_effect_ours": 0.160290186851914
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 22.5,
+      "hinted_difference_relative_to_webapp_ink": 0.03641017040387567,
+      "unhinted_difference_relative_to_webapp_ink": 0.01877252686276941,
+      "hinted_ink_ratio_ours_over_webapp": 1.002329897404173,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0024867913419377,
+      "hint_effect_webapp": 0.18972006408716938,
+      "hint_effect_ours": 0.19853740591408234
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 24.0,
+      "hinted_difference_relative_to_webapp_ink": 0.04606138990215798,
+      "unhinted_difference_relative_to_webapp_ink": 0.017366722916765703,
+      "hinted_ink_ratio_ours_over_webapp": 0.9997477244059592,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0019421563367943,
+      "hint_effect_webapp": 0.04309652763158789,
+      "hint_effect_ours": 0.05103988401843506
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 25.0,
+      "hinted_difference_relative_to_webapp_ink": 0.05338678485246502,
+      "unhinted_difference_relative_to_webapp_ink": 0.017152885080429885,
+      "hinted_ink_ratio_ours_over_webapp": 0.999578471501008,
+      "unhinted_ink_ratio_ours_over_webapp": 1.002587825912177,
+      "hint_effect_webapp": 0.22429034998461125,
+      "hint_effect_ours": 0.1938179254192797
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 27.0,
+      "hinted_difference_relative_to_webapp_ink": 0.04006250391199574,
+      "unhinted_difference_relative_to_webapp_ink": 0.016072779324119886,
+      "hinted_ink_ratio_ours_over_webapp": 1.0008502070749745,
+      "unhinted_ink_ratio_ours_over_webapp": 1.003639437287004,
+      "hint_effect_webapp": 0.24569537109070058,
+      "hint_effect_ours": 0.24748428774695713
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 28.0,
+      "hinted_difference_relative_to_webapp_ink": 0.03951711039481862,
+      "unhinted_difference_relative_to_webapp_ink": 0.016718836620435808,
+      "hinted_ink_ratio_ours_over_webapp": 1.0011279100078203,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0020776418764703,
+      "hint_effect_webapp": 0.08079080243923148,
+      "hint_effect_ours": 0.08349589662983509
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 30.0,
+      "hinted_difference_relative_to_webapp_ink": 0.057070843210201706,
+      "unhinted_difference_relative_to_webapp_ink": 0.015954373100568627,
+      "hinted_ink_ratio_ours_over_webapp": 1.0015802989398825,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0021900606947238,
+      "hint_effect_webapp": 0.07594994018696063,
+      "hint_effect_ours": 0.11015062593134849
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 32.0,
+      "hinted_difference_relative_to_webapp_ink": 0.0387393342604313,
+      "unhinted_difference_relative_to_webapp_ink": 0.014855973433964866,
+      "hinted_ink_ratio_ours_over_webapp": 1.0008477430293459,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0017073927041504,
+      "hint_effect_webapp": 0.06181917237392665,
+      "hint_effect_ours": 0.07436709503254185
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 36.0,
+      "hinted_difference_relative_to_webapp_ink": 0.04512164455750162,
+      "unhinted_difference_relative_to_webapp_ink": 0.014136450842768737,
+      "hinted_ink_ratio_ours_over_webapp": 0.9991950139652881,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0008395975971804,
+      "hint_effect_webapp": 0.08954774135410783,
+      "hint_effect_ours": 0.10748980050635357
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 40.0,
+      "hinted_difference_relative_to_webapp_ink": 0.037576932515186116,
+      "unhinted_difference_relative_to_webapp_ink": 0.01237321697753067,
+      "hinted_ink_ratio_ours_over_webapp": 1.0014773015939566,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0019185309534413,
+      "hint_effect_webapp": 0.056494572931094396,
+      "hint_effect_ours": 0.06110858388491317
+    },
+    {
+      "style": "LightItalic",
+      "ppem": 48.0,
+      "hinted_difference_relative_to_webapp_ink": 0.021271650608428186,
+      "unhinted_difference_relative_to_webapp_ink": 0.011837085799470343,
+      "hinted_ink_ratio_ours_over_webapp": 0.9991583110793292,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0017287039649703,
+      "hint_effect_webapp": 0.050109892538186165,
+      "hint_effect_ours": 0.05285494252688272
+    },
+    {
+      "style": "Italic",
+      "ppem": 12.0,
+      "hinted_difference_relative_to_webapp_ink": 0.0388699789342189,
+      "unhinted_difference_relative_to_webapp_ink": 0.011904611470548597,
+      "hinted_ink_ratio_ours_over_webapp": 1.009512577396378,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0052567731500202,
+      "hint_effect_webapp": 0.06920493646193708,
+      "hint_effect_ours": 0.08148490342212686
+    },
+    {
+      "style": "Italic",
+      "ppem": 14.0,
+      "hinted_difference_relative_to_webapp_ink": 0.034575653891439434,
+      "unhinted_difference_relative_to_webapp_ink": 0.017058223796002935,
+      "hinted_ink_ratio_ours_over_webapp": 1.0085486998852256,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0044180361116897,
+      "hint_effect_webapp": 0.3396404658671081,
+      "hint_effect_ours": 0.34375264339118095
+    },
+    {
+      "style": "Italic",
+      "ppem": 15.0,
+      "hinted_difference_relative_to_webapp_ink": 0.032903556633030934,
+      "unhinted_difference_relative_to_webapp_ink": 0.01691243446059518,
+      "hinted_ink_ratio_ours_over_webapp": 1.008563229031661,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0047178821102494,
+      "hint_effect_webapp": 0.12110262885834895,
+      "hint_effect_ours": 0.12561607669055724
+    },
+    {
+      "style": "Italic",
+      "ppem": 16.0,
+      "hinted_difference_relative_to_webapp_ink": 0.033718747563268384,
+      "unhinted_difference_relative_to_webapp_ink": 0.017098493674399827,
+      "hinted_ink_ratio_ours_over_webapp": 1.0094956723646478,
+      "unhinted_ink_ratio_ours_over_webapp": 1.005846133140425,
+      "hint_effect_webapp": 0.09307916673676418,
+      "hint_effect_ours": 0.10520953548759376
+    },
+    {
+      "style": "Italic",
+      "ppem": 17.5,
+      "hinted_difference_relative_to_webapp_ink": 0.038063756204771405,
+      "unhinted_difference_relative_to_webapp_ink": 0.018722553049465986,
+      "hinted_ink_ratio_ours_over_webapp": 1.0076897335434125,
+      "unhinted_ink_ratio_ours_over_webapp": 1.004012085441259,
+      "hint_effect_webapp": 0.046234992007447996,
+      "hint_effect_ours": 0.06189847068744706
+    },
+    {
+      "style": "Italic",
+      "ppem": 18.0,
+      "hinted_difference_relative_to_webapp_ink": 0.03471332607915738,
+      "unhinted_difference_relative_to_webapp_ink": 0.017499175685796294,
+      "hinted_ink_ratio_ours_over_webapp": 1.0082920984762844,
+      "unhinted_ink_ratio_ours_over_webapp": 1.004115771823201,
+      "hint_effect_webapp": 0.06406852702093675,
+      "hint_effect_ours": 0.07314678985373323
+    },
+    {
+      "style": "Italic",
+      "ppem": 20.0,
+      "hinted_difference_relative_to_webapp_ink": 0.036959011921447016,
+      "unhinted_difference_relative_to_webapp_ink": 0.012570567546242124,
+      "hinted_ink_ratio_ours_over_webapp": 1.0059869335864216,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0023939624910094,
+      "hint_effect_webapp": 0.07353697726004017,
+      "hint_effect_ours": 0.09478285075342172
+    },
+    {
+      "style": "Italic",
+      "ppem": 21.0,
+      "hinted_difference_relative_to_webapp_ink": 0.03675245646586577,
+      "unhinted_difference_relative_to_webapp_ink": 0.019109243359662412,
+      "hinted_ink_ratio_ours_over_webapp": 1.0065265103384542,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0024948470687984,
+      "hint_effect_webapp": 0.08458904307753033,
+      "hint_effect_ours": 0.0825510517170146
+    },
+    {
+      "style": "Italic",
+      "ppem": 22.5,
+      "hinted_difference_relative_to_webapp_ink": 0.023538493997925104,
+      "unhinted_difference_relative_to_webapp_ink": 0.013138773260208588,
+      "hinted_ink_ratio_ours_over_webapp": 1.0057753888380605,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0034311727136838,
+      "hint_effect_webapp": 0.14143548450451826,
+      "hint_effect_ours": 0.1573784178530318
+    },
+    {
+      "style": "Italic",
+      "ppem": 24.0,
+      "hinted_difference_relative_to_webapp_ink": 0.02311328915467146,
+      "unhinted_difference_relative_to_webapp_ink": 0.015401289050270585,
+      "hinted_ink_ratio_ours_over_webapp": 1.0048337215073881,
+      "unhinted_ink_ratio_ours_over_webapp": 1.002791567899578,
+      "hint_effect_webapp": 0.08545979573847964,
+      "hint_effect_ours": 0.07761973415484452
+    },
+    {
+      "style": "Italic",
+      "ppem": 25.0,
+      "hinted_difference_relative_to_webapp_ink": 0.03564622691391885,
+      "unhinted_difference_relative_to_webapp_ink": 0.016739364152311937,
+      "hinted_ink_ratio_ours_over_webapp": 1.0037115118270326,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0027706830111753,
+      "hint_effect_webapp": 0.06312805514209203,
+      "hint_effect_ours": 0.05394567017130084
+    },
+    {
+      "style": "Italic",
+      "ppem": 27.0,
+      "hinted_difference_relative_to_webapp_ink": 0.013610640171139181,
+      "unhinted_difference_relative_to_webapp_ink": 0.011084011886886519,
+      "hinted_ink_ratio_ours_over_webapp": 1.0034024099190875,
+      "unhinted_ink_ratio_ours_over_webapp": 1.002569420066256,
+      "hint_effect_webapp": 0.06856907031095587,
+      "hint_effect_ours": 0.07131995200936862
+    },
+    {
+      "style": "Italic",
+      "ppem": 28.0,
+      "hinted_difference_relative_to_webapp_ink": 0.032305409502256494,
+      "unhinted_difference_relative_to_webapp_ink": 0.012624333132799245,
+      "hinted_ink_ratio_ours_over_webapp": 1.0024300697461577,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0025927824173173,
+      "hint_effect_webapp": 0.18701719362822353,
+      "hint_effect_ours": 0.16532595918590506
+    },
+    {
+      "style": "Italic",
+      "ppem": 30.0,
+      "hinted_difference_relative_to_webapp_ink": 0.017258138209793314,
+      "unhinted_difference_relative_to_webapp_ink": 0.013949591770065403,
+      "hinted_ink_ratio_ours_over_webapp": 1.0030249978607622,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0022957148249187,
+      "hint_effect_webapp": 0.13617296530030626,
+      "hint_effect_ours": 0.1338074245293362
+    },
+    {
+      "style": "Italic",
+      "ppem": 32.0,
+      "hinted_difference_relative_to_webapp_ink": 0.022341236862641764,
+      "unhinted_difference_relative_to_webapp_ink": 0.013295960019422407,
+      "hinted_ink_ratio_ours_over_webapp": 1.0031154668639592,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0022778326611002,
+      "hint_effect_webapp": 0.14309530663696676,
+      "hint_effect_ours": 0.1572993507444727
+    },
+    {
+      "style": "Italic",
+      "ppem": 36.0,
+      "hinted_difference_relative_to_webapp_ink": 0.020895349279442872,
+      "unhinted_difference_relative_to_webapp_ink": 0.0117680486381452,
+      "hinted_ink_ratio_ours_over_webapp": 1.0023068774891901,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0016894692513283,
+      "hint_effect_webapp": 0.11680334366523641,
+      "hint_effect_ours": 0.12505137497165517
+    },
+    {
+      "style": "Italic",
+      "ppem": 40.0,
+      "hinted_difference_relative_to_webapp_ink": 0.018071597738834908,
+      "unhinted_difference_relative_to_webapp_ink": 0.01372387617701248,
+      "hinted_ink_ratio_ours_over_webapp": 1.001579335229063,
+      "unhinted_ink_ratio_ours_over_webapp": 1.001454617673068,
+      "hint_effect_webapp": 0.09201037572479279,
+      "hint_effect_ours": 0.08954919673400803
+    },
+    {
+      "style": "Italic",
+      "ppem": 48.0,
+      "hinted_difference_relative_to_webapp_ink": 0.01470079058433206,
+      "unhinted_difference_relative_to_webapp_ink": 0.012493240104048226,
+      "hinted_ink_ratio_ours_over_webapp": 1.0018072599109877,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0015452522172226,
+      "hint_effect_webapp": 0.07327510231004954,
+      "hint_effect_ours": 0.07845196089880906
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 12.0,
+      "hinted_difference_relative_to_webapp_ink": 0.05268046676751905,
+      "unhinted_difference_relative_to_webapp_ink": 0.015128652240773295,
+      "hinted_ink_ratio_ours_over_webapp": 0.9926019910208864,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0040751318101933,
+      "hint_effect_webapp": 0.27480091168717047,
+      "hint_effect_ours": 0.2747062374878297
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 14.0,
+      "hinted_difference_relative_to_webapp_ink": 0.027578520457408943,
+      "unhinted_difference_relative_to_webapp_ink": 0.013128888734314014,
+      "hinted_ink_ratio_ours_over_webapp": 1.0060049660700998,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0030323558824477,
+      "hint_effect_webapp": 0.23861096073663665,
+      "hint_effect_ours": 0.2383109617719422
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 15.0,
+      "hinted_difference_relative_to_webapp_ink": 0.026831853602891656,
+      "unhinted_difference_relative_to_webapp_ink": 0.012093642041624535,
+      "hinted_ink_ratio_ours_over_webapp": 1.006109041931804,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0029280417930568,
+      "hint_effect_webapp": 0.06850019265742613,
+      "hint_effect_ours": 0.07175113375410443
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 16.0,
+      "hinted_difference_relative_to_webapp_ink": 0.02672250333898972,
+      "unhinted_difference_relative_to_webapp_ink": 0.011482929743532672,
+      "hinted_ink_ratio_ours_over_webapp": 1.0072264125378256,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0028132264925558,
+      "hint_effect_webapp": 0.10156105087921058,
+      "hint_effect_ours": 0.11105068638210507
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 17.5,
+      "hinted_difference_relative_to_webapp_ink": 0.021370132943422365,
+      "unhinted_difference_relative_to_webapp_ink": 0.01212418638289079,
+      "hinted_ink_ratio_ours_over_webapp": 1.005483783969583,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0029651823535488,
+      "hint_effect_webapp": 0.042862285618349004,
+      "hint_effect_ours": 0.05234693690317995
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 18.0,
+      "hinted_difference_relative_to_webapp_ink": 0.018637190201663233,
+      "unhinted_difference_relative_to_webapp_ink": 0.010472617793129016,
+      "hinted_ink_ratio_ours_over_webapp": 1.002893965647302,
+      "unhinted_ink_ratio_ours_over_webapp": 1.002234386129243,
+      "hint_effect_webapp": 0.17941483354311194,
+      "hint_effect_ours": 0.17693519818824355
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 20.0,
+      "hinted_difference_relative_to_webapp_ink": 0.024439990497620176,
+      "unhinted_difference_relative_to_webapp_ink": 0.013041990277355187,
+      "hinted_ink_ratio_ours_over_webapp": 1.0012256284165333,
+      "unhinted_ink_ratio_ours_over_webapp": 1.002339282962354,
+      "hint_effect_webapp": 0.1652382539445764,
+      "hint_effect_ours": 0.1516314773950272
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 21.0,
+      "hinted_difference_relative_to_webapp_ink": 0.024650711992738186,
+      "unhinted_difference_relative_to_webapp_ink": 0.013496426829793039,
+      "hinted_ink_ratio_ours_over_webapp": 1.0010276829866542,
+      "unhinted_ink_ratio_ours_over_webapp": 1.00179644583411,
+      "hint_effect_webapp": 0.04829855894386195,
+      "hint_effect_ours": 0.04781931742935377
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 22.5,
+      "hinted_difference_relative_to_webapp_ink": 0.015582415447031168,
+      "unhinted_difference_relative_to_webapp_ink": 0.01380977865566995,
+      "hinted_ink_ratio_ours_over_webapp": 1.0016622431182225,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0018948735398236,
+      "hint_effect_webapp": 0.08217521414880533,
+      "hint_effect_ours": 0.0895846396968328
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 24.0,
+      "hinted_difference_relative_to_webapp_ink": 0.019478623263090574,
+      "unhinted_difference_relative_to_webapp_ink": 0.008345850539665628,
+      "hinted_ink_ratio_ours_over_webapp": 1.000528538432672,
+      "unhinted_ink_ratio_ours_over_webapp": 1.001727039842727,
+      "hint_effect_webapp": 0.11957030960415367,
+      "hint_effect_ours": 0.10754080686253546
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 25.0,
+      "hinted_difference_relative_to_webapp_ink": 0.02076672697005161,
+      "unhinted_difference_relative_to_webapp_ink": 0.01092616808451973,
+      "hinted_ink_ratio_ours_over_webapp": 1.0019268311877556,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0022968966598873,
+      "hint_effect_webapp": 0.020244721943963817,
+      "hint_effect_ours": 0.027660904090867793
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 27.0,
+      "hinted_difference_relative_to_webapp_ink": 0.010846271853367279,
+      "unhinted_difference_relative_to_webapp_ink": 0.009837636482780169,
+      "hinted_ink_ratio_ours_over_webapp": 1.0028549438549637,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0023889911123456,
+      "hint_effect_webapp": 0.026787813894120608,
+      "hint_effect_ours": 0.027914536950851252
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 28.0,
+      "hinted_difference_relative_to_webapp_ink": 0.022441810500884583,
+      "unhinted_difference_relative_to_webapp_ink": 0.011533586231954173,
+      "hinted_ink_ratio_ours_over_webapp": 1.0002407158066133,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0018605194941324,
+      "hint_effect_webapp": 0.09087090655475331,
+      "hint_effect_ours": 0.08883927313936434
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 30.0,
+      "hinted_difference_relative_to_webapp_ink": 0.015264864386924211,
+      "unhinted_difference_relative_to_webapp_ink": 0.010830738627484376,
+      "hinted_ink_ratio_ours_over_webapp": 1.0005638189797283,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0016084030278714,
+      "hint_effect_webapp": 0.0815240353971579,
+      "hint_effect_ours": 0.07528012282508656
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 32.0,
+      "hinted_difference_relative_to_webapp_ink": 0.015512666415241636,
+      "unhinted_difference_relative_to_webapp_ink": 0.00999685770192882,
+      "hinted_ink_ratio_ours_over_webapp": 1.0009660146695583,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0015555243490488,
+      "hint_effect_webapp": 0.06951754584784565,
+      "hint_effect_ours": 0.07800557734264375
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 36.0,
+      "hinted_difference_relative_to_webapp_ink": 0.01633742350726002,
+      "unhinted_difference_relative_to_webapp_ink": 0.01130466627128624,
+      "hinted_ink_ratio_ours_over_webapp": 1.0000313816369144,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0011337218870495,
+      "hint_effect_webapp": 0.048082103331435665,
+      "hint_effect_ours": 0.049993989630886096
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 40.0,
+      "hinted_difference_relative_to_webapp_ink": 0.013111169130064668,
+      "unhinted_difference_relative_to_webapp_ink": 0.007840273910003645,
+      "hinted_ink_ratio_ours_over_webapp": 1.0006158903636695,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0011247816353477,
+      "hint_effect_webapp": 0.041148752679873724,
+      "hint_effect_ours": 0.03585267667787883
+    },
+    {
+      "style": "BoldItalic",
+      "ppem": 48.0,
+      "hinted_difference_relative_to_webapp_ink": 0.011350963286528935,
+      "unhinted_difference_relative_to_webapp_ink": 0.009120937336557793,
+      "hinted_ink_ratio_ours_over_webapp": 1.0016687163278108,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0010816746626965,
+      "hint_effect_webapp": 0.022260657203041576,
+      "hint_effect_ours": 0.024697448289096268
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 12.0,
+      "hinted_difference_relative_to_webapp_ink": 0.03887357193342545,
+      "unhinted_difference_relative_to_webapp_ink": 0.011630106954017356,
+      "hinted_ink_ratio_ours_over_webapp": 0.9857522781180869,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0037627841035748,
+      "hint_effect_webapp": 0.22067353668268674,
+      "hint_effect_ours": 0.22699707911755035
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 14.0,
+      "hinted_difference_relative_to_webapp_ink": 0.0211730612716379,
+      "unhinted_difference_relative_to_webapp_ink": 0.012262692555818263,
+      "hinted_ink_ratio_ours_over_webapp": 0.9973062102122416,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0031503179790808,
+      "hint_effect_webapp": 0.18890302947937884,
+      "hint_effect_ours": 0.1979673850415241
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 15.0,
+      "hinted_difference_relative_to_webapp_ink": 0.023055721830985917,
+      "unhinted_difference_relative_to_webapp_ink": 0.013720534670544295,
+      "hinted_ink_ratio_ours_over_webapp": 0.9961126760563381,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0028626008610613,
+      "hint_effect_webapp": 0.04292787543124341,
+      "hint_effect_ours": 0.052428379826800924
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 16.0,
+      "hinted_difference_relative_to_webapp_ink": 0.025962842070674112,
+      "unhinted_difference_relative_to_webapp_ink": 0.013080276622660888,
+      "hinted_ink_ratio_ours_over_webapp": 0.9983310166141859,
+      "unhinted_ink_ratio_ours_over_webapp": 1.00276560034069,
+      "hint_effect_webapp": 0.1238983942483529,
+      "hint_effect_ours": 0.12765828053880396
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 17.5,
+      "hinted_difference_relative_to_webapp_ink": 0.023221053443126728,
+      "unhinted_difference_relative_to_webapp_ink": 0.01363455664384337,
+      "hinted_ink_ratio_ours_over_webapp": 1.0001211911357342,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0028930938913792,
+      "hint_effect_webapp": 0.06548422372840139,
+      "hint_effect_ours": 0.06781016398120314
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 18.0,
+      "hinted_difference_relative_to_webapp_ink": 0.014754120416300096,
+      "unhinted_difference_relative_to_webapp_ink": 0.010950222337401838,
+      "hinted_ink_ratio_ours_over_webapp": 1.0000299496471556,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0023745059719422,
+      "hint_effect_webapp": 0.1226548222985535,
+      "hint_effect_ours": 0.12083836119108443
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 20.0,
+      "hinted_difference_relative_to_webapp_ink": 0.022598353354470316,
+      "unhinted_difference_relative_to_webapp_ink": 0.012804852277571058,
+      "hinted_ink_ratio_ours_over_webapp": 0.9994828621119541,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0019197425814288,
+      "hint_effect_webapp": 0.09744796824572703,
+      "hint_effect_ours": 0.09526066990275733
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 21.0,
+      "hinted_difference_relative_to_webapp_ink": 0.020003110387135547,
+      "unhinted_difference_relative_to_webapp_ink": 0.012164814937263667,
+      "hinted_ink_ratio_ours_over_webapp": 1.0000938155059438,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0023949380774808,
+      "hint_effect_webapp": 0.023702352830473842,
+      "hint_effect_ours": 0.02952205893012993
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 22.5,
+      "hinted_difference_relative_to_webapp_ink": 0.03747165500271129,
+      "unhinted_difference_relative_to_webapp_ink": 0.010929805491700863,
+      "hinted_ink_ratio_ours_over_webapp": 0.9807896085288865,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0016854260072638,
+      "hint_effect_webapp": 0.041419344128508034,
+      "hint_effect_ours": 0.06326028878560007
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 24.0,
+      "hinted_difference_relative_to_webapp_ink": 0.017534669277237423,
+      "unhinted_difference_relative_to_webapp_ink": 0.01042492657549675,
+      "hinted_ink_ratio_ours_over_webapp": 0.9995522881966299,
+      "unhinted_ink_ratio_ours_over_webapp": 1.001847437292859,
+      "hint_effect_webapp": 0.06520758072521929,
+      "hint_effect_ours": 0.07133690549454455
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 25.0,
+      "hinted_difference_relative_to_webapp_ink": 0.020969239645818746,
+      "unhinted_difference_relative_to_webapp_ink": 0.012117864233823803,
+      "hinted_ink_ratio_ours_over_webapp": 1.0002888137649888,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0015883765314288,
+      "hint_effect_webapp": 0.029454739477518522,
+      "hint_effect_ours": 0.032904111960726456
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 27.0,
+      "hinted_difference_relative_to_webapp_ink": 0.014890188137829411,
+      "unhinted_difference_relative_to_webapp_ink": 0.01302386239857535,
+      "hinted_ink_ratio_ours_over_webapp": 0.9994102346692386,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0018124899917118,
+      "hint_effect_webapp": 0.04025850418544412,
+      "hint_effect_ours": 0.038084505185233326
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 28.0,
+      "hinted_difference_relative_to_webapp_ink": 0.035069546481293457,
+      "unhinted_difference_relative_to_webapp_ink": 0.012454675689604396,
+      "hinted_ink_ratio_ours_over_webapp": 0.9842993815199044,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0014593763293087,
+      "hint_effect_webapp": 0.0458296521710677,
+      "hint_effect_ours": 0.0680519098220587
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 30.0,
+      "hinted_difference_relative_to_webapp_ink": 0.014613805148326465,
+      "unhinted_difference_relative_to_webapp_ink": 0.010491396198976247,
+      "hinted_ink_ratio_ours_over_webapp": 0.999248481129699,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0015176734137818,
+      "hint_effect_webapp": 0.033994548488596774,
+      "hint_effect_ours": 0.03355636478243362
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 32.0,
+      "hinted_difference_relative_to_webapp_ink": 0.011121917712622867,
+      "unhinted_difference_relative_to_webapp_ink": 0.011007793601450155,
+      "hinted_ink_ratio_ours_over_webapp": 0.9997505020836781,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0012602426029644,
+      "hint_effect_webapp": 0.03986049640530203,
+      "hint_effect_ours": 0.0425049694093949
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 36.0,
+      "hinted_difference_relative_to_webapp_ink": 0.01332014340663418,
+      "unhinted_difference_relative_to_webapp_ink": 0.011830696718230546,
+      "hinted_ink_ratio_ours_over_webapp": 1.000366091968239,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0013165456453597,
+      "hint_effect_webapp": 0.019683032795438878,
+      "hint_effect_ours": 0.019614537234147644
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 40.0,
+      "hinted_difference_relative_to_webapp_ink": 0.014900827422051838,
+      "unhinted_difference_relative_to_webapp_ink": 0.011428152467416585,
+      "hinted_ink_ratio_ours_over_webapp": 1.0002105241166626,
+      "unhinted_ink_ratio_ours_over_webapp": 1.00119832330859,
+      "hint_effect_webapp": 0.016625415478155835,
+      "hint_effect_ours": 0.019047054600862305
+    },
+    {
+      "style": "BlackItalic",
+      "ppem": 48.0,
+      "hinted_difference_relative_to_webapp_ink": 0.014239509042692746,
+      "unhinted_difference_relative_to_webapp_ink": 0.012064996130278493,
+      "hinted_ink_ratio_ours_over_webapp": 0.9998402301582676,
+      "unhinted_ink_ratio_ours_over_webapp": 1.0009027032709226,
+      "hint_effect_webapp": 0.020230410073679053,
+      "hint_effect_ours": 0.022881473089751032
+    }
+  ],
+  "status": "passed"
+}

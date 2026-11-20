@@ -1,0 +1,6896 @@
+{
+  "status": "passed",
+  "columns": [
+    "Webapp v3 reference",
+    "Ours: current build recipe"
+  ],
+  "note": "Existing shipping fonts rendered without rehinting or experimental variants.",
+  "metric_note": "Relative absolute coverage difference, not quality. Cross-font comparisons include outline and spacing differences.",
+  "gamma": 1.8,
+  "filter": [
+    0.03125,
+    0.30078125,
+    0.3359375,
+    0.30078125,
+    0.03125
+  ],
+  "sizes": [
+    12,
+    14,
+    16,
+    18,
+    20,
+    24
+  ],
+  "cross_renderer_note": "Hnmox checks isolated glyphs within 3/255. Full strings can differ at touching glyphs: Smeartype filters and composites each glyph separately; native proof composites coverage before filtering.",
+  "fonts": {
+    "Light": {
+      "webapp": {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-light.woff2",
+        "sha256": "5e820529b410ad9cefb84996ccd86d62bd3c55bfe7eca121a470e54ee40f9279"
+      },
+      "current": {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Upr2M/ds-ufo/masters/Lato26-Light.ttf",
+        "sha256": "b0757b14bad769ef2f784e180eb532097154aba095c56fefa0bf52dd16091ea3",
+        "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+      }
+    },
+    "Regular": {
+      "webapp": {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-regular.woff2",
+        "sha256": "37d76b16175e93eb240cab6d9359c9b8567b68bf5d7754b97eb80d867656a15b"
+      },
+      "current": {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
+        "sha256": "9d3bb132ee0698efe38b9353678cd8f095b8ed223b795207a8bcd63c88633018",
+        "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+      }
+    },
+    "Bold": {
+      "webapp": {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-bold.woff2",
+        "sha256": "f0718c5d143a09ab8ae471a6648e8325d7a4ec75a9c83ffdaa6a0775e19dcf8a"
+      },
+      "current": {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
+        "sha256": "8c6f34d6b11924dc02c1833d33346d76e21e8109149d43716f73f82c30be5d09",
+        "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+      }
+    },
+    "Black": {
+      "webapp": {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-black.woff2",
+        "sha256": "cd2be99c0ebe9acfa86913aa02fbd43ae8ac78e3d1d6dd5441fd83a6ce63cd7b"
+      },
+      "current": {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.ttf",
+        "sha256": "8779ea5c1a8fd74f561d740e667ac23b858c918cab5b6130fc00a974be239b3b",
+        "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+      }
+    },
+    "LightItalic": {
+      "webapp": {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-italic-light.woff2",
+        "sha256": "65a468ebc536b467709e60903fc3c1f3557a71abbb223c7b88ef73dff10b10e7"
+      },
+      "current": {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Ita2M/ds-ufo/masters/Lato26-LightItalic.ttf",
+        "sha256": "e8159bdb3a9dcb4c2b611304e9051175fda76d851ef1c34e4fab40d14ecdd485",
+        "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+      }
+    },
+    "Italic": {
+      "webapp": {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-italic.woff2",
+        "sha256": "bae3f0013865a1675b6883928cdd378ab5a7ef2f61fb6b0d4b4048cc760b3eed"
+      },
+      "current": {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ttf",
+        "sha256": "8eeced038cce9f89a08d1d6ec708f95cfdcefef8d12aff112db1250f6c7dfa55",
+        "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+      }
+    },
+    "BoldItalic": {
+      "webapp": {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-italic-bold.woff2",
+        "sha256": "163efc0945ec7a6d4bd158e9cf6c79ed31db56e967cdc4e127c994634c653858"
+      },
+      "current": {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ttf",
+        "sha256": "d653e701493062fc5ccc21892b8ee7d2d1c41ec6c4adf583db674f9844994cdf",
+        "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+      }
+    },
+    "BlackItalic": {
+      "webapp": {
+        "path": "/Users/brownmatthew/git/webapp/fonts/lato-3-hinted/lato-italic-black.woff2",
+        "sha256": "589f076c4561caf565ec54d8ebbb366c659323c3dbbddb65fedd47c257d8c6f0"
+      },
+      "current": {
+        "path": "/Users/brownmatthew/git/lato-source/build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.ttf",
+        "sha256": "fd041dc375262181a09d6bd879685c62cf18b4c1d85c4b5d9b7a39dc5471b955",
+        "ttfa": "\nttfautohint version = 1.8.4.16-eb64\n\nadjust-subglyphs = 0\ndefault-script = latn\ndw-cleartype-stem-width-mode = quantized\nfallback-scaling = 0\nfallback-script = latn\nfallback-stem-width = 0\ngdi-cleartype-stem-width-mode = strong\ngray-stem-width-mode = quantized\nhinting-limit = 200\nhinting-range-max = 50\nhinting-range-min = 8\nhint-composites = 0\nignore-restrictions = 0\nincrease-x-height = 14\nreference = \nreference-index = 0\nsymbol = 0\nTTFA-info = 1\nwindows-compatibility = 0\nx-height-snapping-exceptions = \ncontrol-instructions = \n\n\n"
+      }
+    }
+  },
+  "metrics": [
+    {
+      "style": "Light",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.8419216761408905
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9367669167723208
+      }
+    },
+    {
+      "style": "Light",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.9100406182616189
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.946332536409561
+      }
+    },
+    {
+      "style": "Light",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.9463654160232509
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9504136529475773
+      }
+    },
+    {
+      "style": "Light",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 1.0018405785758897
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9941832463823956
+      }
+    },
+    {
+      "style": "Light",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.9964681036048897
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9787573642002544
+      }
+    },
+    {
+      "style": "Light",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 1.0514343507261592
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9880593939875877
+      }
+    },
+    {
+      "style": "Light",
+      "text": "Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.04462205779381665
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0098836583001185
+      }
+    },
+    {
+      "style": "Light",
+      "text": "Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.013346201769272785
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.004798689138577
+      }
+    },
+    {
+      "style": "Light",
+      "text": "Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.03877645264751286
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.005230580159765
+      }
+    },
+    {
+      "style": "Light",
+      "text": "Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.037786372462286145
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0028034054482575
+      }
+    },
+    {
+      "style": "Light",
+      "text": "Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.04152890805368484
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0048952455765565
+      }
+    },
+    {
+      "style": "Light",
+      "text": "Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.04776964013456631
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.006874150674489
+      }
+    },
+    {
+      "style": "Light",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.3579013500883835
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0099968946324915
+      }
+    },
+    {
+      "style": "Light",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.43092742066237194
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0036750399930823
+      }
+    },
+    {
+      "style": "Light",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.4515684210877455
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0016478970964986
+      }
+    },
+    {
+      "style": "Light",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.515038447410467
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0114873438856609
+      }
+    },
+    {
+      "style": "Light",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.5140050646224782
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0013289859965044
+      }
+    },
+    {
+      "style": "Light",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.5648005870547765
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9989674267389272
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.7525605076332195
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9939889592261687
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.8195340749750888
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0362229425803364
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.7608394047892229
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9696759040535616
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.8133990021336726
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9870045582017241
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.7950748375334891
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9821488535580913
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.8190821466707985
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9715082563881904
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.03735044963222102
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0078937926085396
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.026631463120608167
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0072665918917105
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.025714674117048437
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0064146410637127
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.02832166962439079
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0052912814557222
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.02541052450521139
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0054828647169671
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.018688251391790377
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0023617144351968
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.2976689383647139
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0039896478889219
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.3564519553182386
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0200618227224703
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.32586140785994683
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.989968845975386
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.350801889189595
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.998790383565851
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.3333779543623939
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9912768656240479
+      }
+    },
+    {
+      "style": "Regular",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.34255287706838067
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9927803306800899
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.6777492447062888
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0479019451565177
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.6720152044683061
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0345989251507473
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.6320161425006842
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9754335563600088
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.6588011320181619
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0146264495046515
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.6785897277249485
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0242940085338366
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.6842989945927773
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0237905532842317
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.027592577475310322
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0053560857349586
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.02397231409651296
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0043721121702287
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.02231960585389784
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0056384207454143
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.013979147085434199
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0005885349870873
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.011243996386749847
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9995331905161683
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.012268728010816833
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0004172061939856
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.2713617996610764
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0222800629124353
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.2711002188079234
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0174883821018887
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.2434771206984118
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9883902982023159
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.2560749589412536
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0104441175364158
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.2604216495227204
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0152518495526135
+      }
+    },
+    {
+      "style": "Bold",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.25599022860139287
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0107812905664846
+      }
+    },
+    {
+      "style": "Black",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.5797138380735667
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.062810144481645
+      }
+    },
+    {
+      "style": "Black",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.5171509163852748
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.020900439199831
+      }
+    },
+    {
+      "style": "Black",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.5247766085142248
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0290557241840725
+      }
+    },
+    {
+      "style": "Black",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.5430353979689396
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.021515913481991
+      }
+    },
+    {
+      "style": "Black",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.5424064291791263
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0273091190458328
+      }
+    },
+    {
+      "style": "Black",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.5159106520611069
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0024121013051206
+      }
+    },
+    {
+      "style": "Black",
+      "text": "Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.01780642169063422
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9950605334316617
+      }
+    },
+    {
+      "style": "Black",
+      "text": "Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.01237103690795249
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.001802231278596
+      }
+    },
+    {
+      "style": "Black",
+      "text": "Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.010123977705961929
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.001976833695449
+      }
+    },
+    {
+      "style": "Black",
+      "text": "Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.008535004855853102
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.000568314659281
+      }
+    },
+    {
+      "style": "Black",
+      "text": "Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.007749621712377036
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0006751434679868
+      }
+    },
+    {
+      "style": "Black",
+      "text": "Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.009121702868826858
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0005309557620152
+      }
+    },
+    {
+      "style": "Black",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.21105476461532108
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0193277637788676
+      }
+    },
+    {
+      "style": "Black",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.1908823867908629
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0108665385159867
+      }
+    },
+    {
+      "style": "Black",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.1958415194172079
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0157745016696165
+      }
+    },
+    {
+      "style": "Black",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.20414851208987772
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0129142266858564
+      }
+    },
+    {
+      "style": "Black",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.19867862557508056
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0112681014964198
+      }
+    },
+    {
+      "style": "Black",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.1935999686822406
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0055865436062628
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.7891056764198271
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9313272547947481
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.8280927588392347
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9496201561821848
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.8851054133589304
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9429040466007118
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.925915171862566
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9993905691168966
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.9526533999506492
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9803834473548921
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 1.0128346655864675
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9878453261627645
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.0464874031007752
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9974252491694353
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.04265997727181302
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9953135685264894
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.03615401516090067
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9976151392201195
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.04650214872944694
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.008167414050822
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.050403026651125095
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0041092913448049
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.04606138990215798
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9997477244059592
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.32584924694138223
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.963738802456105
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.3549000561679813
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9852690256474393
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.3921560770189889
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9869829087199851
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.4206416180311952
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0072098032198638
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.4423267327402921
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9963825808696827
+      }
+    },
+    {
+      "style": "LightItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.4935398531856136
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9947471648831739
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.6386719309916884
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9841805036634107
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.7590951316754102
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0286755779736356
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.696352173472061
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9658026195456358
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.7133227313703359
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9898464665197694
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.7144310153836244
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9834890886657072
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.7498297988867763
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9843152985713696
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.0388699789342189
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.009512577396378
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.034575653891439434
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0085486998852256
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.033718747563268384
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0094956723646478
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.03471332607915738
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0082920984762844
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.036959011921447016
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0059869335864216
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.02311328915467146
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0048337215073881
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.23105372818310155
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0054474061928322
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.2868947379729747
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0175330891078063
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.2529468110944474
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.994408085409717
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.2583138574841466
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0019738103422464
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.2569759345748168
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.995551180612046
+      }
+    },
+    {
+      "style": "Italic",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.2699981685148804
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9940092374561988
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.5909125974933402
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0557304148188027
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.5773115667316445
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0343363527833493
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.5028404945144741
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9733146305652103
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.5589797051376143
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.030262889679629
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.5626681860911565
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.022025336223741
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.5688905718733336
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0210853648018974
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.05268046676751905
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9926019910208864
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.027578520457408943
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0060049660700998
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.02672250333898972
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0072264125378256
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.018637190201663233
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.002893965647302
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.024439990497620176
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0012256284165333
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.019478623263090574
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.000528538432672
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.20090070455935935
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0170023072273913
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.19388204030028533
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.019375382418147
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.1635231651639601
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9899613213607228
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.17893551740557628
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0131899171995529
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.18212738376757923
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0131022468855662
+      }
+    },
+    {
+      "style": "BoldItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.17420486299631
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0094600787001522
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.43973892969838885
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0572676008707933
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.39372961386480193
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0261026464351808
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.3816221889570344
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0282911238132166
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.41322029572058483
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.024687389334503
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.39725847469725917
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0260215002056108
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.37032579445691866
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.004581735920455
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.03887357193342545
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9857522781180869
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.0211730612716379
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9973062102122416
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.025962842070674112
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9983310166141859
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.014754120416300096
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0000299496471556
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.022598353354470316
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9994828621119541
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.017534669277237423
+      },
+      "ink_ratio_to_webapp": {
+        "current": 0.9995522881966299
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "relative_difference_to_webapp": {
+        "current": 0.11229757105277068
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0175141222395852
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "relative_difference_to_webapp": {
+        "current": 0.07933928200777357
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0052526447987098
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "relative_difference_to_webapp": {
+        "current": 0.09595745786540294
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0161557604934315
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "relative_difference_to_webapp": {
+        "current": 0.1013820374441575
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0111130158371562
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "relative_difference_to_webapp": {
+        "current": 0.09734208374079543
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.01088735185347
+      }
+    },
+    {
+      "style": "BlackItalic",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "relative_difference_to_webapp": {
+        "current": 0.07045702798071099
+      },
+      "ink_ratio_to_webapp": {
+        "current": 1.0012191348758208
+      }
+    }
+  ],
+  "cross_renderer": [
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 3,
+      "mean_channel_difference": 0.0006015704154002027
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00019098548510313216
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 5,
+      "mean_channel_difference": 0.0007598784194528875
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0002228163992869875
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.0008047767393561786
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 5.241090146750524e-05
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.0006749740394600208
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 7.861635220125786e-05
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.0005208333333333333
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.0005208333333333333
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.188375350140056e-05
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.00042385375202712663
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 5.570409982174688e-05
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 8,
+      "mean_channel_difference": 0.0005159958720330237
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 3.7136066547831256e-05
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.00034880771182141043
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 1.6019479687299756e-05
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 8,
+      "mean_channel_difference": 0.0004122272957889396
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 1.6019479687299756e-05
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 4,
+      "mean_channel_difference": 0.0001937984496124031
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.00025436046511627907
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 1.2218963831867058e-05
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 3,
+      "mean_channel_difference": 0.0004658385093167702
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00015527950310559007
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 5,
+      "mean_channel_difference": 0.0005175983436853002
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00020703933747412008
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.0006029285099052541
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 4.340277777777778e-05
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.0005598621877691645
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 4.340277777777778e-05
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 5,
+      "mean_channel_difference": 0.000403462441314554
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.00044014084507042255
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 5,
+      "mean_channel_difference": 0.0003770739064856712
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.0004084967320261438
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 3.1422825540472596e-05
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 5,
+      "mean_channel_difference": 0.0002723311546840959
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.7394258163488934e-05
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.0003812636165577342
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.7394258163488934e-05
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 4,
+      "mean_channel_difference": 0.0001269035532994924
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Light",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.00021150592216582064
+    },
+    {
+      "style": "Light",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 14,
+      "mean_channel_difference": 0.002662907268170426
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 4,
+      "mean_channel_difference": 0.0006015704154002027
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 22,
+      "mean_channel_difference": 0.0037280701754385964
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 4,
+      "mean_channel_difference": 0.0006648936170212766
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 19,
+      "mean_channel_difference": 0.0024434156378600825
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 4,
+      "mean_channel_difference": 0.00046728971962616824
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 27,
+      "mean_channel_difference": 0.0032407407407407406
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 3,
+      "mean_channel_difference": 0.0003374870197300104
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 22,
+      "mean_channel_difference": 0.002453512396694215
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.00021701388888888888
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 23,
+      "mean_channel_difference": 0.002668732782369146
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.00023871527777777777
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 21,
+      "mean_channel_difference": 0.0015125009111451272
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00011057054400707652
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 21,
+      "mean_channel_difference": 0.0016765070340403819
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.00012899896800825592
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 17,
+      "mean_channel_difference": 0.0013025737602008788
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 4.756468797564688e-05
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 18,
+      "mean_channel_difference": 0.001522284996861268
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 3.1709791983764585e-05
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 9,
+      "mean_channel_difference": 0.0007324687800192123
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 1.2112403100775194e-05
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 13,
+      "mean_channel_difference": 0.001020653218059558
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 3.633720930232558e-05
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00016767270288397049
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00025150905432595576
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00025150905432595576
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00016767270288397049
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 14,
+      "mean_channel_difference": 0.0015262515262515263
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00035612535612535614
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 22,
+      "mean_channel_difference": 0.002391127391127391
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.000407000407000407
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 19,
+      "mean_channel_difference": 0.0019508057675996608
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00021204410517387616
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 27,
+      "mean_channel_difference": 0.002544529262086514
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.00021204410517387616
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 21,
+      "mean_channel_difference": 0.0015445402298850574
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00010775862068965517
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 22,
+      "mean_channel_difference": 0.0017959770114942528
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 7.183908045977011e-05
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 21,
+      "mean_channel_difference": 0.0011407078554692316
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.165988407941794e-05
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 21,
+      "mean_channel_difference": 0.0012331976815883586
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.165988407941794e-05
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 17,
+      "mean_channel_difference": 0.0009633911368015414
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 18,
+      "mean_channel_difference": 0.001177478056090773
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 9,
+      "mean_channel_difference": 0.000538971807628524
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.0729684908789386e-05
+    },
+    {
+      "style": "Regular",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 13,
+      "mean_channel_difference": 0.000808457711442786
+    },
+    {
+      "style": "Regular",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.0729684908789386e-05
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 38,
+      "mean_channel_difference": 0.0074794315632011965
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 11,
+      "mean_channel_difference": 0.0021929824561403508
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 37,
+      "mean_channel_difference": 0.007572924457741212
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 11,
+      "mean_channel_difference": 0.001973684210526316
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 34,
+      "mean_channel_difference": 0.0047655453618756375
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 8,
+      "mean_channel_difference": 0.000977366255144033
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 34,
+      "mean_channel_difference": 0.004918450560652396
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 9,
+      "mean_channel_difference": 0.0010545267489711935
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 24,
+      "mean_channel_difference": 0.0030310792349726775
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 4,
+      "mean_channel_difference": 0.0004950068870523416
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 33,
+      "mean_channel_difference": 0.004461236338797814
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 5,
+      "mean_channel_difference": 0.0007963154269972452
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 21,
+      "mean_channel_difference": 0.003274003328268577
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 4,
+      "mean_channel_difference": 0.00040239976587649987
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 29,
+      "mean_channel_difference": 0.003870921062151798
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 5,
+      "mean_channel_difference": 0.0003109452736318408
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 18,
+      "mean_channel_difference": 0.0024317246539468764
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 9.44822373393802e-05
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 28,
+      "mean_channel_difference": 0.0032890634742486595
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.0001417233560090703
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 22,
+      "mean_channel_difference": 0.0018690476190476191
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 7.204610951008646e-05
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 24,
+      "mean_channel_difference": 0.0024285714285714284
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.4015369836695485e-05
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 8.383635144198524e-05
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00033534540576794097
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 8.383635144198524e-05
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00021367521367521368
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 7.122507122507122e-05
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00014245014245014244
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00021367521367521368
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0001240079365079365
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.200396825396825e-05
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0001240079365079365
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.200396825396825e-05
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 38,
+      "mean_channel_difference": 0.005202080832332933
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.001109765940274415
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 37,
+      "mean_channel_difference": 0.004901960784313725
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 9,
+      "mean_channel_difference": 0.0010088781275221952
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 31,
+      "mean_channel_difference": 0.002965747702589808
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 4,
+      "mean_channel_difference": 0.0005012531328320802
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 31,
+      "mean_channel_difference": 0.003091060985797828
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 3,
+      "mean_channel_difference": 0.0005430242272347535
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 24,
+      "mean_channel_difference": 0.002054988662131519
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.00021258503401360543
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 33,
+      "mean_channel_difference": 0.003082482993197279
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 3,
+      "mean_channel_difference": 0.00042517006802721087
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 20,
+      "mean_channel_difference": 0.0022089082546598885
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.089392278650591e-05
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 28,
+      "mean_channel_difference": 0.002693052529653837
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 9.134088417975886e-05
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 16,
+      "mean_channel_difference": 0.0014993686868686868
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 24,
+      "mean_channel_difference": 0.002156986531986532
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.6304713804713804e-05
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 20,
+      "mean_channel_difference": 0.0014024390243902438
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Bold",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 24,
+      "mean_channel_difference": 0.001910569105691057
+    },
+    {
+      "style": "Bold",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 34,
+      "mean_channel_difference": 0.009362599206349206
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 18,
+      "mean_channel_difference": 0.004549987534280728
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 44,
+      "mean_channel_difference": 0.011470734126984126
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 20,
+      "mean_channel_difference": 0.004518823236100723
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 31,
+      "mean_channel_difference": 0.008472856418061897
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 13,
+      "mean_channel_difference": 0.0026113671274961598
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 40,
+      "mean_channel_difference": 0.009157787924911212
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 14,
+      "mean_channel_difference": 0.002278545826932924
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 30,
+      "mean_channel_difference": 0.007791327913279133
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 11,
+      "mean_channel_difference": 0.001436042524005487
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 41,
+      "mean_channel_difference": 0.008765243902439025
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 12,
+      "mean_channel_difference": 0.0014574759945130316
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 32,
+      "mean_channel_difference": 0.0067942618223760095
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 9,
+      "mean_channel_difference": 0.0009985475671750181
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 35,
+      "mean_channel_difference": 0.0075511822376009225
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 9,
+      "mean_channel_difference": 0.0008896151053013798
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 29,
+      "mean_channel_difference": 0.00500123869689087
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.0005943443443443444
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 32,
+      "mean_channel_difference": 0.005899293942772204
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.0005943443443443444
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 36,
+      "mean_channel_difference": 0.004320549242424242
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 3,
+      "mean_channel_difference": 0.00019102196752626553
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 32,
+      "mean_channel_difference": 0.004533617424242424
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 5,
+      "mean_channel_difference": 0.0002745940783190067
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.000248015873015873
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.0008267195767195767
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00033068783068783067
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.000248015873015873
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00035161744022503517
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00028129395218002813
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 7.032348804500703e-05
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 7.032348804500703e-05
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00012254901960784314
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00024509803921568627
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.127450980392157e-05
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.127450980392157e-05
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00010656436487638534
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00010656436487638534
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00010656436487638534
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00010656436487638534
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 30,
+      "mean_channel_difference": 0.006051587301587302
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 8,
+      "mean_channel_difference": 0.002232142857142857
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 39,
+      "mean_channel_difference": 0.006795634920634921
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 10,
+      "mean_channel_difference": 0.002380952380952381
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 29,
+      "mean_channel_difference": 0.0051440329218107
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.0011934156378600822
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 40,
+      "mean_channel_difference": 0.005679012345679012
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.0011111111111111111
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 29,
+      "mean_channel_difference": 0.0047539149888143175
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 3,
+      "mean_channel_difference": 0.0006291946308724832
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 41,
+      "mean_channel_difference": 0.005592841163310962
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 3,
+      "mean_channel_difference": 0.0006991051454138703
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 31,
+      "mean_channel_difference": 0.0038558106169296986
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 3,
+      "mean_channel_difference": 0.00038857006217120994
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 35,
+      "mean_channel_difference": 0.0042742706838833095
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 3,
+      "mean_channel_difference": 0.00023912003825920613
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 29,
+      "mean_channel_difference": 0.0028967515001034555
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00018206408655846857
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 32,
+      "mean_channel_difference": 0.003362300848334368
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.00015605493133583021
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 35,
+      "mean_channel_difference": 0.002483974358974359
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.0128824476650564e-05
+    },
+    {
+      "style": "Black",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 30,
+      "mean_channel_difference": 0.0026041666666666665
+    },
+    {
+      "style": "Black",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.0128824476650564e-05
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.001488095238095238
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.688068485821294e-05
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.0012235449735449736
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00026752273943285177
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 8,
+      "mean_channel_difference": 0.0011653116531165312
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 8.210180623973728e-05
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 9,
+      "mean_channel_difference": 0.0011653116531165312
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.7367268746579092e-05
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.0009097525473071324
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 12,
+      "mean_channel_difference": 0.0012509097525473072
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 8,
+      "mean_channel_difference": 0.0007333642118264629
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 13,
+      "mean_channel_difference": 0.001196541608769492
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 1.9529724240293726e-05
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.0004662936317612577
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 3.3548040794417606e-05
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 14,
+      "mean_channel_difference": 0.0009492406075139888
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 5.032206119162641e-05
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 5,
+      "mean_channel_difference": 0.00034403669724770644
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 13,
+      "mean_channel_difference": 0.0007645259938837921
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 8.753501400560224e-05
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 8.753501400560224e-05
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00015220700152207003
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.0008116883116883117
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 5.411255411255411e-05
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.00091991341991342
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00016233766233766234
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 8,
+      "mean_channel_difference": 0.0008130081300813008
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 4.553734061930783e-05
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 9,
+      "mean_channel_difference": 0.0008581752484191509
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.0006127450980392157
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 12,
+      "mean_channel_difference": 0.0008808210784313726
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.0005592841163310962
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 13,
+      "mean_channel_difference": 0.000954072904329517
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.0004313319530710835
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.8755463538072233e-05
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 14,
+      "mean_channel_difference": 0.0007763975155279503
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.8755463538072233e-05
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 5,
+      "mean_channel_difference": 0.00026737967914438503
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "LightItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 13,
+      "mean_channel_difference": 0.0006684491978609625
+    },
+    {
+      "style": "LightItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 16,
+      "mean_channel_difference": 0.0033359497645211933
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 3,
+      "mean_channel_difference": 0.0005952380952380953
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 26,
+      "mean_channel_difference": 0.004513343799058085
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.000496031746031746
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 21,
+      "mean_channel_difference": 0.003193773483628556
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0003794037940379404
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 28,
+      "mean_channel_difference": 0.003998926462694579
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00016260162601626016
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 25,
+      "mean_channel_difference": 0.0031205100574712642
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0001358695652173913
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 28,
+      "mean_channel_difference": 0.003502155172413793
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.793478260869565e-05
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 25,
+      "mean_channel_difference": 0.002632181277180133
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0001543924656476764
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 25,
+      "mean_channel_difference": 0.002784771496147097
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 9.649529102979774e-05
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 25,
+      "mean_channel_difference": 0.0021747726374060894
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 3.318730917297226e-05
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 23,
+      "mean_channel_difference": 0.0023230525899565046
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 1.659365458648613e-05
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 13,
+      "mean_channel_difference": 0.0011329305135951663
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 18,
+      "mean_channel_difference": 0.0019511581067472306
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0002626050420168067
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0002626050420168067
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00017507002801120448
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00035014005602240897
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00015015015015015014
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00015015015015015014
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00022522522522522523
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.510416666666667e-05
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.510416666666667e-05
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 15,
+      "mean_channel_difference": 0.002072704081632653
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0003720238095238095
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 25,
+      "mean_channel_difference": 0.0033482142857142855
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0005314625850340137
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 21,
+      "mean_channel_difference": 0.0021777777777777776
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0002666666666666667
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 28,
+      "mean_channel_difference": 0.0027555555555555554
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 8.888888888888889e-05
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 23,
+      "mean_channel_difference": 0.0020757850241545895
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 7.548309178743961e-05
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 27,
+      "mean_channel_difference": 0.002339975845410628
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 3.7741545893719805e-05
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 24,
+      "mean_channel_difference": 0.001967234262125903
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.492663290481755e-05
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 24,
+      "mean_channel_difference": 0.002031733746130031
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.492663290481755e-05
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 25,
+      "mean_channel_difference": 0.001739618406285073
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 23,
+      "mean_channel_difference": 0.0018799102132435466
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 13,
+      "mean_channel_difference": 0.0009598603839441536
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "Italic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 18,
+      "mean_channel_difference": 0.0016143106457242582
+    },
+    {
+      "style": "Italic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 40,
+      "mean_channel_difference": 0.008099141295862608
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 3,
+      "mean_channel_difference": 0.0009811616954474097
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 38,
+      "mean_channel_difference": 0.008164194639604475
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.0014390371533228676
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 38,
+      "mean_channel_difference": 0.005741626794258373
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0005904455179817498
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 34,
+      "mean_channel_difference": 0.0057150451887293995
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.0005636070853462158
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 21,
+      "mean_channel_difference": 0.003383190883190883
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00031429597701149425
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 31,
+      "mean_channel_difference": 0.004807692307692308
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00031429597701149425
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 18,
+      "mean_channel_difference": 0.0029146793852676206
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 9.536888685435264e-05
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 27,
+      "mean_channel_difference": 0.004163827693239458
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00019073777370870527
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 29,
+      "mean_channel_difference": 0.0036678403755868545
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00011491988442343052
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 26,
+      "mean_channel_difference": 0.0040590766823161185
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 9.850275807722617e-05
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 41,
+      "mean_channel_difference": 0.003043912175648703
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.5100401606425704e-05
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 33,
+      "mean_channel_difference": 0.0031187624750499
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.5100401606425704e-05
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0006901311249137336
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0003450655624568668
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0003450655624568668
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0006038647342995169
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00037037037037037035
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00037037037037037035
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0002962962962962963
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00022222222222222223
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0001286008230452675
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00019290123456790122
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0001286008230452675
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00019290123456790122
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 5.634437683119225e-05
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 40,
+      "mean_channel_difference": 0.005952380952380952
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.0008428150021070375
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 38,
+      "mean_channel_difference": 0.006004594820384294
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.0011588706278971765
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 38,
+      "mean_channel_difference": 0.004155730533683289
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0003937007874015748
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 34,
+      "mean_channel_difference": 0.003762029746281715
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0003062117235345582
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 19,
+      "mean_channel_difference": 0.0020685579196217494
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00026041666666666666
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 26,
+      "mean_channel_difference": 0.0030289598108747045
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0002232142857142857
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 18,
+      "mean_channel_difference": 0.00219633307868602
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 9.549274255156608e-05
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 27,
+      "mean_channel_difference": 0.0029284441049146934
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.366182836771072e-05
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 29,
+      "mean_channel_difference": 0.0025903880070546736
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.7722333111554667e-05
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 26,
+      "mean_channel_difference": 0.003031305114638448
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 5.5444666223109334e-05
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 36,
+      "mean_channel_difference": 0.002307692307692308
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BoldItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 29,
+      "mean_channel_difference": 0.002435897435897436
+    },
+    {
+      "style": "BoldItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.147766323024055e-05
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 29,
+      "mean_channel_difference": 0.007947232947232947
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 9,
+      "mean_channel_difference": 0.0030085403726708075
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 38,
+      "mean_channel_difference": 0.010424710424710425
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 9,
+      "mean_channel_difference": 0.002717391304347826
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 25,
+      "mean_channel_difference": 0.006613756613756613
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 5,
+      "mean_channel_difference": 0.0014354066985645933
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 38,
+      "mean_channel_difference": 0.00865079365079365
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.00114300903774588
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 23,
+      "mean_channel_difference": 0.005737994350282486
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.0010683760683760685
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 34,
+      "mean_channel_difference": 0.0072387005649717515
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 4,
+      "mean_channel_difference": 0.0007790242165242165
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 35,
+      "mean_channel_difference": 0.005596874765231763
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0004163827693239458
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 30,
+      "mean_channel_difference": 0.006197881451431147
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00034067681126504656
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 37,
+      "mean_channel_difference": 0.004419925151632469
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 3,
+      "mean_channel_difference": 0.0003423317683881064
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 35,
+      "mean_channel_difference": 0.005291005291005291
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0002608242044861763
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 48,
+      "mean_channel_difference": 0.004228486646884273
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 3.7313432835820896e-05
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 42,
+      "mean_channel_difference": 0.00438921859545005
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter  Il1 lJ lI  a e l  fl ffi ffl",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 4.9751243781094526e-05
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.0012077294685990338
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0015527950310559005
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0010351966873706005
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0007763975155279503
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0007309941520467836
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0005116959064327486
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0003654970760233918
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0005116959064327486
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00019054878048780488
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00012703252032520327
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00025406504065040653
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 6.351626016260163e-05
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00011140819964349375
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 5.570409982174688e-05
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00011140819964349375
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 5.570409982174688e-05
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 4.9251379038613084e-05
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 4.9251379038613084e-05
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 9.850275807722617e-05
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 27,
+      "mean_channel_difference": 0.005797101449275362
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": true,
+      "max_channel_difference": 2,
+      "mean_channel_difference": 0.0016045548654244307
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 34,
+      "mean_channel_difference": 0.006211180124223602
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 12,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0016563146997929607
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 24,
+      "mean_channel_difference": 0.004866494401378122
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0012058570198105081
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 37,
+      "mean_channel_difference": 0.00611541774332472
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 14,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0009905254091300603
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 21,
+      "mean_channel_difference": 0.003387237762237762
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00043706293706293706
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 32,
+      "mean_channel_difference": 0.004734848484848485
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 16,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0005099067599067599
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 35,
+      "mean_channel_difference": 0.003927853192559075
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.000314228255404726
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 30,
+      "mean_channel_difference": 0.004430618401206636
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 18,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.0001885369532428356
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 33,
+      "mean_channel_difference": 0.0029411764705882353
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": true,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00013616557734204794
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 32,
+      "mean_channel_difference": 0.003540305010893246
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 20,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 0.00013616557734204794
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 44,
+      "mean_channel_difference": 0.002946127946127946
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": true,
+      "max_channel_difference": 0,
+      "mean_channel_difference": 0.0
+    },
+    {
+      "style": "BlackItalic",
+      "font": "webapp",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 39,
+      "mean_channel_difference": 0.0031776094276094275
+    },
+    {
+      "style": "BlackItalic",
+      "font": "current",
+      "text": "FillJitter Hnmox",
+      "ppem": 24,
+      "hinting": false,
+      "max_channel_difference": 1,
+      "mean_channel_difference": 2.1043771043771045e-05
+    }
+  ],
+  "smeartype_capabilities": {
+    "version": "2.14.3",
+    "nativeFilter": false,
+    "v40": true,
+    "harmony": true
+  },
+  "smeartype_revision": "9a3a9610a6e86181d90e6aee684d906e6c7e2dfc",
+  "source_files_unchanged": true
+}

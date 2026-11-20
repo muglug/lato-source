@@ -1,0 +1,198 @@
+{
+  "status": "passed",
+  "static_fonts": [
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Hairline.ttf",
+      "sha256": "17142d1d9f92dd12647518612bc67970cf88d20654161bc67b9a4777299fdf88",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Hairline.otf",
+      "sha256": "cb6b0de22ff017efe01f95d47898ac50505adfeae9efa62431eeeb614fb3e1a3",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Thin.ttf",
+      "sha256": "808987b1503567ccf94b7f32e963a588b242dcdff9fbd62f45eedc3e14f04f56",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Thin.otf",
+      "sha256": "f4cb3dfc455fa7464a7adec86f037bcae177bd6036d4ec5ab35387559d355409",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Light.ttf",
+      "sha256": "de8a45fde4675b05f95eefffda1fe3cc96bb0a831a9c4c42bcf6f3638b5c4f9a",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Light.otf",
+      "sha256": "bf6e701c5b9dc869e652174fd9f37c6bdd16bd5073cc24fbc211b564ee581acf",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.ttf",
+      "sha256": "a21ca88bb2d4025392b22637c749d26844195827f1dae314d63d86e7c43ba09f",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Regular.otf",
+      "sha256": "401f349bb78496b727ef32411ddc65faf4565ec8320fd011047b07b261a10dc3",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Medium.ttf",
+      "sha256": "76c681dc466cfdb96db107e0754a2135587ac02f52bcef114a78bab4659ebdf3",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Medium.otf",
+      "sha256": "981cf6a025a4a15e67c98b0ccb87d1957ec042926e4322da903552d7d95a82c1",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Semibold.ttf",
+      "sha256": "b641a6096e8e444b385995ff3aabc60f8d7b7825529b54adb6993c678bb0bcaa",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Semibold.otf",
+      "sha256": "75bb6d3d5c31826ad0da15167883be1f88fcf5d7138f752d196d502005497cde",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.ttf",
+      "sha256": "fe515f82ed8617d4d2db00b5ee23865409bf6c1f6fe65cf0aa175316c7113a83",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Bold.otf",
+      "sha256": "588df1b89f52e56563ae6925d8fc29451b89ef2b741e5836dfde6990a5f1ea40",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Heavy.ttf",
+      "sha256": "4af629e38cf2e203350062d1c0ff894e219f1283ec2917768176c8d3dfc576d6",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Heavy.otf",
+      "sha256": "bdd0cabb4598ce0e7ae1bde6af52573942e9cb8b1b5a0bfad284473723ad22e3",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.ttf",
+      "sha256": "bcad2c153db13b8c2aa4cce1baa48c9c3e302c4b0c09f5c9699c20ad9ba41c5e",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Upr2M/ds-ufo/masters/Lato26-Black.otf",
+      "sha256": "f8170b5ee040ec9a53ebabec6331d8c71f9b95a24539c446003f3c6c752b3cdf",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HairlineItalic.ttf",
+      "sha256": "299bee502015f4ca3df8e3b12e0f04279aef53fccfdb5f63af8fa10e92d73f31",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HairlineItalic.otf",
+      "sha256": "c7fdedc6b60bdd0cc4b4152ac4fa0fc743e040ebae006d232a02b4b1c0f17f8c",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-ThinItalic.ttf",
+      "sha256": "1f6c0828fc432b8bd39a49470f171e770b05fe760d8f7c7ad6dcdd7b96530d05",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-ThinItalic.otf",
+      "sha256": "3d8d3dc93915edd57655e9feea9dbf6da4e34f1c8d880d0de3d4e43873529927",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-LightItalic.ttf",
+      "sha256": "e183788c1f1c59f0384358ac76b216120bf1910a2c544639b871c4f5ecb21fc1",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-LightItalic.otf",
+      "sha256": "363e5ab5a50484041b90b48284807de3ab507df7494fe4df14aee274cefc401f",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.ttf",
+      "sha256": "0e6d8c54252c8d5570963d390fb13370823eeb010887643c7295b52d82020901",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-Italic.otf",
+      "sha256": "0d8be443a49c30e2d7219aaeed0c3ea6caecdd64a0eb24d2181147eb2cf8b8ce",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-MediumItalic.ttf",
+      "sha256": "501ff30fc3532a6c91a783fa4e49a72aa6512fdec9ef0a65554bc2a109e78ca1",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-MediumItalic.otf",
+      "sha256": "7176b8baf4d51d1a0dfce5538fbe211eca43c6acb7c2e665bb3728ab7000286c",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-SemiboldItalic.ttf",
+      "sha256": "2e362f39731f096b3243d6ab32e709ed04d923bdd6d04280d810d3f2c5c1357c",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-SemiboldItalic.otf",
+      "sha256": "a435490559f362fb6f37779d4d5ad992a9c779e369820caf3a40010af592bc35",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.ttf",
+      "sha256": "173fbd1fbe96937e7c9bc29caa02561a8a58bfade7f49d7a7224dc4173bbb9ca",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BoldItalic.otf",
+      "sha256": "b3c311638324aaa399ef6985dd0af5998aeb86484d10f456ebb7d4a876231246",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HeavyItalic.ttf",
+      "sha256": "1c55c032edd66021269f9d65398b2d77aa36e2eadac683ee52d8f38f8944a213",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-HeavyItalic.otf",
+      "sha256": "47c71e713645150db439fc27c538cae517623722d9303d8f7672f695f3229bbf",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.ttf",
+      "sha256": "78697a595c20f00767f70729633a56440b7f862c74bda395669273a546fb65d6",
+      "restored_forms": 10
+    },
+    {
+      "path": "build/Lato3Ita2M/ds-ufo/masters/Lato26-BlackItalic.otf",
+      "sha256": "db3445b38119beab4f11fe4c87a8537cf5b0ef2d083a01b9274d907c635ca0bc",
+      "restored_forms": 10
+    }
+  ],
+  "native_renders": 24300,
+  "unrelated_glyphs_checked": 109530,
+  "variable_checks": 180,
+  "sources": [
+    "sources/Lato3Upr2M.vfj",
+    "sources/Lato26-Upright.glyphs",
+    "sources/Lato3Ita2M.vfj",
+    "sources/Lato26-Italic.glyphs"
+  ],
+  "maximum_variable_bounds_error": {
+    "Upr": 0.7043376945928984,
+    "Ita": 0.49267100022743193
+  }
+}
